@@ -1,0 +1,37 @@
+[
+  {
+    "uid": "aws-news-devops-20260818-01-2dd38f1c2d974e70",
+    "updateDate": "2026-08-18T14:24:02.0Z",
+    "titleText": "1. Amazon OpenSearch Service agora oferece suporte ao enriquecimento semântico automático para…",
+    "mainText": "Notícia 1 de 5, impacto alto. Amazon Open Search Service agora oferece suporte ao enriquecimento semântico automático para domínios VPC. O Amazon Open Search Service agora estende o enriquecimento semântico automático a domínios habilitados para VPC, permitindo que clientes com configurações de rede privada aproveitem a pesquisa semântica baseada em IA sem expor seus domínios à Internet pública. O enriquecimento semântico automático transforma a pesquisa tradicional apenas por palavras-chave em recuperação consciente do contexto, ao compreender o significado por trás das consultas. Por que importa: Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Impacta topologia de rede e exposição de serviços.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-opensearch-service-vpc/"
+  },
+  {
+    "uid": "aws-news-devops-20260818-02-6bca1f9371858be3",
+    "updateDate": "2026-08-18T14:23:02.0Z",
+    "titleText": "2. Amazon ECR agora oferece suporte a 25 regras de replicação por registro",
+    "mainText": "Notícia 2 de 5, impacto médio. Amazon ECR agora oferece suporte a 25 regras de replicação por registro. O Amazon Elastic Container Registry (Amazon ECR) aumentou o número máximo de regras de replicação por registro de 10 para 25. Anteriormente, os clientes com arquiteturas complexas multirregionais ou multicontas eram limitados a 10 regras de replicação por registro, exigindo que consolidassem as configurações de replicação para trabalhar dentro dessa restrição. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-increased-replication-rules-limit"
+  },
+  {
+    "uid": "aws-news-devops-20260818-03-9723565b2965a283",
+    "updateDate": "2026-08-18T14:22:02.0Z",
+    "titleText": "3. Amazon MSK agora oferece suporte à configuração de nomes de domínio personalizados para clusters…",
+    "mainText": "Notícia 3 de 5, impacto médio. Amazon MSK agora oferece suporte à configuração de nomes de domínio personalizados para clusters provisionados MSK. Agora você pode configurar facilmente nomes de domínio personalizados em clusters provisionados do Amazon MSK, no modo ZooKeeper ou KRaft para gerenciamento de metadados. Esse recurso ajuda os aplicativos clientes a manter os mesmos endpoints de conexão, simplificando migrações de cluster, failovers de recuperação de desastres e operações de escalabilidade sem reconfiguração. Anteriormente, os clientes configuravam nomes de domínio personalizados manualmente em cada corretor. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/"
+  },
+  {
+    "uid": "aws-news-devops-20260818-04-b0fde257e4fa6be7",
+    "updateDate": "2026-08-18T14:21:02.0Z",
+    "titleText": "4. Amazon EC2 Auto Scaling agora oferece suporte ao encerramento de instâncias em lote",
+    "mainText": "Notícia 4 de 5, impacto médio. Amazon EC2 Auto Scaling agora oferece suporte ao encerramento de instâncias em lote. O Amazon EC2 Auto Scaling agora oferece suporte ao encerramento de instâncias em lote em uma única chamada de API. Agora você pode passar até 100 IDs de instância para a API TerminateInstanceInAutoScalingGroup para encerrá-los em lote, reduzindo o número de chamadas de API necessárias para reduzir seus grupos de Auto Scaling. A terminação em lote foi projetada para cargas de trabalho que precisam ser reduzidas rapidamente, como trabalhos de treinamento de IA/ML, orquestradores de contêineres ou arquiteturas orientadas a eventos que ativam grandes frotas temporariamente. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination"
+  },
+  {
+    "uid": "aws-news-devops-20260818-05-769808c3594d07b1",
+    "updateDate": "2026-08-18T14:20:02.0Z",
+    "titleText": "5. AWS Network Firewall agora oferece suporte a contagens de ocorrências de regras com estado",
+    "mainText": "Notícia 5 de 5, impacto médio. AWS Network Firewall agora oferece suporte a contagens de ocorrências de regras com estado. O AWS Network Firewall agora fornece contagens de acertos para regras com estado, dando aos administradores de rede e engenheiros de segurança visibilidade sobre a frequência com que cada regra com estado na política de firewall corresponde ao tráfego de rede. O AWS Network Firewall é um serviço de firewall de rede gerenciado que fornece inspeção e visibilidade do tráfego de VPC. Com contagens de ocorrências de regras, você pode transformar a atividade das regras de firewall em inteligência acionável. Por que importa: Impacta topologia de rede e exposição de serviços.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-network-firewall-stateful-rule-hit-counts/"
+  }
+]
