@@ -1,28 +1,28 @@
 [
   {
     "uid": "aws-news-devops-20260818-01-6bca1f9371858be3",
-    "updateDate": "2026-08-18T17:46:28.0Z",
+    "updateDate": "2026-08-18T17:56:32Z",
     "titleText": "1. Amazon ECR agora oferece suporte a 25 regras de replicação por registro",
     "mainText": "Notícia 1 de 4, impacto médio. Amazon ECR agora oferece suporte a 25 regras de replicação por registro. O Amazon Elastic Container Registry (Amazon ECR) aumentou o número máximo de regras de replicação por registro de 10 para 25. Anteriormente, os clientes com arquiteturas complexas multirregionais ou multicontas eram limitados a 10 regras de replicação por registro, exigindo que consolidassem as configurações de replicação para trabalhar dentro dessa restrição. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate).",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-increased-replication-rules-limit"
   },
   {
     "uid": "aws-news-devops-20260818-02-9723565b2965a283",
-    "updateDate": "2026-08-18T17:45:28.0Z",
-    "titleText": "2. Amazon MSK agora oferece suporte à configuração de nomes de domínio personalizados para clusters…",
+    "updateDate": "2026-08-18T17:55:32Z",
+    "titleText": "2. Amazon MSK agora oferece suporte à configuração de nomes de domínio personalizados para clusters",
     "mainText": "Notícia 2 de 4, impacto médio. Amazon MSK agora oferece suporte à configuração de nomes de domínio personalizados para clusters provisionados MSK. Agora você pode configurar facilmente nomes de domínio personalizados em clusters provisionados do Amazon MSK, no modo ZooKeeper ou KRaft para gerenciamento de metadados. Esse recurso ajuda os aplicativos clientes a manter os mesmos endpoints de conexão, simplificando migrações de cluster, failovers de recuperação de desastres e operações de escalabilidade sem reconfiguração. Anteriormente, os clientes configuravam nomes de domínio personalizados manualmente em cada corretor. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Sinais: Segurança.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/17/amazon-msk-custom-domain-names/"
   },
   {
     "uid": "aws-news-devops-20260818-03-b0fde257e4fa6be7",
-    "updateDate": "2026-08-18T17:44:28.0Z",
+    "updateDate": "2026-08-18T17:54:32Z",
     "titleText": "3. Amazon EC2 Auto Scaling agora oferece suporte ao encerramento de instâncias em lote",
     "mainText": "Notícia 3 de 4, impacto médio. Amazon EC2 Auto Scaling agora oferece suporte ao encerramento de instâncias em lote. O Amazon EC2 Auto Scaling agora oferece suporte ao encerramento de instâncias em lote em uma única chamada de API. Agora você pode passar até 100 IDs de instância para a API TerminateInstanceInAutoScalingGroup para encerrá-los em lote, reduzindo o número de chamadas de API necessárias para reduzir seus grupos de Auto Scaling. A terminação em lote foi projetada para cargas de trabalho que precisam ser reduzidas rapidamente, como trabalhos de treinamento de IA/ML, orquestradores de contêineres ou arquiteturas orientadas a eventos que ativam grandes frotas temporariamente. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Custo / preço.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination"
   },
   {
     "uid": "aws-news-devops-20260818-04-31a62fb354db6e23",
-    "updateDate": "2026-08-18T17:43:28.0Z",
+    "updateDate": "2026-08-18T17:53:32Z",
     "titleText": "4. Amazon Bedrock expande suporte de API e apresenta inferência entre regiões para modelos OpenAI",
     "mainText": "Notícia 4 de 4, impacto médio. Amazon Bédrock expande suporte de API e apresenta inferência entre regiões para modelos OpenAI. O Amazon Bédrock agora oferece suporte aos modelos OpenAI GPT-5.6 (Sol, Terra e Luna) no endpoint bedrock-runtime, com suporte para as APIs Responses, Converse e Chat Completions. Ele também adiciona suporte para inferência entre regiões, permitindo que os clientes usem inferência global e geográfica entre regiões para acessar maior rendimento e reduzir custos de inferência. A inferência entre regiões roteia automaticamente solicitações de inferência em várias regiões da AWS para oferecer maior produtividade, sem a necessidade de gerenciar a capacidade em várias regiões. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Custo / preço, Performance / limites, API / automação.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/"
