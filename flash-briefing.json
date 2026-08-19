@@ -1,23 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260818-01-6bca1f9371858be3",
-    "updateDate": "2026-08-18T18:06:07Z",
-    "titleText": "1. Amazon ECR agora oferece suporte a 25 regras de replicação por registro",
-    "mainText": "Notícia 1 de 3, impacto médio. Amazon ECR agora oferece suporte a 25 regras de replicação por registro. O Amazon Elastic Container Registry (Amazon ECR) aumentou o número máximo de regras de replicação por registro de 10 para 25. Anteriormente, os clientes com arquiteturas complexas multirregionais ou multicontas eram limitados a 10 regras de replicação por registro, exigindo que consolidassem as configurações de replicação para trabalhar dentro dessa restrição. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecr-increased-replication-rules-limit"
+    "uid": "aws-news-devops-20260819-01-b89a892f274afea1",
+    "updateDate": "2026-08-19T11:28:52Z",
+    "titleText": "1. O IAM Policy Autopilot agora oferece suporte a arquivos de plano Terraform",
+    "mainText": "Notícia 1 de 5, impacto alto. O IAM Policy Autopilot agora oferece suporte a arquivos de plano Térraform. O IAM Policy Autopilot agora pode gerar políticas IAM de linha de base diretamente de um arquivo de plano do Térraform. O IAM Policy Autopilot é uma ferramenta de código aberto, lançada na re:Invent 2025, que analisa seu código para criar deterministicamente políticas IAM com escopo definido que você pode refinar à medida que seu aplicativo evolui, reduzindo o tempo gasto escrevendo políticas IAM e solucionando problemas de acesso. Até agora a ferramenta analisava o código fonte da aplicação, mas não era possível gerar políticas para implantação da infraestrutura AWS definida via Infraestrutura como Código. Por que importa: Afeta provisionamento e pipelines de deploy. Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files"
   },
   {
-    "uid": "aws-news-devops-20260818-02-b0fde257e4fa6be7",
-    "updateDate": "2026-08-18T18:05:07Z",
-    "titleText": "2. Amazon EC2 Auto Scaling agora oferece suporte ao encerramento de instâncias em lote",
-    "mainText": "Notícia 2 de 3, impacto médio. Amazon EC2 Auto Scaling agora oferece suporte ao encerramento de instâncias em lote. O Amazon EC2 Auto Scaling agora oferece suporte ao encerramento de instâncias em lote em uma única chamada de API. Agora você pode passar até 100 IDs de instância para a API TerminateInstanceInAutoScalingGroup para encerrá-los em lote, reduzindo o número de chamadas de API necessárias para reduzir seus grupos de Auto Scaling. A terminação em lote foi projetada para cargas de trabalho que precisam ser reduzidas rapidamente, como trabalhos de treinamento de IA/ML, orquestradores de contêineres ou arquiteturas orientadas a eventos que ativam grandes frotas temporariamente. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-auto-scaling-batch-termination"
+    "uid": "aws-news-devops-20260819-02-c9bfb7e9fb397ddf",
+    "updateDate": "2026-08-19T11:27:52Z",
+    "titleText": "2. Amazon MWAA Serverless agora oferece suporte a PythonOperator e BashOperator",
+    "mainText": "Notícia 2 de 5, impacto médio. Amazon MWAA Serverless agora oferece suporte a PythonOperator e BashOperator. Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless agora oferece suporte à execução de funções Python personalizadas e scripts de shell diretamente no tempo de execução sem servidor usando PythonOperator e BashOperator. Com este lançamento, as equipes de engenharia de dados podem executar os padrões de código dos quais dependem diariamente, incluindo transformações de dados, conversões de formato e verificações de qualidade de dados, sem provisionar infraestrutura adicional. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Impacta armazenamento, backup e retenção.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/"
   },
   {
-    "uid": "aws-news-devops-20260818-03-31a62fb354db6e23",
-    "updateDate": "2026-08-18T18:04:07Z",
-    "titleText": "3. Amazon Bedrock expande suporte de API e apresenta inferência entre regiões para modelos OpenAI",
-    "mainText": "Notícia 3 de 3, impacto médio. Amazon Bédrock expande suporte de API e apresenta inferência entre regiões para modelos OpenAI. O Amazon Bédrock agora oferece suporte aos modelos OpenAI GPT-5.6 (Sol, Terra e Luna) no endpoint bedrock-runtime, com suporte para as APIs Responses, Converse e Chat Completions. Ele também adiciona suporte para inferência entre regiões, permitindo que os clientes usem inferência global e geográfica entre regiões para acessar maior rendimento e reduzir custos de inferência. A inferência entre regiões roteia automaticamente solicitações de inferência em várias regiões da AWS para oferecer maior produtividade, sem a necessidade de gerenciar a capacidade em várias regiões. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Custo / preço, Performance / limites, API / automação.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-bedrock-cross-region-openai-v2/"
+    "uid": "aws-news-devops-20260819-03-613c99088d1172d1",
+    "updateDate": "2026-08-19T11:26:52Z",
+    "titleText": "3. PostgreSQL 19 Beta 3 já está disponível no ambiente de visualização de banco de dados Amazon RDS",
+    "mainText": "Notícia 3 de 5, impacto médio. Postgre S Q L 19 Beta 3 já está disponível no ambiente de visualização de banco de dados Amazon RDS. A partir de hoje, o Amazon RDS for Postgre S Q L 19 Beta 3 está disponível no Amazon RDS Database Preview Environment, permitindo avaliar o pré-lançamento do Postgre S Q L 19 no Amazon RDS for Postgre S Q L. Postgre S Q L 19 Beta 3 adiciona novos recursos para desempenho de consulta e gerenciamento de autovacuum. A nova visualização pg_stat_autovacuum_scores ajuda a monitorar e ajustar a priorização do autovacuum. Por que importa: Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/"
+  },
+  {
+    "uid": "aws-news-devops-20260819-04-a8d3fb3b9188bf44",
+    "updateDate": "2026-08-19T11:25:52Z",
+    "titleText": "4. A federação de identidade AWS IAM para serviços externos já está disponível na AWS European",
+    "mainText": "Notícia 4 de 5, impacto médio. A federação de identidade AWS IAM para serviços externos já está disponível na AWS European Sovereign Cloud Region. O AWS Identity and Access Management (IAM) agora permite que cargas de trabalho da AWS na região AWS European Sovereign Cloud (Alemanha) sejam autenticadas com segurança com serviços externos usando JSON Web Tokens (JWTs) de curta duração. A Nuvem Soberana Europeia da AWS é uma nuvem independente para a Europa, inteiramente localizada na União Europeia (UE), projetada para ajudar os clientes a atender aos seus requisitos de soberania em evolução. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Segurança. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/"
+  },
+  {
+    "uid": "aws-news-devops-20260819-05-c7d8df8d629128e5",
+    "updateDate": "2026-08-19T11:24:52Z",
+    "titleText": "5. Os pagamentos do AgentCore agora estão disponíveis no Amazon Bedrock AgentCore",
+    "mainText": "Notícia 5 de 5, impacto baixo. Os pagamentos do AgentCore agora estão disponíveis no Amazon Bédrock AgentCore. Hoje, a AWS anuncia a disponibilidade geral de pagamentos AgentCore, um recurso do Amazon Bédrock AgentCore que permite que agentes de IA descubram, acessem e paguem de forma autônoma por APIs, MCPs e conteúdo pagos com apenas algumas linhas de código. Os pagamentos AgentCore fornecem a segurança, as proteções e a observabilidade de que as empresas precisam para implantar agentes de transação na produção em escala. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/"
   }
 ]
