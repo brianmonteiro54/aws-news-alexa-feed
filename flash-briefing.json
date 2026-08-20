@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260819-01-b89a892f274afea1",
-    "updateDate": "2026-08-19T11:28:52Z",
-    "titleText": "1. O IAM Policy Autopilot agora oferece suporte a arquivos de plano Terraform",
-    "mainText": "Notícia 1 de 5, impacto alto. O IAM Policy Autopilot agora oferece suporte a arquivos de plano Térraform. O IAM Policy Autopilot agora pode gerar políticas IAM de linha de base diretamente de um arquivo de plano do Térraform. O IAM Policy Autopilot é uma ferramenta de código aberto, lançada na re:Invent 2025, que analisa seu código para criar deterministicamente políticas IAM com escopo definido que você pode refinar à medida que seu aplicativo evolui, reduzindo o tempo gasto escrevendo políticas IAM e solucionando problemas de acesso. Até agora a ferramenta analisava o código fonte da aplicação, mas não era possível gerar políticas para implantação da infraestrutura AWS definida via Infraestrutura como Código. Por que importa: Afeta provisionamento e pipelines de deploy. Mexe com postura de segurança/permissões - revise antes de propagar.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-policy-autopilot-now-supports-terraform-plan-files"
+    "uid": "aws-news-devops-20260820-01-a4ef5b59ff935401",
+    "updateDate": "2026-08-20T11:29:58Z",
+    "titleText": "1. AWS IAM agora oferece suporte a 20 políticas gerenciadas por função por padrão",
+    "mainText": "Notícia 1 de 5, impacto alto. AWS IAM agora oferece suporte a 20 políticas gerenciadas por função por padrão. O AWS Identity and Access Management (IAM) aumentou a cota padrão para políticas gerenciadas por função de 10 para 20. Essa cota padrão mais alta reduz a necessidade de fazer solicitações de cota de serviço ao seguir as práticas recomendadas do IAM, como separar permissões em políticas específicas de finalidade ou ao integrar produtos de parceiros da AWS que exigem a anexação de políticas gerenciadas adicionais. Se precisar de mais de 20 políticas gerenciadas por função, você poderá solicitar um aumento de cota para até 25 usando Cotas de Serviço. Por que importa: Pede ação sua: fim de suporte / deprecação. Mexe com postura de segurança/permissões - revise antes de propagar. Tem efeito em custo/governança da conta. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-quota-increase/"
   },
   {
-    "uid": "aws-news-devops-20260819-02-c9bfb7e9fb397ddf",
-    "updateDate": "2026-08-19T11:27:52Z",
-    "titleText": "2. Amazon MWAA Serverless agora oferece suporte a PythonOperator e BashOperator",
-    "mainText": "Notícia 2 de 5, impacto médio. Amazon MWAA Serverless agora oferece suporte a PythonOperator e BashOperator. Amazon Managed Workflows for Apache Airflow (Amazon MWAA) Serverless agora oferece suporte à execução de funções Python personalizadas e scripts de shell diretamente no tempo de execução sem servidor usando PythonOperator e BashOperator. Com este lançamento, as equipes de engenharia de dados podem executar os padrões de código dos quais dependem diariamente, incluindo transformações de dados, conversões de formato e verificações de qualidade de dados, sem provisionar infraestrutura adicional. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Impacta armazenamento, backup e retenção.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/mwaa-serverless-pythonoperator-bashoperator/"
+    "uid": "aws-news-devops-20260820-02-14b3e9ae32658b87",
+    "updateDate": "2026-08-20T11:28:58Z",
+    "titleText": "2. Os pipelines do Amazon CloudWatch adicionam processadores GeoIP, RDS e XML",
+    "mainText": "Notícia 2 de 5, impacto alto. Os pipelines do Amazon Cloud Watch adicionam processadores GeoIP, RDS e XML. Os pipelines do Amazon Cloud Watch agora incluem três novos processadores que analisam e enriquecem os dados de log à medida que são ingeridos: um analisador de log do Amazon RDS, um analisador XML e um processador de enriquecimento GeoIP. Os pipelines do Cloud Watch são um serviço totalmente gerenciado que ingere, transforma e roteia a telemetria para o Cloud Watch sem gerenciar a infraestrutura. As fontes de log geralmente produzem dados que não podem ser consultados imediatamente sem reprocessar os dados. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta camada de dados/persistência das aplicações. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/cloudwatch-geoip-rds-xml/"
   },
   {
-    "uid": "aws-news-devops-20260819-03-613c99088d1172d1",
-    "updateDate": "2026-08-19T11:26:52Z",
-    "titleText": "3. PostgreSQL 19 Beta 3 já está disponível no ambiente de visualização de banco de dados Amazon RDS",
-    "mainText": "Notícia 3 de 5, impacto médio. Postgre S Q L 19 Beta 3 já está disponível no ambiente de visualização de banco de dados Amazon RDS. A partir de hoje, o Amazon RDS for Postgre S Q L 19 Beta 3 está disponível no Amazon RDS Database Preview Environment, permitindo avaliar o pré-lançamento do Postgre S Q L 19 no Amazon RDS for Postgre S Q L. Postgre S Q L 19 Beta 3 adiciona novos recursos para desempenho de consulta e gerenciamento de autovacuum. A nova visualização pg_stat_autovacuum_scores ajuda a monitorar e ajustar a priorização do autovacuum. Por que importa: Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/postgresql-19-beta-3-amazon-rds-database-preview-environment/"
+    "uid": "aws-news-devops-20260820-03-c7cd130b0f1f59cc",
+    "updateDate": "2026-08-20T11:27:58Z",
+    "titleText": "3. A centralização de logs do Amazon CloudWatch agora oferece suporte à propagação de tags de grupo",
+    "mainText": "Notícia 3 de 5, impacto alto. A centralização de logs do Amazon Cloud Watch agora oferece suporte à propagação de tags de grupo de logs. O Amazon Cloud Watch Centralization agora copia tags de grupos de logs de contas de origem para grupos de logs de destino criados por regras de centralização. O Cloud Watch Centralization agrega dados de log de várias contas e regiões em uma conta de destino. Com a propagação de tags, as tags de custo, propriedade e conformidade que você mantém na origem agora se aplicam aos grupos de logs copiados. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-centralization-tag-propogation/"
   },
   {
-    "uid": "aws-news-devops-20260819-04-a8d3fb3b9188bf44",
-    "updateDate": "2026-08-19T11:25:52Z",
-    "titleText": "4. A federação de identidade AWS IAM para serviços externos já está disponível na AWS European",
-    "mainText": "Notícia 4 de 5, impacto médio. A federação de identidade AWS IAM para serviços externos já está disponível na AWS European Sovereign Cloud Region. O AWS Identity and Access Management (IAM) agora permite que cargas de trabalho da AWS na região AWS European Sovereign Cloud (Alemanha) sejam autenticadas com segurança com serviços externos usando JSON Web Tokens (JWTs) de curta duração. A Nuvem Soberana Europeia da AWS é uma nuvem independente para a Europa, inteiramente localizada na União Europeia (UE), projetada para ajudar os clientes a atender aos seus requisitos de soberania em evolução. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Segurança. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-european-sovereign-cloud/"
+    "uid": "aws-news-devops-20260820-04-694307d49a235f5d",
+    "updateDate": "2026-08-20T11:26:58Z",
+    "titleText": "4. A ingestão do Amazon OpenSearch já está disponível nas regiões GovCloud",
+    "mainText": "Notícia 4 de 5, impacto médio. A ingestão do Amazon Open Search já está disponível nas regiões GovCloud. A partir de hoje, os clientes podem usar o Amazon Open Search Ingestion no AWS GovCloud (Leste dos EUA) e no AWS GovCloud (Oeste dos EUA), para ingerir dados em clusters gerenciados ou coleções sem servidor do Amazon Open Search Service. A ingestão do Amazon Open Search é um nível de ingestão de dados totalmente gerenciado que permite ingerir e processar dados antes de indexá-los em clusters gerenciados ou coleções sem servidor do Amazon Open Search. O Amazon Open Search Ingestion oferece uma experiência sem código para filtrar, transformar, editar e rotear dados para o Amazon Open Search Service. Por que importa: Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Sinais: Disponibilidade geral (GA). Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-ingestion-available-govcloud-regions"
   },
   {
-    "uid": "aws-news-devops-20260819-05-c7d8df8d629128e5",
-    "updateDate": "2026-08-19T11:24:52Z",
-    "titleText": "5. Os pagamentos do AgentCore agora estão disponíveis no Amazon Bedrock AgentCore",
-    "mainText": "Notícia 5 de 5, impacto baixo. Os pagamentos do AgentCore agora estão disponíveis no Amazon Bédrock AgentCore. Hoje, a AWS anuncia a disponibilidade geral de pagamentos AgentCore, um recurso do Amazon Bédrock AgentCore que permite que agentes de IA descubram, acessem e paguem de forma autônoma por APIs, MCPs e conteúdo pagos com apenas algumas linhas de código. Os pagamentos AgentCore fornecem a segurança, as proteções e a observabilidade de que as empresas precisam para implantar agentes de transação na produção em escala. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/"
+    "uid": "aws-news-devops-20260820-05-08196b206570ef3c",
+    "updateDate": "2026-08-20T11:25:58Z",
+    "titleText": "5. Os notebooks Amazon SageMaker agora oferecem suporte à propagação de identidade confiável",
+    "mainText": "Notícia 5 de 5, impacto baixo. Os notebooks Amazon Sage Maker agora oferecem suporte à propagação de identidade confiável. Os notebooks Amazon Sage Maker agora oferecem suporte à propagação de identidade confiável (TIP) com Amazon Athena, Amazon Redshift e Amazon EMR Serverless, permitindo o controle de acesso por usuário para análise de dados. Quando conectado a uma computação habilitada para TIP em um projeto habilitado para TIP, a identidade do IAM Identity Center de cada usuário do notebook flui para o AWS Lake Formation, garantindo que eles vejam apenas as tabelas, colunas e linhas permitidas por suas permissões, sem compartilhar uma única função de execução ampla. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker/"
   }
 ]
