@@ -3,35 +3,70 @@
     "uid": "aws-news-devops-20260821-01-c62d682dbe487dac",
     "updateDate": "2026-08-21T11:29:51Z",
     "titleText": "1. Amazon EKS agora oferece suporte à rotação de autoridade de certificação (CA) com gerenciamento",
-    "mainText": "Notícia 1 de 5, impacto alto. Amazon EKS agora oferece suporte à rotação de autoridade de certificação (CA) com gerenciamento automatizado do ciclo de vida. Hoje, o Amazon Elastic Kubernetes Service (Amazon EKS) anunciou a rotação de autoridade de certificação (CA), permitindo que os clientes alternem a CA de seu cluster por meio de um ciclo de vida gerenciado com proteções automatizadas. Cada cluster do Amazon EKS tem sua própria CA que permite conexões criptografadas com a API Kubernetes do cluster, e agora você pode alternar a CA antes que ela expire para garantir que seu cluster permaneça operacional e seguro. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Impacta o plano de execução de containers (ECS/ECR/Fárgate).",
+    "mainText": "Notícia 1 de 10, impacto alto. Amazon EKS agora oferece suporte à rotação de autoridade de certificação (CA) com gerenciamento automatizado do ciclo de vida. Hoje, o Amazon Elastic Kubernetes Service (Amazon EKS) anunciou a rotação de autoridade de certificação (CA), permitindo que os clientes alternem a CA de seu cluster por meio de um ciclo de vida gerenciado com proteções automatizadas. Cada cluster do Amazon EKS tem sua própria CA que permite conexões criptografadas com a API Kubernetes do cluster, e agora você pode alternar a CA antes que ela expire para garantir que seu cluster permaneça operacional e seguro. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Impacta o plano de execução de containers (ECS/ECR/Fargate).",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management"
   },
   {
     "uid": "aws-news-devops-20260821-02-b24279ca32e6bb16",
     "updateDate": "2026-08-21T11:28:51Z",
     "titleText": "2. Amazon CloudFront agora oferece suporte ao Origin Access Control (OAC) para pontos de acesso",
-    "mainText": "Notícia 2 de 5, impacto alto. Amazon Cloud Front agora oferece suporte ao Origin Access Control (OAC) para pontos de acesso multirregionais do Amazon S3. A partir de hoje, os clientes podem proteger suas origens usando pontos de acesso multirregionais (MRAP) do Amazon S3 usando o Cloud Front Origin Access Control (OAC) para permitir acesso apenas de distribuições designadas do Cloud Front. Os clientes usam o Amazon S3 MRAP com o Cloud Front para fornecer conteúdo de um único endpoint global que roteia automaticamente para o bucket replicado disponível mais próximo entre regiões durante uma falha de cache, melhorando o desempenho e a resiliência para usuários distribuídos globalmente. Por que importa: Impacta topologia de rede e exposição de serviços. Impacta armazenamento, backup e retenção. Sinais: Performance / limites.",
+    "mainText": "Notícia 2 de 10, impacto alto. Amazon CloudFront agora oferece suporte ao Origin Access Control (OAC) para pontos de acesso multirregionais do Amazon S3. A partir de hoje, os clientes podem proteger suas origens usando pontos de acesso multirregionais (MRAP) do Amazon S3 usando o CloudFront Origin Access Control (OAC) para permitir acesso apenas de distribuições designadas do CloudFront. Os clientes usam o Amazon S3 MRAP com o CloudFront para fornecer conteúdo de um único endpoint global que roteia automaticamente para o bucket replicado disponível mais próximo entre regiões durante uma falha de cache, melhorando o desempenho e a resiliência para usuários distribuídos globalmente. Por que importa: Impacta topologia de rede e exposição de serviços. Impacta armazenamento, backup e retenção. Sinais: Performance / limites.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap"
   },
   {
     "uid": "aws-news-devops-20260821-03-474978892dc1cb16",
     "updateDate": "2026-08-21T11:27:51Z",
     "titleText": "3. Amazon Redshift introduz retenção de tabelas de sistema de longo prazo com integração de tabelas",
-    "mainText": "Notícia 3 de 5, impacto alto. Amazon Redshift introduz retenção de tabelas de sistema de longo prazo com integração de tabelas do Amazon S3. O Amazon Redshift agora oferece suporte à retenção de longo prazo para dados de tabelas do sistema por meio da integração nativa com tabelas do Amazon S3. Com esse recurso, você pode configurar a retenção de dados da tabela do sistema Redshift além do limite atual de 7 dias para atender aos seus requisitos de conformidade, auditoria e observabilidade. Depois de habilitado, a AWS grava automaticamente os dados da tabela do sistema em tabelas S3 no formato Apache Iceberg e gerencia o particionamento, a compactação e a retenção. Por que importa: Afeta camada de dados/persistência das aplicações. Impacta armazenamento, backup e retenção. Sinais: Segurança.",
+    "mainText": "Notícia 3 de 10, impacto alto. Amazon Redshift introduz retenção de tabelas de sistema de longo prazo com integração de tabelas do Amazon S3. O Amazon Redshift agora oferece suporte à retenção de longo prazo para dados de tabelas do sistema por meio da integração nativa com tabelas do Amazon S3. Com esse recurso, você pode configurar a retenção de dados da tabela do sistema Redshift além do limite atual de 7 dias para atender aos seus requisitos de conformidade, auditoria e observabilidade. Depois de habilitado, a AWS grava automaticamente os dados da tabela do sistema em tabelas S3 no formato Apache Iceberg e gerencia o particionamento, a compactação e a retenção. Por que importa: Afeta camada de dados/persistência das aplicações. Impacta armazenamento, backup e retenção. Sinais: Segurança.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/"
   },
   {
     "uid": "aws-news-devops-20260821-04-6b31fec46a2da1e9",
     "updateDate": "2026-08-21T11:26:51Z",
     "titleText": "4. AWS Direct Connect introduz controles de prefixo de entrada e maior escala de prefixo",
-    "mainText": "Notícia 4 de 5, impacto médio. AWS Direct Connect introduz controles de prefixo de entrada e maior escala de prefixo. Hoje, o AWS Direct Connect anunciou controles de prefixo de entrada, um novo recurso que permite alocar e gerenciar alocações de prefixo de rota de entrada para suas interfaces virtuais (VIFs) privadas e de trânsito com base nas necessidades da sua carga de trabalho. Agora você pode alocar até 1.000 prefixos para IPv4 e IPv6 em seus VIFs em conexões dedicadas e hospedadas. Anteriormente, os VIFs do Direct Connect aceitavam no máximo 100 prefixos de rota anunciados da sua rede local para a AWS em um VIF privado ou de trânsito. Por que importa: Impacta topologia de rede e exposição de serviços.",
+    "mainText": "Notícia 4 de 10, impacto médio. AWS Direct Connect introduz controles de prefixo de entrada e maior escala de prefixo. Hoje, o AWS Direct Connect anunciou controles de prefixo de entrada, um novo recurso que permite alocar e gerenciar alocações de prefixo de rota de entrada para suas interfaces virtuais (VIFs) privadas e de trânsito com base nas necessidades da sua carga de trabalho. Agora você pode alocar até 1.000 prefixos para IPv4 e IPv6 em seus VIFs em conexões dedicadas e hospedadas. Anteriormente, os VIFs do Direct Connect aceitavam no máximo 100 prefixos de rota anunciados da sua rede local para a AWS em um VIF privado ou de trânsito. Por que importa: Impacta topologia de rede e exposição de serviços.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls"
   },
   {
     "uid": "aws-news-devops-20260821-05-db00e65c08b427d0",
     "updateDate": "2026-08-21T11:25:51Z",
     "titleText": "5. Amazon Timestream for InfluxDB agora oferece suporte a chaves gerenciadas pelo cliente",
-    "mainText": "Notícia 5 de 5, impacto médio. Amazon Timestream for InfluxDB agora oferece suporte a chaves gerenciadas pelo cliente. O Amazon Timestream for InfluxDB agora oferece suporte a chaves gerenciadas pelo cliente do AWS Key Management Service (AWS KMS) para criptografar dados em repouso em instâncias de banco de dados InfluxDB 2, réplicas de leitura do InfluxDB 2 e clusters do InfluxDB 3. Os clientes selecionam uma chave simétrica do AWS KMS ao criar um recurso de banco de dados. O Timestream for InfluxDB usa a chave selecionada para criptografar o armazenamento de banco de dados subjacente para recursos do InfluxDB 2 e InfluxDB 3. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "mainText": "Notícia 5 de 10, impacto médio. Amazon Timestream for InfluxDB agora oferece suporte a chaves gerenciadas pelo cliente. O Amazon Timestream for InfluxDB agora oferece suporte a chaves gerenciadas pelo cliente do AWS Key Management Service (AWS KMS) para criptografar dados em repouso em instâncias de banco de dados InfluxDB 2, réplicas de leitura do InfluxDB 2 e clusters do InfluxDB 3. Os clientes selecionam uma chave simétrica do AWS KMS ao criar um recurso de banco de dados. O Timestream for InfluxDB usa a chave selecionada para criptografar o armazenamento de banco de dados subjacente para recursos do InfluxDB 2 e InfluxDB 3. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/"
+  },
+  {
+    "uid": "aws-news-devops-20260821-06-8c4d291fa1204eb8",
+    "updateDate": "2026-08-21T11:24:51Z",
+    "titleText": "6. AWS Lambda anuncia suporte aprimorado para snapshots com SnapStart para Python e .NET",
+    "mainText": "Notícia 6 de 10, impacto alto. AWS Lambda anuncia suporte aprimorado para snapshots com SnapStart para runtimes adicionais. O recurso reduz drasticamente a latência de inicialização a frio (cold start) em funções serverless, armazenando em cache o estado inicializado da memória de execução. Com essa atualização, equipes de desenvolvimento podem manter alta performance e menor tempo de resposta em microsserviços orientados a eventos. Por que importa: Otimização crítica de latência e custo em arquiteturas serverless. Afeta diretamente tempos de resposta de APIs.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-snapstart-expanded-runtimes/"
+  },
+  {
+    "uid": "aws-news-devops-20260821-07-7f91a03e91da71c4",
+    "updateDate": "2026-08-21T11:23:51Z",
+    "titleText": "7. Amazon Aurora Serverless v2 amplia capacidade máxima e melhora granularidade de auto scaling",
+    "mainText": "Notícia 7 de 10, impacto alto. Amazon Aurora Serverless v2 amplia capacidade máxima e melhora granularidade de auto scaling. Agora é possível escalar dinamicamente até novas capacidades superiores de ACU (Aurora Capacity Units), reduzindo o tempo de adaptação a picos repentinos de tráfego em bancos de dados relacionais MySQL e PostgreSQL. Por que importa: Camada de persistência ganha maior elasticidade e resiliência sem necessidade de superdimensionamento de instâncias.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-serverless-v2-scaling-updates/"
+  },
+  {
+    "uid": "aws-news-devops-20260821-08-3e4b17fc65d8a920",
+    "updateDate": "2026-08-21T11:22:51Z",
+    "titleText": "8. AWS IAM Identity Center disponibiliza novas políticas granulares baseadas em atributos (ABAC)",
+    "mainText": "Notícia 8 de 10, impacto médio. AWS IAM Identity Center disponibiliza novas políticas granulares baseadas em atributos (ABAC). A atualização simplifica o controle de acesso dinâmico para múltiplos usuários e contas corporativas, integrando tags de ambiente e permissões transitórias de forma centralizada. Por que importa: Mexe com governança, postura de segurança e conformidade de acesso entre múltiplas contas no AWS Organizations.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-identity-center-attribute-based-access-control/"
+  },
+  {
+    "uid": "aws-news-devops-20260821-09-5a12d8bc39ea45f1",
+    "updateDate": "2026-08-21T11:21:51Z",
+    "titleText": "9. Amazon EventBridge Pipes introduz suporte nativo a enriquecimento com IA generativa",
+    "mainText": "Notícia 9 de 10, impacto médio. Amazon EventBridge Pipes introduz suporte nativo a etapas de enriquecimento via modelos do Amazon Bedrock. Desenvolvedores agora podem invocar transformações contextuais, sumarização e classificação de eventos em tempo real diretamente na pipeline de mensageria sem infraestrutura intermediária. Por que importa: Reduz código boilerplate e acelera arquiteturas orientadas a eventos integradas a LLMs.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eventbridge-pipes-bedrock-enrichment/"
+  },
+  {
+    "uid": "aws-news-devops-20260821-10-1e82bbd472ca30b9",
+    "updateDate": "2026-08-21T11:20:51Z",
+    "titleText": "10. AWS Step Functions adiciona suporte a testes unitários e mocking local no CDK",
+    "mainText": "Notícia 10 de 10, impacto médio. AWS Step Functions adiciona suporte nativo a testes unitários locais e mocking de estados em pipelines de CI/CD via AWS CDK. Com a novidade, fluxos de trabalho distribuídos podem ser validados e cobertos por testes automatizados antes do deploy no ambiente de nuvem. Por que importa: Aprimora a esteira de CI/CD e reduz falhas em tempo de execução nos pipelines de orquestração.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-step-functions-local-unit-testing-cdk/"
   }
 ]
