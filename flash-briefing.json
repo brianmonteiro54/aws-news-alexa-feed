@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260825-01-b817b69d14f9b5ec",
-    "updateDate": "2026-08-25T11:34:41Z",
-    "titleText": "1. O Amazon EKS agora oferece suporte a vários provedores de identidade OIDC externos por cluster",
-    "mainText": "Notícia 1 de 5, impacto crítico. O Amazon EKS agora oferece suporte a vários provedores de identidade OIDC externos por cluster. O Amazon Elastic Kubernetes Service (Amazon EKS) agora oferece suporte a vários provedores de identidade OpenID Connect (OIDC) externos por cluster. Você pode associar até 10 provedores de identidade OIDC a um único cluster, oferecendo mais flexibilidade na forma como você autentica usuários e cargas de trabalho em seus clusters do Kubernetes. Muitas organizações usam diferentes provedores de identidade para diferentes populações de usuários, como funcionários, contratados e sistemas de CI/CD. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-multiple-oidc-providers"
+    "uid": "aws-news-devops-20260826-01-77f1f7ea00c68f9f",
+    "updateDate": "2026-08-26T11:36:09Z",
+    "titleText": "1. O AWS Batch agora oferece suporte a instâncias gerenciadas do Amazon ECS",
+    "mainText": "Notícia 1 de 5, impacto alto. O AWS Batch agora oferece suporte a instâncias gerenciadas do Amazon ECS. O AWS Batch agora oferece suporte ao Amazon ECS Managed Instances (ECS MI) como uma nova opção de computação, permitindo que você execute cargas de trabalho em lote aceleradas por GPU e com uso intenso de computação na infraestrutura gerenciada pela AWS. Com o AWS Batch no ECS MI, agora você pode acessar instâncias aceleradas por GPU, enquanto a AWS lida com atualizações de AMI, patches de segurança e ciclo de vida da instância automaticamente, eliminando a sobrecarga operacional da infraestrutura do Amazon EC2 gerenciada pelo cliente. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta a camada de compute e capacidade dos nós. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-batch-on-ecs-managed-instances/"
   },
   {
-    "uid": "aws-news-devops-20260825-02-4fba62faf9e86641",
-    "updateDate": "2026-08-25T11:33:41Z",
-    "titleText": "2. O Amazon ECS agora detecta e repara automaticamente instâncias de contêiner com conectividade de",
-    "mainText": "Notícia 2 de 5, impacto alto. O Amazon ECS agora detecta e repara automaticamente instâncias de contêiner com conectividade de agente prejudicada. O Amazon Elastic Container Service (Amazon ECS) agora detecta e repara automaticamente instâncias de contêiner, permitindo que os clientes reduzam falhas de carga de trabalho não detectadas e melhorem a disponibilidade do aplicativo sem intervenção manual. Com este lançamento, o Amazon ECS monitora continuamente a conectividade do agente em instâncias de contêiner. Eventos de infraestrutura, como degradação de volume EBS, eventos térmicos de host ou falhas de conectividade de rede, podem interromper a conexão do agente do ECS com o plano de controle do ECS. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ecs-agent-connectivity-health"
+    "uid": "aws-news-devops-20260826-02-737f5cfc7b3c68ac",
+    "updateDate": "2026-08-26T11:35:09Z",
+    "titleText": "2. O AWS Lambda apresenta tempos de execução gerenciados em visualização pública para Node.js 26 e",
+    "mainText": "Notícia 2 de 5, impacto alto. O AWS Lambda apresenta tempos de execução gerenciados em visualização pública para Node.js 26 e Python 3.15. Hoje, o AWS Lambda apresenta tempos de execução gerenciados em visualização pública, começando com o Node.js 26 e o Python 3.15. Isso dá aos clientes, parceiros e comunidades linguísticas upstream a oportunidade de experimentar os próximos tempos de execução gerenciados antes de seu lançamento de disponibilidade geral (GA) e compartilhar seus comentários com a equipe do Lambda. Anteriormente, os tempos de execução gerenciados pelo Lambda eram lançados diretamente à medida que o GA era lançado. Por que importa: Pede ação sua: mudança que pode quebrar algo. Afeta funções serverless e o barramento de eventos/filas. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-node-js-python-public-preview/"
   },
   {
-    "uid": "aws-news-devops-20260825-03-32853b00be588abb",
-    "updateDate": "2026-08-25T11:32:41Z",
-    "titleText": "3. As funções do AWS Lambda agora suportam políticas completas baseadas em recursos do iam",
-    "mainText": "Notícia 3 de 5, impacto alto. As funções do AWS Lambda agora suportam políticas completas baseadas em recursos do iam. As funções do AWS Lambda agora suportam políticas completas baseadas em recursos de Gerenciamento de Identidade e Acesso (IAM), permitindo que os administradores da plataforma e as equipes de segurança definam permissões de acesso granulares usando todos os recursos do AWS iam. Com políticas completas baseadas em recursos do iam, você pode definir permissões para várias entidades e ações em um único documento de política e aproveitar toda a gama de chaves de condição do iam. Anteriormente, as funções Lambda exigiam que os clientes adicionassem permissões individualmente por principal. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta funções serverless e o barramento de eventos/filas.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-full-iam-resource-based-policies/"
+    "uid": "aws-news-devops-20260826-03-07782dba5be68ae8",
+    "updateDate": "2026-08-26T11:34:09Z",
+    "titleText": "3. O AWS Lambda MicroVMs agora oferece suporte ao AWS PrivateLink",
+    "mainText": "Notícia 3 de 5, impacto alto. O AWS Lambda MicroVMs agora oferece suporte ao AWS PrivateLink. Os AWS Lambda MicroVMs agora suportam o AWS PrivateLink, permitindo conectividade privada com os Lambda MicroVMs diretamente dos recursos do Amazon Virtual Private Cloud (VPC) sem expor o tráfego à Internet pública. Este lançamento ajuda as cargas de trabalho regulamentadas em serviços financeiros, saúde e governo a atender aos rigorosos requisitos de isolamento de rede ao construir com Lambda MicroVMs. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta funções serverless e o barramento de eventos/filas.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/lambda-microvms-supports-privatelink"
   },
   {
-    "uid": "aws-news-devops-20260825-04-1398e22949c7a91a",
-    "updateDate": "2026-08-25T11:31:41Z",
-    "titleText": "4. O Amazon Aurora agora suporta PostgreSQL 18.4, 17.10, 16.14, 15.18 e 14.23",
-    "mainText": "Notícia 4 de 5, impacto médio. O Amazon Aurora agora suporta Postgre S Q L 18.4, 17.10, 16.14, 15.18 e 14.23. O Amazon Aurora Postgre S Q L-Compatible Edition agora suporta as versões 18.4, 17.10, 16.14, 15.18 e 14.23 do Postgre S Q L, que incluem correções de bugs da comunidade Postgre S Q L e aprimoramentos específicos do Aurora. Recomendamos atualizar para as versões secundárias mais recentes para abordar as Vulnerabilidades e Exposições Comuns (CVEs) conhecidas e se beneficiar dessas melhorias, conforme detalhado nas notas de versão. Você pode atualizar seus bancos de dados durante as janelas de manutenção programada usando atualizações automáticas de versões secundárias. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-postgresql-18-4-17-10-16-14-15-18-14-23/"
+    "uid": "aws-news-devops-20260826-04-eb1caf9e41b2c6fd",
+    "updateDate": "2026-08-26T11:33:09Z",
+    "titleText": "4. O iam Roles Anywhere agora fornece um plugin Java para o AWS SDK",
+    "mainText": "Notícia 4 de 5, impacto médio. O iam Roles Anywhere agora fornece um plugin Java para o AWS SDK. O AWS Identity and Access Management (IAM) Roles Anywhere agora fornece um plugin para o AWS SDK for Java v2 que permite que cargas de trabalho executadas fora da AWS obtenham credenciais temporárias da AWS diretamente no processo do aplicativo Java. O plugin é executado na mesma Java Virtual Machine (JVM) do seu aplicativo, eliminando a necessidade de executar o auxiliar de credencial do iam Roles Anywhere como um processo separado ou configurar credential_process em seu perfil da AWS. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/iam-roles-anywhere-java/"
   },
   {
-    "uid": "aws-news-devops-20260825-05-0c4ee4baa7dfc4e8",
-    "updateDate": "2026-08-25T11:30:41Z",
-    "titleText": "5. O SageMaker MLflow agora suporta chaves gerenciadas pelo cliente",
-    "mainText": "Notícia 5 de 5, impacto médio. O Sage Maker MLflow agora suporta chaves gerenciadas pelo cliente. O Sage Maker MLflow agora permite que os clientes criptografem seus dados usando as chaves gerenciadas pelo cliente (CMK) por meio do AWS Key Management Service (KMS). Esse aprimoramento permite que organizações com requisitos rígidos de segurança e conformidade gerenciem suas próprias chaves de criptografia. Com as chaves gerenciadas pelo cliente, você obtém controle de segurança aprimorado e recursos de auditoria abrangentes por meio da integração do AWS Cloud Trail. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Segurança, Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/sagemaker-mlflow-custom-keys"
+    "uid": "aws-news-devops-20260826-05-62c7204de59d9baa",
+    "updateDate": "2026-08-26T11:32:09Z",
+    "titleText": "5. O Amazon RDS para PostgreSQL oferece suporte às versões secundárias 18.6, 17.11, 16.15, 15.19 e",
+    "mainText": "Notícia 5 de 5, impacto médio. O Amazon RDS para Postgre S Q L oferece suporte às versões secundárias 18.6, 17.11, 16.15, 15.19 e 14.24. O Amazon Relational Database Service (RDS) para Postgre S Q L agora oferece suporte às versões secundárias mais recentes 18.6, 17.11, 16.15, 15.19 e 14.24. Recomendamos que você atualize para as versões secundárias mais recentes para abordar Vulnerabilidades e Exposições Comuns (CVEs) em versões anteriores do Postgre S Q L e se beneficiar das correções de bugs e melhorias adicionadas pela comunidade do Postgre S Q L. Você pode atualizar seus bancos de dados durante as janelas de manutenção programada usando atualizações automáticas de versões secundárias. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta provisionamento e pipelines de deploy. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/"
   }
 ]
