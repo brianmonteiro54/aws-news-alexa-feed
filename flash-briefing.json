@@ -1,30 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260827-01-b358c625f3cdb4c7",
-    "updateDate": "2026-08-27T20:57:29Z",
-    "titleText": "1. O Amazon FSx for NetApp ONTAP agora oferece suporte à cópia de backups em todas as regiões e",
-    "mainText": "Notícia 1 de 4, impacto médio. O Amazon FSx for NetApp ONTAP agora oferece suporte à cópia de backups em todas as regiões e contas da AWS. O Amazon FSx for NetApp ONTAP, um serviço de armazenamento compartilhado totalmente gerenciado criado no popular sistema de arquivos ONTAP da NetApp, agora oferece suporte à cópia de backups dentro e entre regiões da AWS e entre contas confiáveis em sua organização da AWS. Agora você pode fornecer uma camada adicional de proteção para seus dados, armazenando cópias de backup secundárias em uma região ou conta diferente de suas cópias principais, tornando mais fácil atender aos seus requisitos de continuidade de negócios, proteção de dados e conformidade. Por que importa: Impacta armazenamento, backup e retenção. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/fsx-ontap-cross-region-backup-copy/"
+    "uid": "aws-news-devops-20260828-01-30dedc4dc5191d4e",
+    "updateDate": "2026-08-28T21:20:52Z",
+    "titleText": "1. O agente Amazon CloudWatch adiciona suporte para logs journald",
+    "mainText": "Notícia 1 de 5, impacto médio. O agente Amazon Cloud Watch adiciona suporte para logs journald. A AWS anuncia suporte para a coleta de logs de diário do systemd (journald) com o agente Amazon Cloud Watch. Agora você pode configurar o agente Cloud Watch para ler entradas de log diretamente do diário do systemd em instâncias do Linux e enviá-las para o Amazon Cloud Watch Logs, sem primeiro gravar esses logs em arquivos no disco. Muitas distribuições Linux modernas, incluindo o Amazon Linux 2023, usam o systemd journal como o sistema de registro primário e não gravam mais arquivos de registro de texto tradicionais, como /var/log/messages por padrão. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/"
   },
   {
-    "uid": "aws-news-devops-20260827-02-889aac04bd044eba",
-    "updateDate": "2026-08-27T20:56:29Z",
-    "titleText": "2. O AWS Elastic Disaster Recovery apresenta planos de recuperação para recuperação orquestrada de",
-    "mainText": "Notícia 2 de 4, impacto baixo. O AWS Elastic Disaster Recovery apresenta planos de recuperação para recuperação orquestrada de aplicativos. O AWS Elastic Disaster Recovery (AWS DRS) agora oferece planos de recuperação, um recurso que automatiza o lançamento sequencial de aplicativos de vários servidores durante a recuperação e os exercícios. Em vez de iniciar servidores um de cada vez e rastrear dependências manualmente, você define a sequência de recuperação uma vez e a executa com uma única ação quando precisar. Isso aborda um desafio comum para os clientes que executam aplicativos compostos de bancos de dados, camadas de aplicativos e serviços de suporte que devem surgir em uma ordem específica. Por que importa: Ferramental de operação do dia a dia. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/"
+    "uid": "aws-news-devops-20260828-02-65450bad5605397f",
+    "updateDate": "2026-08-28T21:19:52Z",
+    "titleText": "2. O Amazon Aurora MySQL 3.13 (compatível com MySQL 8.0.45) está geralmente disponível",
+    "mainText": "Notícia 2 de 5, impacto médio. O Amazon Aurora My S Q L 3.13 (compatível com My S Q L 8.0.45) está geralmente disponível. A partir de hoje, o Amazon Aurora My S Q L-Compatible Edition 3 (compatível com o My S Q L 8.0) oferece suporte ao My S Q L 8.0.45, que inclui correções da comunidade My S Q L e melhorias específicas do Aurora. Para obter informações detalhadas sobre esta versão, consulte as notas de versão do Aurora My S Q L 3 e do My S Q L 8.0.45. Você pode atualizar seus bancos de dados durante as janelas de manutenção programada usando atualizações automáticas de versões secundárias. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/"
   },
   {
-    "uid": "aws-news-devops-20260827-03-d032336abc9eb6c6",
-    "updateDate": "2026-08-27T20:55:29Z",
-    "titleText": "3. As instâncias do Amazon EC2 X8i agora estão disponíveis em regiões adicionais",
-    "mainText": "Notícia 3 de 4, impacto baixo. As instâncias do Amazon EC2 X8i agora estão disponíveis em regiões adicionais. A partir de hoje, as instâncias do Amazon Elastic Compute Cloud (Amazon EC2) X8i estão disponíveis nas regiões da Europa (Milão) e da Europa (Espanha). Essas instâncias são alimentadas por processadores Intel Xeon 6 personalizados disponíveis apenas na AWS. As instâncias X8i são certificadas pela SAP e oferecem o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-x8i-europe-milan-spain/"
+    "uid": "aws-news-devops-20260828-03-6d5bb4d1a8c2af04",
+    "updateDate": "2026-08-28T21:18:52Z",
+    "titleText": "3. O streaming do Amazon Redshift agora pode ingerir registros de 10 MiB dos fluxos de dados do",
+    "mainText": "Notícia 3 de 5, impacto médio. O streaming do Amazon Redshift agora pode ingerir registros de 10 MiB dos fluxos de dados do Amazon Kinesis. O Amazon Redshift agora suporta os tamanhos de registro Amazon Kinesis Data Streams (KDS) de até 10 MiB - um aumento de 10x em relação ao limite anterior de 1 MiB, correspondendo totalmente ao tamanho máximo expandido do registro no Amazon KDS. Isso significa que você pode transmitir cargas úteis significativamente maiores diretamente para o Amazon Redshift sem dividir registros, simplificando seus pipelines de ingestão e desbloqueando novos casos de uso para cargas de trabalho de alto volume e grandes registros. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records"
   },
   {
-    "uid": "aws-news-devops-20260827-04-3a677181801026e4",
-    "updateDate": "2026-08-27T20:54:29Z",
-    "titleText": "4. O Amazon Cognito adiciona operação de API de administração para redefinir as configurações de",
-    "mainText": "Notícia 4 de 4, impacto baixo. O Amazon Cognito adiciona operação de API de administração para redefinir as configurações de TOTP do usuário. O Amazon Cognito agora fornece uma nova operação de API de administração para redefinir a configuração de autenticação multifator (MFA) de senha única (TOTP) baseada em tempo de um usuário. Quando os usuários perdem o acesso ao seu dispositivo TOTP, os administradores podem remover a associação do dispositivo, permitindo que o usuário inscreva um novo dispositivo em seu próximo login. Isso elimina a necessidade de recriar contas para recuperar usuários bloqueados se eles perderem o acesso ao seu dispositivo TOTP. Por que importa: Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cognito-totp-reset/"
+    "uid": "aws-news-devops-20260828-04-bef13a0437360745",
+    "updateDate": "2026-08-28T21:17:52Z",
+    "titleText": "4. Modelos Cosmos3-Edge, Cosmos3-Nano e Cosmos3-Super agora disponíveis no Amazon SageMaker",
+    "mainText": "Notícia 4 de 5, impacto baixo. Modelos Cosmos3-Edge, Cosmos3-Nano e Cosmos3-Super agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Cosmos3-Edge, Cosmos3-Nano e Cosmos3-Super da NVIDIA agora estão disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para os clientes da AWS. Esses três modelos formam a família Cosmos 3 de modelos de mundo omnimodal aberto e de fronteira para IA física, permitindo que os clientes construam robôs, veículos autônomos e IA de visão que percebem, raciocinam, planejam e agem no mundo físico. Esses modelos abordam diferentes desafios físicos de IA com recursos especializados:. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/cosmos3-edge-cosmos3-nano-cosmos3-super-on-sagemaker-jumpstart/"
+  },
+  {
+    "uid": "aws-news-devops-20260828-05-18b9461695792707",
+    "updateDate": "2026-08-28T21:16:52Z",
+    "titleText": "5. Modelos Muse-Glimmer-30B e Qwen 3.8-27B agora disponíveis no Amazon SageMaker JumpStart",
+    "mainText": "Notícia 5 de 5, impacto baixo. Modelos Muse-Glimmer-30B e Qwen 3.8-27B agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Muse-Glimmer-30B da Meta e Qwen 3.8-27B da Alibaba estão agora disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para os clientes da AWS. Esses dois modelos trazem recursos especializados que abrangem fluxos de trabalho locais autônomos e raciocínio multimodal de longo horizonte, permitindo que os clientes implantem soluções de IA escaláveis e de alto desempenho na infraestrutura da AWS. Esses modelos abordam diferentes desafios de IA corporativa com recursos especializados:. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-glimmer-30b-qwen-3.8-27b-on-sagemaker-jumpstart/"
   }
 ]
