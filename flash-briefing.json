@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260828-01-30dedc4dc5191d4e",
-    "updateDate": "2026-08-28T21:20:52Z",
+    "uid": "aws-news-devops-20260829-01-30dedc4dc5191d4e",
+    "updateDate": "2026-08-29T15:33:46Z",
     "titleText": "1. O agente Amazon CloudWatch adiciona suporte para logs journald",
     "mainText": "Notícia 1 de 5, impacto médio. O agente Amazon Cloud Watch adiciona suporte para logs journald. A AWS anuncia suporte para a coleta de logs de diário do systemd (journald) com o agente Amazon Cloud Watch. Agora você pode configurar o agente Cloud Watch para ler entradas de log diretamente do diário do systemd em instâncias do Linux e enviá-las para o Amazon Cloud Watch Logs, sem primeiro gravar esses logs em arquivos no disco. Muitas distribuições Linux modernas, incluindo o Amazon Linux 2023, usam o systemd journal como o sistema de registro primário e não gravam mais arquivos de registro de texto tradicionais, como /var/log/messages por padrão. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces).",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/"
   },
   {
-    "uid": "aws-news-devops-20260828-02-65450bad5605397f",
-    "updateDate": "2026-08-28T21:19:52Z",
+    "uid": "aws-news-devops-20260829-02-65450bad5605397f",
+    "updateDate": "2026-08-29T15:32:46Z",
     "titleText": "2. O Amazon Aurora MySQL 3.13 (compatível com MySQL 8.0.45) está geralmente disponível",
     "mainText": "Notícia 2 de 5, impacto médio. O Amazon Aurora My S Q L 3.13 (compatível com My S Q L 8.0.45) está geralmente disponível. A partir de hoje, o Amazon Aurora My S Q L-Compatible Edition 3 (compatível com o My S Q L 8.0) oferece suporte ao My S Q L 8.0.45, que inclui correções da comunidade My S Q L e melhorias específicas do Aurora. Para obter informações detalhadas sobre esta versão, consulte as notas de versão do Aurora My S Q L 3 e do My S Q L 8.0.45. Você pode atualizar seus bancos de dados durante as janelas de manutenção programada usando atualizações automáticas de versões secundárias. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/"
   },
   {
-    "uid": "aws-news-devops-20260828-03-6d5bb4d1a8c2af04",
-    "updateDate": "2026-08-28T21:18:52Z",
-    "titleText": "3. O streaming do Amazon Redshift agora pode ingerir registros de 10 MiB dos fluxos de dados do",
-    "mainText": "Notícia 3 de 5, impacto médio. O streaming do Amazon Redshift agora pode ingerir registros de 10 MiB dos fluxos de dados do Amazon Kinesis. O Amazon Redshift agora suporta os tamanhos de registro Amazon Kinesis Data Streams (KDS) de até 10 MiB - um aumento de 10x em relação ao limite anterior de 1 MiB, correspondendo totalmente ao tamanho máximo expandido do registro no Amazon KDS. Isso significa que você pode transmitir cargas úteis significativamente maiores diretamente para o Amazon Redshift sem dividir registros, simplificando seus pipelines de ingestão e desbloqueando novos casos de uso para cargas de trabalho de alto volume e grandes registros. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Afeta camada de dados/persistência das aplicações.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-streaming-supports-kds-10mib-records"
+    "uid": "aws-news-devops-20260829-03-3925c61f6582ff15",
+    "updateDate": "2026-08-29T15:31:46Z",
+    "titleText": "3. A memória do Amazon Bedrock AgentCore agora suporta variáveis de namespace flexíveis",
+    "mainText": "Notícia 3 de 5, impacto baixo. A memória do Amazon Bédrock AgentCore agora suporta variáveis de namespace flexíveis. O Amazon Bédrock AgentCore Memory agora permite que os desenvolvedores definam variáveis de namespace flexíveis para definir o escopo de memórias de longo prazo em qualquer dimensão específica do aplicativo - como organização, locatário, equipe ou ambiente - sem criar estratégias duplicadas ou sobrecarregar as variáveis internas. Isso dá aos aplicativos multilocatários e de hierarquia complexa um controle refinado sobre como as memórias são organizadas, isoladas e acessadas. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Disponibilidade geral (GA), Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces"
   },
   {
-    "uid": "aws-news-devops-20260828-04-bef13a0437360745",
-    "updateDate": "2026-08-28T21:17:52Z",
-    "titleText": "4. Modelos Cosmos3-Edge, Cosmos3-Nano e Cosmos3-Super agora disponíveis no Amazon SageMaker",
-    "mainText": "Notícia 4 de 5, impacto baixo. Modelos Cosmos3-Edge, Cosmos3-Nano e Cosmos3-Super agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Cosmos3-Edge, Cosmos3-Nano e Cosmos3-Super da NVIDIA agora estão disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para os clientes da AWS. Esses três modelos formam a família Cosmos 3 de modelos de mundo omnimodal aberto e de fronteira para IA física, permitindo que os clientes construam robôs, veículos autônomos e IA de visão que percebem, raciocinam, planejam e agem no mundo físico. Esses modelos abordam diferentes desafios físicos de IA com recursos especializados:. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/cosmos3-edge-cosmos3-nano-cosmos3-super-on-sagemaker-jumpstart/"
+    "uid": "aws-news-devops-20260829-04-1864069da62d6fa8",
+    "updateDate": "2026-08-29T15:30:46Z",
+    "titleText": "4. A memória Amazon Bedrock AgentCore agora suporta controle de acesso refinado",
+    "mainText": "Notícia 4 de 5, impacto baixo. A memória Amazon Bédrock AgentCore agora suporta controle de acesso refinado. A memória do Amazon Bédrock AgentCore agora oferece suporte ao controle de acesso refinado (FGAC), permitindo que você imponha o isolamento de memória por usuário e por locatário por meio do AgentCore Gateway sem criar uma lógica de autorização personalizada. Com o FGAC, você pode fazer frente ao seu recurso de memória com um gateway AgentCore configurado para autenticação OAuth (JWT) e anexar políticas Cedar que restringem o acesso com base na identidade do chamador autenticado. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control"
   },
   {
-    "uid": "aws-news-devops-20260828-05-18b9461695792707",
-    "updateDate": "2026-08-28T21:16:52Z",
-    "titleText": "5. Modelos Muse-Glimmer-30B e Qwen 3.8-27B agora disponíveis no Amazon SageMaker JumpStart",
-    "mainText": "Notícia 5 de 5, impacto baixo. Modelos Muse-Glimmer-30B e Qwen 3.8-27B agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Muse-Glimmer-30B da Meta e Qwen 3.8-27B da Alibaba estão agora disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para os clientes da AWS. Esses dois modelos trazem recursos especializados que abrangem fluxos de trabalho locais autônomos e raciocínio multimodal de longo horizonte, permitindo que os clientes implantem soluções de IA escaláveis e de alto desempenho na infraestrutura da AWS. Esses modelos abordam diferentes desafios de IA corporativa com recursos especializados:. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/muse-glimmer-30b-qwen-3.8-27b-on-sagemaker-jumpstart/"
+    "uid": "aws-news-devops-20260829-05-d240d4fdb1a6f468",
+    "updateDate": "2026-08-29T15:29:46Z",
+    "titleText": "5. As instâncias do Amazon EC2 C8gn agora estão disponíveis na região da AWS Europa (Paris)",
+    "mainText": "Notícia 5 de 5, impacto baixo. As instâncias do Amazon EC2 C8gn agora estão disponíveis na região da AWS Europa (Paris). A partir de hoje, as instâncias C8gn do Amazon Elastic Compute Cloud (Amazon EC2), habilitadas pelos processadores AWS Graviton4 de última geração, estão disponíveis na região da AWS Europa (Paris). As instâncias C8gn fornecem desempenho de computação até 30% melhor do que as instâncias do Amazon EC2 C7gn baseadas em Graviton3. As instâncias C8gn do Amazon EC2 apresentam as mais recentes placas AWS Nitro de 6ª geração e oferecem largura de banda de rede de até 600 Gbps, a maior largura de banda de rede entre as instâncias EC2 otimizadas para rede. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta armazenamento, backup e retenção. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gn-europe-paris/"
   }
 ]
