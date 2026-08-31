@@ -1,37 +1,9 @@
 [
   {
-    "uid": "aws-news-devops-20260830-01-30dedc4dc5191d4e",
-    "updateDate": "2026-08-30T15:17:39Z",
-    "titleText": "1. O agente Amazon CloudWatch adiciona suporte para logs journald",
-    "mainText": "Notícia 1 de 5, impacto médio. O agente Amazon Cloud Watch adiciona suporte para logs journald. A AWS anuncia suporte para a coleta de logs de diário do systemd (journald) com o agente Amazon Cloud Watch. Agora você pode configurar o agente Cloud Watch para ler entradas de log diretamente do diário do systemd em instâncias do Linux e enviá-las para o Amazon Cloud Watch Logs, sem primeiro gravar esses logs em arquivos no disco. Muitas distribuições Linux modernas, incluindo o Amazon Linux 2023, usam o systemd journal como o sistema de registro primário e não gravam mais arquivos de registro de texto tradicionais, como /var/log/messages por padrão. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/"
-  },
-  {
-    "uid": "aws-news-devops-20260830-02-65450bad5605397f",
-    "updateDate": "2026-08-30T15:16:39Z",
-    "titleText": "2. O Amazon Aurora MySQL 3.13 (compatível com MySQL 8.0.45) está geralmente disponível",
-    "mainText": "Notícia 2 de 5, impacto médio. O Amazon Aurora My S Q L 3.13 (compatível com My S Q L 8.0.45) está geralmente disponível. A partir de hoje, o Amazon Aurora My S Q L-Compatible Edition 3 (compatível com o My S Q L 8.0) oferece suporte ao My S Q L 8.0.45, que inclui correções da comunidade My S Q L e melhorias específicas do Aurora. Para obter informações detalhadas sobre esta versão, consulte as notas de versão do Aurora My S Q L 3 e do My S Q L 8.0.45. Você pode atualizar seus bancos de dados durante as janelas de manutenção programada usando atualizações automáticas de versões secundárias. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/"
-  },
-  {
-    "uid": "aws-news-devops-20260830-03-3925c61f6582ff15",
-    "updateDate": "2026-08-30T15:15:39Z",
-    "titleText": "3. A memória do Amazon Bedrock AgentCore agora suporta variáveis de namespace flexíveis",
-    "mainText": "Notícia 3 de 5, impacto baixo. A memória do Amazon Bédrock AgentCore agora suporta variáveis de namespace flexíveis. O Amazon Bédrock AgentCore Memory agora permite que os desenvolvedores definam variáveis de namespace flexíveis para definir o escopo de memórias de longo prazo em qualquer dimensão específica do aplicativo - como organização, locatário, equipe ou ambiente - sem criar estratégias duplicadas ou sobrecarregar as variáveis internas. Isso dá aos aplicativos multilocatários e de hierarquia complexa um controle refinado sobre como as memórias são organizadas, isoladas e acessadas. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Disponibilidade geral (GA), Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces"
-  },
-  {
-    "uid": "aws-news-devops-20260830-04-1864069da62d6fa8",
-    "updateDate": "2026-08-30T15:14:39Z",
-    "titleText": "4. A memória Amazon Bedrock AgentCore agora suporta controle de acesso refinado",
-    "mainText": "Notícia 4 de 5, impacto baixo. A memória Amazon Bédrock AgentCore agora suporta controle de acesso refinado. A memória do Amazon Bédrock AgentCore agora oferece suporte ao controle de acesso refinado (FGAC), permitindo que você imponha o isolamento de memória por usuário e por locatário por meio do AgentCore Gateway sem criar uma lógica de autorização personalizada. Com o FGAC, você pode fazer frente ao seu recurso de memória com um gateway AgentCore configurado para autenticação OAuth (JWT) e anexar políticas Cedar que restringem o acesso com base na identidade do chamador autenticado. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control"
-  },
-  {
-    "uid": "aws-news-devops-20260830-05-d240d4fdb1a6f468",
-    "updateDate": "2026-08-30T15:13:39Z",
-    "titleText": "5. As instâncias do Amazon EC2 C8gn agora estão disponíveis na região da AWS Europa (Paris)",
-    "mainText": "Notícia 5 de 5, impacto baixo. As instâncias do Amazon EC2 C8gn agora estão disponíveis na região da AWS Europa (Paris). A partir de hoje, as instâncias C8gn do Amazon Elastic Compute Cloud (Amazon EC2), habilitadas pelos processadores AWS Graviton4 de última geração, estão disponíveis na região da AWS Europa (Paris). As instâncias C8gn fornecem desempenho de computação até 30% melhor do que as instâncias do Amazon EC2 C7gn baseadas em Graviton3. As instâncias C8gn do Amazon EC2 apresentam as mais recentes placas AWS Nitro de 6ª geração e oferecem largura de banda de rede de até 600 Gbps, a maior largura de banda de rede entre as instâncias EC2 otimizadas para rede. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta armazenamento, backup e retenção. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gn-europe-paris/"
+    "uid": "aws-news-devops-20260831-01-456ab50b768b0c35",
+    "updateDate": "2026-08-31T17:57:54Z",
+    "titleText": "1. O Amazon OpenSearch Service adiciona novos Cluster Insights para um diagnóstico mais rápido do",
+    "mainText": "Notícia 1 de 1, impacto alto. O Amazon Open Search Service adiciona novos Cluster Insights para um diagnóstico mais rápido do status do cluster. O Amazon Open Search Service expandiu o Cluster Insights com 17 novos insights que identificam as causas por trás do status do cluster Vermelho e Amarelo e fornecem recomendações acionáveis para resolvê-las. Esses insights abrangem cenários de exaustão de recursos, incluindo falta de memória da JVM, saturação sustentada da CPU, bem como problemas de configuração, como desequilíbrio de zona e contagens de réplicas mal configuradas. Por que importa: Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Afeta a camada de compute e capacidade dos nós. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/"
   }
 ]
