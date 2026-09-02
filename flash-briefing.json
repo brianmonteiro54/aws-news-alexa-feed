@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260901-01-456ab50b768b0c35",
-    "updateDate": "2026-09-01T15:26:32Z",
-    "titleText": "1. O Amazon OpenSearch Service adiciona novos Cluster Insights para um diagnóstico mais rápido do",
-    "mainText": "Notícia 1 de 5, impacto alto. O Amazon Open Search Service adiciona novos Cluster Insights para um diagnóstico mais rápido do status do cluster. O Amazon Open Search Service expandiu o Cluster Insights com 17 novos insights que identificam as causas por trás do status do cluster Vermelho e Amarelo e fornecem recomendações acionáveis para resolvê-las. Esses insights abrangem cenários de exaustão de recursos, incluindo falta de memória da JVM, saturação sustentada da CPU, bem como problemas de configuração, como desequilíbrio de zona e contagens de réplicas mal configuradas. Por que importa: Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Afeta a camada de compute e capacidade dos nós. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/opensearch-cluster-status-insight/"
+    "uid": "aws-news-devops-20260902-01-9547fe46b88eee6b",
+    "updateDate": "2026-09-02T15:02:17Z",
+    "titleText": "1. O Amazon CloudWatch Database Insights agora suporta PostgreSQL autogerenciado",
+    "mainText": "Notícia 1 de 5, impacto alto. O Amazon Cloud Watch Database Insights agora suporta Postgre S Q L autogerenciado. Hoje, a AWS anuncia suporte para bancos de dados Postgre S Q L autogerenciados no Amazon Cloud Watch Database Insights. Usando o Cloud Watch Database Insights, agora você pode monitorar suas instâncias Postgre S Q L autogerenciadas em execução no Amazon EC2, juntamente com o Amazon RDS e o Amazon Aurora, para ter uma visão completa de sua frota de bancos de dados em um único console. O Amazon Cloud Watch Database Insights é uma solução de observabilidade de banco de dados que fornece uma experiência com curadoria para ajudá-lo a monitorar a integridade da frota de bancos de dados, diagnosticar problemas e resolver gargalos de desempenho. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/"
   },
   {
-    "uid": "aws-news-devops-20260901-02-3e6a5a0fe0dc7901",
-    "updateDate": "2026-09-01T15:25:32Z",
-    "titleText": "2. O Amazon Redshift agora oferece suporte à autenticação do AWS iam Identity Center com roteamento",
-    "mainText": "Notícia 2 de 5, impacto alto. O Amazon Redshift agora oferece suporte à autenticação do AWS iam Identity Center com roteamento VPC aprimorado. O Amazon Redshift agora oferece suporte à autenticação do AWS iam Identity Center para clusters provisionados e grupos de trabalho sem servidor configurados com roteamento VPC (EVR) aprimorado. Você pode acessar o Amazon Redshift com logon único com suas credenciais corporativas, e o tráfego atravessa a Amazon Virtual Private Cloud (Amazon VPC) e permanece na rede AWS. Isso é valioso para clientes com requisitos de residência de dados, regulamentares ou de isolamento de rede que não exigem saída pública da Internet para análise. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta topologia de rede e exposição de serviços.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-redshift-supports-idc-evr"
+    "uid": "aws-news-devops-20260902-02-cc2675b081d6a014",
+    "updateDate": "2026-09-02T15:01:17Z",
+    "titleText": "2. O Amazon Kinesis Data Streams agora oferece suporte a um recurso de teste para validar",
+    "mainText": "Notícia 2 de 5, impacto médio. O Amazon Kinesis Data Streams agora oferece suporte a um recurso de teste para validar solicitações de API. O Amazon Kinesis Data Streams agora oferece suporte a um recurso de teste para verificar se uma solicitação de API seria bem-sucedida sem executar a operação. Os clientes agora podem definir o novo parâmetro opcional 'DryRun' como true em suas solicitações de API para validar as permissões antes de interagir com um fluxo em produção. Anteriormente, os clientes não tinham uma maneira segura de testar se seu aplicativo tinha as permissões corretas para acessar um fluxo. Por que importa: Afeta funções serverless e o barramento de eventos/filas.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/"
   },
   {
-    "uid": "aws-news-devops-20260901-03-302ab7ddad721ef6",
-    "updateDate": "2026-09-01T15:24:32Z",
-    "titleText": "3. Instâncias otimizadas de memória do Amazon EC2 R9g e R9gd agora estão disponíveis",
-    "mainText": "Notícia 3 de 5, impacto alto. Instâncias otimizadas de memória do Amazon EC2 R9g e R9gd agora estão disponíveis. A partir de hoje, as instâncias R9g e R9gd do Amazon Elastic Compute Cloud (Amazon EC2), habilitadas pelos processadores AWS Graviton5, estão geralmente disponíveis. Os processadores AWS Graviton5 são a quinta geração de CPUs personalizadas, oferecendo o melhor desempenho de preço para cargas de trabalho com uso intenso de memória em execução no Amazon EC2. As instâncias R9g são ideais para cargas de trabalho com uso intenso de memória, incluindo bancos de dados, caches na memória, análise de big data em tempo real, cargas de trabalho baseadas em Linux, incluindo aplicativos em contêiner e baseados em microsserviços (por exemplo,. Por que importa: Afeta a camada de compute e capacidade dos nós. Mexe direto com seus clusters Kubernetes/EKS. Sinais: Disponibilidade geral (GA), Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r9g-and-r9gd-memory-optimized-instances-are-now-available/"
+    "uid": "aws-news-devops-20260902-03-31a8d15f896c2df5",
+    "updateDate": "2026-09-02T15:00:17Z",
+    "titleText": "3. O AWS Backup agora oferece suporte à proteção de mais de 1.000 buckets do Amazon S3 por conta",
+    "mainText": "Notícia 3 de 5, impacto baixo. O AWS Backup agora oferece suporte à proteção de mais de 1.000 buckets do Amazon S3 por conta. O AWS Backup agora suporta backup e restauração de mais de 1.000 buckets do Amazon S3 por conta, correspondendo à cota de bucket do Amazon S3 configurada para sua conta. Anteriormente, o AWS Backup for Amazon S3 suportava até 1.000 buckets por conta. Com este lançamento, o AWS Backup suporta o backup de todos os buckets de uso geral em sua conta. Por que importa: Impacta armazenamento, backup e retenção.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/"
   },
   {
-    "uid": "aws-news-devops-20260901-04-06210037e3929906",
-    "updateDate": "2026-09-01T15:23:32Z",
-    "titleText": "4. O Amazon DocumentDB agora suporta atualizações diretas da versão principal para a versão 8.0",
-    "mainText": "Notícia 4 de 5, impacto médio. O Amazon Document D B agora suporta atualizações diretas da versão principal para a versão 8.0. O Amazon Document D B (com compatibilidade com MongoDB) agora suporta atualizações de versão principais (MVU) diretamente das versões 3.6 e 4.0 do mecanismo para a versão 8.0. Esse recurso de atualização elimina a necessidade de atualizações de versão intermediárias e permite que você atualize seus clusters da versão 3.6 ou 4.0, preservando os dados, as configurações e as configurações de cluster existentes. A atualização para a versão 8.0 fornece acesso aos patches de segurança mais recentes, melhorias de desempenho e novos recursos de desenvolvedor. Por que importa: Afeta camada de dados/persistência das aplicações. Sinais: Segurança, Nova versão suportada, Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/documentdb-major-version-upgrade-8-0/"
+    "uid": "aws-news-devops-20260902-04-93442c226e0d32ea",
+    "updateDate": "2026-09-02T14:59:17Z",
+    "titleText": "4. O Amazon Quick agora permite que você crie aplicativos personalizados com linguagem natural -",
+    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Quick agora permite que você crie aplicativos personalizados com linguagem natural -. Agora disponível para o público em geral, o Amazon Quick permite que você crie aplicativos personalizados simplesmente descrevendo-os em linguagem natural. Crie rastreadores de projetos, painéis de clientes e portais de treinamento em minutos, em vez de meses. Seja você um gerente de produto, líder financeiro, parceiro de RH ou analista de operações, agora você pode transformar ideias em aplicativos totalmente funcionais sem escrever nenhum código. Por que importa: Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/"
   },
   {
-    "uid": "aws-news-devops-20260901-05-6c66c1573998a797",
-    "updateDate": "2026-09-01T15:22:32Z",
-    "titleText": "5. O Amazon CloudWatch agora suporta períodos de aquecimento para alarmes",
-    "mainText": "Notícia 5 de 5, impacto médio. O Amazon Cloud Watch agora suporta períodos de aquecimento para alarmes. O Amazon Cloud Watch agora permite configurar um período de aquecimento para alarmes de métrica e alarmes de registro, atrasando a avaliação do alarme por um tempo definido após a criação do alarme. Isso reduz o ruído de dados ausentes enquanto um novo recurso ou serviço é iniciado e começa a publicar métricas. Por exemplo, uma equipe que provisiona um novo microsserviço e seus alarmes juntos por meio de um pipeline de CI/CD pode anexar um período de aquecimento para que os alarmes não chamem o engenheiro de plantão enquanto o serviço ainda está sendo iniciado e ainda não publicou métricas. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-alarms-warmup-period"
+    "uid": "aws-news-devops-20260902-05-6c3de6f8d7c516bf",
+    "updateDate": "2026-09-02T14:58:17Z",
+    "titleText": "5. Os painéis do Amazon Connect Customer agora suportam o modo compacto",
+    "mainText": "Notícia 5 de 5, impacto baixo. Os painéis do Amazon Connect Customer agora suportam o modo compacto. O Amazon Connect Customer agora oferece o modo compacto nos painéis de análise, aumentando a densidade de dados para que os supervisores possam ver mais de seus dados operacionais sem rolar a tela. O modo compacto reduz o tamanho do widget, a fonte e minimiza os filtros para maximizar o espaço da tela. Por exemplo, um supervisor em um laptop de 13 polegadas alterna o modo compacto, o que reduz a altura da linha, permitindo que eles visualizem todos os agentes de equipe no widget sem rolar e localizem agentes não aderentes mais rapidamente. Por que importa: Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-dashboards-compact-mode/"
   }
 ]
