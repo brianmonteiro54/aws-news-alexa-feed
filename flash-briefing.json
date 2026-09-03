@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260902-01-9547fe46b88eee6b",
-    "updateDate": "2026-09-02T15:02:17Z",
-    "titleText": "1. O Amazon CloudWatch Database Insights agora suporta PostgreSQL autogerenciado",
-    "mainText": "Notícia 1 de 5, impacto alto. O Amazon Cloud Watch Database Insights agora suporta Postgre S Q L autogerenciado. Hoje, a AWS anuncia suporte para bancos de dados Postgre S Q L autogerenciados no Amazon Cloud Watch Database Insights. Usando o Cloud Watch Database Insights, agora você pode monitorar suas instâncias Postgre S Q L autogerenciadas em execução no Amazon EC2, juntamente com o Amazon RDS e o Amazon Aurora, para ter uma visão completa de sua frota de bancos de dados em um único console. O Amazon Cloud Watch Database Insights é uma solução de observabilidade de banco de dados que fornece uma experiência com curadoria para ajudá-lo a monitorar a integridade da frota de bancos de dados, diagnosticar problemas e resolver gargalos de desempenho. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta camada de dados/persistência das aplicações.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/"
+    "uid": "aws-news-devops-20260903-01-06f1b89174825e41",
+    "updateDate": "2026-09-03T14:56:35Z",
+    "titleText": "1. O AWS Config agora suporta 60 novos tipos de recursos",
+    "mainText": "Notícia 1 de 5, impacto alto. O AWS Config agora suporta 60 novos tipos de recursos. O AWS Config agora oferece suporte a 60 tipos de recursos adicionais da AWS nos principais serviços, incluindo Amazon Bédrock, Amazon EC2, Amazon Sage Maker e organizações da AWS. Essa expansão oferece maior cobertura sobre seu ambiente AWS, permitindo que você descubra, avalie, audite e corrija de forma mais eficaz uma gama ainda maior de recursos. Com este lançamento, se você habilitou a gravação para todos os tipos de recursos, o AWS Config rastreará automaticamente essas novas adições. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Mexe direto com seus clusters Kubernetes/EKS.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/"
   },
   {
-    "uid": "aws-news-devops-20260902-02-cc2675b081d6a014",
-    "updateDate": "2026-09-02T15:01:17Z",
-    "titleText": "2. O Amazon Kinesis Data Streams agora oferece suporte a um recurso de teste para validar",
-    "mainText": "Notícia 2 de 5, impacto médio. O Amazon Kinesis Data Streams agora oferece suporte a um recurso de teste para validar solicitações de API. O Amazon Kinesis Data Streams agora oferece suporte a um recurso de teste para verificar se uma solicitação de API seria bem-sucedida sem executar a operação. Os clientes agora podem definir o novo parâmetro opcional 'DryRun' como true em suas solicitações de API para validar as permissões antes de interagir com um fluxo em produção. Anteriormente, os clientes não tinham uma maneira segura de testar se seu aplicativo tinha as permissões corretas para acessar um fluxo. Por que importa: Afeta funções serverless e o barramento de eventos/filas.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/"
+    "uid": "aws-news-devops-20260903-02-f4c7c281ab10bf75",
+    "updateDate": "2026-09-03T14:55:35Z",
+    "titleText": "2. Racks AWS Outposts de segunda geração agora nas regiões AWS GovCloud (EUA)",
+    "mainText": "Notícia 2 de 5, impacto baixo. Racks AWS Outposts de segunda geração agora nas regiões AWS GovCloud (EUA). Os racks AWS Outposts de segunda geração agora são suportados nas regiões AWS GovCloud (Leste dos EUA) e AWS GovCloud (Oeste dos EUA). Os racks de postos avançados estendem a infraestrutura, os serviços, as APIs e as ferramentas da AWS a praticamente qualquer data center ou espaço de colocation no local para uma experiência híbrida verdadeiramente consistente. Organizações de startups a empresas e ao setor público agora podem encomendar seus racks Outposts conectados às novas regiões suportadas, otimizando para suas necessidades de latência e residência de dados. Por que importa: Afeta a camada de compute e capacidade dos nós. Mexe com postura de segurança/permissões - revise antes de propagar. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/"
   },
   {
-    "uid": "aws-news-devops-20260902-03-31a8d15f896c2df5",
-    "updateDate": "2026-09-02T15:00:17Z",
-    "titleText": "3. O AWS Backup agora oferece suporte à proteção de mais de 1.000 buckets do Amazon S3 por conta",
-    "mainText": "Notícia 3 de 5, impacto baixo. O AWS Backup agora oferece suporte à proteção de mais de 1.000 buckets do Amazon S3 por conta. O AWS Backup agora suporta backup e restauração de mais de 1.000 buckets do Amazon S3 por conta, correspondendo à cota de bucket do Amazon S3 configurada para sua conta. Anteriormente, o AWS Backup for Amazon S3 suportava até 1.000 buckets por conta. Com este lançamento, o AWS Backup suporta o backup de todos os buckets de uso geral em sua conta. Por que importa: Impacta armazenamento, backup e retenção.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/"
+    "uid": "aws-news-devops-20260903-03-a3c51accc5004de2",
+    "updateDate": "2026-09-03T14:54:35Z",
+    "titleText": "3. O Amazon Quick adiciona novas configurações de ferramenta e suporte de sincronização de",
+    "mainText": "Notícia 3 de 5, impacto baixo. O Amazon Quick adiciona novas configurações de ferramenta e suporte de sincronização de Protocolo de Contexto de Modelo (MCP) para conectores. Os conectores Amazon Quick permitem que os usuários aproveitem ferramentas e serviços como Outlook, Slack, Salesforce, Jira e servidores MCP caseiros diretamente em seus fluxos de trabalho em bate-papos, agentes, aplicativos, fluxos e pesquisas profundas. Hoje, o Amazon Quick apresenta novas configurações de ferramentas e suporte à sincronização MCP que dão aos administradores e proprietários de conectores mais controle sobre como os conectores são implantados e mantidos atualizados. Os proprietários e administradores de conectores agora podem ativar ou desativar seletivamente ferramentas individuais dentro de um conector para garantir que apenas ferramentas aprovadas estejam disponíveis para os usuários finais. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/"
   },
   {
-    "uid": "aws-news-devops-20260902-04-93442c226e0d32ea",
-    "updateDate": "2026-09-02T14:59:17Z",
-    "titleText": "4. O Amazon Quick agora permite que você crie aplicativos personalizados com linguagem natural -",
-    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Quick agora permite que você crie aplicativos personalizados com linguagem natural -. Agora disponível para o público em geral, o Amazon Quick permite que você crie aplicativos personalizados simplesmente descrevendo-os em linguagem natural. Crie rastreadores de projetos, painéis de clientes e portais de treinamento em minutos, em vez de meses. Seja você um gerente de produto, líder financeiro, parceiro de RH ou analista de operações, agora você pode transformar ideias em aplicativos totalmente funcionais sem escrever nenhum código. Por que importa: Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-custom-apps-natural-language/"
+    "uid": "aws-news-devops-20260903-04-422c4966071cc27a",
+    "updateDate": "2026-09-03T14:53:35Z",
+    "titleText": "4. A Pesquisa na Web no Amazon Bedrock agora está disponível no AWS GovCloud (EUA-Oeste)",
+    "mainText": "Notícia 4 de 5, impacto baixo. A Pesquisa na Web no Amazon Bédrock agora está disponível no AWS GovCloud (EUA-Oeste). A ferramenta integrada do lado do servidor da Pesquisa na Web no Amazon Bédrock agora está disponível no AWS GovCloud (EUA-Oeste), ajudando a trazer resultados da Web fundamentados para cargas de trabalho governamentais e do setor público sensíveis à conformidade. A Pesquisa na Web ajuda os modelos OpenAI GPT suportados a fornecer respostas com informações da web. As respostas incluem citações às fontes que o modelo usou para que os usuários possam rastrear cada reivindicação até sua origem na web. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/"
   },
   {
-    "uid": "aws-news-devops-20260902-05-6c3de6f8d7c516bf",
-    "updateDate": "2026-09-02T14:58:17Z",
-    "titleText": "5. Os painéis do Amazon Connect Customer agora suportam o modo compacto",
-    "mainText": "Notícia 5 de 5, impacto baixo. Os painéis do Amazon Connect Customer agora suportam o modo compacto. O Amazon Connect Customer agora oferece o modo compacto nos painéis de análise, aumentando a densidade de dados para que os supervisores possam ver mais de seus dados operacionais sem rolar a tela. O modo compacto reduz o tamanho do widget, a fonte e minimiza os filtros para maximizar o espaço da tela. Por exemplo, um supervisor em um laptop de 13 polegadas alterna o modo compacto, o que reduz a altura da linha, permitindo que eles visualizem todos os agentes de equipe no widget sem rolar e localizem agentes não aderentes mais rapidamente. Por que importa: Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-dashboards-compact-mode/"
+    "uid": "aws-news-devops-20260903-05-82cf7d96f8967f2b",
+    "updateDate": "2026-09-03T14:52:35Z",
+    "titleText": "5. Cliente do Amazon Connect anuncia disponibilidade geral do designer de CX agêntico",
+    "mainText": "Notícia 5 de 5, impacto baixo. Cliente do Amazon Connect anuncia disponibilidade geral do designer de CX agêntico. O cliente do Amazon Connect anuncia a disponibilidade geral do agentic CX designer, uma tela sem código para projetar e implantar experiências de autoatendimento baseadas em IA. Agora você pode criar e lançar experiências de voz e digitais que reúnem IA agêntica e determinística para transformar a maneira como você atende aos clientes com o controle e a confiabilidade que as empresas exigem. Os usuários de suas equipes de negócios podem projetar conversas e se integrar aos sistemas que administram seus negócios, testar e lançar experiências prontas para produção em semanas, não em meses. Por que importa: Sinais: Segurança, Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/"
   }
 ]
