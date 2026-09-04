@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260903-01-06f1b89174825e41",
-    "updateDate": "2026-09-03T14:56:35Z",
-    "titleText": "1. O AWS Config agora suporta 60 novos tipos de recursos",
-    "mainText": "Notícia 1 de 5, impacto alto. O AWS Config agora suporta 60 novos tipos de recursos. O AWS Config agora oferece suporte a 60 tipos de recursos adicionais da AWS nos principais serviços, incluindo Amazon Bédrock, Amazon EC2, Amazon Sage Maker e organizações da AWS. Essa expansão oferece maior cobertura sobre seu ambiente AWS, permitindo que você descubra, avalie, audite e corrija de forma mais eficaz uma gama ainda maior de recursos. Com este lançamento, se você habilitou a gravação para todos os tipos de recursos, o AWS Config rastreará automaticamente essas novas adições. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Mexe direto com seus clusters Kubernetes/EKS.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-config-new-resource-types/"
+    "uid": "aws-news-devops-20260904-01-0c5f8cbf56a915a4",
+    "updateDate": "2026-09-04T14:53:18Z",
+    "titleText": "1. Os daemons gerenciados do Amazon ECS agora oferecem suporte a daemons não críticos",
+    "mainText": "Notícia 1 de 5, impacto alto. Os daemons gerenciados do Amazon ECS agora oferecem suporte a daemons não críticos. O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte a daemons gerenciados não críticos para instâncias gerenciadas do ECS. Você pode configurar um daemon como não crítico para que as tarefas do aplicativo de missão crítica continuem sendo executadas ininterruptamente, mesmo quando um daemon falhar, parar ou não estiver íntegro. O Amazon ECS Managed Daemons permite implantar e gerenciar centralmente agentes de software, independentemente das implantações de aplicativos, para garantir cobertura e conformidade consistentes em toda a infraestrutura de contêineres. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/"
   },
   {
-    "uid": "aws-news-devops-20260903-02-f4c7c281ab10bf75",
-    "updateDate": "2026-09-03T14:55:35Z",
-    "titleText": "2. Racks AWS Outposts de segunda geração agora nas regiões AWS GovCloud (EUA)",
-    "mainText": "Notícia 2 de 5, impacto baixo. Racks AWS Outposts de segunda geração agora nas regiões AWS GovCloud (EUA). Os racks AWS Outposts de segunda geração agora são suportados nas regiões AWS GovCloud (Leste dos EUA) e AWS GovCloud (Oeste dos EUA). Os racks de postos avançados estendem a infraestrutura, os serviços, as APIs e as ferramentas da AWS a praticamente qualquer data center ou espaço de colocation no local para uma experiência híbrida verdadeiramente consistente. Organizações de startups a empresas e ao setor público agora podem encomendar seus racks Outposts conectados às novas regiões suportadas, otimizando para suas necessidades de latência e residência de dados. Por que importa: Afeta a camada de compute e capacidade dos nós. Mexe com postura de segurança/permissões - revise antes de propagar. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/"
+    "uid": "aws-news-devops-20260904-02-768a9194ccdea9d2",
+    "updateDate": "2026-09-04T14:52:18Z",
+    "titleText": "2. Amazon MWAA adiciona monitoramento integrado com Amazon CloudWatch",
+    "mainText": "Notícia 2 de 5, impacto alto. Amazon MWAA adiciona monitoramento integrado com Amazon Cloud Watch. O Amazon Managed Workflows for Apache Airflow (MWAA) agora inclui uma experiência de monitoramento integrada na página de detalhes do ambiente no AWS Management Console. Um novo painel de métricas exibe as principais métricas do Amazon Cloud Watch para o seu ambiente em um só lugar, e cada gráfico inclui uma alternância opcional para sobrepor os intervalos de aviso sugeridos, ajudando você a identificar rapidamente as condições que podem afetar a saúde e o desempenho do seu ambiente. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta funções serverless e o barramento de eventos/filas.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/"
   },
   {
-    "uid": "aws-news-devops-20260903-03-a3c51accc5004de2",
-    "updateDate": "2026-09-03T14:54:35Z",
-    "titleText": "3. O Amazon Quick adiciona novas configurações de ferramenta e suporte de sincronização de",
-    "mainText": "Notícia 3 de 5, impacto baixo. O Amazon Quick adiciona novas configurações de ferramenta e suporte de sincronização de Protocolo de Contexto de Modelo (MCP) para conectores. Os conectores Amazon Quick permitem que os usuários aproveitem ferramentas e serviços como Outlook, Slack, Salesforce, Jira e servidores MCP caseiros diretamente em seus fluxos de trabalho em bate-papos, agentes, aplicativos, fluxos e pesquisas profundas. Hoje, o Amazon Quick apresenta novas configurações de ferramentas e suporte à sincronização MCP que dão aos administradores e proprietários de conectores mais controle sobre como os conectores são implantados e mantidos atualizados. Os proprietários e administradores de conectores agora podem ativar ou desativar seletivamente ferramentas individuais dentro de um conector para garantir que apenas ferramentas aprovadas estejam disponíveis para os usuários finais. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-adds-tool-settings-mcp-sync/"
+    "uid": "aws-news-devops-20260904-03-1c89794d1485819f",
+    "updateDate": "2026-09-04T14:51:18Z",
+    "titleText": "3. Amazon CloudFront anuncia suporte à API para planos de preços fixos",
+    "mainText": "Notícia 3 de 5, impacto alto. Amazon Cloud Front anuncia suporte à API para planos de preços fixos. A partir de hoje, os clientes podem assinar e gerenciar planos de preços fixos de forma programática usando a CLI da AWS, os SDKs da AWS, o Cloud Formation, o CDK ou a API PricingPlanManager. Os planos de taxa fixa do Cloud Front oferecem um preço mensal que cobre a entrega de conteúdo global, WAF, DDoS, DNS, registro e computação de borda, sem cobranças excessivas baseadas no uso, independentemente de picos ou ataques de tráfego. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta provisionamento e pipelines de deploy. Sinais: API / automação.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/"
   },
   {
-    "uid": "aws-news-devops-20260903-04-422c4966071cc27a",
-    "updateDate": "2026-09-03T14:53:35Z",
-    "titleText": "4. A Pesquisa na Web no Amazon Bedrock agora está disponível no AWS GovCloud (EUA-Oeste)",
-    "mainText": "Notícia 4 de 5, impacto baixo. A Pesquisa na Web no Amazon Bédrock agora está disponível no AWS GovCloud (EUA-Oeste). A ferramenta integrada do lado do servidor da Pesquisa na Web no Amazon Bédrock agora está disponível no AWS GovCloud (EUA-Oeste), ajudando a trazer resultados da Web fundamentados para cargas de trabalho governamentais e do setor público sensíveis à conformidade. A Pesquisa na Web ajuda os modelos OpenAI GPT suportados a fornecer respostas com informações da web. As respostas incluem citações às fontes que o modelo usou para que os usuários possam rastrear cada reivindicação até sua origem na web. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-web-aws-govcloud/"
+    "uid": "aws-news-devops-20260904-04-6756f6aa84ffa0b8",
+    "updateDate": "2026-09-04T14:50:18Z",
+    "titleText": "4. O AWS Gateway Load Balancer agora suporta TCP Reset para recuperação mais rápida de falhas",
+    "mainText": "Notícia 4 de 5, impacto médio. O AWS Gateway Load Balancer agora suporta TCP Reset para recuperação mais rápida de falhas. O AWS Gateway Load Balancer (GWLB) agora oferece suporte ao envio de pacotes TCP Reset (RST) quando um destino não está íntegro, é cancelado ou quando o tempo limite ocioso de um fluxo expira. Esse recurso ajuda a reduzir as interrupções de tráfego de minutos para segundos, permitindo que os pontos de extremidade TCP detectem rapidamente conexões com falha e estabeleçam novos fluxos TCP por meio de destinos íntegros. Anteriormente, quando um alvo GWLB falhava, as conexões TCP existentes continuavam a ser encaminhadas para o alvo não íntegro (também conhecido como comportamento de falha aberta). Por que importa: Impacta topologia de rede e exposição de serviços. Ferramental de operação do dia a dia. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/"
   },
   {
-    "uid": "aws-news-devops-20260903-05-82cf7d96f8967f2b",
-    "updateDate": "2026-09-03T14:52:35Z",
-    "titleText": "5. Cliente do Amazon Connect anuncia disponibilidade geral do designer de CX agêntico",
-    "mainText": "Notícia 5 de 5, impacto baixo. Cliente do Amazon Connect anuncia disponibilidade geral do designer de CX agêntico. O cliente do Amazon Connect anuncia a disponibilidade geral do agentic CX designer, uma tela sem código para projetar e implantar experiências de autoatendimento baseadas em IA. Agora você pode criar e lançar experiências de voz e digitais que reúnem IA agêntica e determinística para transformar a maneira como você atende aos clientes com o controle e a confiabilidade que as empresas exigem. Os usuários de suas equipes de negócios podem projetar conversas e se integrar aos sistemas que administram seus negócios, testar e lançar experiências prontas para produção em semanas, não em meses. Por que importa: Sinais: Segurança, Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/"
+    "uid": "aws-news-devops-20260904-05-3ea2d8d736172c34",
+    "updateDate": "2026-09-04T14:49:18Z",
+    "titleText": "5. O Amazon Aurora MySQL 8.4.8 (compatível com o MySQL 8.4.8) agora está disponível para o público",
+    "mainText": "Notícia 5 de 5, impacto médio. O Amazon Aurora My S Q L 8.4.8 (compatível com o My S Q L 8.4.8) agora está disponível para o público em geral. A partir de hoje, o Amazon Aurora My S Q L-Compatible Edition 8.4 suportará o My S Q L 8.4.8. Além de várias melhorias de segurança e correções de bugs, o Aurora My S Q L 8.4.8 inclui várias melhorias, como suporte para troca de chaves pós-quantum TLS (PQ-TLS), tempo limite de transação, replicação de várias fontes e replicação atrasada. O PQ-TLS oferece opções de criptografia pós-quântica para criptografar seus dados em trânsito. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-848-available/"
   }
 ]
