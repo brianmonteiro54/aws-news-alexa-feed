@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260904-01-0c5f8cbf56a915a4",
-    "updateDate": "2026-09-04T14:53:18Z",
-    "titleText": "1. Os daemons gerenciados do Amazon ECS agora oferecem suporte a daemons não críticos",
-    "mainText": "Notícia 1 de 5, impacto alto. Os daemons gerenciados do Amazon ECS agora oferecem suporte a daemons não críticos. O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte a daemons gerenciados não críticos para instâncias gerenciadas do ECS. Você pode configurar um daemon como não crítico para que as tarefas do aplicativo de missão crítica continuem sendo executadas ininterruptamente, mesmo quando um daemon falhar, parar ou não estiver íntegro. O Amazon ECS Managed Daemons permite implantar e gerenciar centralmente agentes de software, independentemente das implantações de aplicativos, para garantir cobertura e conformidade consistentes em toda a infraestrutura de contêineres. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ecs-managed-daemons-non-critical/"
+    "uid": "aws-news-devops-20260905-01-2b2b6968530d3fba",
+    "updateDate": "2026-09-05T13:49:05Z",
+    "titleText": "1. Amazon ECS apresenta Critérios de Sucesso Antecipado para implantações de serviços",
+    "mainText": "Notícia 1 de 5, impacto alto. Amazon ECS apresenta Critérios de Sucesso Antecipado para implantações de serviços. O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte a Early Success Criteria para implantações de serviços contínuos, oferecendo a flexibilidade de definir quando uma implantação é considerada bem-sucedida com base em seu nível de confiança e nas necessidades operacionais de sua carga de trabalho. Isso pode ajudá-lo a concluir implantações mais cedo e desbloquear implantações subsequentes, pipelines de CI/CD e outras operações dependentes. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/"
   },
   {
-    "uid": "aws-news-devops-20260904-02-768a9194ccdea9d2",
-    "updateDate": "2026-09-04T14:52:18Z",
-    "titleText": "2. Amazon MWAA adiciona monitoramento integrado com Amazon CloudWatch",
-    "mainText": "Notícia 2 de 5, impacto alto. Amazon MWAA adiciona monitoramento integrado com Amazon Cloud Watch. O Amazon Managed Workflows for Apache Airflow (MWAA) agora inclui uma experiência de monitoramento integrada na página de detalhes do ambiente no AWS Management Console. Um novo painel de métricas exibe as principais métricas do Amazon Cloud Watch para o seu ambiente em um só lugar, e cada gráfico inclui uma alternância opcional para sobrepor os intervalos de aviso sugeridos, ajudando você a identificar rapidamente as condições que podem afetar a saúde e o desempenho do seu ambiente. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta funções serverless e o barramento de eventos/filas.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/"
+    "uid": "aws-news-devops-20260905-02-58cf999ecb261558",
+    "updateDate": "2026-09-05T13:48:05Z",
+    "titleText": "2. O AWS MCP Server adiciona um recurso sem servidor para as funções do AWS Lambda",
+    "mainText": "Notícia 2 de 5, impacto médio. O AWS MCP Server adiciona um recurso sem servidor para as funções do AWS Lambda. Hoje, o AWS Model Context Protocol Server (AWS MCP Server) adicionou um recurso sem servidor para que agentes de codificação como Claude Code e Kiro possam diagnosticar eficientemente problemas com suas funções Lambda. O recurso sem servidor ajuda você a solucionar problemas de suas funções Lambda em execução e seus recursos conectados. O AWS MCP Server, disponível por meio do Agent Toolkit for AWS ou como uma instalação autônoma, é um serviço gerenciado que fornece aos agentes de codificação de IA acesso seguro aos serviços da AWS. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Relevância indireta: produtividade/IA, não infraestrutura.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/"
   },
   {
-    "uid": "aws-news-devops-20260904-03-1c89794d1485819f",
-    "updateDate": "2026-09-04T14:51:18Z",
-    "titleText": "3. Amazon CloudFront anuncia suporte à API para planos de preços fixos",
-    "mainText": "Notícia 3 de 5, impacto alto. Amazon Cloud Front anuncia suporte à API para planos de preços fixos. A partir de hoje, os clientes podem assinar e gerenciar planos de preços fixos de forma programática usando a CLI da AWS, os SDKs da AWS, o Cloud Formation, o CDK ou a API PricingPlanManager. Os planos de taxa fixa do Cloud Front oferecem um preço mensal que cobre a entrega de conteúdo global, WAF, DDoS, DNS, registro e computação de borda, sem cobranças excessivas baseadas no uso, independentemente de picos ou ataques de tráfego. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta provisionamento e pipelines de deploy. Sinais: API / automação.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudfront-flat-rate-pricing-plans-api/"
+    "uid": "aws-news-devops-20260905-03-86ea3f45084c057b",
+    "updateDate": "2026-09-05T13:47:05Z",
+    "titleText": "3. O Amazon EC2 agora suporta a especificação de tipos de instância compatíveis em AMIs",
+    "mainText": "Notícia 3 de 5, impacto médio. O Amazon EC2 agora suporta a especificação de tipos de instância compatíveis em AMIs. O Amazon EC2 agora permite que os proprietários de AMI definam quais tipos de instância são compatíveis com suas AMIs. Os proprietários podem especificar tipos de instância suportados, tipos de instância não suportados ou ambos - e qualquer tentativa de inicialização em um tipo de instância não permitido é bloqueada automaticamente. Os proprietários de AMI agora têm uma maneira integrada de evitar lançamentos em instâncias que não são compatíveis com suas AMIs. Por que importa: Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances"
   },
   {
-    "uid": "aws-news-devops-20260904-04-6756f6aa84ffa0b8",
-    "updateDate": "2026-09-04T14:50:18Z",
-    "titleText": "4. O AWS Gateway Load Balancer agora suporta TCP Reset para recuperação mais rápida de falhas",
-    "mainText": "Notícia 4 de 5, impacto médio. O AWS Gateway Load Balancer agora suporta TCP Reset para recuperação mais rápida de falhas. O AWS Gateway Load Balancer (GWLB) agora oferece suporte ao envio de pacotes TCP Reset (RST) quando um destino não está íntegro, é cancelado ou quando o tempo limite ocioso de um fluxo expira. Esse recurso ajuda a reduzir as interrupções de tráfego de minutos para segundos, permitindo que os pontos de extremidade TCP detectem rapidamente conexões com falha e estabeleçam novos fluxos TCP por meio de destinos íntegros. Anteriormente, quando um alvo GWLB falhava, as conexões TCP existentes continuavam a ser encaminhadas para o alvo não íntegro (também conhecido como comportamento de falha aberta). Por que importa: Impacta topologia de rede e exposição de serviços. Ferramental de operação do dia a dia. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/"
+    "uid": "aws-news-devops-20260905-04-7bffcac1ebabcfd2",
+    "updateDate": "2026-09-05T13:46:05Z",
+    "titleText": "4. O Amazon Bedrock Managed Knowledge Base agora suporta o ServiceNow como um conector de fonte de",
+    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Bédrock Managed Knowledge Base agora suporta o ServiceNow como um conector de fonte de dados nativo. A AWS anuncia o conector de fonte de dados ServiceNow para a Amazon Bédrock Managed Knowledge Base, um serviço de geração aumentada de recuperação (RAG) totalmente gerenciado. Os clientes agora podem conectar sua instância do ServiceNow para rastrear artigos de conhecimento e itens de catálogo de serviços diretamente em sua base de conhecimento gerenciada. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Afeta provisionamento e pipelines de deploy.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/"
   },
   {
-    "uid": "aws-news-devops-20260904-05-3ea2d8d736172c34",
-    "updateDate": "2026-09-04T14:49:18Z",
-    "titleText": "5. O Amazon Aurora MySQL 8.4.8 (compatível com o MySQL 8.4.8) agora está disponível para o público",
-    "mainText": "Notícia 5 de 5, impacto médio. O Amazon Aurora My S Q L 8.4.8 (compatível com o My S Q L 8.4.8) agora está disponível para o público em geral. A partir de hoje, o Amazon Aurora My S Q L-Compatible Edition 8.4 suportará o My S Q L 8.4.8. Além de várias melhorias de segurança e correções de bugs, o Aurora My S Q L 8.4.8 inclui várias melhorias, como suporte para troca de chaves pós-quantum TLS (PQ-TLS), tempo limite de transação, replicação de várias fontes e replicação atrasada. O PQ-TLS oferece opções de criptografia pós-quântica para criptografar seus dados em trânsito. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-aurora-mysql-848-available/"
+    "uid": "aws-news-devops-20260905-05-1fcf6f26a059d174",
+    "updateDate": "2026-09-05T13:45:05Z",
+    "titleText": "5. A Amazon Bedrock Managed Knowledge Base apresenta a configuração gerenciada pelo usuário para",
+    "mainText": "Notícia 5 de 5, impacto baixo. A Amazon Bédrock Managed Knowledge Base apresenta a configuração gerenciada pelo usuário para fontes de dados do SharePoint, OneDrive e Confluence. A AWS anuncia a configuração gerenciada pelo usuário (3LO) para fontes de dados do SharePoint, OneDrive e Confluence na Base de conhecimento gerenciada Amazon Bédrock. Anteriormente, a configuração dessas fontes de dados exigia a geração de credenciais 2LO no lado de terceiros, o que poderia ser demorado e inacessível para usuários que não têm acesso de nível administrativo a esses sistemas. Com a configuração gerenciada pelo usuário, você simplesmente entra com suas credenciais de terceiros existentes, e a Base de conhecimento gerenciada do Amazon Bédrock lida com a autenticação, permitindo que você conclua a configuração da fonte de dados em apenas alguns minutos. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/"
   }
 ]
