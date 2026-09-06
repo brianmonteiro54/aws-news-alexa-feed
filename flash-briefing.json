@@ -1,35 +1,35 @@
 [
   {
-    "uid": "aws-news-devops-20260905-01-2b2b6968530d3fba",
-    "updateDate": "2026-09-05T13:49:05Z",
+    "uid": "aws-news-devops-20260906-01-2b2b6968530d3fba",
+    "updateDate": "2026-09-06T14:04:44Z",
     "titleText": "1. Amazon ECS apresenta Critérios de Sucesso Antecipado para implantações de serviços",
     "mainText": "Notícia 1 de 5, impacto alto. Amazon ECS apresenta Critérios de Sucesso Antecipado para implantações de serviços. O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte a Early Success Criteria para implantações de serviços contínuos, oferecendo a flexibilidade de definir quando uma implantação é considerada bem-sucedida com base em seu nível de confiança e nas necessidades operacionais de sua carga de trabalho. Isso pode ajudá-lo a concluir implantações mais cedo e desbloquear implantações subsequentes, pipelines de CI/CD e outras operações dependentes. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Ferramental de operação do dia a dia.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/"
   },
   {
-    "uid": "aws-news-devops-20260905-02-58cf999ecb261558",
-    "updateDate": "2026-09-05T13:48:05Z",
+    "uid": "aws-news-devops-20260906-02-58cf999ecb261558",
+    "updateDate": "2026-09-06T14:03:44Z",
     "titleText": "2. O AWS MCP Server adiciona um recurso sem servidor para as funções do AWS Lambda",
     "mainText": "Notícia 2 de 5, impacto médio. O AWS MCP Server adiciona um recurso sem servidor para as funções do AWS Lambda. Hoje, o AWS Model Context Protocol Server (AWS MCP Server) adicionou um recurso sem servidor para que agentes de codificação como Claude Code e Kiro possam diagnosticar eficientemente problemas com suas funções Lambda. O recurso sem servidor ajuda você a solucionar problemas de suas funções Lambda em execução e seus recursos conectados. O AWS MCP Server, disponível por meio do Agent Toolkit for AWS ou como uma instalação autônoma, é um serviço gerenciado que fornece aos agentes de codificação de IA acesso seguro aos serviços da AWS. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Relevância indireta: produtividade/IA, não infraestrutura.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/"
   },
   {
-    "uid": "aws-news-devops-20260905-03-86ea3f45084c057b",
-    "updateDate": "2026-09-05T13:47:05Z",
+    "uid": "aws-news-devops-20260906-03-86ea3f45084c057b",
+    "updateDate": "2026-09-06T14:02:44Z",
     "titleText": "3. O Amazon EC2 agora suporta a especificação de tipos de instância compatíveis em AMIs",
     "mainText": "Notícia 3 de 5, impacto médio. O Amazon EC2 agora suporta a especificação de tipos de instância compatíveis em AMIs. O Amazon EC2 agora permite que os proprietários de AMI definam quais tipos de instância são compatíveis com suas AMIs. Os proprietários podem especificar tipos de instância suportados, tipos de instância não suportados ou ambos - e qualquer tentativa de inicialização em um tipo de instância não permitido é bloqueada automaticamente. Os proprietários de AMI agora têm uma maneira integrada de evitar lançamentos em instâncias que não são compatíveis com suas AMIs. Por que importa: Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances"
   },
   {
-    "uid": "aws-news-devops-20260905-04-7bffcac1ebabcfd2",
-    "updateDate": "2026-09-05T13:46:05Z",
+    "uid": "aws-news-devops-20260906-04-7bffcac1ebabcfd2",
+    "updateDate": "2026-09-06T14:01:44Z",
     "titleText": "4. O Amazon Bedrock Managed Knowledge Base agora suporta o ServiceNow como um conector de fonte de",
     "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Bédrock Managed Knowledge Base agora suporta o ServiceNow como um conector de fonte de dados nativo. A AWS anuncia o conector de fonte de dados ServiceNow para a Amazon Bédrock Managed Knowledge Base, um serviço de geração aumentada de recuperação (RAG) totalmente gerenciado. Os clientes agora podem conectar sua instância do ServiceNow para rastrear artigos de conhecimento e itens de catálogo de serviços diretamente em sua base de conhecimento gerenciada. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Afeta provisionamento e pipelines de deploy.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/"
   },
   {
-    "uid": "aws-news-devops-20260905-05-1fcf6f26a059d174",
-    "updateDate": "2026-09-05T13:45:05Z",
+    "uid": "aws-news-devops-20260906-05-1fcf6f26a059d174",
+    "updateDate": "2026-09-06T14:00:44Z",
     "titleText": "5. A Amazon Bedrock Managed Knowledge Base apresenta a configuração gerenciada pelo usuário para",
     "mainText": "Notícia 5 de 5, impacto baixo. A Amazon Bédrock Managed Knowledge Base apresenta a configuração gerenciada pelo usuário para fontes de dados do SharePoint, OneDrive e Confluence. A AWS anuncia a configuração gerenciada pelo usuário (3LO) para fontes de dados do SharePoint, OneDrive e Confluence na Base de conhecimento gerenciada Amazon Bédrock. Anteriormente, a configuração dessas fontes de dados exigia a geração de credenciais 2LO no lado de terceiros, o que poderia ser demorado e inacessível para usuários que não têm acesso de nível administrativo a esses sistemas. Com a configuração gerenciada pelo usuário, você simplesmente entra com suas credenciais de terceiros existentes, e a Base de conhecimento gerenciada do Amazon Bédrock lida com a autenticação, permitindo que você conclua a configuração da fonte de dados em apenas alguns minutos. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/"
