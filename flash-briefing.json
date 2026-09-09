@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260908-01-2b2b6968530d3fba",
-    "updateDate": "2026-09-08T15:01:41Z",
-    "titleText": "1. Amazon ECS apresenta Critérios de Sucesso Antecipado para implantações de serviços",
-    "mainText": "Notícia 1 de 5, impacto alto. Amazon ECS apresenta Critérios de Sucesso Antecipado para implantações de serviços. O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte a Early Success Criteria para implantações de serviços contínuos, oferecendo a flexibilidade de definir quando uma implantação é considerada bem-sucedida com base em seu nível de confiança e nas necessidades operacionais de sua carga de trabalho. Isso pode ajudá-lo a concluir implantações mais cedo e desbloquear implantações subsequentes, pipelines de CI/CD e outras operações dependentes. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-deployments-early-success/"
+    "uid": "aws-news-devops-20260909-01-da0493ae64334e3b",
+    "updateDate": "2026-09-09T15:04:20Z",
+    "titleText": "1. O Amazon API Gateway agora suporta TLS mútuo para integrações de back-end",
+    "mainText": "Notícia 1 de 5, impacto alto. O Amazon API Gateway agora suporta TLS mútuo para integrações de back-end. Agora você pode configurar as APIs REST do Amazon API Gateway para apresentar um certificado AWS Certificate Manager (ACM) ao seu back-end durante o handshake TLS, permitindo TLS mútuo (mTLS). Anteriormente, o API Gateway podia apresentar apenas um certificado autoassinado gerado; agora você pode usar um certificado assinado por uma autoridade de certificação confiável. Seu ponto de extremidade de integração valida este certificado durante o aperto de mão para confirmar que a conexão vem de sua API. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta funções serverless e o barramento de eventos/filas.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/"
   },
   {
-    "uid": "aws-news-devops-20260908-02-58cf999ecb261558",
-    "updateDate": "2026-09-08T15:00:41Z",
-    "titleText": "2. O AWS MCP Server adiciona um recurso sem servidor para as funções do AWS Lambda",
-    "mainText": "Notícia 2 de 5, impacto médio. O AWS MCP Server adiciona um recurso sem servidor para as funções do AWS Lambda. Hoje, o AWS Model Context Protocol Server (AWS MCP Server) adicionou um recurso sem servidor para que agentes de codificação como Claude Code e Kiro possam diagnosticar eficientemente problemas com suas funções Lambda. O recurso sem servidor ajuda você a solucionar problemas de suas funções Lambda em execução e seus recursos conectados. O AWS MCP Server, disponível por meio do Agent Toolkit for AWS ou como uma instalação autônoma, é um serviço gerenciado que fornece aos agentes de codificação de IA acesso seguro aos serviços da AWS. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Relevância indireta: produtividade/IA, não infraestrutura.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-mcp-server-serverless/"
+    "uid": "aws-news-devops-20260909-02-b9345cbd64af21d5",
+    "updateDate": "2026-09-09T15:03:20Z",
+    "titleText": "2. O Amazon RDS para MariaDB agora suporta as versões menores do MariaDB da comunidade 10.6.28",
+    "mainText": "Notícia 2 de 5, impacto médio. O Amazon RDS para MariaDB agora suporta as versões menores do MariaDB da comunidade 10.6.28, 10.11.19, 11.4.13, 11.8.9 e 12.3.3. A partir de hoje, o Amazon Relational Database Service (Amazon RDS) para MariaDB agora suporta as versões menores do MariaDB 10.6.28, 10.11.19, 11.4.13, 11.8.9 e 12.3.3, os menores mais recentes lançados pela comunidade MariaDB. Além das melhorias operacionais, essas versões menores introduzem suporte para troca de chaves pós-quantum TLS (PQ-TLS), fornecendo opções de criptografia pós-quantum para criptografar seus dados em trânsito. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta provisionamento e pipelines de deploy. Sinais: Segurança, Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/"
   },
   {
-    "uid": "aws-news-devops-20260908-03-86ea3f45084c057b",
-    "updateDate": "2026-09-08T14:59:41Z",
-    "titleText": "3. O Amazon EC2 agora suporta a especificação de tipos de instância compatíveis em AMIs",
-    "mainText": "Notícia 3 de 5, impacto médio. O Amazon EC2 agora suporta a especificação de tipos de instância compatíveis em AMIs. O Amazon EC2 agora permite que os proprietários de AMI definam quais tipos de instância são compatíveis com suas AMIs. Os proprietários podem especificar tipos de instância suportados, tipos de instância não suportados ou ambos - e qualquer tentativa de inicialização em um tipo de instância não permitido é bloqueada automaticamente. Os proprietários de AMI agora têm uma maneira integrada de evitar lançamentos em instâncias que não são compatíveis com suas AMIs. Por que importa: Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-images-supported-instances"
+    "uid": "aws-news-devops-20260909-03-07a37366a44290cf",
+    "updateDate": "2026-09-09T15:02:20Z",
+    "titleText": "3. O Amazon Timestream for InfluxDB 3 agora suporta plugins personalizados",
+    "mainText": "Notícia 3 de 5, impacto médio. O Amazon Timestream for InfluxDB 3 agora suporta plugins personalizados. O Amazon Timestream for InfluxDB agora permite que você execute seus próprios plugins Python personalizados nas versões gerenciadas das edições InfluxDB 3 Core e Enterprise. Você hospeda seu código de plugin em repositórios públicos ou privados que controla e o mecanismo o busca e o executa em resposta a gatilhos, permitindo que você implemente uma lógica específica para sua carga de trabalho sem criar uma infraestrutura externa separada. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/"
   },
   {
-    "uid": "aws-news-devops-20260908-04-7bffcac1ebabcfd2",
-    "updateDate": "2026-09-08T14:58:41Z",
-    "titleText": "4. O Amazon Bedrock Managed Knowledge Base agora suporta o ServiceNow como um conector de fonte de",
-    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Bédrock Managed Knowledge Base agora suporta o ServiceNow como um conector de fonte de dados nativo. A AWS anuncia o conector de fonte de dados ServiceNow para a Amazon Bédrock Managed Knowledge Base, um serviço de geração aumentada de recuperação (RAG) totalmente gerenciado. Os clientes agora podem conectar sua instância do ServiceNow para rastrear artigos de conhecimento e itens de catálogo de serviços diretamente em sua base de conhecimento gerenciada. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Afeta provisionamento e pipelines de deploy.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-servicenow-native-data-source-connector/"
+    "uid": "aws-news-devops-20260909-04-470b8bc45a90e6f6",
+    "updateDate": "2026-09-09T15:01:20Z",
+    "titleText": "4. O OpenAI GPT-6 Astra agora está disponível no Amazon Bedrock",
+    "mainText": "Notícia 4 de 5, impacto baixo. O OpenAI GPT-6 Astra agora está disponível no Amazon Bédrock. Hoje, a AWS anuncia a disponibilidade geral do GPT-6 Astra da OpenAI no Amazon Bédrock. O modelo mais recente e mais capaz da OpenAI até o momento, o GPT-6 Astra traz raciocínio e julgamento mais profundos, redação e design de qualidade profissional e uso avançado de computadores e navegadores para fluxos de trabalho de negócios exigentes. Ele suporta uma janela de contexto de até 1 milhão de tokens de entrada e pode produzir resultados alinhados com a voz, modelos e padrões organizacionais. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/"
   },
   {
-    "uid": "aws-news-devops-20260908-05-1fcf6f26a059d174",
-    "updateDate": "2026-09-08T14:57:41Z",
-    "titleText": "5. A Amazon Bedrock Managed Knowledge Base apresenta a configuração gerenciada pelo usuário para",
-    "mainText": "Notícia 5 de 5, impacto baixo. A Amazon Bédrock Managed Knowledge Base apresenta a configuração gerenciada pelo usuário para fontes de dados do SharePoint, OneDrive e Confluence. A AWS anuncia a configuração gerenciada pelo usuário (3LO) para fontes de dados do SharePoint, OneDrive e Confluence na Base de conhecimento gerenciada Amazon Bédrock. Anteriormente, a configuração dessas fontes de dados exigia a geração de credenciais 2LO no lado de terceiros, o que poderia ser demorado e inacessível para usuários que não têm acesso de nível administrativo a esses sistemas. Com a configuração gerenciada pelo usuário, você simplesmente entra com suas credenciais de terceiros existentes, e a Base de conhecimento gerenciada do Amazon Bédrock lida com a autenticação, permitindo que você conclua a configuração da fonte de dados em apenas alguns minutos. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-user-managed-setup-sharepoint-onedrive-confluence/"
+    "uid": "aws-news-devops-20260909-05-d7d22cb7b3cc0c80",
+    "updateDate": "2026-09-09T15:00:20Z",
+    "titleText": "5. A memória do Amazon Bedrock AgentCore agora suporta a ingestão direta para a memória de longo",
+    "mainText": "Notícia 5 de 5, impacto baixo. A memória do Amazon Bédrock AgentCore agora suporta a ingestão direta para a memória de longo prazo. O Amazon Bédrock AgentCore Memory agora permite que os desenvolvedores enviem conteúdo diretamente para extração de memória de longo prazo sem persistir como um evento de memória de curto prazo. A nova API IngestData aceita conteúdo, distribui-o para as estratégias de memória de longo prazo configuradas da memória e disponibiliza os registros de memória resultantes por meio das mesmas operações de recuperação usadas para quaisquer outros registros de memória de longo prazo, tudo sem criar um evento de curto prazo. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Afeta funções serverless e o barramento de eventos/filas.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest"
   }
 ]
