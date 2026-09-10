@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260909-01-da0493ae64334e3b",
-    "updateDate": "2026-09-09T15:04:20Z",
-    "titleText": "1. O Amazon API Gateway agora suporta TLS mútuo para integrações de back-end",
-    "mainText": "Notícia 1 de 5, impacto alto. O Amazon API Gateway agora suporta TLS mútuo para integrações de back-end. Agora você pode configurar as APIs REST do Amazon API Gateway para apresentar um certificado AWS Certificate Manager (ACM) ao seu back-end durante o handshake TLS, permitindo TLS mútuo (mTLS). Anteriormente, o API Gateway podia apresentar apenas um certificado autoassinado gerado; agora você pode usar um certificado assinado por uma autoridade de certificação confiável. Seu ponto de extremidade de integração valida este certificado durante o aperto de mão para confirmar que a conexão vem de sua API. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta funções serverless e o barramento de eventos/filas.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-mutual-tls-backend/"
+    "uid": "aws-news-devops-20260910-01-680ca3a24cac8944",
+    "updateDate": "2026-09-10T14:56:37Z",
+    "titleText": "1. O AWS Lambda agora suporta instâncias EC2 com Graviton5 em instâncias gerenciadas Lambda",
+    "mainText": "Notícia 1 de 5, impacto médio. O AWS Lambda agora suporta instâncias EC2 com Graviton5 em instâncias gerenciadas Lambda. O AWS Lambda agora oferece suporte às instâncias C9g, C9gd, M9g e M9gd do AWS Graviton5 em instâncias gerenciadas do Lambda. Agora você pode executar suas funções Lambda na última geração de processadores Gráviton, oferecendo um desempenho de computação até 25% melhor em comparação com as instâncias com Graviton4. As instâncias gerenciadas do AWS Lambda permitem que você execute funções do Lambda em suas instâncias do AWS EC2, mantendo a simplicidade operacional do Lambda. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta funções serverless e o barramento de eventos/filas.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/"
   },
   {
-    "uid": "aws-news-devops-20260909-02-b9345cbd64af21d5",
-    "updateDate": "2026-09-09T15:03:20Z",
-    "titleText": "2. O Amazon RDS para MariaDB agora suporta as versões menores do MariaDB da comunidade 10.6.28",
-    "mainText": "Notícia 2 de 5, impacto médio. O Amazon RDS para MariaDB agora suporta as versões menores do MariaDB da comunidade 10.6.28, 10.11.19, 11.4.13, 11.8.9 e 12.3.3. A partir de hoje, o Amazon Relational Database Service (Amazon RDS) para MariaDB agora suporta as versões menores do MariaDB 10.6.28, 10.11.19, 11.4.13, 11.8.9 e 12.3.3, os menores mais recentes lançados pela comunidade MariaDB. Além das melhorias operacionais, essas versões menores introduzem suporte para troca de chaves pós-quantum TLS (PQ-TLS), fornecendo opções de criptografia pós-quantum para criptografar seus dados em trânsito. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta provisionamento e pipelines de deploy. Sinais: Segurança, Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/"
+    "uid": "aws-news-devops-20260910-02-ff4bb66b3c4a585e",
+    "updateDate": "2026-09-10T14:55:37Z",
+    "titleText": "2. O AWS Lambda agora oferece suporte a tempo limite de função de 90 minutos em instâncias",
+    "mainText": "Notícia 2 de 5, impacto médio. O AWS Lambda agora oferece suporte a tempo limite de função de 90 minutos em instâncias gerenciadas do Lambda. O AWS Lambda agora oferece suporte a um tempo limite de função de 90 minutos para invocações assíncronas e de mapeamento de origem de eventos (ESM) em instâncias gerenciadas do Lambda (LMI), um aumento de 6x em relação ao limite anterior de 15 minutos. Agora você pode executar processamento de dados, transcodificação de mídia, cálculos financeiros, inferência de IA e cargas de trabalho em lote no Lambda para trabalhos que exigem execução contínua mais longa, sem reestruturar seus aplicativos. Os clientes usam o Lambda para criar aplicativos sem servidor, como processadores orientados a eventos, backends de API e pipelines de processamento de dados. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/"
   },
   {
-    "uid": "aws-news-devops-20260909-03-07a37366a44290cf",
-    "updateDate": "2026-09-09T15:02:20Z",
-    "titleText": "3. O Amazon Timestream for InfluxDB 3 agora suporta plugins personalizados",
-    "mainText": "Notícia 3 de 5, impacto médio. O Amazon Timestream for InfluxDB 3 agora suporta plugins personalizados. O Amazon Timestream for InfluxDB agora permite que você execute seus próprios plugins Python personalizados nas versões gerenciadas das edições InfluxDB 3 Core e Enterprise. Você hospeda seu código de plugin em repositórios públicos ou privados que controla e o mecanismo o busca e o executa em resposta a gatilhos, permitindo que você implemente uma lógica específica para sua carga de trabalho sem criar uma infraestrutura externa separada. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/timestream-influxdb-custom-plugins/"
+    "uid": "aws-news-devops-20260910-03-86c9f09bead6b1ea",
+    "updateDate": "2026-09-10T14:54:37Z",
+    "titleText": "3. O Amazon Bedrock Managed Knowledge Base adiciona APIs e suporte a console para depuração de",
+    "mainText": "Notícia 3 de 5, impacto baixo. O Amazon Bédrock Managed Knowledge Base adiciona APIs e suporte a console para depuração de controle de acesso em nível de documento. A AWS anuncia as APIs CheckIngestedDocumentAcl e GetIngestedDocumentAcl para Amazon Bédrock Managed Knowledge Base, oferecendo aos clientes uma maneira de autoatendimento para depurar problemas de acesso a documentos e auditar permissões em nível de documento. Quando um usuário não vê um documento esperado nos resultados de recuperação para fontes de dados habilitadas para ACL, pode ser difícil determinar se a causa é uma configuração incorreta do controle de acesso ou algo totalmente diferente. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: API / automação.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-knowledge-base-debugging-document-access-control/"
   },
   {
-    "uid": "aws-news-devops-20260909-04-470b8bc45a90e6f6",
-    "updateDate": "2026-09-09T15:01:20Z",
-    "titleText": "4. O OpenAI GPT-6 Astra agora está disponível no Amazon Bedrock",
-    "mainText": "Notícia 4 de 5, impacto baixo. O OpenAI GPT-6 Astra agora está disponível no Amazon Bédrock. Hoje, a AWS anuncia a disponibilidade geral do GPT-6 Astra da OpenAI no Amazon Bédrock. O modelo mais recente e mais capaz da OpenAI até o momento, o GPT-6 Astra traz raciocínio e julgamento mais profundos, redação e design de qualidade profissional e uso avançado de computadores e navegadores para fluxos de trabalho de negócios exigentes. Ele suporta uma janela de contexto de até 1 milhão de tokens de entrada e pode produzir resultados alinhados com a voz, modelos e padrões organizacionais. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/"
+    "uid": "aws-news-devops-20260910-04-a521af762750fe61",
+    "updateDate": "2026-09-10T14:53:37Z",
+    "titleText": "4. A modernização do AWS Transform for.NET agora está disponível via CLI",
+    "mainText": "Notícia 4 de 5, impacto baixo. A modernização do AWS Transform for.NET agora está disponível via CLI. Hoje, a AWS anunciou a disponibilidade geral de uma transformação gerenciada pela AWS para a modernização do.NET no AWS Transform custom que você pode acionar com um único comando CLI de uma linha. Você pode executar essa transformação interativamente ou criá-la em qualquer pipeline ou fluxo de trabalho existente para ser executada de forma autônoma. A experiência da CLI complementa as experiências existentes do AWS Transform for.NET: o aplicativo Web, o Visual Studio IDE, o Kiro Power e os agentes MCP. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-transform-dotnet-cli"
   },
   {
-    "uid": "aws-news-devops-20260909-05-d7d22cb7b3cc0c80",
-    "updateDate": "2026-09-09T15:00:20Z",
-    "titleText": "5. A memória do Amazon Bedrock AgentCore agora suporta a ingestão direta para a memória de longo",
-    "mainText": "Notícia 5 de 5, impacto baixo. A memória do Amazon Bédrock AgentCore agora suporta a ingestão direta para a memória de longo prazo. O Amazon Bédrock AgentCore Memory agora permite que os desenvolvedores enviem conteúdo diretamente para extração de memória de longo prazo sem persistir como um evento de memória de curto prazo. A nova API IngestData aceita conteúdo, distribui-o para as estratégias de memória de longo prazo configuradas da memória e disponibiliza os registros de memória resultantes por meio das mesmas operações de recuperação usadas para quaisquer outros registros de memória de longo prazo, tudo sem criar um evento de curto prazo. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Afeta funções serverless e o barramento de eventos/filas.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentcore-memory-direct-ingest"
+    "uid": "aws-news-devops-20260910-05-e3f1682f86086ebb",
+    "updateDate": "2026-09-10T14:52:37Z",
+    "titleText": "5. O AWS Elemental apresenta o Dynamic Multiview para vídeo ao vivo",
+    "mainText": "Notícia 5 de 5, impacto baixo. O AWS Elemental apresenta o Dynamic Multiview para vídeo ao vivo. O AWS Elemental MediaPackage agora oferece o Dynamic Multiview, um recurso do lado do servidor que compõe várias fontes de vídeo ao vivo em layouts lado a lado selecionados pelo espectador sob demanda. Os provedores de conteúdo podem oferecer experiências de visualização multi-ângulo, multi-jogo e personalizadas como transmissões padrão HLS (HTTP Live Streaming) e DASH (Dynamic Adaptive Streaming over HTTP) reproduzíveis na maioria dos dispositivos de consumo modernos, televisores e decodificadores sem desenvolvimento de player personalizado. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/"
   }
 ]
