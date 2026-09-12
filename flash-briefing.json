@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260911-01-01ced9c1112f90dc",
-    "updateDate": "2026-09-11T14:56:52Z",
-    "titleText": "1. O Amazon ECS expande o suporte da chave de condição do iam para as APIs RunTask e StartTask",
-    "mainText": "Notícia 1 de 5, impacto alto. O Amazon ECS expande o suporte da chave de condição do iam para as APIs RunTask e StartTask. O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte às chaves de condição do iam para recursos de CPU e memória nas APIs RunTask e StartTask. Os administradores podem usar essas chaves para impor limites consistentes de CPU e memória em todos os métodos de inicialização de tarefas do ECS. Isso ajuda as organizações a evitar derrapagens inesperadas de custos e manter as cargas de trabalho alinhadas com suas políticas de recursos. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/"
+    "uid": "aws-news-devops-20260912-01-7107ac05ff9f94ee",
+    "updateDate": "2026-09-12T13:58:14Z",
+    "titleText": "1. O AWS Lambda agora oferece suporte à configuração de leitura direta para arquivos do Amazon S3",
+    "mainText": "Notícia 1 de 5, impacto médio. O AWS Lambda agora oferece suporte à configuração de leitura direta para arquivos do Amazon S3. O AWS Lambda agora oferece suporte à configuração de leitura direta para arquivos do Amazon S3, permitindo que você configure em qual armazenamento suas funções são lidas: armazenamento de alto desempenho do S3 Files ou seu bucket do S3. Com este lançamento, você pode otimizar a taxa de transferência e a latência das leituras de arquivos para suas funções Lambda com base nos requisitos do seu aplicativo. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Impacta armazenamento, backup e retenção.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/"
   },
   {
-    "uid": "aws-news-devops-20260911-02-74b9ba53fe9b0740",
-    "updateDate": "2026-09-11T14:55:52Z",
-    "titleText": "2. O Amazon OpenSearch Serverless agora está disponível na v0 da Vercel",
-    "mainText": "Notícia 2 de 5, impacto alto. O Amazon Open Search Serverless agora está disponível na v0 da Vercel. Agora você pode criar aplicativos de pesquisa e IA completos em minutos usando o Amazon Open Search Serverless on v0 da Vercel, uma plataforma baseada em IA que transforma suas ideias em aplicativos da Web prontos para produção. O Open Search Serverless elimina o gerenciamento de infraestrutura e dimensiona automaticamente a capacidade para cima e para baixo com base na demanda, para que você possa se concentrar na criação e não no gerenciamento de clusters. Por que importa: Afeta seus domínios/coleções do Open Search (busca, ingestão e logs).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/"
+    "uid": "aws-news-devops-20260912-02-fc6c776d2a4a35c7",
+    "updateDate": "2026-09-12T13:57:14Z",
+    "titleText": "2. Instâncias do Amazon EC2 X2idn agora estão disponíveis na Ásia-Pacífico (Hong Kong)",
+    "mainText": "Notícia 2 de 5, impacto médio. Instâncias do Amazon EC2 X2idn agora estão disponíveis na Ásia-Pacífico (Hong Kong). Instâncias do Amazon Elastic Compute Cloud (Amazon EC2) X2idn otimizadas para memória agora estão disponíveis na região Ásia-Pacífico (Hong Kong). Essas instâncias, alimentadas por processadores dimensionáveis Intel Xeon de 3ª geração e construídas com o AWS Nitro System, são projetadas para cargas de trabalho com uso intenso de memória e oferecem melhorias no desempenho em comparação com as instâncias X1 da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/"
   },
   {
-    "uid": "aws-news-devops-20260911-03-e48917f20845ce3d",
-    "updateDate": "2026-09-11T14:54:52Z",
-    "titleText": "3. O Amazon MQ agora suporta o RabbitMQ 4.3",
-    "mainText": "Notícia 3 de 5, impacto alto. O Amazon MQ agora suporta o RabbitMQ 4.3. O Amazon MQ agora suporta o RabbitMQ versão 4.3, que adiciona aprimoramentos de recursos de fila de quórum, como compactação, níveis de prioridade aumentados, tentativas atrasadas nativas e tempos limite graciosos do consumidor. O RabbitMQ 4.3 também inclui várias correções de bugs e melhorias de desempenho para gerenciamento de memória. As filas de quórum no RabbitMQ 4.3 executam compactação para reduzir o uso de disco para filas e suporte nativo para 32 níveis de prioridade rigorosos, em comparação com os 2 níveis relativos suportados nas versões anteriores do RabbitMQ. Por que importa: Pede ação sua: fim de suporte / deprecação. Afeta funções serverless e o barramento de eventos/filas. Afeta a camada de compute e capacidade dos nós. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/"
+    "uid": "aws-news-devops-20260912-03-95806c01d53c8c8c",
+    "updateDate": "2026-09-12T13:56:14Z",
+    "titleText": "3. O AWS HealthOmics agora publica métricas de execução em tempo real no Amazon CloudWatch",
+    "mainText": "Notícia 3 de 5, impacto baixo. O AWS HealthOmics agora publica métricas de execução em tempo real no Amazon Cloud Watch. O AWS HealthOmics agora publica métricas de execução em tempo real no Amazon Cloud Watch, dando visibilidade à utilização de recursos de fluxo de trabalho à medida que as execuções são executadas. As 14 novas métricas de execução abrangem uso de CPU e GPU, uso de memória, uso de sistema de arquivos e métricas de E/S, taxa de transferência de rede e uso de armazenamento efêmero. O AWS HealthOmics é um serviço qualificado pela HIPAA que ajuda os clientes de saúde e ciências biológicas a acelerar avanços científicos em escala com fluxos de trabalho de bioinformática totalmente gerenciados. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/"
   },
   {
-    "uid": "aws-news-devops-20260911-04-f47731fa79a648b8",
-    "updateDate": "2026-09-11T14:53:52Z",
-    "titleText": "4. Anúncio da segunda geração de AWS Outposts de rack único",
-    "mainText": "Notícia 4 de 5, impacto médio. Anúncio da segunda geração de AWS Outposts de rack único. Hoje, a AWS anuncia a disponibilidade geral do AWS Outposts de rack único de segunda geração, um rack autônomo de 42U que integra computação, armazenamento e rede em uma única unidade compacta desenvolvida especificamente para cargas de trabalho que exigem baixa latência, processamento de dados local e residência de dados em locais com restrição de espaço e energia. Um único rack Outposts oferece até 2.688 vCPU e 100 TB de armazenamento Amazon Elastic Block Store (Amazon EBS). Por que importa: Afeta a camada de compute e capacidade dos nós. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/"
+    "uid": "aws-news-devops-20260912-04-0af2c62e5eb1b8d0",
+    "updateDate": "2026-09-12T13:55:14Z",
+    "titleText": "4. O Amazon SageMaker HyperPod agora oferece suporte ao cache de modelos para escalonamento",
+    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Sage Maker HyperPod agora oferece suporte ao cache de modelos para escalonamento automático de inferência mais rápido e redução de partidas a frio. O Amazon Sage Maker HyperPod agora oferece suporte ao cache de modelos, uma otimização de inferência que pré-carrega pesos de modelos e imagens de contêiner em nós de cluster para que os pods sejam iniciados em segundos em vez de minutos. Ao executar a inferência de LLM em escala para cargas de trabalho como assistentes de chat, pipelines agênticos, RAG e análise de documentos, a partida a frio é um verdadeiro gargalo. Implantações e eventos de escalabilidade horizontal passam a maior parte do tempo baixando imagens de contêiner e pesos de modelo. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/"
   },
   {
-    "uid": "aws-news-devops-20260911-05-b65b847026581da9",
-    "updateDate": "2026-09-11T14:52:52Z",
-    "titleText": "5. O Amazon API Gateway agora suporta logs de execução de 1 MB com destinos de entrega configuráveis",
-    "mainText": "Notícia 5 de 5, impacto médio. O Amazon API Gateway agora suporta logs de execução de 1 MB com destinos de entrega configuráveis. O Amazon API Gateway agora suporta destinos de entrega configuráveis e eventos de log maiores para logs de execução da API REST. Anteriormente, os registros de execução eram entregues a um único grupo de registros Cloud Watch Logs gerenciado pelo API Gateway com eventos de registro truncados em 1 KB, limitando a visibilidade dos dados de solicitação e resposta. Agora você pode rotear logs de execução de até 1 MB para seus próprios grupos de log do Amazon Cloud Watch Logs, buckets do Amazon S3 ou fluxos do Amazon Data Firehose e entregar para vários destinos simultaneamente. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs/"
+    "uid": "aws-news-devops-20260912-05-f5cd66b38ec00f45",
+    "updateDate": "2026-09-12T13:54:14Z",
+    "titleText": "5. A Base de conhecimento gerenciada Amazon Bedrock agora oferece suporte a incorporações",
+    "mainText": "Notícia 5 de 5, impacto baixo. A Base de conhecimento gerenciada Amazon Bédrock agora oferece suporte a incorporações multimodais para conteúdo de vídeo, áudio e imagem com o TwelveLabs Marengo 3.0. A AWS anuncia a disponibilidade do TwelveLabs Marengo 3.0 como um modelo de incorporação na Amazon Bédrock Managed Knowledge Base, permitindo que os clientes criem incorporações multimodais para conteúdo de vídeo, áudio e imagem. A Amazon Bédrock Managed Knowledge Base já suporta a pesquisa de mídia, transcrevendo áudio e vídeo para texto e gerando incorporações baseadas em texto - o Marengo 3.0 vai além, codificando cenas visuais, fala e pistas de vídeo diretamente em incorporações multimodais, capturando significados que a transcrição sozinha não pode. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Impacta armazenamento, backup e retenção.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/"
   }
 ]
