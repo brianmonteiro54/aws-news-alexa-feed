@@ -1,37 +1,9 @@
 [
   {
-    "uid": "aws-news-devops-20260912-01-7107ac05ff9f94ee",
-    "updateDate": "2026-09-12T13:58:14Z",
-    "titleText": "1. O AWS Lambda agora oferece suporte à configuração de leitura direta para arquivos do Amazon S3",
-    "mainText": "Notícia 1 de 5, impacto médio. O AWS Lambda agora oferece suporte à configuração de leitura direta para arquivos do Amazon S3. O AWS Lambda agora oferece suporte à configuração de leitura direta para arquivos do Amazon S3, permitindo que você configure em qual armazenamento suas funções são lidas: armazenamento de alto desempenho do S3 Files ou seu bucket do S3. Com este lançamento, você pode otimizar a taxa de transferência e a latência das leituras de arquivos para suas funções Lambda com base nos requisitos do seu aplicativo. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Impacta armazenamento, backup e retenção.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-direct-read-s3files/"
-  },
-  {
-    "uid": "aws-news-devops-20260912-02-fc6c776d2a4a35c7",
-    "updateDate": "2026-09-12T13:57:14Z",
-    "titleText": "2. Instâncias do Amazon EC2 X2idn agora estão disponíveis na Ásia-Pacífico (Hong Kong)",
-    "mainText": "Notícia 2 de 5, impacto médio. Instâncias do Amazon EC2 X2idn agora estão disponíveis na Ásia-Pacífico (Hong Kong). Instâncias do Amazon Elastic Compute Cloud (Amazon EC2) X2idn otimizadas para memória agora estão disponíveis na região Ásia-Pacífico (Hong Kong). Essas instâncias, alimentadas por processadores dimensionáveis Intel Xeon de 3ª geração e construídas com o AWS Nitro System, são projetadas para cargas de trabalho com uso intenso de memória e oferecem melhorias no desempenho em comparação com as instâncias X1 da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x2idn-asia-pacific-hong-kong/"
-  },
-  {
-    "uid": "aws-news-devops-20260912-03-95806c01d53c8c8c",
-    "updateDate": "2026-09-12T13:56:14Z",
-    "titleText": "3. O AWS HealthOmics agora publica métricas de execução em tempo real no Amazon CloudWatch",
-    "mainText": "Notícia 3 de 5, impacto baixo. O AWS HealthOmics agora publica métricas de execução em tempo real no Amazon Cloud Watch. O AWS HealthOmics agora publica métricas de execução em tempo real no Amazon Cloud Watch, dando visibilidade à utilização de recursos de fluxo de trabalho à medida que as execuções são executadas. As 14 novas métricas de execução abrangem uso de CPU e GPU, uso de memória, uso de sistema de arquivos e métricas de E/S, taxa de transferência de rede e uso de armazenamento efêmero. O AWS HealthOmics é um serviço qualificado pela HIPAA que ajuda os clientes de saúde e ciências biológicas a acelerar avanços científicos em escala com fluxos de trabalho de bioinformática totalmente gerenciados. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-realtime-run-metrics/"
-  },
-  {
-    "uid": "aws-news-devops-20260912-04-0af2c62e5eb1b8d0",
-    "updateDate": "2026-09-12T13:55:14Z",
-    "titleText": "4. O Amazon SageMaker HyperPod agora oferece suporte ao cache de modelos para escalonamento",
-    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Sage Maker HyperPod agora oferece suporte ao cache de modelos para escalonamento automático de inferência mais rápido e redução de partidas a frio. O Amazon Sage Maker HyperPod agora oferece suporte ao cache de modelos, uma otimização de inferência que pré-carrega pesos de modelos e imagens de contêiner em nós de cluster para que os pods sejam iniciados em segundos em vez de minutos. Ao executar a inferência de LLM em escala para cargas de trabalho como assistentes de chat, pipelines agênticos, RAG e análise de documentos, a partida a frio é um verdadeiro gargalo. Implantações e eventos de escalabilidade horizontal passam a maior parte do tempo baixando imagens de contêiner e pesos de modelo. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/sgm-hyperpod-model-caching-inf/"
-  },
-  {
-    "uid": "aws-news-devops-20260912-05-f5cd66b38ec00f45",
-    "updateDate": "2026-09-12T13:54:14Z",
-    "titleText": "5. A Base de conhecimento gerenciada Amazon Bedrock agora oferece suporte a incorporações",
-    "mainText": "Notícia 5 de 5, impacto baixo. A Base de conhecimento gerenciada Amazon Bédrock agora oferece suporte a incorporações multimodais para conteúdo de vídeo, áudio e imagem com o TwelveLabs Marengo 3.0. A AWS anuncia a disponibilidade do TwelveLabs Marengo 3.0 como um modelo de incorporação na Amazon Bédrock Managed Knowledge Base, permitindo que os clientes criem incorporações multimodais para conteúdo de vídeo, áudio e imagem. A Amazon Bédrock Managed Knowledge Base já suporta a pesquisa de mídia, transcrevendo áudio e vídeo para texto e gerando incorporações baseadas em texto - o Marengo 3.0 vai além, codificando cenas visuais, fala e pistas de vídeo diretamente em incorporações multimodais, capturando significados que a transcrição sozinha não pode. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Impacta armazenamento, backup e retenção.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-multimodal-embeddings-twelvelabs-marengo/"
+    "uid": "aws-news-devops-20260913-01-18dc05538834873f",
+    "updateDate": "2026-09-13T14:53:17Z",
+    "titleText": "1. O AWS Elemental MediaLive permite o bloqueio de pipeline com precisão de quadro para fluxos sem",
+    "mainText": "Notícia 1 de 1, impacto baixo. O AWS Elemental MediaLive permite o bloqueio de pipeline com precisão de quadro para fluxos sem código de tempo. O AWS Elemental MediaLive agora suporta o Bloqueio Alinhado por Vídeo, um novo recurso para sincronizar pipelines de vídeo sem exigir timecode da fonte. Anteriormente, alcançar o bloqueio preciso de quadros em saídas de vídeo exigia investir em hardware especializado ou gerenciar fluxos de trabalho de sincronização externos complexos. Embora o timecode seja geralmente padrão para conteúdo de transmissão tradicional altamente produzido, ele geralmente não está disponível e é difícil de gerenciar em fluxos de trabalho típicos de streaming digital. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/"
   }
 ]
