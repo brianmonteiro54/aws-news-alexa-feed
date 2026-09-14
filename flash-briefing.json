@@ -1,7 +1,7 @@
 [
   {
-    "uid": "aws-news-devops-20260913-01-18dc05538834873f",
-    "updateDate": "2026-09-13T14:53:17Z",
+    "uid": "aws-news-devops-20260914-01-18dc05538834873f",
+    "updateDate": "2026-09-14T16:54:56Z",
     "titleText": "1. O AWS Elemental MediaLive permite o bloqueio de pipeline com precisão de quadro para fluxos sem",
     "mainText": "Notícia 1 de 1, impacto baixo. O AWS Elemental MediaLive permite o bloqueio de pipeline com precisão de quadro para fluxos sem código de tempo. O AWS Elemental MediaLive agora suporta o Bloqueio Alinhado por Vídeo, um novo recurso para sincronizar pipelines de vídeo sem exigir timecode da fonte. Anteriormente, alcançar o bloqueio preciso de quadros em saídas de vídeo exigia investir em hardware especializado ou gerenciar fluxos de trabalho de sincronização externos complexos. Embora o timecode seja geralmente padrão para conteúdo de transmissão tradicional altamente produzido, ele geralmente não está disponível e é difícil de gerenciar em fluxos de trabalho típicos de streaming digital. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/"

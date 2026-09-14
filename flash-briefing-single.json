@@ -1,7 +1,7 @@
 {
-  "uid": "aws-news-devops-resumo-20260913T1453",
-  "updateDate": "2026-09-13T14:53:17Z",
-  "titleText": "Novidades AWS para DevOps: ultimas 36h",
-  "mainText": "Encontrei 1 novidade da AWS nas últimas 36 horas, em ordem de impacto para o seu ambiente de DevOps. Observação: não houve publicações nas últimas 24 horas, então ampliei a busca para 36 horas. Notícia 1, impacto baixo. O AWS Elemental MediaLive permite o bloqueio de pipeline com precisão de quadro para fluxos sem código de tempo. O AWS Elemental MediaLive agora suporta o Bloqueio Alinhado por Vídeo, um novo recurso para sincronizar pipelines de vídeo sem exigir timecode da fonte. Anteriormente, alcançar o bloqueio preciso de quadros em saídas de vídeo exigia investir em hardware Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack. Esse foi o resumo das novidades da AWS. Bom trabalho.",
+  "uid": "aws-news-devops-resumo-20260914T1654",
+  "updateDate": "2026-09-14T16:54:56Z",
+  "titleText": "Novidades AWS para DevOps: ultimas 60h",
+  "mainText": "Encontrei 1 novidade da AWS nas últimas 60 horas, em ordem de impacto para o seu ambiente de DevOps. Observação: não houve publicações nas últimas 24 horas, então ampliei a busca para 60 horas. Notícia 1, impacto baixo. O AWS Elemental MediaLive permite o bloqueio de pipeline com precisão de quadro para fluxos sem código de tempo. O AWS Elemental MediaLive agora suporta o Bloqueio Alinhado por Vídeo, um novo recurso para sincronizar pipelines de vídeo sem exigir timecode da fonte. Anteriormente, alcançar o bloqueio preciso de quadros em saídas de vídeo exigia investir em hardware Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack. Esse foi o resumo das novidades da AWS. Bom trabalho.",
   "redirectionUrl": "https://aws.amazon.com/new/"
 }
