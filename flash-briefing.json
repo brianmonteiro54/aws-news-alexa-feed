@@ -1,9 +1,30 @@
 [
   {
-    "uid": "aws-news-devops-20260914-01-18dc05538834873f",
-    "updateDate": "2026-09-14T16:54:56Z",
-    "titleText": "1. O AWS Elemental MediaLive permite o bloqueio de pipeline com precisão de quadro para fluxos sem",
-    "mainText": "Notícia 1 de 1, impacto baixo. O AWS Elemental MediaLive permite o bloqueio de pipeline com precisão de quadro para fluxos sem código de tempo. O AWS Elemental MediaLive agora suporta o Bloqueio Alinhado por Vídeo, um novo recurso para sincronizar pipelines de vídeo sem exigir timecode da fonte. Anteriormente, alcançar o bloqueio preciso de quadros em saídas de vídeo exigia investir em hardware especializado ou gerenciar fluxos de trabalho de sincronização externos complexos. Embora o timecode seja geralmente padrão para conteúdo de transmissão tradicional altamente produzido, ele geralmente não está disponível e é difícil de gerenciar em fluxos de trabalho típicos de streaming digital. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/medialive-pipeline-locking/"
+    "uid": "aws-news-devops-20260915-01-83ed15bcf4e27e50",
+    "updateDate": "2026-09-15T15:30:50Z",
+    "titleText": "1. Modelos de difusores Qwen3.6-35B-A3B-NVFP4 e Wan2.1-T2V-1.3B agora disponíveis no Amazon",
+    "mainText": "Notícia 1 de 4, impacto baixo. Modelos de difusores Qwen3.6-35B-A3B-NVFP4 e Wan2.1-T2V-1.3B agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Qwen3.6-35B-A3B-NVFP4 da NVIDIA e Wan2.1-T2V-1.3B-Diffusers da Alibaba estão agora disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para clientes da AWS. Esses dois modelos trazem recursos especializados que abrangem codificação agêntica com raciocínio de longo contexto e geração leve de texto para vídeo, permitindo que os clientes implantem soluções de IA escaláveis e de alto desempenho na infraestrutura da AWS. Esses modelos abordam diferentes desafios de IA corporativa com recursos especializados:. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/"
+  },
+  {
+    "uid": "aws-news-devops-20260915-02-2d552fccdb9b5185",
+    "updateDate": "2026-09-15T15:29:50Z",
+    "titleText": "2. Modelos Ministral-3-3B-Instruct-2512 e Ministral-3-8B-Instruct-2512 agora disponíveis no Amazon",
+    "mainText": "Notícia 2 de 4, impacto baixo. Modelos Ministral-3-3B-Instruct-2512 e Ministral-3-8B-Instruct-2512 agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Ministral-3-3B-Instruct-2512 e Ministral-3-8B-Instruct-2512 da Mistral AI estão agora disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para os clientes da AWS. Esses dois modelos da família Ministral 3 trazem modelos de linguagem compactos e com capacidade de visão criados especificamente para implantação de borda e ambientes com restrição de recursos, permitindo que os clientes implantem soluções de IA escaláveis e de alto desempenho na infraestrutura da AWS. Esses modelos abordam diferentes desafios de IA corporativa com recursos especializados:. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/"
+  },
+  {
+    "uid": "aws-news-devops-20260915-03-e71e2532303de3bf",
+    "updateDate": "2026-09-15T15:28:50Z",
+    "titleText": "3. Modelos Gemma-4-31B-it-assistant e Gemma-4-31B-IT-NVFP4 agora disponíveis no Amazon SageMaker",
+    "mainText": "Notícia 3 de 4, impacto baixo. Modelos Gemma-4-31B-it-assistant e Gemma-4-31B-IT-NVFP4 agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Gemma-4-31B-it-assistent do Google DeepMind e Gemma-4-31B-IT-NVFP4 da NVIDIA estão agora disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para clientes da AWS. Esses dois modelos trazem a principal arquitetura densa Gemma 4 31B para cargas de trabalho corporativas em variantes quantizadas de precisão total e otimizadas, permitindo que os clientes implantem soluções de IA escaláveis e de alto desempenho na infraestrutura da AWS. Esses modelos abordam diferentes desafios de IA corporativa com recursos especializados:. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/gemma-4-31b-it-assistant-gemma-4-31b-it-nvfp4-jumpstart/"
+  },
+  {
+    "uid": "aws-news-devops-20260915-04-9ca2d16b6c7e98e1",
+    "updateDate": "2026-09-15T15:27:50Z",
+    "titleText": "4. modelos granite-speech-4.1-2b, kanana-2-30b-a3b-instruct e OpenFold3 agora disponíveis no Amazon",
+    "mainText": "Notícia 4 de 4, impacto baixo. modelos granite-speech-4.1-2b, kanana-2-30b-a3b-instruct e OpenFold3 agora disponíveis no Amazon Sage Maker JumpStart. O Granite-speech-4.1-2b da BM, o kanana-2-30b-a3b-instruct da Kakao e os modelos OpenFold3 do OpenFold Consortium estão agora disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para os clientes da AWS. Esses três modelos trazem recursos especializados que abrangem reconhecimento de fala multilíngue, IA agêntica bilíngue e previsão de estrutura biomolecular, permitindo que os clientes implantem soluções de IA escaláveis e de alto desempenho na infraestrutura da AWS. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/granite-speech-4.1-2b-edge-kanana-2-30b-a3b-instruct-openfold3-jumpstart/"
   }
 ]
