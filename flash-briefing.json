@@ -1,30 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260915-01-83ed15bcf4e27e50",
-    "updateDate": "2026-09-15T15:30:50Z",
-    "titleText": "1. Modelos de difusores Qwen3.6-35B-A3B-NVFP4 e Wan2.1-T2V-1.3B agora disponíveis no Amazon",
-    "mainText": "Notícia 1 de 4, impacto baixo. Modelos de difusores Qwen3.6-35B-A3B-NVFP4 e Wan2.1-T2V-1.3B agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Qwen3.6-35B-A3B-NVFP4 da NVIDIA e Wan2.1-T2V-1.3B-Diffusers da Alibaba estão agora disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para clientes da AWS. Esses dois modelos trazem recursos especializados que abrangem codificação agêntica com raciocínio de longo contexto e geração leve de texto para vídeo, permitindo que os clientes implantem soluções de IA escaláveis e de alto desempenho na infraestrutura da AWS. Esses modelos abordam diferentes desafios de IA corporativa com recursos especializados:. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/qwen3.6-35b-a3b-nvfp4-wan2.1-t2v-1.3B-diffusers-jumpstart/"
+    "uid": "aws-news-devops-20260916-01-b2ab91d95842e696",
+    "updateDate": "2026-09-16T15:22:56Z",
+    "titleText": "1. Analise seus eventos do CloudTrail usando linguagem natural no Amazon Q Console",
+    "mainText": "Notícia 1 de 5, impacto alto. Analise seus eventos do Cloud Trail usando linguagem natural no Amazon Q Console. O AWS Cloud Trail, um serviço que registra a atividade da API em sua conta da AWS para auditoria de segurança, conformidade e solução de problemas operacionais, agora se integra ao Amazon Q Console para ajudá-lo a investigar a atividade da sua conta da AWS usando linguagem natural. Você pode fazer perguntas ao Amazon Q Console sobre sua configuração do Cloud Trail, consultar seus eventos registrados para investigações de segurança e solucionar problemas operacionais sem escrever consultas ou analisar manualmente arquivos de log. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudtrail-amazon-q-console/"
   },
   {
-    "uid": "aws-news-devops-20260915-02-2d552fccdb9b5185",
-    "updateDate": "2026-09-15T15:29:50Z",
-    "titleText": "2. Modelos Ministral-3-3B-Instruct-2512 e Ministral-3-8B-Instruct-2512 agora disponíveis no Amazon",
-    "mainText": "Notícia 2 de 4, impacto baixo. Modelos Ministral-3-3B-Instruct-2512 e Ministral-3-8B-Instruct-2512 agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Ministral-3-3B-Instruct-2512 e Ministral-3-8B-Instruct-2512 da Mistral AI estão agora disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para os clientes da AWS. Esses dois modelos da família Ministral 3 trazem modelos de linguagem compactos e com capacidade de visão criados especificamente para implantação de borda e ambientes com restrição de recursos, permitindo que os clientes implantem soluções de IA escaláveis e de alto desempenho na infraestrutura da AWS. Esses modelos abordam diferentes desafios de IA corporativa com recursos especializados:. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/ministral-3-3b-instruct-2512-ministral-3-8B-Instruct-2512-jumpstart/"
+    "uid": "aws-news-devops-20260916-02-ea40a27f2d157a20",
+    "updateDate": "2026-09-16T15:21:56Z",
+    "titleText": "2. O AWS Direct Connect anuncia preços fixos para conexões dedicadas",
+    "mainText": "Notícia 2 de 5, impacto médio. O AWS Direct Connect anuncia preços fixos para conexões dedicadas. O AWS Direct Connect anuncia preços fixos para conexões dedicadas de 10G e 100G O AWS Direct Connect fornece conectividade de rede dedicada de ambientes locais para a AWS. Os clientes valorizam a flexibilidade dos preços pagos conforme o uso do AWS Direct Connect, pagando apenas pelas horas de portabilidade e transferência de dados (DTO) que usam, sem compromisso antecipado ou contratos de longo prazo. Por que importa: Impacta topologia de rede e exposição de serviços. Tem efeito em custo/governança da conta.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/"
   },
   {
-    "uid": "aws-news-devops-20260915-03-e71e2532303de3bf",
-    "updateDate": "2026-09-15T15:28:50Z",
-    "titleText": "3. Modelos Gemma-4-31B-it-assistant e Gemma-4-31B-IT-NVFP4 agora disponíveis no Amazon SageMaker",
-    "mainText": "Notícia 3 de 4, impacto baixo. Modelos Gemma-4-31B-it-assistant e Gemma-4-31B-IT-NVFP4 agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Gemma-4-31B-it-assistent do Google DeepMind e Gemma-4-31B-IT-NVFP4 da NVIDIA estão agora disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para clientes da AWS. Esses dois modelos trazem a principal arquitetura densa Gemma 4 31B para cargas de trabalho corporativas em variantes quantizadas de precisão total e otimizadas, permitindo que os clientes implantem soluções de IA escaláveis e de alto desempenho na infraestrutura da AWS. Esses modelos abordam diferentes desafios de IA corporativa com recursos especializados:. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/gemma-4-31b-it-assistant-gemma-4-31b-it-nvfp4-jumpstart/"
+    "uid": "aws-news-devops-20260916-03-dac8f9d0fa07ea40",
+    "updateDate": "2026-09-16T15:20:56Z",
+    "titleText": "3. O AWS Step Functions adiciona novas integrações de serviço da AWS automaticamente, começando com",
+    "mainText": "Notícia 3 de 5, impacto médio. O AWS Step Functions adiciona novas integrações de serviço da AWS automaticamente, começando com o AWS Lambda MicroVMs. O AWS Step Functions agora adiciona automaticamente integrações do AWS SDK para novos serviços e recursos da AWS dentro de semanas após o lançamento, começando com o AWS Lambda MicroVMs, o AWS Lambda Core e outros. Agora, você pode orquestrar os serviços mais recentes da AWS a partir de seus fluxos de trabalho sem esperar por atualizações. O AWS Step Functions é um serviço de fluxo de trabalho visual capaz de orquestrar mais de 220 serviços da AWS para ajudar os clientes a criar aplicativos distribuídos em escala. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-integrations/"
   },
   {
-    "uid": "aws-news-devops-20260915-04-9ca2d16b6c7e98e1",
-    "updateDate": "2026-09-15T15:27:50Z",
-    "titleText": "4. modelos granite-speech-4.1-2b, kanana-2-30b-a3b-instruct e OpenFold3 agora disponíveis no Amazon",
-    "mainText": "Notícia 4 de 4, impacto baixo. modelos granite-speech-4.1-2b, kanana-2-30b-a3b-instruct e OpenFold3 agora disponíveis no Amazon Sage Maker JumpStart. O Granite-speech-4.1-2b da BM, o kanana-2-30b-a3b-instruct da Kakao e os modelos OpenFold3 do OpenFold Consortium estão agora disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para os clientes da AWS. Esses três modelos trazem recursos especializados que abrangem reconhecimento de fala multilíngue, IA agêntica bilíngue e previsão de estrutura biomolecular, permitindo que os clientes implantem soluções de IA escaláveis e de alto desempenho na infraestrutura da AWS. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/granite-speech-4.1-2b-edge-kanana-2-30b-a3b-instruct-openfold3-jumpstart/"
+    "uid": "aws-news-devops-20260916-04-1063ae0778b60182",
+    "updateDate": "2026-09-16T15:19:56Z",
+    "titleText": "4. Monitore anomalias de custo diretamente nos Painéis de Faturamento e Gerenciamento de Custos com",
+    "mainText": "Notícia 4 de 5, impacto médio. Monitore anomalias de custo diretamente nos Painéis de Faturamento e Gerenciamento de Custos com o novo widget de Anomalias Detectadas. Hoje, o AWS Billing and Cost Management (BCM) anuncia o suporte ao widget de anomalias detectadas nos painéis do BCM. Agora você pode revisar as anomalias de custo, juntamente com custo e uso, orçamentos, eficiência de custo e relatórios para cobertura e utilização de Planos de Poupança e Instância Reservada. Isso fornece uma visão unificada de seus gastos, compromissos e anomalias de custo em um único painel personalizado. Por que importa: Tem efeito em custo/governança da conta. Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards"
+  },
+  {
+    "uid": "aws-news-devops-20260916-05-0d8a5bf3f751b190",
+    "updateDate": "2026-09-16T15:18:56Z",
+    "titleText": "5. O AWS Billing Conductor agora suporta taxas personalizadas e configurações de preços de nível de",
+    "mainText": "Notícia 5 de 5, impacto baixo. O AWS Billing Conductor agora suporta taxas personalizadas e configurações de preços de nível de uso. O AWS Billing Conductor agora permite definir preços de taxa personalizada para serviços da AWS, incluindo a definição de níveis de uso personalizados para configurar taxas pelo volume de uso desejado. Clientes e parceiros que usam o AWS Billing Conductor para modelar acordos comerciais com subsidiárias, afiliadas ou clientes finais agora podem refletir mais facilmente seus preços negociados em dados de faturamento pro forma. Por que importa: Tem efeito em custo/governança da conta.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/AWS-Billing-Conductor-custom-rates-usage-tier"
   }
 ]
