@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260916-01-b2ab91d95842e696",
-    "updateDate": "2026-09-16T15:22:56Z",
-    "titleText": "1. Analise seus eventos do CloudTrail usando linguagem natural no Amazon Q Console",
-    "mainText": "Notícia 1 de 5, impacto alto. Analise seus eventos do Cloud Trail usando linguagem natural no Amazon Q Console. O AWS Cloud Trail, um serviço que registra a atividade da API em sua conta da AWS para auditoria de segurança, conformidade e solução de problemas operacionais, agora se integra ao Amazon Q Console para ajudá-lo a investigar a atividade da sua conta da AWS usando linguagem natural. Você pode fazer perguntas ao Amazon Q Console sobre sua configuração do Cloud Trail, consultar seus eventos registrados para investigações de segurança e solucionar problemas operacionais sem escrever consultas ou analisar manualmente arquivos de log. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudtrail-amazon-q-console/"
+    "uid": "aws-news-devops-20260917-01-0e84caaa12afc4e5",
+    "updateDate": "2026-09-17T15:29:47Z",
+    "titleText": "1. O Amazon ECS estende o suporte do Amazon S3 Files para o tipo de computação do Amazon EC2",
+    "mainText": "Notícia 1 de 5, impacto alto. O Amazon ECS estende o suporte do Amazon S3 Files para o tipo de computação do Amazon EC2. O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte ao Amazon S3 Files para tarefas em execução no tipo de lançamento do Amazon EC2, permitindo que os clientes conectem seus aplicativos em contêiner diretamente aos dados no Amazon S3 como um sistema de arquivos compartilhado. Com este lançamento, os clientes que executam cargas de trabalho do ECS em instâncias do EC2 podem trabalhar com seus dados do S3 usando a semântica padrão do sistema de arquivos, de modo que aplicativos baseados em arquivos, agentes de IA e cargas de trabalho de processamento de dados sejam executados em dados do S3 sem alterações de código e sem duplicar ou preparar arquivos primeiro. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/"
   },
   {
-    "uid": "aws-news-devops-20260916-02-ea40a27f2d157a20",
-    "updateDate": "2026-09-16T15:21:56Z",
-    "titleText": "2. O AWS Direct Connect anuncia preços fixos para conexões dedicadas",
-    "mainText": "Notícia 2 de 5, impacto médio. O AWS Direct Connect anuncia preços fixos para conexões dedicadas. O AWS Direct Connect anuncia preços fixos para conexões dedicadas de 10G e 100G O AWS Direct Connect fornece conectividade de rede dedicada de ambientes locais para a AWS. Os clientes valorizam a flexibilidade dos preços pagos conforme o uso do AWS Direct Connect, pagando apenas pelas horas de portabilidade e transferência de dados (DTO) que usam, sem compromisso antecipado ou contratos de longo prazo. Por que importa: Impacta topologia de rede e exposição de serviços. Tem efeito em custo/governança da conta.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-direct-connect-announces-flat-rate-pricing/"
+    "uid": "aws-news-devops-20260917-02-b3c142552fe9e7f4",
+    "updateDate": "2026-09-17T15:28:47Z",
+    "titleText": "2. O AWS Client VPN agora suporta o MacOS 27 Golden Gate",
+    "mainText": "Notícia 2 de 5, impacto médio. O AWS Client VPN agora suporta o MacOS 27 Golden Gate. O AWS Client VPN agora suporta o cliente MacOS 27 Golden Gate com versões 6.0+ Agora você pode executar o cliente VPN fornecido pela AWS nas versões mais recentes do MacOS. Os clientes de desktop AWS Client VPN estão disponíveis gratuitamente e podem ser baixados aqui. O AWS Client VPN é um serviço gerenciado que conecta com segurança sua força de trabalho remota à AWS ou a redes locais. Por que importa: Impacta topologia de rede e exposição de serviços. Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/"
   },
   {
-    "uid": "aws-news-devops-20260916-03-dac8f9d0fa07ea40",
-    "updateDate": "2026-09-16T15:20:56Z",
-    "titleText": "3. O AWS Step Functions adiciona novas integrações de serviço da AWS automaticamente, começando com",
-    "mainText": "Notícia 3 de 5, impacto médio. O AWS Step Functions adiciona novas integrações de serviço da AWS automaticamente, começando com o AWS Lambda MicroVMs. O AWS Step Functions agora adiciona automaticamente integrações do AWS SDK para novos serviços e recursos da AWS dentro de semanas após o lançamento, começando com o AWS Lambda MicroVMs, o AWS Lambda Core e outros. Agora, você pode orquestrar os serviços mais recentes da AWS a partir de seus fluxos de trabalho sem esperar por atualizações. O AWS Step Functions é um serviço de fluxo de trabalho visual capaz de orquestrar mais de 220 serviços da AWS para ajudar os clientes a criar aplicativos distribuídos em escala. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-step-functions-integrations/"
+    "uid": "aws-news-devops-20260917-03-9db053c128a7d23f",
+    "updateDate": "2026-09-17T15:27:47Z",
+    "titleText": "3. Amazon SageMaker AI agora suporta personalização de modelo sem servidor para NVIDIA Nemotron 3.5",
+    "mainText": "Notícia 3 de 5, impacto baixo. Amazon Sage Maker AI agora suporta personalização de modelo sem servidor para NVIDIA Nemotron 3.5 Lightning. O Amazon Sage Maker AI agora oferece suporte à personalização de modelos sem servidor para o modelo NVIDIA Nemotron 3.5 Lightning usando ajuste fino supervisionado (SFT), otimização de preferência direta (DPO) e ajuste fino de reforço (RFT). Este é um dos mais recentes modelos de peso aberto da NVIDIA e emprega uma arquitetura híbrida Mixture-of-Experts com 3B parâmetros ativos e 30B parâmetros no total. Além de implantar esse modelo no Sage Maker AI, agora você pode adaptá-lo aos seus domínios e fluxos de trabalho específicos. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/"
   },
   {
-    "uid": "aws-news-devops-20260916-04-1063ae0778b60182",
-    "updateDate": "2026-09-16T15:19:56Z",
-    "titleText": "4. Monitore anomalias de custo diretamente nos Painéis de Faturamento e Gerenciamento de Custos com",
-    "mainText": "Notícia 4 de 5, impacto médio. Monitore anomalias de custo diretamente nos Painéis de Faturamento e Gerenciamento de Custos com o novo widget de Anomalias Detectadas. Hoje, o AWS Billing and Cost Management (BCM) anuncia o suporte ao widget de anomalias detectadas nos painéis do BCM. Agora você pode revisar as anomalias de custo, juntamente com custo e uso, orçamentos, eficiência de custo e relatórios para cobertura e utilização de Planos de Poupança e Instância Reservada. Isso fornece uma visão unificada de seus gastos, compromissos e anomalias de custo em um único painel personalizado. Por que importa: Tem efeito em custo/governança da conta. Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/monitor-detected-anomalies-using-dashboards"
+    "uid": "aws-news-devops-20260917-04-8d27509e556d1ec7",
+    "updateDate": "2026-09-17T15:26:47Z",
+    "titleText": "4. O Amazon Corretto 27 agora está disponível para o público em geral",
+    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Corretto 27 agora está disponível para o público em geral. O Amazon Corretto 27, uma versão do Feature Release (FR), já está disponível para download. O Amazon Corretto é uma distribuição gratuita, multiplataforma e pronta para produção do OpenJDK. Você pode baixar o Corretto 27 para Linux, Windows e macOS em nossa página de downloads. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/"
   },
   {
-    "uid": "aws-news-devops-20260916-05-0d8a5bf3f751b190",
-    "updateDate": "2026-09-16T15:18:56Z",
-    "titleText": "5. O AWS Billing Conductor agora suporta taxas personalizadas e configurações de preços de nível de",
-    "mainText": "Notícia 5 de 5, impacto baixo. O AWS Billing Conductor agora suporta taxas personalizadas e configurações de preços de nível de uso. O AWS Billing Conductor agora permite definir preços de taxa personalizada para serviços da AWS, incluindo a definição de níveis de uso personalizados para configurar taxas pelo volume de uso desejado. Clientes e parceiros que usam o AWS Billing Conductor para modelar acordos comerciais com subsidiárias, afiliadas ou clientes finais agora podem refletir mais facilmente seus preços negociados em dados de faturamento pro forma. Por que importa: Tem efeito em custo/governança da conta.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/AWS-Billing-Conductor-custom-rates-usage-tier"
+    "uid": "aws-news-devops-20260917-05-469f32f4a6c8d4f5",
+    "updateDate": "2026-09-17T15:25:47Z",
+    "titleText": "5. A nova experiência da AWS ajuda os construtores a começar e enviar mais rapidamente",
+    "mainText": "Notícia 5 de 5, impacto baixo. A nova experiência da AWS ajuda os construtores a começar e enviar mais rapidamente. Os desenvolvedores agora podem se inscrever para uma nova experiência simplificada que agiliza a transformação de ideias em código em execução na AWS. Os serviços da AWS fornecem uma variedade de opções de configuração para que as maiores empresas possam personalizar as configurações para suas necessidades distintas. Até agora, os construtores com uma nova ideia de projeto tinham que decidir entre essas opções e configurar seu ambiente AWS antes de começar a construir. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Ferramental de operação do dia a dia. Sinais: Custo / preço, Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience"
   }
 ]
