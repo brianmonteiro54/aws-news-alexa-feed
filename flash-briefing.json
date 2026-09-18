@@ -1,37 +1,30 @@
 [
   {
-    "uid": "aws-news-devops-20260917-01-0e84caaa12afc4e5",
-    "updateDate": "2026-09-17T15:29:47Z",
-    "titleText": "1. O Amazon ECS estende o suporte do Amazon S3 Files para o tipo de computação do Amazon EC2",
-    "mainText": "Notícia 1 de 5, impacto alto. O Amazon ECS estende o suporte do Amazon S3 Files para o tipo de computação do Amazon EC2. O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte ao Amazon S3 Files para tarefas em execução no tipo de lançamento do Amazon EC2, permitindo que os clientes conectem seus aplicativos em contêiner diretamente aos dados no Amazon S3 como um sistema de arquivos compartilhado. Com este lançamento, os clientes que executam cargas de trabalho do ECS em instâncias do EC2 podem trabalhar com seus dados do S3 usando a semântica padrão do sistema de arquivos, de modo que aplicativos baseados em arquivos, agentes de IA e cargas de trabalho de processamento de dados sejam executados em dados do S3 sem alterações de código e sem duplicar ou preparar arquivos primeiro. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-s3-files-ec2/"
+    "uid": "aws-news-devops-20260918-01-6ffc1caa0e1a2bd0",
+    "updateDate": "2026-09-18T14:53:45Z",
+    "titleText": "1. AWS Transfer Family agora oferece suporte à preservação de IP de origem para servidores SFTP",
+    "mainText": "Notícia 1 de 4, impacto médio. AWS Transfer Family agora oferece suporte à preservação de IP de origem para servidores SFTP atrás de um Network Load Balancer (NLB). O AWS Transfer Family agora preserva o endereço IP de origem do cliente usando o Proxy Protocol v2 (PPv2) quando você coloca um Network Load Balancer (NLB) na frente do seu servidor SFTP que usa um endpoint hospedado em VPC. Agora você pode manter a visibilidade do IP de origem do cliente para auditoria baseada em IP, controles de acesso e conformidade ao usar seu próprio NLB. Anteriormente, um NLB substituía o IP de origem do cliente por seu próprio endereço IP privado, portanto, os logs e eventos da família de transferência registravam o endereço do NLB em vez do IP de origem do cliente. Por que importa: Impacta topologia de rede e exposição de serviços. Ferramental de operação do dia a dia. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/"
   },
   {
-    "uid": "aws-news-devops-20260917-02-b3c142552fe9e7f4",
-    "updateDate": "2026-09-17T15:28:47Z",
-    "titleText": "2. O AWS Client VPN agora suporta o MacOS 27 Golden Gate",
-    "mainText": "Notícia 2 de 5, impacto médio. O AWS Client VPN agora suporta o MacOS 27 Golden Gate. O AWS Client VPN agora suporta o cliente MacOS 27 Golden Gate com versões 6.0+ Agora você pode executar o cliente VPN fornecido pela AWS nas versões mais recentes do MacOS. Os clientes de desktop AWS Client VPN estão disponíveis gratuitamente e podem ser baixados aqui. O AWS Client VPN é um serviço gerenciado que conecta com segurança sua força de trabalho remota à AWS ou a redes locais. Por que importa: Impacta topologia de rede e exposição de serviços. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-client-vpn-macos-golden-gate/"
+    "uid": "aws-news-devops-20260918-02-8e6048102fa662cb",
+    "updateDate": "2026-09-18T14:52:45Z",
+    "titleText": "2. Apresentando as instâncias T8i do Amazon EC2",
+    "mainText": "Notícia 2 de 4, impacto médio. Apresentando as instâncias T8i do Amazon EC2. A AWS está anunciando a disponibilidade geral de novas instâncias expansíveis T8i do Amazon EC2 de baixo custo. Essas instâncias são equipadas com processadores Intel Xeon 6 de sexta geração personalizados, disponíveis exclusivamente na AWS e construídas nas placas AWS Nitro de sexta geração mais recentes. As instâncias T8i oferecem desempenho de preço até 30% melhor em comparação com as instâncias T3 da geração anterior e oferecem quatro tamanhos: nano, micro, pequeno e médio. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta armazenamento, backup e retenção. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-t8i-instances-ga/"
   },
   {
-    "uid": "aws-news-devops-20260917-03-9db053c128a7d23f",
-    "updateDate": "2026-09-17T15:27:47Z",
-    "titleText": "3. Amazon SageMaker AI agora suporta personalização de modelo sem servidor para NVIDIA Nemotron 3.5",
-    "mainText": "Notícia 3 de 5, impacto baixo. Amazon Sage Maker AI agora suporta personalização de modelo sem servidor para NVIDIA Nemotron 3.5 Lightning. O Amazon Sage Maker AI agora oferece suporte à personalização de modelos sem servidor para o modelo NVIDIA Nemotron 3.5 Lightning usando ajuste fino supervisionado (SFT), otimização de preferência direta (DPO) e ajuste fino de reforço (RFT). Este é um dos mais recentes modelos de peso aberto da NVIDIA e emprega uma arquitetura híbrida Mixture-of-Experts com 3B parâmetros ativos e 30B parâmetros no total. Além de implantar esse modelo no Sage Maker AI, agora você pode adaptá-lo aos seus domínios e fluxos de trabalho específicos. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sagemaker-ft-nemotron-3-5-lightning/"
+    "uid": "aws-news-devops-20260918-03-0a42ce27b62c0e56",
+    "updateDate": "2026-09-18T14:51:45Z",
+    "titleText": "3. AWS Batch agora oferece suporte ao cancelamento e encerramento de trabalhos em massa",
+    "mainText": "Notícia 3 de 4, impacto médio. AWS Batch agora oferece suporte ao cancelamento e encerramento de trabalhos em massa. O AWS Batch agora oferece suporte ao cancelamento e encerramento de trabalhos em massa, permitindo cancelar ou encerrar até 50 trabalhos com uma única chamada de API. As novas APIs CancelJobs, TerminateJobs e TerminateServiceJobs reduzem a complexidade operacional do gerenciamento de cargas de trabalho em lote em grande escala, permitindo que você atue em grupos de trabalhos de uma só vez e receba resultados por trabalho em uma única resposta. Além disso, ListJobs agora retorna os campos isCancelled e isTerminated, e ListServiceJobs retorna isTerminated, facilitando o rastreamento do estado do ciclo de vida de seus trabalhos. Por que importa: Afeta a camada de compute e capacidade dos nós. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/"
   },
   {
-    "uid": "aws-news-devops-20260917-04-8d27509e556d1ec7",
-    "updateDate": "2026-09-17T15:26:47Z",
-    "titleText": "4. O Amazon Corretto 27 agora está disponível para o público em geral",
-    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Corretto 27 agora está disponível para o público em geral. O Amazon Corretto 27, uma versão do Feature Release (FR), já está disponível para download. O Amazon Corretto é uma distribuição gratuita, multiplataforma e pronta para produção do OpenJDK. Você pode baixar o Corretto 27 para Linux, Windows e macOS em nossa página de downloads. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-corretto-27-generally-available/"
-  },
-  {
-    "uid": "aws-news-devops-20260917-05-469f32f4a6c8d4f5",
-    "updateDate": "2026-09-17T15:25:47Z",
-    "titleText": "5. A nova experiência da AWS ajuda os construtores a começar e enviar mais rapidamente",
-    "mainText": "Notícia 5 de 5, impacto baixo. A nova experiência da AWS ajuda os construtores a começar e enviar mais rapidamente. Os desenvolvedores agora podem se inscrever para uma nova experiência simplificada que agiliza a transformação de ideias em código em execução na AWS. Os serviços da AWS fornecem uma variedade de opções de configuração para que as maiores empresas possam personalizar as configurações para suas necessidades distintas. Até agora, os construtores com uma nova ideia de projeto tinham que decidir entre essas opções e configurar seu ambiente AWS antes de começar a construir. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Ferramental de operação do dia a dia. Sinais: Custo / preço, Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/New-AWS-Builder-Experience"
+    "uid": "aws-news-devops-20260918-04-ce357da09ff8a51a",
+    "updateDate": "2026-09-18T14:50:45Z",
+    "titleText": "4. AWS HealthOmics agora oferece suporte a políticas de sessão IAM",
+    "mainText": "Notícia 4 de 4, impacto baixo. AWS HealthOmics agora oferece suporte a políticas de sessão IAM. O AWS HealthOmics agora oferece suporte a políticas de sessão do IAM, permitindo restringir permissões para execuções individuais sem criar e gerenciar várias funções do IAM. Até agora, não havia como reduzir dinamicamente as permissões para uma única execução, exigindo que você criasse uma função do IAM separada para cada locatário ou execução. O AWS HealthOmics é um serviço qualificado para HIPAA que ajuda clientes de saúde e ciências biológicas a acelerar avanços científicos com fluxos de trabalho de bioinformática totalmente gerenciados. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy/"
   }
 ]
