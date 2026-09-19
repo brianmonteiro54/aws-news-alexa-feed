@@ -1,30 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260918-01-6ffc1caa0e1a2bd0",
-    "updateDate": "2026-09-18T14:53:45Z",
-    "titleText": "1. AWS Transfer Family agora oferece suporte à preservação de IP de origem para servidores SFTP",
-    "mainText": "Notícia 1 de 4, impacto médio. AWS Transfer Family agora oferece suporte à preservação de IP de origem para servidores SFTP atrás de um Network Load Balancer (NLB). O AWS Transfer Family agora preserva o endereço IP de origem do cliente usando o Proxy Protocol v2 (PPv2) quando você coloca um Network Load Balancer (NLB) na frente do seu servidor SFTP que usa um endpoint hospedado em VPC. Agora você pode manter a visibilidade do IP de origem do cliente para auditoria baseada em IP, controles de acesso e conformidade ao usar seu próprio NLB. Anteriormente, um NLB substituía o IP de origem do cliente por seu próprio endereço IP privado, portanto, os logs e eventos da família de transferência registravam o endereço do NLB em vez do IP de origem do cliente. Por que importa: Impacta topologia de rede e exposição de serviços. Ferramental de operação do dia a dia. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-source-ip-nlb/"
+    "uid": "aws-news-devops-20260919-01-08d407c030413909",
+    "updateDate": "2026-09-19T14:17:44Z",
+    "titleText": "1. O Amazon ECS Express Mode agora suporta cargas de trabalho AWS Graviton (ARM64)",
+    "mainText": "Notícia 1 de 5, impacto alto. O Amazon ECS Express Mode agora suporta cargas de trabalho AWS Gráviton (ARM64). O Amazon Elastic Container Service Express Mode agora suporta a especificação do ARM64 como a arquitetura de CPU para o seu serviço, facilitando a implantação de imagens de contêineres baseadas em ARM na computação baseada no AWS Gráviton e se beneficiando de um desempenho de preço até 40% melhor em comparação com instâncias baseadas em x86. O Amazon ECS Express Mode facilita o lançamento rápido de aplicativos em contêiner, incluindo aplicativos da Web e APIs, orquestrando e gerenciando a arquitetura de nuvem do seu aplicativo. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta a camada de compute e capacidade dos nós. Sinais: API / automação.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/"
   },
   {
-    "uid": "aws-news-devops-20260918-02-8e6048102fa662cb",
-    "updateDate": "2026-09-18T14:52:45Z",
-    "titleText": "2. Apresentando as instâncias T8i do Amazon EC2",
-    "mainText": "Notícia 2 de 4, impacto médio. Apresentando as instâncias T8i do Amazon EC2. A AWS está anunciando a disponibilidade geral de novas instâncias expansíveis T8i do Amazon EC2 de baixo custo. Essas instâncias são equipadas com processadores Intel Xeon 6 de sexta geração personalizados, disponíveis exclusivamente na AWS e construídas nas placas AWS Nitro de sexta geração mais recentes. As instâncias T8i oferecem desempenho de preço até 30% melhor em comparação com as instâncias T3 da geração anterior e oferecem quatro tamanhos: nano, micro, pequeno e médio. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta armazenamento, backup e retenção. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-t8i-instances-ga/"
+    "uid": "aws-news-devops-20260919-02-9127d7b8e62727f8",
+    "updateDate": "2026-09-19T14:16:44Z",
+    "titleText": "2. O Amazon SNS agora suporta cargas úteis de mensagens de até 1 MiB",
+    "mainText": "Notícia 2 de 5, impacto médio. O Amazon SNS agora suporta cargas úteis de mensagens de até 1 MiB. O Amazon Simple Notification Service (Amazon SNS) agora suporta cargas úteis de mensagens de até 1 MiB, um aumento de 4x em relação ao limite anterior de 256 KiB, para que você possa publicar mensagens maiores em seus tópicos de SNS. O Amazon SNS é um serviço de mensagens pub/sub totalmente gerenciado que permite desacoplar e dimensionar microsserviços, sistemas distribuídos e aplicativos sem servidor. Por que importa: Afeta funções serverless e o barramento de eventos/filas.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support"
   },
   {
-    "uid": "aws-news-devops-20260918-03-0a42ce27b62c0e56",
-    "updateDate": "2026-09-18T14:51:45Z",
-    "titleText": "3. AWS Batch agora oferece suporte ao cancelamento e encerramento de trabalhos em massa",
-    "mainText": "Notícia 3 de 4, impacto médio. AWS Batch agora oferece suporte ao cancelamento e encerramento de trabalhos em massa. O AWS Batch agora oferece suporte ao cancelamento e encerramento de trabalhos em massa, permitindo cancelar ou encerrar até 50 trabalhos com uma única chamada de API. As novas APIs CancelJobs, TerminateJobs e TerminateServiceJobs reduzem a complexidade operacional do gerenciamento de cargas de trabalho em lote em grande escala, permitindo que você atue em grupos de trabalhos de uma só vez e receba resultados por trabalho em uma única resposta. Além disso, ListJobs agora retorna os campos isCancelled e isTerminated, e ListServiceJobs retorna isTerminated, facilitando o rastreamento do estado do ciclo de vida de seus trabalhos. Por que importa: Afeta a camada de compute e capacidade dos nós. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-batch-bulk-cancellation/"
+    "uid": "aws-news-devops-20260919-03-f9bb98a39a242f5b",
+    "updateDate": "2026-09-19T14:15:44Z",
+    "titleText": "3. O AWS Resilience Hub adiciona três novos recursos",
+    "mainText": "Notícia 3 de 5, impacto médio. O AWS Resilience Hub adiciona três novos recursos. A próxima geração do AWS Resilience Hub é um local central na AWS que ajuda as equipes de engenharia de plataforma e confiabilidade do site a avaliar e fortalecer a resiliência de suas cargas de trabalho executadas na AWS. Ele fornece descoberta automatizada de dependência, análise generativa do modo de falha alimentada por IA, políticas modulares de resiliência, testes de resiliência e relatórios de postura de resiliência em toda a organização. Por que importa: Ferramental de operação do dia a dia. Mexe direto com seus clusters Kubernetes/EKS.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/"
   },
   {
-    "uid": "aws-news-devops-20260918-04-ce357da09ff8a51a",
-    "updateDate": "2026-09-18T14:50:45Z",
-    "titleText": "4. AWS HealthOmics agora oferece suporte a políticas de sessão IAM",
-    "mainText": "Notícia 4 de 4, impacto baixo. AWS HealthOmics agora oferece suporte a políticas de sessão IAM. O AWS HealthOmics agora oferece suporte a políticas de sessão do IAM, permitindo restringir permissões para execuções individuais sem criar e gerenciar várias funções do IAM. Até agora, não havia como reduzir dinamicamente as permissões para uma única execução, exigindo que você criasse uma função do IAM separada para cada locatário ou execução. O AWS HealthOmics é um serviço qualificado para HIPAA que ajuda clientes de saúde e ciências biológicas a acelerar avanços científicos com fluxos de trabalho de bioinformática totalmente gerenciados. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/omics-iam-session-policy/"
+    "uid": "aws-news-devops-20260919-04-062d1613d9276114",
+    "updateDate": "2026-09-19T14:14:44Z",
+    "titleText": "4. Kimi K3 da Moonshot AI agora está disponível no Amazon Bedrock",
+    "mainText": "Notícia 4 de 5, impacto baixo. Kimi K3 da Moonshot AI agora está disponível no Amazon Bédrock. A Amazon Bédrock continua a expandir seu portfólio de modelos de peso aberto com a mesma segurança e governança em que os clientes confiam. Hoje, o Kimi K3 da Moonshot AI está geralmente disponível no Amazon Bédrock, oferecendo uma nova e poderosa opção para codificação e trabalho de conhecimento. De acordo com a Moonshot AI, o Kimi K3 é seu modelo mais capaz e o primeiro modelo aberto a atingir 2,8 trilhões de parâmetros. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/"
+  },
+  {
+    "uid": "aws-news-devops-20260919-05-a82162b1ebefec32",
+    "updateDate": "2026-09-19T14:13:44Z",
+    "titleText": "5. O AWS Continuum agora oferece suporte a testes de credenciais e sugestões de domínio acessíveis",
+    "mainText": "Notícia 5 de 5, impacto baixo. O AWS Continuum agora oferece suporte a testes de credenciais e sugestões de domínio acessíveis. O AWS Continuum para testes de penetração é um agente de fronteira que protege proativamente os aplicativos durante todo o ciclo de vida do desenvolvimento, oferecendo testes de penetração personalizados e sob demanda com testes de explorabilidade reais. Desenvolvedores e equipes de segurança agora podem testar credenciais de login e receber domínios sugeridos antes que um teste de penetração seja executado. Isso facilita a configuração de um escopo de rede preciso desde o início, reduzindo a configuração incorreta e os ciclos de teste desperdiçados. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/"
   }
 ]
