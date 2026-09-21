@@ -1,37 +1,23 @@
 [
   {
-    "uid": "aws-news-devops-20260920-01-08d407c030413909",
-    "updateDate": "2026-09-20T14:38:28Z",
+    "uid": "aws-news-devops-20260921-01-08d407c030413909",
+    "updateDate": "2026-09-21T16:56:56Z",
     "titleText": "1. Amazon ECS Express Mode agora oferece suporte a cargas de trabalho AWS Graviton (ARM64)",
-    "mainText": "Notícia 1 de 5, impacto alto. Amazon ECS Express Mode agora oferece suporte a cargas de trabalho AWS Gráviton (ARM64). O Amazon Elastic Container Service Express Mode agora oferece suporte à especificação de ARM64 como a arquitetura de CPU para seu serviço, facilitando a implantação de imagens de contêiner baseadas em ARM em computação baseada em AWS Gráviton e se beneficiando de um preço-desempenho até 40% melhor em comparação com instâncias baseadas em x86. O Amazon ECS Express Mode facilita o lançamento rápido de aplicações em contêineres, incluindo aplicações web e APIs, orquestrando e gerenciando a arquitetura de nuvem da sua aplicação. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta a camada de compute e capacidade dos nós. Sinais: API / automação.",
+    "mainText": "Notícia 1 de 3, impacto alto. Amazon ECS Express Mode agora oferece suporte a cargas de trabalho AWS Gráviton (ARM64). O Amazon Elastic Container Service Express Mode agora oferece suporte à especificação de ARM64 como a arquitetura de CPU para seu serviço, facilitando a implantação de imagens de contêiner baseadas em ARM em computação baseada em AWS Gráviton e se beneficiando de um preço-desempenho até 40% melhor em comparação com instâncias baseadas em x86. O Amazon ECS Express Mode facilita o lançamento rápido de aplicações em contêineres, incluindo aplicações web e APIs, orquestrando e gerenciando a arquitetura de nuvem da sua aplicação. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta a camada de compute e capacidade dos nós. Sinais: API / automação.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/"
   },
   {
-    "uid": "aws-news-devops-20260920-02-9127d7b8e62727f8",
-    "updateDate": "2026-09-20T14:37:28Z",
-    "titleText": "2. Amazon SNS agora oferece suporte a cargas úteis de mensagens de até 1 MiB",
-    "mainText": "Notícia 2 de 5, impacto médio. Amazon SNS agora oferece suporte a cargas úteis de mensagens de até 1 MiB. O Amazon Simple Notification Service (Amazon SNS) agora oferece suporte a cargas úteis de mensagens de até 1 MiB, um aumento de 4x em relação ao limite anterior de 256 KiB, para que você possa publicar mensagens maiores em seus tópicos do SNS. O Amazon SNS é um serviço de mensagens pub/sub totalmente gerenciado que permite desacoplar e dimensionar microsserviços, sistemas distribuídos e aplicativos sem servidor. Por que importa: Afeta funções serverless e o barramento de eventos/filas.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-sns-1mib-support"
+    "uid": "aws-news-devops-20260921-02-8e266f4961089d5d",
+    "updateDate": "2026-09-21T16:55:56Z",
+    "titleText": "2. As instâncias X8i do Amazon EC2 já estão disponíveis na região América do Sul (São Paulo)",
+    "mainText": "Notícia 2 de 3, impacto baixo. As instâncias X8i do Amazon EC2 já estão disponíveis na região América do Sul (São Paulo). A partir de hoje, as instâncias X8i do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região da América do Sul (São Paulo). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS. As instâncias X8i são certificadas pela SAP e oferecem o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/"
   },
   {
-    "uid": "aws-news-devops-20260920-03-f9bb98a39a242f5b",
-    "updateDate": "2026-09-20T14:36:28Z",
-    "titleText": "3. AWS Resilience Hub adiciona três novos recursos",
-    "mainText": "Notícia 3 de 5, impacto médio. AWS Resilience Hub adiciona três novos recursos. A próxima geração do AWS Resilience Hub é um local central na AWS que ajuda as equipes de engenharia de plataforma e confiabilidade de site a avaliar e fortalecer a resiliência de suas cargas de trabalho em execução na AWS. Ele fornece descoberta automatizada de dependências, análise generativa de modo de falha alimentada por IA, políticas de resiliência modulares, testes de resiliência e relatórios de postura de resiliência em toda a organização. Por que importa: Ferramental de operação do dia a dia. Mexe direto com seus clusters Kubernetes/EKS.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/resilience-hub-eks-dependency-policy/"
-  },
-  {
-    "uid": "aws-news-devops-20260920-04-062d1613d9276114",
-    "updateDate": "2026-09-20T14:35:28Z",
-    "titleText": "4. Kimi K3 da Moonshot AI agora está disponível no Amazon Bedrock",
-    "mainText": "Notícia 4 de 5, impacto baixo. Kimi K3 da Moonshot AI agora está disponível no Amazon Bédrock. A Amazon Bédrock continua a expandir seu portfólio de modelos abertos com a mesma segurança e governança que os clientes confiam. Hoje, Kimi K3 da Moonshot AI está disponível no Amazon Bédrock, oferecendo uma nova opção poderosa para codificação e trabalho de conhecimento. De acordo com a Moonshot AI, o Kimi K3 é o seu modelo mais capaz e o primeiro modelo aberto a atingir 2,8 trilhões de parâmetros. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/moonshot-ai-kimi-k3-on-amazon-bedrock/"
-  },
-  {
-    "uid": "aws-news-devops-20260920-05-a82162b1ebefec32",
-    "updateDate": "2026-09-20T14:34:28Z",
-    "titleText": "5. AWS Continuum agora oferece suporte a testes de credenciais e sugestões de domínios acessíveis",
-    "mainText": "Notícia 5 de 5, impacto baixo. AWS Continuum agora oferece suporte a testes de credenciais e sugestões de domínios acessíveis. O AWS Continuum para testes de penetração é um agente de fronteira que protege aplicativos de forma proativa durante todo o ciclo de vida de desenvolvimento, oferecendo testes de penetração personalizados e sob demanda com testes reais de exploração. Os desenvolvedores e as equipes de segurança agora podem testar as credenciais de login e receber sugestões de domínios antes da execução de um teste de penetração. Isso facilita a configuração de um escopo de rede preciso desde o início, reduzindo a configuração incorreta e o desperdício de ciclos de teste. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
+    "uid": "aws-news-devops-20260921-03-a82162b1ebefec32",
+    "updateDate": "2026-09-21T16:54:56Z",
+    "titleText": "3. AWS Continuum agora oferece suporte a testes de credenciais e sugestões de domínios acessíveis",
+    "mainText": "Notícia 3 de 3, impacto baixo. AWS Continuum agora oferece suporte a testes de credenciais e sugestões de domínios acessíveis. O AWS Continuum para testes de penetração é um agente de fronteira que protege aplicativos de forma proativa durante todo o ciclo de vida de desenvolvimento, oferecendo testes de penetração personalizados e sob demanda com testes reais de exploração. Os desenvolvedores e as equipes de segurança agora podem testar as credenciais de login e receber sugestões de domínios antes da execução de um teste de penetração. Isso facilita a configuração de um escopo de rede preciso desde o início, reduzindo a configuração incorreta e o desperdício de ciclos de teste. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/"
   }
 ]
