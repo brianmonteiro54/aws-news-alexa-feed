@@ -1,23 +1,16 @@
 [
   {
-    "uid": "aws-news-devops-20260921-01-08d407c030413909",
-    "updateDate": "2026-09-21T16:56:56Z",
-    "titleText": "1. Amazon ECS Express Mode agora oferece suporte a cargas de trabalho AWS Graviton (ARM64)",
-    "mainText": "Notícia 1 de 3, impacto alto. Amazon ECS Express Mode agora oferece suporte a cargas de trabalho AWS Gráviton (ARM64). O Amazon Elastic Container Service Express Mode agora oferece suporte à especificação de ARM64 como a arquitetura de CPU para seu serviço, facilitando a implantação de imagens de contêiner baseadas em ARM em computação baseada em AWS Gráviton e se beneficiando de um preço-desempenho até 40% melhor em comparação com instâncias baseadas em x86. O Amazon ECS Express Mode facilita o lançamento rápido de aplicações em contêineres, incluindo aplicações web e APIs, orquestrando e gerenciando a arquitetura de nuvem da sua aplicação. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta a camada de compute e capacidade dos nós. Sinais: API / automação.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-express-mode-arm-architecture/"
+    "uid": "aws-news-devops-20260922-01-8b74cae3c9fc201c",
+    "updateDate": "2026-09-22T15:28:44Z",
+    "titleText": "1. Amazon ECS agora oferece observabilidade de implantação em tempo real no AWS Management Console",
+    "mainText": "Notícia 1 de 2, impacto alto. Amazon ECS agora oferece observabilidade de implantação em tempo real no AWS Management Console. O Amazon Elastic Container Service (Amazon ECS) agora oferece observabilidade de implantação de serviços em tempo real no console do Amazon ECS para estratégias de implantação linear, canário e azul/verde nativas. Com este lançamento, o monitoramento da implantação e a solução de problemas se reúnem em um só lugar no console, para que você possa acompanhar o progresso da implantação, monitorar a integridade e diagnosticar falhas sem alternar entre ferramentas. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/"
   },
   {
-    "uid": "aws-news-devops-20260921-02-8e266f4961089d5d",
-    "updateDate": "2026-09-21T16:55:56Z",
-    "titleText": "2. As instâncias X8i do Amazon EC2 já estão disponíveis na região América do Sul (São Paulo)",
-    "mainText": "Notícia 2 de 3, impacto baixo. As instâncias X8i do Amazon EC2 já estão disponíveis na região América do Sul (São Paulo). A partir de hoje, as instâncias X8i do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região da América do Sul (São Paulo). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS. As instâncias X8i são certificadas pela SAP e oferecem o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-x8i-south-america-sao-paulo/"
-  },
-  {
-    "uid": "aws-news-devops-20260921-03-a82162b1ebefec32",
-    "updateDate": "2026-09-21T16:54:56Z",
-    "titleText": "3. AWS Continuum agora oferece suporte a testes de credenciais e sugestões de domínios acessíveis",
-    "mainText": "Notícia 3 de 3, impacto baixo. AWS Continuum agora oferece suporte a testes de credenciais e sugestões de domínios acessíveis. O AWS Continuum para testes de penetração é um agente de fronteira que protege aplicativos de forma proativa durante todo o ciclo de vida de desenvolvimento, oferecendo testes de penetração personalizados e sob demanda com testes reais de exploração. Os desenvolvedores e as equipes de segurança agora podem testar as credenciais de login e receber sugestões de domínios antes da execução de um teste de penetração. Isso facilita a configuração de um escopo de rede preciso desde o início, reduzindo a configuração incorreta e o desperdício de ciclos de teste. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-security-agent/"
+    "uid": "aws-news-devops-20260922-02-fbaffe63e03f5005",
+    "updateDate": "2026-09-22T15:27:44Z",
+    "titleText": "2. Amazon EVS agora no escopo do FedRAMP Classe C",
+    "mainText": "Notícia 2 de 2, impacto baixo. Amazon EVS agora no escopo do FedRAMP Classe C. O serviço Amazon Elastic VMware Service (EVS) agora está no escopo do FedRAMP Classe C (anteriormente linha de base Moderada) em todas as regiões dos Estados Unidos. O Programa Federal de Gerenciamento de Riscos e Autorizações (FedRAMP) é um programa do governo dos EUA que oferece uma abordagem padrão para avaliação de segurança, autorização e monitoramento contínuo para produtos e serviços em nuvem. O Amazon EVS permite executar o software VMware Cloud Foundation (VCF) mais recente diretamente na Amazon Virtual Private Cloud (VPC) em instâncias bare metal do EC2. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c/"
   }
 ]
