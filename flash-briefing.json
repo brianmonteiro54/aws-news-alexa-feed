@@ -1,16 +1,23 @@
 [
   {
-    "uid": "aws-news-devops-20260922-01-8b74cae3c9fc201c",
-    "updateDate": "2026-09-22T15:28:44Z",
-    "titleText": "1. Amazon ECS agora oferece observabilidade de implantação em tempo real no AWS Management Console",
-    "mainText": "Notícia 1 de 2, impacto alto. Amazon ECS agora oferece observabilidade de implantação em tempo real no AWS Management Console. O Amazon Elastic Container Service (Amazon ECS) agora oferece observabilidade de implantação de serviços em tempo real no console do Amazon ECS para estratégias de implantação linear, canário e azul/verde nativas. Com este lançamento, o monitoramento da implantação e a solução de problemas se reúnem em um só lugar no console, para que você possa acompanhar o progresso da implantação, monitorar a integridade e diagnosticar falhas sem alternar entre ferramentas. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-console-deployment-observability/"
+    "uid": "aws-news-devops-20260923-01-378eb1d1b12e04e4",
+    "updateDate": "2026-09-23T15:23:29Z",
+    "titleText": "1. Amazon CloudWatch Omni: observabilidade AI-first para agentes e aplicativos",
+    "mainText": "Notícia 1 de 3, impacto alto. Amazon Cloud Watch Omni: observabilidade AI-first para agentes e aplicativos. A AWS anuncia a disponibilidade geral do Amazon Cloud Watch Omni, uma evolução do Amazon Cloud Watch. O Omni é uma experiência de observabilidade baseada em IA organizada em torno de suas equipes e dos aplicativos que elas executam, para que você possa observar e solucionar problemas de seus aplicativos e agentes em um só lugar. Ele combina a interoperabilidade do Open Telemetry com a escala e a confiabilidade do Cloud Watch. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Ferramental de operação do dia a dia. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/"
   },
   {
-    "uid": "aws-news-devops-20260922-02-fbaffe63e03f5005",
-    "updateDate": "2026-09-22T15:27:44Z",
-    "titleText": "2. Amazon EVS agora no escopo do FedRAMP Classe C",
-    "mainText": "Notícia 2 de 2, impacto baixo. Amazon EVS agora no escopo do FedRAMP Classe C. O serviço Amazon Elastic VMware Service (EVS) agora está no escopo do FedRAMP Classe C (anteriormente linha de base Moderada) em todas as regiões dos Estados Unidos. O Programa Federal de Gerenciamento de Riscos e Autorizações (FedRAMP) é um programa do governo dos EUA que oferece uma abordagem padrão para avaliação de segurança, autorização e monitoramento contínuo para produtos e serviços em nuvem. O Amazon EVS permite executar o software VMware Cloud Foundation (VCF) mais recente diretamente na Amazon Virtual Private Cloud (VPC) em instâncias bare metal do EC2. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-fedramp-class-c/"
+    "uid": "aws-news-devops-20260923-02-efb42a36602d7ff0",
+    "updateDate": "2026-09-23T15:22:29Z",
+    "titleText": "2. A transferência de faturamento agora suporta a criação automática de grupos de faturamento para",
+    "mainText": "Notícia 2 de 3, impacto médio. A transferência de faturamento agora suporta a criação automática de grupos de faturamento para transferências de dois níveis. Os usuários da AWS Billing Transfer agora podem ativar a Criação de grupo de faturamento de transferência de faturamento automático, uma nova preferência do AWS Billing Conductor que elimina a configuração do grupo de faturamento manual em acordos de transferência de faturamento de dois níveis. Por que importa: Tem efeito em custo/governança da conta. Ferramental de operação do dia a dia. Sinais: API / automação.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/"
+  },
+  {
+    "uid": "aws-news-devops-20260923-03-550bed1161044a3d",
+    "updateDate": "2026-09-23T15:21:29Z",
+    "titleText": "3. OpenAI GPT-6 sol e GPT-6 Luna agora estão geralmente disponíveis no Amazon Bedrock",
+    "mainText": "Notícia 3 de 3, impacto baixo. OpenAI GPT-6 sol e GPT-6 Luna agora estão geralmente disponíveis no Amazon Bédrock. Hoje, a AWS anuncia a disponibilidade geral do GPT-6 sol e GPT-6 Luna da OpenAI no Amazon Bédrock. Expandindo a família GPT-6 ao lado do Astra, esses dois modelos oferecem às equipes mais maneiras de equilibrar inteligência, velocidade e custo em todas as cargas de trabalho. O sol é o modelo diário para tarefas complexas recorrentes e desenvolvimento de software. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/"
   }
 ]
