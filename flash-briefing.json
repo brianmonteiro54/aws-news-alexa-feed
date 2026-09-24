@@ -1,23 +1,23 @@
 [
   {
-    "uid": "aws-news-devops-20260923-01-378eb1d1b12e04e4",
-    "updateDate": "2026-09-23T15:23:29Z",
-    "titleText": "1. Amazon CloudWatch Omni: observabilidade AI-first para agentes e aplicativos",
-    "mainText": "Notícia 1 de 3, impacto alto. Amazon Cloud Watch Omni: observabilidade AI-first para agentes e aplicativos. A AWS anuncia a disponibilidade geral do Amazon Cloud Watch Omni, uma evolução do Amazon Cloud Watch. O Omni é uma experiência de observabilidade baseada em IA organizada em torno de suas equipes e dos aplicativos que elas executam, para que você possa observar e solucionar problemas de seus aplicativos e agentes em um só lugar. Ele combina a interoperabilidade do Open Telemetry com a escala e a confiabilidade do Cloud Watch. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Ferramental de operação do dia a dia. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni-ai/"
+    "uid": "aws-news-devops-20260924-01-24336307eb6b98ff",
+    "updateDate": "2026-09-24T15:46:47Z",
+    "titleText": "1. Amazon Kinesis Data Streams anuncia Service-Managed Partition Keys para simplificar a ingestão",
+    "mainText": "Notícia 1 de 3, impacto médio. Amazon Kinesis Data Streams anuncia Service-Managed Partition Keys para simplificar a ingestão de dados. O Amazon Kinesis Data Streams agora oferece suporte a chaves de partição gerenciadas por serviço para fluxos On-Demand Standard e On-Demand Advantage, distribuindo registros automaticamente entre fragmentos sem exigir que os clientes especifiquem chaves de partição para publicar dados. Esse recurso simplifica a ingestão de dados para cargas de trabalho onde o pedido de registros não é necessário, eliminando chaves de partição ativas e reduzindo o tempo de produção para cargas de trabalho de streaming. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys"
   },
   {
-    "uid": "aws-news-devops-20260923-02-efb42a36602d7ff0",
-    "updateDate": "2026-09-23T15:22:29Z",
-    "titleText": "2. A transferência de faturamento agora suporta a criação automática de grupos de faturamento para",
-    "mainText": "Notícia 2 de 3, impacto médio. A transferência de faturamento agora suporta a criação automática de grupos de faturamento para transferências de dois níveis. Os usuários da AWS Billing Transfer agora podem ativar a Criação de grupo de faturamento de transferência de faturamento automático, uma nova preferência do AWS Billing Conductor que elimina a configuração do grupo de faturamento manual em acordos de transferência de faturamento de dois níveis. Por que importa: Tem efeito em custo/governança da conta. Ferramental de operação do dia a dia. Sinais: API / automação.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/"
+    "uid": "aws-news-devops-20260924-02-6fd1598d6f0a6035",
+    "updateDate": "2026-09-24T15:45:47Z",
+    "titleText": "2. A Base de Conhecimento Gerenciada Amazon Bedrock agora suporta Salesforce e Zendesk como",
+    "mainText": "Notícia 2 de 3, impacto baixo. A Base de Conhecimento Gerenciada Amazon Bédrock agora suporta Salesforce e Zendesk como conectores de fonte de dados nativos. A AWS anuncia os conectores de fonte de dados Salesforce e Zendesk para o Amazon Bédrock Managed Knowledge Base, um serviço de geração aumentada de recuperação (RAG) totalmente gerenciado. Os clientes agora podem sincronizar artigos de conhecimento do Salesforce e artigos do Zendesk e postagens da comunidade diretamente em sua base de conhecimento gerenciada. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/"
   },
   {
-    "uid": "aws-news-devops-20260923-03-550bed1161044a3d",
-    "updateDate": "2026-09-23T15:21:29Z",
-    "titleText": "3. OpenAI GPT-6 sol e GPT-6 Luna agora estão geralmente disponíveis no Amazon Bedrock",
-    "mainText": "Notícia 3 de 3, impacto baixo. OpenAI GPT-6 sol e GPT-6 Luna agora estão geralmente disponíveis no Amazon Bédrock. Hoje, a AWS anuncia a disponibilidade geral do GPT-6 sol e GPT-6 Luna da OpenAI no Amazon Bédrock. Expandindo a família GPT-6 ao lado do Astra, esses dois modelos oferecem às equipes mais maneiras de equilibrar inteligência, velocidade e custo em todas as cargas de trabalho. O sol é o modelo diário para tarefas complexas recorrentes e desenvolvimento de software. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/"
+    "uid": "aws-news-devops-20260924-03-7e926e016272c79c",
+    "updateDate": "2026-09-24T15:44:47Z",
+    "titleText": "3. O cliente do Amazon Connect agora fornece dados de etapas de roteamento no data lake de análise",
+    "mainText": "Notícia 3 de 3, impacto baixo. O cliente do Amazon Connect agora fornece dados de etapas de roteamento no data lake de análise. O Amazon Connect Customer agora fornece dados de etapas de roteamento no data lake de análise, tornando mais fácil para os clientes gerar insights a partir de decisões de roteamento. Usando o data lake, os clientes podem aproveitar o Amazon Athena e o Amazon Quick para analisar tendências, como contatos na fila e contatos ingressados em cada etapa de roteamento, sem pipelines de dados complexos. Por que importa: Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/"
   }
 ]
