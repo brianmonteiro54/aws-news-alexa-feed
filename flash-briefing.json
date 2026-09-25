@@ -1,23 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260924-01-24336307eb6b98ff",
-    "updateDate": "2026-09-24T15:46:47Z",
-    "titleText": "1. Amazon Kinesis Data Streams anuncia Service-Managed Partition Keys para simplificar a ingestão",
-    "mainText": "Notícia 1 de 3, impacto médio. Amazon Kinesis Data Streams anuncia Service-Managed Partition Keys para simplificar a ingestão de dados. O Amazon Kinesis Data Streams agora oferece suporte a chaves de partição gerenciadas por serviço para fluxos On-Demand Standard e On-Demand Advantage, distribuindo registros automaticamente entre fragmentos sem exigir que os clientes especifiquem chaves de partição para publicar dados. Esse recurso simplifica a ingestão de dados para cargas de trabalho onde o pedido de registros não é necessário, eliminando chaves de partição ativas e reduzindo o tempo de produção para cargas de trabalho de streaming. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/kinesis/service-managed-partition-keys"
+    "uid": "aws-news-devops-20260925-01-102f439b44633a77",
+    "updateDate": "2026-09-25T15:46:50Z",
+    "titleText": "1. O Amazon RDS for MySQL anuncia as versões secundárias do Extended Support 5.7.44-rds.20260902 e",
+    "mainText": "Notícia 1 de 5, impacto alto. O Amazon RDS for My S Q L anuncia as versões secundárias do Extended Support 5.7.44-rds.20260902 e 8.0.46-rds.20260908. O Amazon Relational Database Service (RDS) para My S Q L anuncia o Amazon RDS Extended Support versões secundárias 5.7.44-rds.20260902 e 8.0.46-rds.20260908. O Amazon RDS Extended Support fornece até três anos adicionais de correções para vulnerabilidades e exposições comuns (CVE) críticas e bugs além da data de fim do suporte padrão de uma versão principal, dando a você mais tempo para atualizar para uma nova versão principal. Você pode atualizar seu banco de dados usando o Amazon RDS Blue/Green Deployments, atualizar no local ou restaurar a partir de um instantâneo. Por que importa: Pede ação sua: fim de suporte / deprecação. Afeta camada de dados/persistência das aplicações. Afeta provisionamento e pipelines de deploy. Sinais: Segurança, Nova versão suportada.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/"
   },
   {
-    "uid": "aws-news-devops-20260924-02-6fd1598d6f0a6035",
-    "updateDate": "2026-09-24T15:45:47Z",
-    "titleText": "2. A Base de Conhecimento Gerenciada Amazon Bedrock agora suporta Salesforce e Zendesk como",
-    "mainText": "Notícia 2 de 3, impacto baixo. A Base de Conhecimento Gerenciada Amazon Bédrock agora suporta Salesforce e Zendesk como conectores de fonte de dados nativos. A AWS anuncia os conectores de fonte de dados Salesforce e Zendesk para o Amazon Bédrock Managed Knowledge Base, um serviço de geração aumentada de recuperação (RAG) totalmente gerenciado. Os clientes agora podem sincronizar artigos de conhecimento do Salesforce e artigos do Zendesk e postagens da comunidade diretamente em sua base de conhecimento gerenciada. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-managed-knowledge-base-salesforce-zendesk-native-data-source-connectors/"
+    "uid": "aws-news-devops-20260925-02-11e3c564829bce3b",
+    "updateDate": "2026-09-25T15:45:50Z",
+    "titleText": "2. O Amazon RDS para PostgreSQL agora oferece suporte à troca de chaves pós-quantum TLS",
+    "mainText": "Notícia 2 de 5, impacto alto. O Amazon RDS para Postgre S Q L agora oferece suporte à troca de chaves pós-quantum TLS. A partir de hoje, o Amazon RDS for Postgre S Q L apresenta suporte para troca de chaves pós-quantum TLS (PQ-TLS), fornecendo opções de criptografia pós-quantum para criptografar seus dados em trânsito. O RDS para Postgre S Q L versões 18 e superior suporta a modificação do parâmetro ssl_groups. Você pode selecionar grupos criptográficos da lista de permissões do RDS para Postgre S Q L para alinhar com os padrões de segurança da sua organização. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/"
   },
   {
-    "uid": "aws-news-devops-20260924-03-7e926e016272c79c",
-    "updateDate": "2026-09-24T15:44:47Z",
-    "titleText": "3. O cliente do Amazon Connect agora fornece dados de etapas de roteamento no data lake de análise",
-    "mainText": "Notícia 3 de 3, impacto baixo. O cliente do Amazon Connect agora fornece dados de etapas de roteamento no data lake de análise. O Amazon Connect Customer agora fornece dados de etapas de roteamento no data lake de análise, tornando mais fácil para os clientes gerar insights a partir de decisões de roteamento. Usando o data lake, os clientes podem aproveitar o Amazon Athena e o Amazon Quick para analisar tendências, como contatos na fila e contatos ingressados em cada etapa de roteamento, sem pipelines de dados complexos. Por que importa: Afeta camada de dados/persistência das aplicações.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-routing-step-data/"
+    "uid": "aws-news-devops-20260925-03-3e432e746bb48d17",
+    "updateDate": "2026-09-25T15:44:50Z",
+    "titleText": "3. Amazon EventBridge relança barramentos de eventos para escala empresarial",
+    "mainText": "Notícia 3 de 5, impacto médio. Amazon Event Bridge relança barramentos de eventos para escala empresarial. O Amazon Event Bridge relança os barramentos de eventos com um novo barramento de eventos personalizado aprimorado que permite criar aplicativos orientados a eventos que dissociam equipes e podem ser dimensionados com sua organização. Crie um barramento de eventos personalizado, compartilhe-o entre contas e agora as equipes podem publicar e consumir eventos com pedidos rigorosos, formatos de eventos abertos, retenção integrada e suporte para transformações avançadas de eventos. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Afeta provisionamento e pipelines de deploy.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/"
+  },
+  {
+    "uid": "aws-news-devops-20260925-04-20573e23dd895215",
+    "updateDate": "2026-09-25T15:43:50Z",
+    "titleText": "4. O AWS Billing and Cost Management agora fornece contexto de cobrança para sua conta por meio de",
+    "mainText": "Notícia 4 de 5, impacto médio. O AWS Billing and Cost Management agora fornece contexto de cobrança para sua conta por meio de uma nova API. O AWS Billing and Cost Management agora oferece a API ListBillingViewSegments, que retorna o contexto de faturamento da sua conta durante um período de tempo especificado por você. Você pode usar a API para recuperar informações sobre como suas contas estão posicionadas na hierarquia de faturamento, como contas de gerenciamento, contas de membros ou contas primárias do grupo de faturamento. Você também pode identificar quais contas gerenciaram sua relação de faturamento e as configurações de taxa, faturáveis ou pro forma, aplicadas aos seus dados de custo. Por que importa: Tem efeito em custo/governança da conta. Sinais: API / automação.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/"
+  },
+  {
+    "uid": "aws-news-devops-20260925-05-30695c7d9fc037c7",
+    "updateDate": "2026-09-25T15:42:50Z",
+    "titleText": "5. O Amazon RDS for PostgreSQL agora oferece suporte ao PostgreSQL 19 Beta 4 no ambiente de",
+    "mainText": "Notícia 5 de 5, impacto médio. O Amazon RDS for Postgre S Q L agora oferece suporte ao Postgre S Q L 19 Beta 4 no ambiente de visualização do banco de dados do Amazon RDS. A partir de hoje, o Amazon RDS for Postgre S Q L 19 Beta 4 está disponível no Amazon RDS Database Preview Environment, permitindo que você avalie o pré-lançamento do Postgre S Q L 19 no Amazon RDS for Postgre S Q L. O Postgre S Q L 19 Beta 4 refina o desempenho da consulta e os recursos de gerenciamento de vácuo automático introduzidos em versões anteriores e inclui correções de bugs e melhorias de estabilidade desde o Beta 3. As correções incluem pg_stat_autovacuum_scores visualizar relatórios para tabelas de TORRADAS e escala de pontuação de congelamento corrigida para que você possa ajustar a priorização do autovaccum de forma eficaz. Por que importa: Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/"
   }
 ]
