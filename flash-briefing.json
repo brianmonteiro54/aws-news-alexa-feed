@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260925-01-102f439b44633a77",
-    "updateDate": "2026-09-25T15:46:50Z",
-    "titleText": "1. O Amazon RDS for MySQL anuncia as versões secundárias do Extended Support 5.7.44-rds.20260902 e",
-    "mainText": "Notícia 1 de 5, impacto alto. O Amazon RDS for My S Q L anuncia as versões secundárias do Extended Support 5.7.44-rds.20260902 e 8.0.46-rds.20260908. O Amazon Relational Database Service (RDS) para My S Q L anuncia o Amazon RDS Extended Support versões secundárias 5.7.44-rds.20260902 e 8.0.46-rds.20260908. O Amazon RDS Extended Support fornece até três anos adicionais de correções para vulnerabilidades e exposições comuns (CVE) críticas e bugs além da data de fim do suporte padrão de uma versão principal, dando a você mais tempo para atualizar para uma nova versão principal. Você pode atualizar seu banco de dados usando o Amazon RDS Blue/Green Deployments, atualizar no local ou restaurar a partir de um instantâneo. Por que importa: Pede ação sua: fim de suporte / deprecação. Afeta camada de dados/persistência das aplicações. Afeta provisionamento e pipelines de deploy. Sinais: Segurança, Nova versão suportada.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/"
+    "uid": "aws-news-devops-20260926-01-7d2e74a72634bbbc",
+    "updateDate": "2026-09-26T14:56:38Z",
+    "titleText": "1. A federação de identidade de saída do AWS iam agora oferece suporte a endpoints VPC de interface",
+    "mainText": "Notícia 1 de 5, impacto alto. A federação de identidade de saída do AWS iam agora oferece suporte a endpoints VPC de interface para descoberta de OIDC. A federação de identidade de saída do AWS Identity and Access Management (IAM) agora oferece suporte a endpoints do Amazon Virtual Private Cloud (VPC) para as APIs de descoberta do OpenID Connect (OIDC). Agora você pode acessar os metadados de descoberta OIDC e os principais pontos de extremidade de verificação do JSON Web Key Set (JWKS) de dentro do seu VPC usando o AWS PrivateLink, sem exigir que o tráfego atravesse a Internet pública. A federação de identidade de saída do iam elimina a necessidade de usar credenciais de longa duração quando suas cargas de trabalho da AWS acessam serviços externos. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta topologia de rede e exposição de serviços.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/"
   },
   {
-    "uid": "aws-news-devops-20260925-02-11e3c564829bce3b",
-    "updateDate": "2026-09-25T15:45:50Z",
-    "titleText": "2. O Amazon RDS para PostgreSQL agora oferece suporte à troca de chaves pós-quantum TLS",
-    "mainText": "Notícia 2 de 5, impacto alto. O Amazon RDS para Postgre S Q L agora oferece suporte à troca de chaves pós-quantum TLS. A partir de hoje, o Amazon RDS for Postgre S Q L apresenta suporte para troca de chaves pós-quantum TLS (PQ-TLS), fornecendo opções de criptografia pós-quantum para criptografar seus dados em trânsito. O RDS para Postgre S Q L versões 18 e superior suporta a modificação do parâmetro ssl_groups. Você pode selecionar grupos criptográficos da lista de permissões do RDS para Postgre S Q L para alinhar com os padrões de segurança da sua organização. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta camada de dados/persistência das aplicações.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/"
+    "uid": "aws-news-devops-20260926-02-db1e59031ade8983",
+    "updateDate": "2026-09-26T14:55:38Z",
+    "titleText": "2. O AWS DataSync lança um painel de monitoramento para rastrear execuções de tarefas em toda a sua",
+    "mainText": "Notícia 2 de 5, impacto médio. O AWS DataSync lança um painel de monitoramento para rastrear execuções de tarefas em toda a sua conta. O AWS DataSync agora fornece um painel de monitoramento no console do DataSync que oferece visibilidade sobre as transferências de dados em sua conta. Para cada execução de tarefa, você pode ver seu status, taxas de transferência de dados e arquivos, duração e o total de dados e arquivos transferidos. Você pode filtrar as execuções por status, tarefa, modo de tarefa, ID de execução ou hora de início para se concentrar em um conjunto específico de execuções. Por que importa: Impacta armazenamento, backup e retenção. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/datasync-monitoring-dashboard"
   },
   {
-    "uid": "aws-news-devops-20260925-03-3e432e746bb48d17",
-    "updateDate": "2026-09-25T15:44:50Z",
-    "titleText": "3. Amazon EventBridge relança barramentos de eventos para escala empresarial",
-    "mainText": "Notícia 3 de 5, impacto médio. Amazon Event Bridge relança barramentos de eventos para escala empresarial. O Amazon Event Bridge relança os barramentos de eventos com um novo barramento de eventos personalizado aprimorado que permite criar aplicativos orientados a eventos que dissociam equipes e podem ser dimensionados com sua organização. Crie um barramento de eventos personalizado, compartilhe-o entre contas e agora as equipes podem publicar e consumir eventos com pedidos rigorosos, formatos de eventos abertos, retenção integrada e suporte para transformações avançadas de eventos. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Afeta provisionamento e pipelines de deploy.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/eventbridge-relaunches-custom-event-buses/"
+    "uid": "aws-news-devops-20260926-03-b66fff87abcc3034",
+    "updateDate": "2026-09-26T14:54:38Z",
+    "titleText": "3. O Amazon Transcribe adiciona chaves KMS gerenciadas pelo cliente para recursos personalizados",
+    "mainText": "Notícia 3 de 5, impacto baixo. O Amazon Transcribe adiciona chaves KMS gerenciadas pelo cliente para recursos personalizados. O Amazon Transcribe agora permite criptografar seus vocabulários personalizados, filtros de vocabulário personalizados e modelos de linguagem personalizados em repouso com uma chave KMS da AWS gerenciada pelo cliente que você possui e controla. Anteriormente, esses recursos personalizados eram sempre criptografados com uma chave de propriedade da AWS. Agora você pode fornecer sua própria chave KMS simétrica da AWS ao criar ou atualizar esses recursos, para que os artefatos Transcrever armazenamentos em seu nome sejam criptografados sob uma chave em sua conta. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/"
   },
   {
-    "uid": "aws-news-devops-20260925-04-20573e23dd895215",
-    "updateDate": "2026-09-25T15:43:50Z",
-    "titleText": "4. O AWS Billing and Cost Management agora fornece contexto de cobrança para sua conta por meio de",
-    "mainText": "Notícia 4 de 5, impacto médio. O AWS Billing and Cost Management agora fornece contexto de cobrança para sua conta por meio de uma nova API. O AWS Billing and Cost Management agora oferece a API ListBillingViewSegments, que retorna o contexto de faturamento da sua conta durante um período de tempo especificado por você. Você pode usar a API para recuperar informações sobre como suas contas estão posicionadas na hierarquia de faturamento, como contas de gerenciamento, contas de membros ou contas primárias do grupo de faturamento. Você também pode identificar quais contas gerenciaram sua relação de faturamento e as configurações de taxa, faturáveis ou pro forma, aplicadas aos seus dados de custo. Por que importa: Tem efeito em custo/governança da conta. Sinais: API / automação.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-billing-and-cost-management-billing-context-api/"
+    "uid": "aws-news-devops-20260926-04-e67227fcc955df94",
+    "updateDate": "2026-09-26T14:53:38Z",
+    "titleText": "4. As instâncias C8i e C8i-flex do Amazon EC2 agora estão disponíveis em regiões adicionais",
+    "mainText": "Notícia 4 de 5, impacto baixo. As instâncias C8i e C8i-flex do Amazon EC2 agora estão disponíveis em regiões adicionais. A partir de hoje, as instâncias C8i e C8i-flex do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região AWS European Sovereign Cloud (Alemanha). Essas instâncias são alimentadas por processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS, oferecendo o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. Essas instâncias C8i e C8i-flex oferecem até 15% melhor preço-desempenho e 2,5 vezes mais largura de banda de memória em comparação com as instâncias baseadas em Intel da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/"
   },
   {
-    "uid": "aws-news-devops-20260925-05-30695c7d9fc037c7",
-    "updateDate": "2026-09-25T15:42:50Z",
-    "titleText": "5. O Amazon RDS for PostgreSQL agora oferece suporte ao PostgreSQL 19 Beta 4 no ambiente de",
-    "mainText": "Notícia 5 de 5, impacto médio. O Amazon RDS for Postgre S Q L agora oferece suporte ao Postgre S Q L 19 Beta 4 no ambiente de visualização do banco de dados do Amazon RDS. A partir de hoje, o Amazon RDS for Postgre S Q L 19 Beta 4 está disponível no Amazon RDS Database Preview Environment, permitindo que você avalie o pré-lançamento do Postgre S Q L 19 no Amazon RDS for Postgre S Q L. O Postgre S Q L 19 Beta 4 refina o desempenho da consulta e os recursos de gerenciamento de vácuo automático introduzidos em versões anteriores e inclui correções de bugs e melhorias de estabilidade desde o Beta 3. As correções incluem pg_stat_autovacuum_scores visualizar relatórios para tabelas de TORRADAS e escala de pontuação de congelamento corrigida para que você possa ajustar a priorização do autovaccum de forma eficaz. Por que importa: Afeta camada de dados/persistência das aplicações.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/"
+    "uid": "aws-news-devops-20260926-05-c808f2540b7f85d0",
+    "updateDate": "2026-09-26T14:52:38Z",
+    "titleText": "5. As instâncias M8i e M8i-flex do Amazon EC2 agora estão disponíveis em regiões adicionais",
+    "mainText": "Notícia 5 de 5, impacto baixo. As instâncias M8i e M8i-flex do Amazon EC2 agora estão disponíveis em regiões adicionais. A partir de hoje, as instâncias M8i e M8i-flex do Amazon EC2 estão disponíveis na região AWS European Sovereign Cloud (Alemanha). Essas instâncias são alimentadas por processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS, oferecendo o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. As instâncias M8i e M8i-flex oferecem até 15% melhor preço-desempenho e 2,5 vezes mais largura de banda de memória em comparação com as instâncias baseadas em Intel da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/"
   }
 ]
