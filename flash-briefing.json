@@ -1,37 +1,23 @@
 [
   {
-    "uid": "aws-news-devops-20260927-01-7d2e74a72634bbbc",
-    "updateDate": "2026-09-27T15:35:55Z",
-    "titleText": "1. A federação de identidade de saída do AWS IAM agora oferece suporte a endpoints VPC de interface",
-    "mainText": "Notícia 1 de 5, impacto alto. A federação de identidade de saída do AWS IAM agora oferece suporte a endpoints VPC de interface para descoberta de OIDC. A federação de identidade de saída do AWS Identity and Access Management (IAM) agora oferece suporte a endpoints Amazon Virtual Private Cloud (VPC) para APIs de descoberta OpenID Connect (OIDC). Agora você pode acessar os metadados de descoberta do OIDC e os endpoints da chave de verificação JSON Web Key Set (JWKS) de dentro da sua VPC usando o AWS PrivateLink, sem exigir que o tráfego atravesse a Internet pública. A federação de identidades de saída do IAM elimina a necessidade de usar credenciais de longa duração quando suas cargas de trabalho da AWS acessam serviços externos. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta topologia de rede e exposição de serviços.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-sts-vpc-oidc/"
-  },
-  {
-    "uid": "aws-news-devops-20260927-02-b66fff87abcc3034",
-    "updateDate": "2026-09-27T15:34:55Z",
-    "titleText": "2. Amazon Transcribe adiciona chaves KMS gerenciadas pelo cliente para recursos personalizados",
-    "mainText": "Notícia 2 de 5, impacto baixo. Amazon Transcribe adiciona chaves KMS gerenciadas pelo cliente para recursos personalizados. O Amazon Transcribe agora permite criptografar vocabulários personalizados, filtros de vocabulário personalizados e modelos de linguagem personalizados em repouso com uma chave AWS KMS gerenciada pelo cliente que você possui e controla. Anteriormente, esses recursos personalizados eram sempre criptografados com uma chave de propriedade da AWS. Agora você pode fornecer sua própria chave simétrica do AWS KMS ao criar ou atualizar esses recursos, para que os artefatos que o Transcribe armazena em seu nome sejam criptografados em uma chave em sua conta. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
+    "uid": "aws-news-devops-20260928-01-b66fff87abcc3034",
+    "updateDate": "2026-09-28T18:33:33Z",
+    "titleText": "1. Amazon Transcribe adiciona chaves KMS gerenciadas pelo cliente para recursos personalizados",
+    "mainText": "Notícia 1 de 3, impacto baixo. Amazon Transcribe adiciona chaves KMS gerenciadas pelo cliente para recursos personalizados. O Amazon Transcribe agora permite criptografar vocabulários personalizados, filtros de vocabulário personalizados e modelos de linguagem personalizados em repouso com uma chave AWS KMS gerenciada pelo cliente que você possui e controla. Anteriormente, esses recursos personalizados eram sempre criptografados com uma chave de propriedade da AWS. Agora você pode fornecer sua própria chave simétrica do AWS KMS ao criar ou atualizar esses recursos, para que os artefatos que o Transcribe armazena em seu nome sejam criptografados em uma chave em sua conta. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/"
   },
   {
-    "uid": "aws-news-devops-20260927-03-e67227fcc955df94",
-    "updateDate": "2026-09-27T15:33:55Z",
-    "titleText": "3. As instâncias C8i e C8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais",
-    "mainText": "Notícia 3 de 5, impacto baixo. As instâncias C8i e C8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais. A partir de hoje, as instâncias C8i e C8i-flex do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região AWS European Sovereign Cloud (Alemanha). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS, oferecendo o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. Essas instâncias C8i e C8i-flex oferecem desempenho de preço até 15% melhor e 2,5x mais largura de banda de memória em comparação com instâncias baseadas em Intel da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/c8i-c8i-flex-thf-september-2026/"
-  },
-  {
-    "uid": "aws-news-devops-20260927-04-c808f2540b7f85d0",
-    "updateDate": "2026-09-27T15:32:55Z",
-    "titleText": "4. As instâncias M8i e M8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais",
-    "mainText": "Notícia 4 de 5, impacto baixo. As instâncias M8i e M8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais. A partir de hoje, as instâncias M8i e M8i-flex do Amazon EC2 já estão disponíveis na região AWS European Sovereign Cloud (Alemanha). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS, oferecendo o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. As instâncias M8i e M8i-flex oferecem desempenho de preço até 15% melhor e 2,5x mais largura de banda de memória em comparação com as instâncias baseadas em Intel da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
+    "uid": "aws-news-devops-20260928-02-c808f2540b7f85d0",
+    "updateDate": "2026-09-28T18:32:33Z",
+    "titleText": "2. As instâncias M8i e M8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais",
+    "mainText": "Notícia 2 de 3, impacto baixo. As instâncias M8i e M8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais. A partir de hoje, as instâncias M8i e M8i-flex do Amazon EC2 já estão disponíveis na região AWS European Sovereign Cloud (Alemanha). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS, oferecendo o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. As instâncias M8i e M8i-flex oferecem desempenho de preço até 15% melhor e 2,5x mais largura de banda de memória em comparação com as instâncias baseadas em Intel da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/"
   },
   {
-    "uid": "aws-news-devops-20260927-05-04dcf919133658ed",
-    "updateDate": "2026-09-27T15:31:55Z",
-    "titleText": "5. As instâncias R8i e R8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais",
-    "mainText": "Notícia 5 de 5, impacto baixo. As instâncias R8i e R8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais. A partir de hoje, as instâncias R8i e R8i-flex do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região AWS European Sovereign Cloud (Alemanha). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS, oferecendo o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. As instâncias R8i e R8i-flex oferecem desempenho de preço até 15% melhor e 2,5x mais largura de banda de memória em comparação com as instâncias baseadas em Intel da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
+    "uid": "aws-news-devops-20260928-03-04dcf919133658ed",
+    "updateDate": "2026-09-28T18:31:33Z",
+    "titleText": "3. As instâncias R8i e R8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais",
+    "mainText": "Notícia 3 de 3, impacto baixo. As instâncias R8i e R8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais. A partir de hoje, as instâncias R8i e R8i-flex do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região AWS European Sovereign Cloud (Alemanha). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS, oferecendo o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. As instâncias R8i e R8i-flex oferecem desempenho de preço até 15% melhor e 2,5x mais largura de banda de memória em comparação com as instâncias baseadas em Intel da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/"
   }
 ]
