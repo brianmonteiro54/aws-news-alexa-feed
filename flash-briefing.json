@@ -1,23 +1,30 @@
 [
   {
-    "uid": "aws-news-devops-20260928-01-b66fff87abcc3034",
-    "updateDate": "2026-09-28T18:33:33Z",
-    "titleText": "1. Amazon Transcribe adiciona chaves KMS gerenciadas pelo cliente para recursos personalizados",
-    "mainText": "Notícia 1 de 3, impacto baixo. Amazon Transcribe adiciona chaves KMS gerenciadas pelo cliente para recursos personalizados. O Amazon Transcribe agora permite criptografar vocabulários personalizados, filtros de vocabulário personalizados e modelos de linguagem personalizados em repouso com uma chave AWS KMS gerenciada pelo cliente que você possui e controla. Anteriormente, esses recursos personalizados eram sempre criptografados com uma chave de propriedade da AWS. Agora você pode fornecer sua própria chave simétrica do AWS KMS ao criar ou atualizar esses recursos, para que os artefatos que o Transcribe armazena em seu nome sejam criptografados em uma chave em sua conta. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-transcribe/"
+    "uid": "aws-news-devops-20260929-01-91037fb2ffd29f0e",
+    "updateDate": "2026-09-29T16:51:19Z",
+    "titleText": "1. O AWS Systems Manager agora oferece suporte ao compartilhamento de documentos por meio do AWS",
+    "mainText": "Notícia 1 de 4, impacto médio. O AWS Systems Manager agora oferece suporte ao compartilhamento de documentos por meio do AWS Resource Access Manager. O AWS Systems Manager agora permite que você compartilhe seus Documentos do Systems Manager (Documentos SSM) com uma organização inteira da AWS ou com unidades organizacionais (OUs) específicas usando o AWS Resource Access Manager (AWS RAM). Anteriormente, você só podia compartilhar um documento publicamente ou com uma lista de IDs de contas individuais. Agora você pode compartilhar facilmente um documento com sua organização ou UOs, e o Systems Manager mantém automaticamente esse compartilhamento atualizado à medida que as contas são adicionadas ou removidas de sua organização ou UO, para que você não precise mais rastrear e atualizar contas manualmente. Por que importa: Afeta provisionamento e pipelines de deploy. Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-sharing-documents-ram/"
   },
   {
-    "uid": "aws-news-devops-20260928-02-c808f2540b7f85d0",
-    "updateDate": "2026-09-28T18:32:33Z",
-    "titleText": "2. As instâncias M8i e M8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais",
-    "mainText": "Notícia 2 de 3, impacto baixo. As instâncias M8i e M8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais. A partir de hoje, as instâncias M8i e M8i-flex do Amazon EC2 já estão disponíveis na região AWS European Sovereign Cloud (Alemanha). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS, oferecendo o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. As instâncias M8i e M8i-flex oferecem desempenho de preço até 15% melhor e 2,5x mais largura de banda de memória em comparação com as instâncias baseadas em Intel da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ec2-m8i-m8i-flex-thf/"
+    "uid": "aws-news-devops-20260929-02-ec94627c080e2b5f",
+    "updateDate": "2026-09-29T16:50:19Z",
+    "titleText": "2. Reservas de capacidade futuras do Amazon EC2 agora suportam o adiamento das datas de início",
+    "mainText": "Notícia 2 de 4, impacto médio. Reservas de capacidade futuras do Amazon EC2 agora suportam o adiamento das datas de início. As Reservas de capacidade com data futura do Amazon EC2 permitem proteger a capacidade com até 120 dias de antecedência, especificando a capacidade necessária, a data de início e a duração do compromisso. Se os seus planos mudarem antes da entrega, agora você pode adiar a data de início para corresponder ao seu novo cronograma. Quando você adia sua data de início, o EC2 apresenta uma cotação que mostra a nova data de início e a duração do compromisso necessário. Por que importa: Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/"
   },
   {
-    "uid": "aws-news-devops-20260928-03-04dcf919133658ed",
-    "updateDate": "2026-09-28T18:31:33Z",
-    "titleText": "3. As instâncias R8i e R8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais",
-    "mainText": "Notícia 3 de 3, impacto baixo. As instâncias R8i e R8i-flex do Amazon EC2 já estão disponíveis em regiões adicionais. A partir de hoje, as instâncias R8i e R8i-flex do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região AWS European Sovereign Cloud (Alemanha). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS, oferecendo o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. As instâncias R8i e R8i-flex oferecem desempenho de preço até 15% melhor e 2,5x mais largura de banda de memória em comparação com as instâncias baseadas em Intel da geração anterior. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-r8i-r8i-flex-thf/"
+    "uid": "aws-news-devops-20260929-03-6cea47503efae200",
+    "updateDate": "2026-09-29T16:49:19Z",
+    "titleText": "3. O Grok 4.7 já está disponível no Amazon Bedrock",
+    "mainText": "Notícia 3 de 4, impacto baixo. O Grok 4.7 já está disponível no Amazon Bédrock. O Amazon Bédrock agora oferece suporte ao SpaceXAI Grok 4.7, um modelo de fronteira criado para codificação, tarefas agênticas e trabalho de conhecimento, com inferência de US Geo e Global cross-Region. O Grok 4.7 baseia-se no Grok 4.6 com melhor manuseio de documentos mistos, codificação de escala de recompra mais confiável com planejamento e recuperação de erros e agentes de uso de navegador aprimorados para preenchimento de formulários e navegação no portal. Comece a usar o Grok 4.7 no console do Amazon Bédrock ou de forma programática por meio das APIs do Amazon Bédrock compatíveis. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/"
+  },
+  {
+    "uid": "aws-news-devops-20260929-04-607805acf579f21f",
+    "updateDate": "2026-09-29T16:48:19Z",
+    "titleText": "4. O Amazon Rekognition Face Liveness agora retorna códigos de feedback",
+    "mainText": "Notícia 4 de 4, impacto baixo. O Amazon Rekognition Face Liveness agora retorna códigos de feedback. O Amazon Rekognition Face Liveness agora retorna códigos de feedback que ajudam os clientes a entender por que uma verificação de vivacidade recebeu uma pontuação baixa e como os usuários podem tentar novamente com sucesso. Os códigos são retornados na resposta da API GetFaceLivenessSessionResults e identificam as condições específicas que contribuíram para a baixa pontuação, como pouca iluminação, obstrução facial, olhos fechados ou baixa qualidade de vídeo. Os clientes podem expor esses códigos aos seus usuários finais, que podem fazer correções direcionadas e tentar novamente com confiança. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/"
   }
 ]
