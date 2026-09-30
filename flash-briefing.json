@@ -1,30 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20260929-01-91037fb2ffd29f0e",
-    "updateDate": "2026-09-29T16:51:19Z",
-    "titleText": "1. O AWS Systems Manager agora oferece suporte ao compartilhamento de documentos por meio do AWS",
-    "mainText": "Notícia 1 de 4, impacto médio. O AWS Systems Manager agora oferece suporte ao compartilhamento de documentos por meio do AWS Resource Access Manager. O AWS Systems Manager agora permite que você compartilhe seus Documentos do Systems Manager (Documentos SSM) com uma organização inteira da AWS ou com unidades organizacionais (OUs) específicas usando o AWS Resource Access Manager (AWS RAM). Anteriormente, você só podia compartilhar um documento publicamente ou com uma lista de IDs de contas individuais. Agora você pode compartilhar facilmente um documento com sua organização ou UOs, e o Systems Manager mantém automaticamente esse compartilhamento atualizado à medida que as contas são adicionadas ou removidas de sua organização ou UO, para que você não precise mais rastrear e atualizar contas manualmente. Por que importa: Afeta provisionamento e pipelines de deploy. Mexe com postura de segurança/permissões - revise antes de propagar.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-sharing-documents-ram/"
+    "uid": "aws-news-devops-20260930-01-bb710668f341e87a",
+    "updateDate": "2026-09-30T16:45:50Z",
+    "titleText": "1. O Amazon RDS agora adiciona informações completas sobre o tamanho do snapshot ao Console e à API",
+    "mainText": "Notícia 1 de 5, impacto médio. O Amazon RDS agora adiciona informações completas sobre o tamanho do snapshot ao Console e à API. O Amazon RDS agora exibe o tamanho total do snapshot para snapshots RDS. Com esse aprimoramento, os clientes agora podem recuperar tamanhos completos de snapshots programaticamente por meio da API DescribeDBSnapshots usando o novo campo, 'FullSnapshotSizeInBytes'. Eles também podem visualizar isso no console com a coluna 'Full Snapshot Size'. Por que importa: Afeta camada de dados/persistência das aplicações. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-full-snapshot-size-available/"
   },
   {
-    "uid": "aws-news-devops-20260929-02-ec94627c080e2b5f",
-    "updateDate": "2026-09-29T16:50:19Z",
-    "titleText": "2. Reservas de capacidade futuras do Amazon EC2 agora suportam o adiamento das datas de início",
-    "mainText": "Notícia 2 de 4, impacto médio. Reservas de capacidade futuras do Amazon EC2 agora suportam o adiamento das datas de início. As Reservas de capacidade com data futura do Amazon EC2 permitem proteger a capacidade com até 120 dias de antecedência, especificando a capacidade necessária, a data de início e a duração do compromisso. Se os seus planos mudarem antes da entrega, agora você pode adiar a data de início para corresponder ao seu novo cronograma. Quando você adia sua data de início, o EC2 apresenta uma cotação que mostra a nova data de início e a duração do compromisso necessário. Por que importa: Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/ec2-fcr-postpone-start-date/"
+    "uid": "aws-news-devops-20260930-02-99aadd4a09e4b02f",
+    "updateDate": "2026-09-30T16:44:50Z",
+    "titleText": "2. O Amazon Bedrock Managed Agents, desenvolvido pela OpenAI, agora está disponível em versão prévia",
+    "mainText": "Notícia 2 de 5, impacto baixo. O Amazon Bédrock Managed Agents, desenvolvido pela OpenAI, agora está disponível em versão prévia. Desenvolvido em conjunto pela AWS e pela OpenAI, o Bédrock Managed Agents (BMA) é baseado em uma versão personalizada da API de agentes da OpenAI, projetada para ser nativa da AWS e integrada aos recursos da AWS. Agora você pode criar agentes otimizados para modelos OpenAI que são executados inteiramente dentro da AWS com as identidades, permissões e controles de governança que você já usa. O BMA gerencia como o modelo preserva o estado, seleciona e usa ferramentas, executa código e coordena o trabalho em várias etapas e decisões. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/bedrock-managed-agents-preview/"
   },
   {
-    "uid": "aws-news-devops-20260929-03-6cea47503efae200",
-    "updateDate": "2026-09-29T16:49:19Z",
-    "titleText": "3. O Grok 4.7 já está disponível no Amazon Bedrock",
-    "mainText": "Notícia 3 de 4, impacto baixo. O Grok 4.7 já está disponível no Amazon Bédrock. O Amazon Bédrock agora oferece suporte ao SpaceXAI Grok 4.7, um modelo de fronteira criado para codificação, tarefas agênticas e trabalho de conhecimento, com inferência de US Geo e Global cross-Region. O Grok 4.7 baseia-se no Grok 4.6 com melhor manuseio de documentos mistos, codificação de escala de recompra mais confiável com planejamento e recuperação de erros e agentes de uso de navegador aprimorados para preenchimento de formulários e navegação no portal. Comece a usar o Grok 4.7 no console do Amazon Bédrock ou de forma programática por meio das APIs do Amazon Bédrock compatíveis. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-bedrock-grok-4-7/"
+    "uid": "aws-news-devops-20260930-03-298a9382db09f04c",
+    "updateDate": "2026-09-30T16:43:50Z",
+    "titleText": "3. O OpenAI GPT-6.1 sol agora está disponível no Amazon Bedrock",
+    "mainText": "Notícia 3 de 5, impacto baixo. O OpenAI GPT-6.1 sol agora está disponível no Amazon Bédrock. Hoje, a AWS anuncia a disponibilidade geral do GPT-6.1 sol da OpenAI no Amazon Bédrock. Uma atualização para o GPT-6 sol, o GPT-6.1 sol oferece um desempenho excepcionalmente forte em codificação agêntica, uso de computador e trabalho profissional. De acordo com a OpenAI, ela aborda o GPT-6 Astra em avaliações exigentes a cerca de um quinto do custo, dando aos desenvolvedores mais espaço para construir e executar agentes capazes em escala. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-1-sol-on-amazon-bedrock/"
   },
   {
-    "uid": "aws-news-devops-20260929-04-607805acf579f21f",
-    "updateDate": "2026-09-29T16:48:19Z",
-    "titleText": "4. O Amazon Rekognition Face Liveness agora retorna códigos de feedback",
-    "mainText": "Notícia 4 de 4, impacto baixo. O Amazon Rekognition Face Liveness agora retorna códigos de feedback. O Amazon Rekognition Face Liveness agora retorna códigos de feedback que ajudam os clientes a entender por que uma verificação de vivacidade recebeu uma pontuação baixa e como os usuários podem tentar novamente com sucesso. Os códigos são retornados na resposta da API GetFaceLivenessSessionResults e identificam as condições específicas que contribuíram para a baixa pontuação, como pouca iluminação, obstrução facial, olhos fechados ou baixa qualidade de vídeo. Os clientes podem expor esses códigos aos seus usuários finais, que podem fazer correções direcionadas e tentar novamente com confiança. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/rekognition-liveness-feedback-codes/"
+    "uid": "aws-news-devops-20260930-04-46a069fea9af381d",
+    "updateDate": "2026-09-30T16:42:50Z",
+    "titleText": "4. O Amazon WorkSpaces Applications apresenta imagens gráficas unificadas",
+    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon WorkSpaces Applications apresenta imagens gráficas unificadas. Hoje, o Amazon WorkSpaces Applications anuncia imagens gráficas unificadas, um único tipo de imagem que funciona em todas as famílias de instâncias gráficas suportadas, incluindo G4dn, G5, G6 e G7. Anteriormente, cada geração de gráficos exigia sua própria imagem dedicada. Agora, os clientes podem usar uma imagem para criar e gerenciar frotas em qualquer família de instâncias gráficas suportadas. Por que importa: Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-unified-graphics-images/"
+  },
+  {
+    "uid": "aws-news-devops-20260930-05-bf6d1a31d2ed99a6",
+    "updateDate": "2026-09-30T16:41:50Z",
+    "titleText": "5. O Amazon Connect Customer agora permite que os usuários de negócios gerenciem mais dados de",
+    "mainText": "Notícia 5 de 5, impacto baixo. O Amazon Connect Customer agora permite que os usuários de negócios gerenciem mais dados de referência para ajustar as configurações do contact center em tempo real. O Amazon Connect Customer agora permite que os administradores armazenem mais dados de referência que impulsionam as configurações de sua central de atendimento. Os administradores agora podem usar tabelas de dados para armazenar até 20.000 valores por tabela para definir configurações, como horas de operação, regras de escalonamento, prompts de agente de IA ou atribuições de fila que geram fluxos de contato. Os administradores agora também podem exportar tabelas, editar centenas de registros, mover tabelas entre instâncias do Connect Customer ou carregar dados de referência de sistemas externos usando ferramentas e fontes como Excel e Dynamo D B. Por que importa: Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-connect-manage-data-tables/"
   }
 ]
