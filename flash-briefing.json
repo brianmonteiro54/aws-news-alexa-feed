@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261001-01-8addc0c85ce08edc",
-    "updateDate": "2026-10-01T17:19:42Z",
-    "titleText": "1. As tabelas do Amazon S3 agora oferecem suporte a até 100 buckets de tabela por região da AWS em",
-    "mainText": "Notícia 1 de 5, impacto médio. As tabelas do Amazon S3 agora oferecem suporte a até 100 buckets de tabela por região da AWS em uma conta da AWS. As tabelas do Amazon S3 agora oferecem suporte a até 100 buckets de tabela por região da AWS em uma conta da AWS, um aumento de 10. Isso permite que você crie até 1 milhão de tabelas por região da AWS em uma conta da AWS. Com uma permissão de intervalo de tabela mais alta, você pode criar um intervalo de tabela separado para cada conjunto de dados, carga de trabalho ou equipe e aplicar configurações de nível de intervalo de tabela, como criptografia, políticas de acesso e replicação a cada um. Por que importa: Impacta armazenamento, backup e retenção. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Custo / preço, Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-s3-tables-table-bucket-increase"
+    "uid": "aws-news-devops-20261002-01-5829a0f448da9660",
+    "updateDate": "2026-10-02T16:34:58Z",
+    "titleText": "1. O GuardDuty Runtime Monitoring agora está incluído no plano do AWS Security Hub Threat Analytics",
+    "mainText": "Notícia 1 de 5, impacto alto. O Guard Duty Runtime Monitoring agora está incluído no plano do AWS Security Hub Threat Analytics. Hoje, a AWS anuncia que o Amazon Guard Duty Runtime Monitoring agora está incluído no plano AWS Security Hub Threat Analytics. O Monitoramento de tempo de execução inspeciona o sistema operacional, a rede e a atividade de arquivos para detectar ameaças, como fugas de contêineres, escalonamento de privilégios e mineração de criptografia em instâncias do Amazon EC2, clusters do Amazon EKS e tarefas do Amazon ECS no AWS Fárgate. O Security Hub agora cobra essa cobertura por meio de preços simplificados. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Mexe direto com seus clusters Kubernetes/EKS.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-security-hub-runtime-monitoring/"
   },
   {
-    "uid": "aws-news-devops-20261001-02-091f4dc41cf8dce7",
-    "updateDate": "2026-10-01T17:18:42Z",
-    "titleText": "2. O Amazon Aurora Serverless agora é dimensionado mais rapidamente para suportar IA agêntica e",
-    "mainText": "Notícia 2 de 5, impacto médio. O Amazon Aurora Serverless agora é dimensionado mais rapidamente para suportar IA agêntica e outras cargas de trabalho explosivas. O Amazon Aurora sem servidor agora é dimensionado em etapas ainda maiores, adicionando até 16 ACUs à sua capacidade atual em um segundo e continuando a escalar até 256 ACUs à medida que sua carga de trabalho cresce. Com este lançamento, sua carga de trabalho será dimensionada mais rapidamente e alcançará a capacidade necessária. Quando a carga de trabalho terminar, o Aurora serverless será automaticamente reduzido a zero, para que você pague apenas pelo que usar. Por que importa: Afeta camada de dados/persistência das aplicações. Ferramental de operação do dia a dia. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/08/aurora-serverless-instant-16-acu-scaling/"
+    "uid": "aws-news-devops-20261002-02-75492bc240f87631",
+    "updateDate": "2026-10-02T16:33:58Z",
+    "titleText": "2. Amazon DynamoDB apresenta exportação filtrada para o Amazon S3",
+    "mainText": "Notícia 2 de 5, impacto médio. Amazon Dynamo D B apresenta exportação filtrada para o Amazon S3. O Amazon Dynamo D B agora oferece suporte à exportação filtrada para tabelas. Exportar para o Amazon S3 permite exportar seus dados de tabela para análise, compartilhamento de dados e outros usos off-line, como uma exportação completa ou uma exportação incremental ao longo de uma janela de tempo. A exportação filtrada permite especificar exatamente quais itens e atributos exportar, produzindo um conjunto de dados que contém apenas os dados relevantes para o seu caso de uso. Por que importa: Afeta camada de dados/persistência das aplicações. Impacta armazenamento, backup e retenção. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-introduces-filtered-export/"
   },
   {
-    "uid": "aws-news-devops-20261001-03-f831037cc4a1b7d4",
-    "updateDate": "2026-10-01T17:17:42Z",
-    "titleText": "3. Amazon S3 Vectors apresenta pré-filtragem de metadados para recuperação até 5x maior em pesquisa",
-    "mainText": "Notícia 3 de 5, impacto médio. Amazon S3 Vectors apresenta pré-filtragem de metadados para recuperação até 5x maior em pesquisa filtrada. O Amazon S3 Vectors agora oferece suporte à pré-filtragem, que avalia os filtros de metadados antes de executar a pesquisa de similaridade, retornando até 5 vezes mais vetores correspondentes quando o filtro é seletivo. O S3 Vectors também adiciona um operador de correspondência de prefixo ($startsWith) para filtrar valores como caminhos e URLs. Juntas, essas melhorias dão aos seus aplicativos de geração aumentada de recuperação (RAG), agênticos e de pesquisa semântica resultados mais completos quando você filtra, para que seus aplicativos retornem respostas mais relevantes. Por que importa: Impacta armazenamento, backup e retenção. Ferramental de operação do dia a dia. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/s3-vectors-introduces-metadata-pre-filtering/"
+    "uid": "aws-news-devops-20261002-03-4b1af2cc295a026e",
+    "updateDate": "2026-10-02T16:32:58Z",
+    "titleText": "3. O Amazon Redshift agora oferece suporte a consultas entre regiões para seu data lake",
+    "mainText": "Notícia 3 de 5, impacto médio. O Amazon Redshift agora oferece suporte a consultas entre regiões para seu data lake. O Amazon Redshift agora oferece suporte à consulta de tabelas de data lake do Amazon S3 localizadas em uma região diferente da AWS. Com o roteamento aprimorado da VPC, o tráfego de consulta do data lake entre o Amazon S3 e o Amazon Redshift permanece em sua própria VPC. Ambos os recursos são alimentados pelo mecanismo de consulta de data lake integrado que é executado diretamente na computação de clusters provisionados por RG e Serverless. Por que importa: Afeta camada de dados/persistência das aplicações. Impacta topologia de rede e exposição de serviços.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-cross-Region-queries-for-data-lake"
   },
   {
-    "uid": "aws-news-devops-20261001-04-6cd88da59926f885",
-    "updateDate": "2026-10-01T17:16:42Z",
-    "titleText": "4. Armazenamento sem servidor no Amazon EMR Serverless agora suporta shuffle em escala de terabytes",
-    "mainText": "Notícia 4 de 5, impacto médio. Armazenamento sem servidor no Amazon EMR Serverless agora suporta shuffle em escala de terabytes. O Amazon EMR Serverless agora oferece recursos aprimorados de armazenamento sem servidor com suporte para operações shuffle de até 1 TB, aumentando o limite anterior de 200 GB por trabalho. O Amazon EMR Serverless torna simples para engenheiros de dados e cientistas de dados executar estruturas de análise de big data de código aberto sem configurar, gerenciar e dimensionar clusters ou servidores. Por que importa: Afeta camada de dados/persistência das aplicações.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/emr-serverless-terabyte-scale-shuffle/"
+    "uid": "aws-news-devops-20261002-04-53203197d88d6974",
+    "updateDate": "2026-10-02T16:31:58Z",
+    "titleText": "4. O AWS Well-Architected Agent agora está disponível em versão prévia",
+    "mainText": "Notícia 4 de 5, impacto baixo. O AWS Well-Architected Agent agora está disponível em versão prévia. A AWS anuncia a prévia do AWS Well-Architected Agent, um serviço baseado em IA que é a evolução de última geração do AWS Trusted Advisor e da AWS Well-Architected Tool. O agente analisa e otimiza a infraestrutura da AWS em termos de custo, segurança, desempenho e confiabilidade, fornecendo recomendações contextualizadas priorizadas por metas de negócios. Por que importa: Tem efeito em custo/governança da conta. Afeta provisionamento e pipelines de deploy.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-well-architected-agent/"
   },
   {
-    "uid": "aws-news-devops-20261001-05-d5c96827f747c189",
-    "updateDate": "2026-10-01T17:15:42Z",
-    "titleText": "5. O Amazon Managed Grafana agora suporta a criação de espaços de trabalho Grafana 13.2",
-    "mainText": "Notícia 5 de 5, impacto médio. O Amazon Managed Grafana agora suporta a criação de espaços de trabalho Grafana 13.2. O Amazon Managed Grafana agora suporta a criação de novos espaços de trabalho com o Grafana versão 13.2. Esta versão traz recursos do Grafana de código aberto versões 13.0 a 13.2, incluindo o Git Sync para dashboards, dashboards dinâmicos e suporte a consultas PromQL no plugin de fonte de dados Amazon Cloud Watch. Com o Git Sync, você pode tratar os dashboards como código vinculando um espaço de trabalho a um repositório Git, ativando o controle de versão para rastrear, revisar e reverter as modificações do dashboard. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-managed-grafana-now-supports-creating-grafana-13-2-workspaces"
+    "uid": "aws-news-devops-20261002-05-3e60c649bd09ca7b",
+    "updateDate": "2026-10-02T16:30:58Z",
+    "titleText": "5. O Amazon DynamoDB Accelerator (Dax) agora está disponível em outras regiões",
+    "mainText": "Notícia 5 de 5, impacto baixo. O Amazon Dynamo D B Accelerator (Dax) agora está disponível em outras regiões. Hoje, a AWS anuncia a disponibilidade do Amazon Dynamo D B Accelerator (Dax) em 17 regiões adicionais da AWS: Ásia-Pacífico (Hong Kong), Ásia-Pacífico (Hyderabad), Ásia-Pacífico (Jacarta), Ásia-Pacífico (Malásia), Ásia-Pacífico (Melbourne), Ásia-Pacífico (Nova Zelândia), Ásia-Pacífico (Osaka), Ásia-Pacífico (Seul), Ásia-Pacífico (Taipei), Ásia-Pacífico (Tailândia), Canadá Ocidental (Calgary), Europa (Milão), Europa (Zurique), Israel (Tel Aviv), México (Central), AWS GovCloud (EUA-Leste) e AWS GovCloud (EUA-Oeste). Por que importa: Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-dynamodb-accelerator/"
   }
 ]
