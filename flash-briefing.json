@@ -1,37 +1,16 @@
 [
   {
-    "uid": "aws-news-devops-20261004-01-b9edd0e408b5d9bf",
-    "updateDate": "2026-10-04T15:43:40Z",
-    "titleText": "1. Amazon EKS e Amazon EKS Distro agora oferecem suporte ao Kubernetes versão 1.37",
-    "mainText": "Notícia 1 de 5, impacto crítico. Amazon EKS e Amazon EKS Distro agora oferecem suporte ao Kubernetes versão 1.37. A versão 1.37 do Kubernetes introduziu vários novos recursos e correções de bugs, e a AWS tem o prazer de anunciar que agora você pode usar o Amazon Elastic Kubernetes Service (EKS) e o Amazon EKS Distro para executar a versão 1.37 do Kubernetes. A partir de hoje, você pode criar novos clusters EKS usando a versão 1.37 e atualizar clusters existentes para a versão 1.37 usando o console EKS, a interface de linha de comando eksctl ou por meio de uma ferramenta de infraestrutura como código. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Nova versão suportada, Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-distro-kubernetes-version-1-37"
+    "uid": "aws-news-devops-20261005-01-f10d699404efeefa",
+    "updateDate": "2026-10-05T20:09:12Z",
+    "titleText": "1. O AWS Private CA agora fornece registros detalhados de emissão de certificados",
+    "mainText": "Notícia 1 de 2, impacto alto. O AWS Private CA agora fornece registros detalhados de emissão de certificados. A AWS Private CA anuncia registros detalhados de emissão de certificados, um novo evento de serviço AWS Cloud Trail que registra o conteúdo completo do certificado, emitindo informações da CA, identidade do solicitante e status de assinatura para cada emissão. Você pode usar esses eventos para auditoria de conformidade, inventário de certificados, rastreamento de migração de algoritmos e monitoramento de falha de emissão. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-private-ca-certificate-issuance-logs/"
   },
   {
-    "uid": "aws-news-devops-20261004-02-65aba97442f9783d",
-    "updateDate": "2026-10-04T15:42:40Z",
-    "titleText": "2. Amazon ECS adiciona suporte Amazon VPC Lattice para implantações azul/verde, linear e canário",
-    "mainText": "Notícia 2 de 5, impacto crítico. Amazon ECS adiciona suporte Amazon VPC Lattice para implantações azul/verde, linear e canário. O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte a estratégias integradas de implantação azul/verde, linear e canário para serviços ECS usando Amazon VPC Lattice. Os aplicativos que usam o VPC Lattice para comunicação entre serviços entre VPCs e contas da AWS agora podem aproveitar a mudança de tráfego gerenciado nativamente do Amazon ECS ao implementar atualizações. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta provisionamento e pipelines de deploy.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-vpc-lattice-blue-green-deployments"
-  },
-  {
-    "uid": "aws-news-devops-20261004-03-4af5695bd5aa99d8",
-    "updateDate": "2026-10-04T15:41:40Z",
-    "titleText": "3. AWS Health apresenta o catálogo de versões para gerenciamento do ciclo de vida do software",
-    "mainText": "Notícia 3 de 5, impacto médio. AWS Health apresenta o catálogo de versões para gerenciamento do ciclo de vida do software. Hoje, o AWS Health apresenta o catálogo de versões que fornece uma fonte centralizada de informações do ciclo de vida para versões de software em serviços da AWS. O catálogo de versões ajuda os clientes a passar do gerenciamento reativo para o proativo de atualizações de versão e riscos de fim de suporte. Ele está disponível no AWS Health Dashboard, e os clientes do Business Support Plus, Enterprise Support ou Unified Operations podem usar a API do AWS Health para integrar dados do ciclo de vida em seus fluxos de trabalho operacionais. Por que importa: Pede ação sua: fim de suporte / deprecação. Mexe direto com seus clusters Kubernetes/EKS. Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-health-introduces-version-catalog-software-lifecycle-management"
-  },
-  {
-    "uid": "aws-news-devops-20261004-04-1ee926edae2efd60",
-    "updateDate": "2026-10-04T15:40:40Z",
-    "titleText": "4. Amazon Aurora DSQL agora oferece suporte a índices parciais",
-    "mainText": "Notícia 4 de 5, impacto médio. Amazon Aurora DSQL agora oferece suporte a índices parciais. O Amazon Aurora DSQL agora permite criar um índice em um subconjunto específico de uma tabela, armazenando apenas linhas qualificadas, em vez de todas as linhas da tabela inteira, o que melhora o desempenho da consulta e reduz o custo de armazenamento do índice. Muitas tabelas contêm um pequeno conjunto de trabalho ao lado de um histórico muito maior, como pedidos em aberto entre anos de pedidos concluídos. Adicione uma cláusula WHERE a CREATE INDEX para indexar apenas esse conjunto de trabalho. Por que importa: Afeta camada de dados/persistência das aplicações.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aurora-dsql-partial-indexes/"
-  },
-  {
-    "uid": "aws-news-devops-20261004-05-c7a6fd6f14ddcb63",
-    "updateDate": "2026-10-04T15:39:40Z",
-    "titleText": "5. AWS Brasil automatiza distribuição de licenças de produtos de software não brasileiros para",
-    "mainText": "Notícia 5 de 5, impacto baixo. AWS Brasil automatiza distribuição de licenças de produtos de software não brasileiros para clientes brasileiros. A AWS Brasil agora oferece um fluxo de trabalho de distribuição automatizado por meio do programa de distribuição 2P da AWS Brasil. Fornecedores independentes de software (ISVs) não brasileiros qualificados concedem à AWS Brasil o direito de distribuir suas licenças de produtos de software como serviço (SaaS), e a AWS Brasil as distribui para clientes no Brasil. A AWS Brasil é a vendedora registrada, faturando aos clientes brasileiros em reais (BRL) com os impostos brasileiros aplicáveis. Por que importa: Tem efeito em custo/governança da conta.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-brazil-software-license-distribution/"
+    "uid": "aws-news-devops-20261005-02-3641563df21660c3",
+    "updateDate": "2026-10-05T20:08:12Z",
+    "titleText": "2. O AWS Advanced Ruby Driver Wrapper está geralmente disponível",
+    "mainText": "Notícia 2 de 2, impacto baixo. O AWS Advanced Ruby Driver Wrapper está geralmente disponível. O Amazon Web Services (AWS) Advanced Ruby Driver Wrapper agora está disponível para uso com bancos de dados compatíveis com Amazon RDS e Amazon Aurora Postgre S Q L e My S Q L. Esse driver de banco de dados avançado reduz os tempos de comutação de banco de dados RDS Azul/Verde, Aurora Global e failover de banco de dados, melhorando a disponibilidade do aplicativo. Além disso, ele oferece suporte a vários mecanismos de autenticação para seu banco de dados, incluindo a autenticação do AWS Secrets Manager e a autenticação baseada em token com o AWS Identity and Access Management (IAM). Por que importa: Afeta provisionamento e pipelines de deploy. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-ruby-driver-wrapper-available/"
   }
 ]
