@@ -1,37 +1,9 @@
 [
   {
-    "uid": "aws-news-devops-20261006-01-e01ad13e4885ab55",
-    "updateDate": "2026-10-06T17:07:03Z",
-    "titleText": "1. O AWS Certificate Manager agora suporta a emissão DA ACME por meio do AWS PrivateLink",
-    "mainText": "Notícia 1 de 5, impacto alto. O AWS Certificate Manager agora suporta a emissão DA ACME por meio do AWS PrivateLink. O AWS Certificate Manager (ACM) agora oferece suporte ao AWS PrivateLink para emissão de certificados públicos ACME, permitindo que você solicite e renove certificados TLS públicos em um caminho de rede privada que permanece dentro da rede AWS. Agora você pode criar um ponto de extremidade da interface VPC para o serviço ACM ACME e rotear o tráfego de emissão de qualquer cliente compatível com ACMEv2 por meio de sua VPC. Se você já estiver usando o ACME com ACM, a configuração não requer alterações em seus clientes ACME. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta topologia de rede e exposição de serviços.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/AWS-Certificate-Manager-ACME-Privatelink"
-  },
-  {
-    "uid": "aws-news-devops-20261006-02-9e0d62bbafd64d85",
-    "updateDate": "2026-10-06T17:06:03Z",
-    "titleText": "2. O AWS iam Identity Center agora oferece suporte a controles de acesso à rede para o Identity",
-    "mainText": "Notícia 2 de 5, impacto médio. O AWS iam Identity Center agora oferece suporte a controles de acesso à rede para o Identity Store. O AWS iam Identity Center ajuda você a configurar a experiência de logon único para sua força de trabalho em contas e aplicativos da AWS. O iam Identity Center agora suporta controles de acesso à rede para o Identity Store, que armazena seus usuários e grupos. Você pode restringir o acesso à API do Identity Store e à API do SCIM com base na rede de origem das solicitações. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta topologia de rede e exposição de serviços.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-identity-store-network-controls/"
-  },
-  {
-    "uid": "aws-news-devops-20261006-03-d2588aded38a1a4c",
-    "updateDate": "2026-10-06T17:05:03Z",
-    "titleText": "3. Amazon EC2 apresenta tags compartilhadas para Amazon Machine Images",
-    "mainText": "Notícia 3 de 5, impacto médio. Amazon EC2 apresenta tags compartilhadas para Amazon Machine Images. O Amazon EC2 agora oferece suporte ao compartilhamento de tags da AMI, um novo recurso que permite que os proprietários da AMI tornem as tags selecionadas visíveis para todas as contas da AWS com as quais uma AMI é compartilhada. Quer uma AMI seja compartilhada com uma conta, em uma organização ou tornada pública, uma tag compartilhada é automaticamente compartilhada ao lado da AMI, eliminando a necessidade de criar e manter fluxos de trabalho personalizados de replicação de tags. Os proprietários da AMI simplesmente adicionam o prefixo 'ec2: SharedTag/' a qualquer chave de tag, e todas as contas com as quais a AMI é compartilhada podem vê-la imediatamente. Por que importa: Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-ami-shared-tags"
-  },
-  {
-    "uid": "aws-news-devops-20261006-04-9dbbadf94186b3a6",
-    "updateDate": "2026-10-06T17:04:03Z",
-    "titleText": "4. Amazon Redshift adiciona suporte para criar e atualizar visualizações materializadas do Apache",
-    "mainText": "Notícia 4 de 5, impacto médio. Amazon Redshift adiciona suporte para criar e atualizar visualizações materializadas do Apache Iceberg. O Amazon Redshift agora suporta a criação e atualização de visualizações materializadas do Apache Iceberg. Visualizações materializadas pré-calculam junções e agregações caras uma vez e armazenam os resultados em uma tabela Apache Iceberg nos buckets de tabela do Amazon S3 ou Amazon S3, registrados no AWS Glue Data Catalog. Visualizações materializadas são criadas usando SQL familiar - CRIAR VISUALIZAÇÃO MATERIALIZADA Por que importa: Afeta camada de dados/persistência das aplicações. Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/redshift-iceberg-materialized-views"
-  },
-  {
-    "uid": "aws-news-devops-20261006-05-ae76849790a635b6",
-    "updateDate": "2026-10-06T17:03:03Z",
-    "titleText": "5. A AWS Control Tower AFT agora oferece suporte a execuções de personalização somente de plano",
-    "mainText": "Notícia 5 de 5, impacto médio. A AWS Control Tower AFT agora oferece suporte a execuções de personalização somente de plano. O AWS Control Tower Account Factory for Térraform (AFT) agora oferece suporte a execuções de personalização somente de plano, oferecendo aos administradores a capacidade de visualizar as alterações do Térraform antes de aplicá-las em suas contas gerenciadas. AFT é um módulo Térraform de código aberto que automatiza o provisionamento e a personalização de contas em ambientes AWS Control Tower. Por que importa: Tem efeito em custo/governança da conta. Afeta provisionamento e pipelines de deploy.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-control-tower-aft/"
+    "uid": "aws-news-devops-20261007-01-8096ab0a49f811a1",
+    "updateDate": "2026-10-07T17:44:14Z",
+    "titleText": "1. AWS Capabilities by Region agora oferece notificações de disponibilidade para recursos",
+    "mainText": "Notícia 1 de 1, impacto baixo. AWS Capabilities by Region agora oferece notificações de disponibilidade para recursos individuais e filtros avançados. Hoje, a AWS anuncia notificações de disponibilidade em nível de recurso e filtros avançados para recursos da AWS por região no AWS Builder Center. Agora você pode definir notificações de disponibilidade para serviços da AWS ou para um recurso individual de um serviço da AWS nas regiões da AWS de seu interesse e receber uma notificação no aplicativo e um resumo semanal por e-mail cobrindo todos os recursos que foram disponibilizados desde que você ativou as notificações de disponibilidade. Por que importa: Afeta provisionamento e pipelines de deploy.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/"
   }
 ]
