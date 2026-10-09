@@ -1,30 +1,23 @@
 [
   {
-    "uid": "aws-news-devops-20261008-01-895cf9cbd6bf12c1",
-    "updateDate": "2026-10-08T17:48:31Z",
-    "titleText": "1. O AWS Config agora suporta 77 novos tipos de recursos",
-    "mainText": "Notícia 1 de 4, impacto alto. O AWS Config agora suporta 77 novos tipos de recursos. O AWS Config agora oferece suporte a 77 tipos de recursos adicionais da AWS nos principais serviços, incluindo Amazon EC2, Amazon S3 Files e Amazon Q Business. Essa expansão oferece maior cobertura sobre seu ambiente AWS, permitindo que você descubra, avalie, audite e corrija de forma mais eficaz uma gama ainda maior de recursos. Com este lançamento, se você habilitou a gravação para todos os tipos de recursos, o AWS Config rastreará automaticamente essas novas adições. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Mexe direto com seus clusters Kubernetes/EKS.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-config-new-resource-types"
+    "uid": "aws-news-devops-20261009-01-8f3edd2f517fd293",
+    "updateDate": "2026-10-09T17:23:57Z",
+    "titleText": "1. AWS Cost Explorer, Budgets e Dashboards agora oferecem suporte a atributos de produtos Amazon",
+    "mainText": "Notícia 1 de 3, impacto médio. AWS Cost Explorer, Budgets e Dashboards agora oferecem suporte a atributos de produtos Amazon Bédrock. AWS Cost Explorer, AWS Budgets e AWS Cost Management Dashboards agora permitem analisar os custos do Amazon Bédrock por atributos do produto, uma nova dimensão que divide o custo do Bédrock por modelo, fornecedor de modelo, tipo de inferência e recurso. No Cost Explorer e nos Dashboards, é possível agrupar e filtrar custos por esses atributos. Em Orçamentos, você pode filtrar orçamentos pelos mesmos atributos. Por que importa: Tem efeito em custo/governança da conta. Relevância indireta: produtividade/IA, não infraestrutura.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/"
   },
   {
-    "uid": "aws-news-devops-20261008-02-5a50599c4c217241",
-    "updateDate": "2026-10-08T17:47:31Z",
-    "titleText": "2. Claude Haiku 5.5 já está disponível na AWS",
-    "mainText": "Notícia 2 de 4, impacto baixo. Claude Haiku 5.5 já está disponível na AWS. A AWS agora oferece o Claude Haiku 5.5, o modelo mais rápido e eficiente da família Claude 5.5, construído para subagentes e trabalhos de alto volume e sensíveis a custos. De acordo com a Anthropic, custa cerca de 75% menos do que o Claude Haiku 4.5 para a maioria das tarefas. Claude Haiku 5.5 é o Haiku mais capaz da Anthropic até agora, um avanço significativo em relação ao Haiku 4.5 em termos de codificação, uso de ferramentas, uso de computadores e agentes. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Tem efeito em custo/governança da conta.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws/"
+    "uid": "aws-news-devops-20261009-02-2f416a3248b0d45b",
+    "updateDate": "2026-10-09T17:22:57Z",
+    "titleText": "2. O Amazon RDS for Oracle agora oferece suporte a pré-verificações de atualização de versões",
+    "mainText": "Notícia 2 de 3, impacto médio. O Amazon RDS for Oracle agora oferece suporte a pré-verificações de atualização de versões secundárias e um novo evento RDS para ajudar a reduzir o tempo de inatividade da aplicação de patches. O Amazon Relational Database Service (Amazon RDS) para Oracle agora permite que você mesmo execute uma pré-verificação de atualização de versão secundária, antes de iniciar uma atualização ou antes da janela de manutenção programada. O RDS for Oracle agora também emite um novo evento durante a aplicação de patches que informa quando sua instância de banco de dados está aceitando conexões novamente. Com esse evento, você pode trazer seus aplicativos de volta enquanto as tarefas de manutenção restantes ainda estão em andamento, o que pode reduzir o tempo de inatividade do seu aplicativo durante a aplicação de patches. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta funções serverless e o barramento de eventos/filas.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/"
   },
   {
-    "uid": "aws-news-devops-20261008-03-bac979a82da366b4",
-    "updateDate": "2026-10-08T17:46:31Z",
-    "titleText": "3. Claude Haiku 5.5 já está disponível no AWS GovCloud (EUA)",
-    "mainText": "Notícia 3 de 4, impacto baixo. Claude Haiku 5.5 já está disponível no AWS GovCloud (EUA). O AWS GovCloud (EUA) agora oferece o Claude Haiku 5.5, o modelo mais rápido e eficiente da família Claude 5.5, construído para subagentes e trabalhos de alto volume e sensíveis a custos. De acordo com a Anthropic, custa cerca de 75% menos do que o Claude Haiku 4.5 para a maioria das tarefas. Claude Haiku 5.5 é o Haiku mais capaz da Anthropic até agora, um avanço significativo em relação ao Haiku 4.5 em termos de codificação, uso de ferramentas, uso de computadores e agentes. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/claude-haiku-5-5-aws-govcloud/"
-  },
-  {
-    "uid": "aws-news-devops-20261008-04-8096ab0a49f811a1",
-    "updateDate": "2026-10-08T17:45:31Z",
-    "titleText": "4. AWS Capabilities by Region agora oferece notificações de disponibilidade para recursos",
-    "mainText": "Notícia 4 de 4, impacto baixo. AWS Capabilities by Region agora oferece notificações de disponibilidade para recursos individuais e filtros avançados. Hoje, a AWS anuncia notificações de disponibilidade em nível de recurso e filtros avançados para recursos da AWS por região no AWS Builder Center. Agora você pode definir notificações de disponibilidade para serviços da AWS ou para um recurso individual de um serviço da AWS nas regiões da AWS de seu interesse e receber uma notificação no aplicativo e um resumo semanal por e-mail cobrindo todos os recursos que foram disponibilizados desde que você ativou as notificações de disponibilidade. Por que importa: Afeta provisionamento e pipelines de deploy.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/awscapabilities-enhancements/"
+    "uid": "aws-news-devops-20261009-03-5b1e42c0b7253ca4",
+    "updateDate": "2026-10-09T17:21:57Z",
+    "titleText": "3. OpenAI GPT-6.1 Sol agora suporta modo Ultrafast no Amazon Bedrock",
+    "mainText": "Notícia 3 de 3, impacto baixo. OpenAI GPT-6.1 Sol agora suporta modo Ultrafast no Amazon Bédrock. Hoje, a AWS anuncia a disponibilidade do modo Ultrafast para GPT-6.1 Sol da OpenAI no Amazon Bédrock. O modo ultrarrápido fornece inferência mais rápida para cargas de trabalho onde a velocidade é mais importante. O mecanismo de inferência Amazon Bédrock oferece desempenho, segurança e confiabilidade necessários para cargas de trabalho de produção. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/"
   }
 ]
