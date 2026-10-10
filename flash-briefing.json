@@ -1,23 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261009-01-8f3edd2f517fd293",
-    "updateDate": "2026-10-09T17:23:57Z",
-    "titleText": "1. AWS Cost Explorer, Budgets e Dashboards agora oferecem suporte a atributos de produtos Amazon",
-    "mainText": "Notícia 1 de 3, impacto médio. AWS Cost Explorer, Budgets e Dashboards agora oferecem suporte a atributos de produtos Amazon Bédrock. AWS Cost Explorer, AWS Budgets e AWS Cost Management Dashboards agora permitem analisar os custos do Amazon Bédrock por atributos do produto, uma nova dimensão que divide o custo do Bédrock por modelo, fornecedor de modelo, tipo de inferência e recurso. No Cost Explorer e nos Dashboards, é possível agrupar e filtrar custos por esses atributos. Em Orçamentos, você pode filtrar orçamentos pelos mesmos atributos. Por que importa: Tem efeito em custo/governança da conta. Relevância indireta: produtividade/IA, não infraestrutura.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-bedrock-attributes-in-cost-explorer/"
+    "uid": "aws-news-devops-20261010-01-5fbfb72381fa592c",
+    "updateDate": "2026-10-10T16:09:53Z",
+    "titleText": "1. AWS Security Hub agora exporta descobertas para S3 em formato CSV ou JSON",
+    "mainText": "Notícia 1 de 5, impacto alto. AWS Security Hub agora exporta descobertas para S3 em formato CSV ou JSON. Hoje, o AWS Security Hub anuncia suporte para exportação de descobertas para o Amazon S3 no formato CSV ou JSON (OCSF). As equipes de segurança que precisam de descobertas fora do console para casos de uso, como relatórios de conformidade e evidências de auditoria, agora podem exportar descobertas de todas as páginas de descobertas no console do Security Hub, incluindo ameaças, exposição, vulnerabilidades, gerenciamento de postura, dados confidenciais e todas as descobertas, sem criar e manter seus próprios pipelines de extração. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta armazenamento, backup e retenção. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-exports-s3-csv-json/"
   },
   {
-    "uid": "aws-news-devops-20261009-02-2f416a3248b0d45b",
-    "updateDate": "2026-10-09T17:22:57Z",
-    "titleText": "2. O Amazon RDS for Oracle agora oferece suporte a pré-verificações de atualização de versões",
-    "mainText": "Notícia 2 de 3, impacto médio. O Amazon RDS for Oracle agora oferece suporte a pré-verificações de atualização de versões secundárias e um novo evento RDS para ajudar a reduzir o tempo de inatividade da aplicação de patches. O Amazon Relational Database Service (Amazon RDS) para Oracle agora permite que você mesmo execute uma pré-verificação de atualização de versão secundária, antes de iniciar uma atualização ou antes da janela de manutenção programada. O RDS for Oracle agora também emite um novo evento durante a aplicação de patches que informa quando sua instância de banco de dados está aceitando conexões novamente. Com esse evento, você pode trazer seus aplicativos de volta enquanto as tarefas de manutenção restantes ainda estão em andamento, o que pode reduzir o tempo de inatividade do seu aplicativo durante a aplicação de patches. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta funções serverless e o barramento de eventos/filas.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-minor-version-upgrade-precheck-new-patching-rds-event/"
+    "uid": "aws-news-devops-20261010-02-53d8a630312f111f",
+    "updateDate": "2026-10-10T16:08:53Z",
+    "titleText": "2. AWS Lambda oferece suporte à autenticação OAuth para fontes de eventos autogerenciadas do Apache",
+    "mainText": "Notícia 2 de 5, impacto médio. AWS Lambda oferece suporte à autenticação OAuth para fontes de eventos autogerenciadas do Apache Kafka. O AWS Lambda agora oferece suporte à autenticação OAuth para mapeamentos de fontes de eventos (ESM) autogerenciados do Apache Kafka, incluindo clusters Kafka que os próprios clientes executam e ofertas gerenciadas como Confluent Cloud, Aiven e Redpanda. Com este lançamento, os clientes podem autenticar seus consumidores Lambda Kafka por meio de seu provedor de identidade empresarial, ajudando-os a atender aos requisitos de segurança e conformidade de seus aplicativos Kafka. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Afeta provisionamento e pipelines de deploy. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-Lambda-supports-oauth-kafka-esm/"
   },
   {
-    "uid": "aws-news-devops-20261009-03-5b1e42c0b7253ca4",
-    "updateDate": "2026-10-09T17:21:57Z",
-    "titleText": "3. OpenAI GPT-6.1 Sol agora suporta modo Ultrafast no Amazon Bedrock",
-    "mainText": "Notícia 3 de 3, impacto baixo. OpenAI GPT-6.1 Sol agora suporta modo Ultrafast no Amazon Bédrock. Hoje, a AWS anuncia a disponibilidade do modo Ultrafast para GPT-6.1 Sol da OpenAI no Amazon Bédrock. O modo ultrarrápido fornece inferência mais rápida para cargas de trabalho onde a velocidade é mais importante. O mecanismo de inferência Amazon Bédrock oferece desempenho, segurança e confiabilidade necessários para cargas de trabalho de produção. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-sol-ultrafast-amazon/"
+    "uid": "aws-news-devops-20261010-03-b67137aab065cab2",
+    "updateDate": "2026-10-10T16:07:53Z",
+    "titleText": "3. Anthropic Claude Sonnet 5.5 e Claude Opus 5.5 já estão disponíveis no Kiro na AWS GovCloud (EUA)",
+    "mainText": "Notícia 3 de 5, impacto baixo. Anthropic Claude Sonnet 5.5 e Claude Opus 5.5 já estão disponíveis no Kiro na AWS GovCloud (EUA). Dois novos modelos Anthropic estão agora disponíveis no Kiro IDE e CLI para as regiões AWS GovCloud (EUA). Claude Opus 5.5 é o modelo Opus mais capaz da Anthropic até agora e um avanço em relação ao Opus 5 no trabalho de codificação de agentes de longa duração. O Opus 5.5 pensa de forma adaptativa em cada solicitação, decidindo quanto esforço cada tarefa precisa, e conclui as tarefas com cerca de 40% menos chamadas de ferramentas e cerca de metade dos tokens do Opus 5 no benchmarking interno do Kiro. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/06/kiro-claude-5-5-aws-govcloud-us/"
+  },
+  {
+    "uid": "aws-news-devops-20261010-04-12a87baced37a4b9",
+    "updateDate": "2026-10-10T16:06:53Z",
+    "titleText": "4. Amazon Bedrock agora oferece suporte a resumos de raciocínio para modelos OpenAI",
+    "mainText": "Notícia 4 de 5, impacto baixo. Amazon Bédrock agora oferece suporte a resumos de raciocínio para modelos OpenAI. O Amazon Bédrock agora oferece suporte ao parâmetro reasoning.summary para modelos OpenAI por meio da API Responses. Esse recurso permite solicitar um resumo legível do raciocínio de um modelo junto com sua resposta, ajudando você a entender sua abordagem para tarefas complexas, como codificação, análise e solução de problemas em várias etapas. Os resumos de raciocínio fornecem aos desenvolvedores contexto adicional para avaliar respostas, depurar aplicativos e mostrar aos usuários como um modelo abordou uma solicitação. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-reasoning-summaries-openai/"
+  },
+  {
+    "uid": "aws-news-devops-20261010-05-aba89b58b3614be9",
+    "updateDate": "2026-10-10T16:05:53Z",
+    "titleText": "5. Instâncias R8g do Amazon EC2 agora disponíveis em regiões adicionais",
+    "mainText": "Notícia 5 de 5, impacto baixo. Instâncias R8g do Amazon EC2 agora disponíveis em regiões adicionais. A partir de hoje, as instâncias R8g do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região AWS European Sovereign Cloud (Alemanha). Essas instâncias são alimentadas por processadores AWS Graviton4 e oferecem desempenho até 30% melhor em comparação com instâncias baseadas em AWS Graviton3. As instâncias R8g do Amazon EC2 são ideais para cargas de trabalho com uso intensivo de memória, como bancos de dados, caches na memória e análises de big data em tempo real. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta armazenamento, backup e retenção. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ec2-r8g-instances-thf/"
   }
 ]
