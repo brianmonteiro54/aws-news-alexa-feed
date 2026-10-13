@@ -1,23 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261012-01-0aa2e9269961b9a4",
-    "updateDate": "2026-10-12T20:12:15Z",
-    "titleText": "1. O Amazon OpenSearch Service agora suporta criptografia em nível de índice",
-    "mainText": "Notícia 1 de 3, impacto alto. O Amazon Open Search Service agora suporta criptografia em nível de índice. O Amazon Open Search Service agora oferece suporte à criptografia em nível de índice, permitindo que você criptografe cada índice em repouso com sua própria chave gerenciada pelo cliente do AWS Key Management Service (AWS KMS). Isso ajuda você a proteger dados com propriedade ou confidencialidade diferentes sob chaves separadas no mesmo domínio. Por exemplo, você pode criptografar os dados de cada locatário com sua própria chave em um aplicativo de vários locatários. Por que importa: Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Mexe com postura de segurança/permissões - revise antes de propagar.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/opensearch-index-level-encryption"
+    "uid": "aws-news-devops-20261013-01-348fd8b978273137",
+    "updateDate": "2026-10-13T18:05:01Z",
+    "titleText": "1. O Amazon CloudFront agora suporta o AWS Lambda Web Functions como origem",
+    "mainText": "Notícia 1 de 5, impacto alto. O Amazon Cloud Front agora suporta o AWS Lambda Web Functions como origem. A partir de hoje, você pode fornecer aplicativos da Web baseados no AWS Lambda Web Functions por meio da rede de borda global do Cloud Front. Com o Cloud Front na frente de uma função Web Lambda, você obtém a terminação TLS na borda para menor latência e conexões mais rápidas, armazenamento em cache para melhor desempenho e domínios personalizados com certificados TLS gerenciados. Nenhuma alteração no código do aplicativo é necessária. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta funções serverless e o barramento de eventos/filas. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/"
   },
   {
-    "uid": "aws-news-devops-20261012-02-938753a704dab619",
-    "updateDate": "2026-10-12T20:11:15Z",
-    "titleText": "2. O Amazon ElastiCache for Valkey apresenta o ElastiCache Insights",
-    "mainText": "Notícia 2 de 3, impacto médio. O Amazon ElastiCache for Val key apresenta o ElastiCache Insights. O Amazon ElastiCache for Val key agora apresenta o ElastiCache Insights, um painel pré-construído no Amazon Cloud Watch para seus clusters baseados em nós. O ElastiCache Insights traz a integridade do cluster, memória, computação, rede, taxa de transferência de comandos, latência, espaço de chaves e erros em uma única visualização proveniente de um conjunto de métricas do Open Telemetry que o ElastiCache publica automaticamente. Por que importa: Afeta camada de dados/persistência das aplicações. Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-elasticache-valkey-elasticache-insights/"
+    "uid": "aws-news-devops-20261013-02-3b959706380b6012",
+    "updateDate": "2026-10-13T18:04:01Z",
+    "titleText": "2. AWS Lambda anuncia Lambda Web Functions",
+    "mainText": "Notícia 2 de 5, impacto médio. AWS Lambda anuncia Lambda Web Functions. O AWS Lambda anuncia o Lambda Web Functions, uma nova primitiva de computação sem servidor em que seu código lida diretamente com solicitações HTTP. Seu código ouve em uma porta e lida com solicitações como faria em qualquer servidor HTTP. Você usa estruturas que já conhece, como Express ou Hono, sem adaptadores ou configuração personalizada. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Afeta provisionamento e pipelines de deploy.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/"
   },
   {
-    "uid": "aws-news-devops-20261012-03-5ff92a0f293eff5c",
-    "updateDate": "2026-10-12T20:10:15Z",
-    "titleText": "3. A família AWS Transfer oferece suporte a portas personalizadas para servidores SFTP públicos",
-    "mainText": "Notícia 3 de 3, impacto baixo. A família AWS Transfer oferece suporte a portas personalizadas para servidores SFTP públicos. O AWS Transfer Family agora permite configurar portas personalizadas em servidores SFTP públicos e escolher um modo de comunicação para cada porta. Você pode oferecer suporte a clientes que exigem portas diferentes ou iniciar conexões SFTP de maneira diferente em um único servidor. Anteriormente, os servidores públicos SFTP aceitavam conexões apenas na porta 22 e usavam a comunicação server-first. Por que importa: Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/transfer-family-custom-ports-sftp/"
+    "uid": "aws-news-devops-20261013-03-681fbadb036e1a75",
+    "updateDate": "2026-10-13T18:03:01Z",
+    "titleText": "3. Instâncias do Amazon EC2 G7 agora disponíveis nas regiões da Europa (Frankfurt) e Europa",
+    "mainText": "Notícia 3 de 5, impacto médio. Instâncias do Amazon EC2 G7 agora disponíveis nas regiões da Europa (Frankfurt) e Europa (Estocolmo). As instâncias G7 do Amazon Elastic Compute Cloud (Amazon EC2) alimentadas por GPUs NVIDIA RTX PRO 4500 Blackwell Server Edition agora estão disponíveis nas regiões da Europa (Frankfurt) e Europa (Estocolmo). As instâncias do G7 oferecem desempenho de inferência de IA de até 4,6x e desempenho gráfico de até 2,1 em comparação com as instâncias do G6. As instâncias do G7 também oferecem desempenho mais rápido para cargas de trabalho de análise de dados aceleradas por GPU. Por que importa: Afeta a camada de compute e capacidade dos nós. Ferramental de operação do dia a dia. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-g7-european-regions/"
+  },
+  {
+    "uid": "aws-news-devops-20261013-04-13c5295501159108",
+    "updateDate": "2026-10-13T18:02:01Z",
+    "titleText": "4. O Amazon SageMaker Studio simplifica os primeiros passos para novos construtores de IA/ML com",
+    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Sage Maker Studio simplifica os primeiros passos para novos construtores de IA/ML com login social. O Amazon Sage Maker Studio agora permite que novos clientes se inscrevam com suas credenciais do Google, GitHub ou Apple e entrem em um ambiente Studio totalmente configurado - sem configuração tradicional de conta da AWS, sem cartão de crédito e sem necessidade de navegação no console. Anteriormente, os novos clientes que descobriam um modelo no Hugging Face ou uma página de produto da AWS precisavam concluir um processo de criação de conta da AWS em várias etapas, fornecer um cartão de crédito, navegar no Console da AWS para encontrar o Sage Maker AI, configurar um ambiente e configurar as permissões do iam antes que pudessem começar a trabalhar. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/sagemaker-studio-social-sign-in/"
+  },
+  {
+    "uid": "aws-news-devops-20261013-05-6e3e52bdf29c45b3",
+    "updateDate": "2026-10-13T18:01:01Z",
+    "titleText": "5. Traga profunda experiência em IA do SageMaker para o seu agente de codificação com a habilidade",
+    "mainText": "Notícia 5 de 5, impacto baixo. Traga profunda experiência em IA do Sage Maker para o seu agente de codificação com a habilidade de IA/ML da AWS no Agent Toolkit for AWS. Seu agente de codificação pode selecionar, treinar, otimizar e implantar modelos no Amazon Sage Maker AI enquanto trabalha no restante do ambiente da AWS em um único fluxo de trabalho de linguagem natural. A habilidade de IA/ML da AWS agora é uma habilidade essencial no Agent Toolkit for AWS, por isso funciona junto com as outras habilidades da AWS do kit de ferramentas, como EC2, Bédrock e muito mais. Lançamos a nova habilidade de IA/ML da AWS no Agent Toolkit for AWS. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/"
   }
 ]
