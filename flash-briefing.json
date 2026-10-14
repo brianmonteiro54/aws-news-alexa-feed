@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261013-01-348fd8b978273137",
-    "updateDate": "2026-10-13T18:05:01Z",
-    "titleText": "1. O Amazon CloudFront agora suporta o AWS Lambda Web Functions como origem",
-    "mainText": "Notícia 1 de 5, impacto alto. O Amazon Cloud Front agora suporta o AWS Lambda Web Functions como origem. A partir de hoje, você pode fornecer aplicativos da Web baseados no AWS Lambda Web Functions por meio da rede de borda global do Cloud Front. Com o Cloud Front na frente de uma função Web Lambda, você obtém a terminação TLS na borda para menor latência e conexões mais rápidas, armazenamento em cache para melhor desempenho e domínios personalizados com certificados TLS gerenciados. Nenhuma alteração no código do aplicativo é necessária. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta funções serverless e o barramento de eventos/filas. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-lambda-web-functions-origin/"
+    "uid": "aws-news-devops-20261014-01-8e8ff8a69e4f499e",
+    "updateDate": "2026-10-14T15:46:17Z",
+    "titleText": "1. O Amazon ECS adiciona o LiveTaskCount e remove a cobrança da métrica RunningTaskCount",
+    "mainText": "Notícia 1 de 5, impacto alto. O Amazon ECS adiciona o LiveTaskCount e remove a cobrança da métrica RunningTaskCount. Hoje, o Amazon Elastic Container Service (Amazon ECS) anuncia o LiveTaskCount, uma nova métrica de serviço do ECS que relata quantas tarefas estão sendo executadas ativamente em seu serviço, disponível para todos os clientes sem custo adicional. Além disso, a métrica RunningTaskCount existente no Amazon Cloud Watch Container Insights não incorre mais em cobrança. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-service-metrics/"
   },
   {
-    "uid": "aws-news-devops-20261013-02-3b959706380b6012",
-    "updateDate": "2026-10-13T18:04:01Z",
-    "titleText": "2. AWS Lambda anuncia Lambda Web Functions",
-    "mainText": "Notícia 2 de 5, impacto médio. AWS Lambda anuncia Lambda Web Functions. O AWS Lambda anuncia o Lambda Web Functions, uma nova primitiva de computação sem servidor em que seu código lida diretamente com solicitações HTTP. Seu código ouve em uma porta e lida com solicitações como faria em qualquer servidor HTTP. Você usa estruturas que já conhece, como Express ou Hono, sem adaptadores ou configuração personalizada. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Afeta provisionamento e pipelines de deploy.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-web-functions/"
+    "uid": "aws-news-devops-20261014-02-584169939f7dffb6",
+    "updateDate": "2026-10-14T15:45:17Z",
+    "titleText": "2. O AWS Security Hub agora oferece suporte à criticidade de recursos para priorização",
+    "mainText": "Notícia 2 de 5, impacto alto. O AWS Security Hub agora oferece suporte à criticidade de recursos para priorização. Hoje, o AWS Security Hub adiciona criticidade de recursos à priorização de exposição, ajudando as equipes centrais de segurança a se concentrarem nas exposições que ameaçam seus recursos mais críticos para os negócios. Você pode definir a criticidade com uma regra de automação, por exemplo, marcando cada recurso de computação em uma conta específica como Muito Alto. A regra se aplica a recursos já em seu inventário e a novos recursos à medida que o Hub de Segurança os descobre. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-resource-criticality/"
   },
   {
-    "uid": "aws-news-devops-20261013-03-681fbadb036e1a75",
-    "updateDate": "2026-10-13T18:03:01Z",
-    "titleText": "3. Instâncias do Amazon EC2 G7 agora disponíveis nas regiões da Europa (Frankfurt) e Europa",
-    "mainText": "Notícia 3 de 5, impacto médio. Instâncias do Amazon EC2 G7 agora disponíveis nas regiões da Europa (Frankfurt) e Europa (Estocolmo). As instâncias G7 do Amazon Elastic Compute Cloud (Amazon EC2) alimentadas por GPUs NVIDIA RTX PRO 4500 Blackwell Server Edition agora estão disponíveis nas regiões da Europa (Frankfurt) e Europa (Estocolmo). As instâncias do G7 oferecem desempenho de inferência de IA de até 4,6x e desempenho gráfico de até 2,1 em comparação com as instâncias do G6. As instâncias do G7 também oferecem desempenho mais rápido para cargas de trabalho de análise de dados aceleradas por GPU. Por que importa: Afeta a camada de compute e capacidade dos nós. Ferramental de operação do dia a dia. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-g7-european-regions/"
+    "uid": "aws-news-devops-20261014-03-1ffd3e89c1d92ff0",
+    "updateDate": "2026-10-14T15:44:17Z",
+    "titleText": "3. O AWS Agent Registry agora oferece suporte a metadados personalizados para registros de registro",
+    "mainText": "Notícia 3 de 5, impacto baixo. O AWS Agent Registry agora oferece suporte a metadados personalizados para registros de registro. O AWS Agent Registry é o catálogo centralizado e controlado para agentes, servidores MCP, habilidades do agente, gateways e recursos personalizados em sua organização. À medida que as organizações escalam para centenas desses recursos, um nome e uma descrição por si só são insuficientes para uma governança e descoberta eficazes. Os metadados personalizados permitem que você estenda todos os registros com os próprios campos estruturados da sua organização, para que tanto as pessoas quanto os sistemas automatizados possam encontrar e governar os recursos de forma consistente. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Ferramental de operação do dia a dia. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-agent-registry-custom-metadata-registry-records"
   },
   {
-    "uid": "aws-news-devops-20261013-04-13c5295501159108",
-    "updateDate": "2026-10-13T18:02:01Z",
-    "titleText": "4. O Amazon SageMaker Studio simplifica os primeiros passos para novos construtores de IA/ML com",
-    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Sage Maker Studio simplifica os primeiros passos para novos construtores de IA/ML com login social. O Amazon Sage Maker Studio agora permite que novos clientes se inscrevam com suas credenciais do Google, GitHub ou Apple e entrem em um ambiente Studio totalmente configurado - sem configuração tradicional de conta da AWS, sem cartão de crédito e sem necessidade de navegação no console. Anteriormente, os novos clientes que descobriam um modelo no Hugging Face ou uma página de produto da AWS precisavam concluir um processo de criação de conta da AWS em várias etapas, fornecer um cartão de crédito, navegar no Console da AWS para encontrar o Sage Maker AI, configurar um ambiente e configurar as permissões do iam antes que pudessem começar a trabalhar. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/sagemaker-studio-social-sign-in/"
+    "uid": "aws-news-devops-20261014-04-062f10a3df4575a8",
+    "updateDate": "2026-10-14T15:43:17Z",
+    "titleText": "4. Amazon DCV lança versão 2026.0 com suporte ao RHEL 10 e novos clientes",
+    "mainText": "Notícia 4 de 5, impacto baixo. Amazon DCV lança versão 2026.0 com suporte ao RHEL 10 e novos clientes. O Amazon DCV 2026.0 já está disponível, adicionando suporte para RHEL 10, Rocky Linux 10, CentOS 10 e Ubuntu 26.04, juntamente com um novo cliente macOS e clientes Windows e Linux atualizados. O Amazon DCV é um protocolo de exibição remota de alto desempenho que permite que os clientes acessem com segurança áreas de trabalho remotas e sessões de aplicativos no Windows, Linux e macOS. O Amazon DCV 2026.0 inclui os seguintes recursos e melhorias principais:. Por que importa: Afeta a camada de compute e capacidade dos nós. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dcv-2026-0/"
   },
   {
-    "uid": "aws-news-devops-20261013-05-6e3e52bdf29c45b3",
-    "updateDate": "2026-10-13T18:01:01Z",
-    "titleText": "5. Traga profunda experiência em IA do SageMaker para o seu agente de codificação com a habilidade",
-    "mainText": "Notícia 5 de 5, impacto baixo. Traga profunda experiência em IA do Sage Maker para o seu agente de codificação com a habilidade de IA/ML da AWS no Agent Toolkit for AWS. Seu agente de codificação pode selecionar, treinar, otimizar e implantar modelos no Amazon Sage Maker AI enquanto trabalha no restante do ambiente da AWS em um único fluxo de trabalho de linguagem natural. A habilidade de IA/ML da AWS agora é uma habilidade essencial no Agent Toolkit for AWS, por isso funciona junto com as outras habilidades da AWS do kit de ferramentas, como EC2, Bédrock e muito mais. Lançamos a nova habilidade de IA/ML da AWS no Agent Toolkit for AWS. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/bring-sagemaker-ai-expertise-to-your-coding-agent/"
+    "uid": "aws-news-devops-20261014-05-9cc26596fedcae2b",
+    "updateDate": "2026-10-14T15:42:17Z",
+    "titleText": "5. O Amazon Location Service lança um Playground de API interativo com APIs de Locais, Rotas e Mapas",
+    "mainText": "Notícia 5 de 5, impacto baixo. O Amazon Location Service lança um Playground de API interativo com APIs de Locais, Rotas e Mapas. O Amazon Location Service agora oferece um playground de API completo e interativo que permite aos desenvolvedores explorar e testar visualmente todos os locais, rotas e APIs do Google Maps sem escrever código. Com esta versão, todas as 14 APIs de Locais, Mapas e Rotas do Amazon Location Service estão disponíveis em um Playground de API interativo, onde os desenvolvedores podem fazer chamadas reais de API, ver resultados renderizados em um mapa interativo, ajustar parâmetros e copiar snippets de solicitação prontos para uso diretamente em seus aplicativos. Por que importa: Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-location-service-api-playground"
   }
 ]
