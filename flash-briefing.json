@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261015-01-7c027ba2fe076982",
-    "updateDate": "2026-10-15T15:33:20Z",
-    "titleText": "1. Amazon CloudWatch anuncia roteamento de log e analisadores de log encadeados",
-    "mainText": "Notícia 1 de 5, impacto médio. Amazon Cloud Watch anuncia roteamento de log e analisadores de log encadeados. O Amazon Cloud Watch agora suporta roteamento de log condicional e analisadores encadeados por meio de pipelines, dando a você mais controle sobre como os dados de log são transformados e para qual grupo de log do Cloud Watch eles são enviados. Os pipelines do Cloud Watch são um serviço totalmente gerenciado que ingere, transforma e roteia a telemetria para o Cloud Watch sem gerenciar a infraestrutura. Os pipelines de log geralmente carregam uma mistura de tipos de eventos que pertencem a lugares diferentes, e eventos individuais podem aninhar um formato de log dentro de outro. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudwatch-pipelines-log-routing/"
+    "uid": "aws-news-devops-20261016-01-18a2a14b55f8aa3f",
+    "updateDate": "2026-10-16T15:19:57Z",
+    "titleText": "1. AWS Lambda Durable Execution SDK for Go já está disponível para todos",
+    "mainText": "Notícia 1 de 5, impacto médio. AWS Lambda Durable Execution SDK for Go já está disponível para todos. Hoje, a AWS anuncia a disponibilidade geral do SDK de execução durável do AWS Lambda para Go, permitindo que os desenvolvedores Go criem fluxos de trabalho resilientes e de longa execução usando funções duráveis do Lambda. Com este SDK, os desenvolvedores podem criar aplicativos de várias etapas, como automação de infraestrutura, implementações de implantação com portas de aprovação e pipelines que chamam modelos de IA e pausam para revisão humana diretamente em seu código Go, sem implementar rastreamento de progresso personalizado. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Ferramental de operação do dia a dia. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/"
   },
   {
-    "uid": "aws-news-devops-20261015-02-4434eda6bba7991f",
-    "updateDate": "2026-10-15T15:32:20Z",
-    "titleText": "2. O AWS Security Hub CSPM agora suporta o perfil do Cyber Risk Institute versão 2.2",
-    "mainText": "Notícia 2 de 5, impacto médio. O AWS Security Hub CSPM agora suporta o perfil do Cyber Risk Institute versão 2.2. O AWS Security Hub CSPM ( agora oferece suporte a verificações de segurança automatizadas que se alinham ao perfil do Cyber Risk Institute (CRI). O Perfil CRI é uma estrutura de segurança cibernética desenvolvida pelo Cyber Risk Institute, uma coalizão sem fins lucrativos de instituições financeiras e associações comerciais. A estrutura harmoniza a segurança cibernética e as expectativas regulatórias que se aplicam ao setor de serviços financeiros em um conjunto comum de requisitos, para que uma organização possa se avaliar uma vez e relatar em relação a vários regulamentos. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta funções serverless e o barramento de eventos/filas.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/security-hub-cspm-cri-profile-v22/"
+    "uid": "aws-news-devops-20261016-02-eaf9f3d7d5a671fb",
+    "updateDate": "2026-10-16T15:18:57Z",
+    "titleText": "2. Amazon CloudFront anuncia suporte dual-stack para origens de VPC",
+    "mainText": "Notícia 2 de 5, impacto médio. Amazon Cloud Front anuncia suporte dual-stack para origens de VPC. O Amazon Cloud Front agora oferece suporte à entrega IPv6 ponta a ponta para origens dentro da sua Amazon Virtual Private Cloud (Amazon VPC), com as novas origens VPC de pilha dupla. Com origens de VPC, os clientes mantêm seus Application Load Balancers (ALB), Network Load Balancers (NLB) e instâncias EC2 em sub-redes privadas que somente suas distribuições do Cloud Front podem alcançar. Com suporte dual-stack, os clientes agora podem enviar tráfego IPv6 até essas origens privadas para atender à arquitetura IPv6 e aos requisitos regulatórios, sem expor as origens à Internet. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/"
   },
   {
-    "uid": "aws-news-devops-20261015-03-13c5295501159108",
-    "updateDate": "2026-10-15T15:31:20Z",
-    "titleText": "3. O Amazon SageMaker Studio simplifica os primeiros passos para novos construtores de IA/ML com",
-    "mainText": "Notícia 3 de 5, impacto baixo. O Amazon Sage Maker Studio simplifica os primeiros passos para novos construtores de IA/ML com login social. O Amazon Sage Maker Studio agora permite que novos clientes se inscrevam com suas credenciais do Google, GitHub ou Apple e entrem em um ambiente Studio totalmente configurado - sem configuração tradicional de conta da AWS, sem cartão de crédito e sem necessidade de navegação no console. Anteriormente, os novos clientes que descobriam um modelo no Hugging Face ou uma página de produto da AWS precisavam concluir um processo de criação de conta da AWS em várias etapas, fornecer um cartão de crédito, navegar no Console da AWS para encontrar o Sage Maker AI, configurar um ambiente e configurar as permissões do iam antes que pudessem começar a trabalhar. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/sagemaker-studio-social-sign-in/"
+    "uid": "aws-news-devops-20261016-03-f4d917433faa395c",
+    "updateDate": "2026-10-16T15:17:57Z",
+    "titleText": "3. Instâncias T8i do Amazon EC2 já estão disponíveis na América do Sul (São Paulo)",
+    "mainText": "Notícia 3 de 5, impacto médio. Instâncias T8i do Amazon EC2 já estão disponíveis na América do Sul (São Paulo). As instâncias T8i do Amazon Elastic Compute Cloud (Amazon EC2) já estão disponíveis na América do Sul (São Paulo). Essas instâncias são equipadas com processadores Intel Xeon 6 de sexta geração personalizados, disponíveis exclusivamente na AWS e construídas nas placas AWS Nitro de sexta geração mais recentes. As instâncias T8i oferecem desempenho de preço até 30% melhor em comparação com as instâncias T3 da geração anterior e oferecem quatro tamanhos: nano, micro, pequeno e médio. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta armazenamento, backup e retenção.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/"
   },
   {
-    "uid": "aws-news-devops-20261015-04-a74316342e0ebf21",
-    "updateDate": "2026-10-15T15:30:20Z",
-    "titleText": "4. O AWS License Manager agora suporta conversões de tipo de licença para Ubuntu Pro adquiridas",
-    "mainText": "Notícia 4 de 5, impacto baixo. O AWS License Manager agora suporta conversões de tipo de licença para Ubuntu Pro adquiridas através do AWS Marketplace. O AWS License Manager agora oferece suporte a atualizações in-loco para instâncias do EC2 Ubuntu LTS (suporte de longo prazo) para o Ubuntu Pro disponíveis no AWS Marketplace. Isso permite que os clientes fortaleçam sua postura de segurança e atendam aos requisitos de conformidade sem reconstruir sua frota ou migrar cargas de trabalho para uma nova instância ou AMI. Com uma assinatura do Ubuntu Pro, os clientes recebem patches de segurança por até 10 anos - prorrogáveis por 15 anos com o complemento Legacy. Por que importa: Tem efeito em custo/governança da conta. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-license-manager-conversions-ubuntu-pro-marketplace/"
+    "uid": "aws-news-devops-20261016-04-cce11f92c476601e",
+    "updateDate": "2026-10-16T15:16:57Z",
+    "titleText": "4. Amazon Time Sync Service adiciona suporte para tempo com precisão de microssegundos em 135 tipos",
+    "mainText": "Notícia 4 de 5, impacto médio. Amazon Time Sync Service adiciona suporte para tempo com precisão de microssegundos em 135 tipos de instâncias EC2 adicionais em todas as regiões comerciais. O Amazon Time Sync Service introduz suporte para tempo com precisão de microssegundos em 135 tipos de instâncias EC2 adicionais, abrangendo 12 famílias de instâncias, em todas as regiões comerciais. Construídos com base na infraestrutura de rede comprovada da Amazon e no sistema AWS Nitro, o tempo com precisão de microssegundos e os carimbos de data e hora de hardware com precisão de nanossegundos aproveitam os relógios de referência executados diretamente no sistema Nitro, permitindo que os clientes solicitem facilmente eventos de aplicativos, meçam a latência de rede unidirecional e aumentem a velocidade de transação de aplicativos distribuídos. Por que importa: Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-sync-additional-instances-all-regions"
   },
   {
-    "uid": "aws-news-devops-20261015-05-24cc59d5a7df1a89",
-    "updateDate": "2026-10-15T15:29:20Z",
-    "titleText": "5. Interruptor de região de ARCO adiciona quatro novos recursos",
-    "mainText": "Notícia 5 de 5, impacto baixo. Interruptor de região de ARCO adiciona quatro novos recursos. O comutador de região do Amazon Application Recovery Controller (ARC) ajuda você a orquestrar o failover de aplicativos de várias regiões para alcançar um tempo de recuperação limitado durante uma deficiência regional. Hoje, o switch Região adiciona quatro novos recursos: bloco de execução do Comando de Execução do AWS Systems Manager, cargas úteis para bloco de execução Lambda de ação personalizada, verificações de paridade de cota de serviço e aguardar o recurso de integridade do grupo-alvo para ações de dimensionamento de computação. Bloco de execução do Comando de Execução do AWS Systems Manager. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta provisionamento e pipelines de deploy.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/region-switch-target-health-ssm-lambda/"
+    "uid": "aws-news-devops-20261016-05-73c0a875491828ae",
+    "updateDate": "2026-10-16T15:15:57Z",
+    "titleText": "5. Amazon DynamoDB Streams agora oferece suporte ao processamento de stream baseado em carimbo de",
+    "mainText": "Notícia 5 de 5, impacto médio. Amazon Dynamo D B Streams agora oferece suporte ao processamento de stream baseado em carimbo de data/hora. O Amazon Dynamo D B Streams agora oferece suporte ao processamento de stream baseado em carimbo de data/hora, permitindo que você comece a ler registros de stream a partir de um momento específico. Anteriormente, você só podia começar a partir do registro retido mais antigo (até 24 horas) ou a partir de novos registros gravados depois de começar a consumir o stream. Agora, você pode fornecer um carimbo de data/hora e começar o processamento no primeiro registro gravado nesse horário ou depois dele usando o tipo de iterador de fragmento AT_TIMESTAMP. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta funções serverless e o barramento de eventos/filas.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing"
   }
 ]
