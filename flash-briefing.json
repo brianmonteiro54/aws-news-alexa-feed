@@ -1,37 +1,30 @@
 [
   {
-    "uid": "aws-news-devops-20261016-01-18a2a14b55f8aa3f",
-    "updateDate": "2026-10-16T15:19:57Z",
-    "titleText": "1. AWS Lambda Durable Execution SDK for Go já está disponível para todos",
-    "mainText": "Notícia 1 de 5, impacto médio. AWS Lambda Durable Execution SDK for Go já está disponível para todos. Hoje, a AWS anuncia a disponibilidade geral do SDK de execução durável do AWS Lambda para Go, permitindo que os desenvolvedores Go criem fluxos de trabalho resilientes e de longa execução usando funções duráveis do Lambda. Com este SDK, os desenvolvedores podem criar aplicativos de várias etapas, como automação de infraestrutura, implementações de implantação com portas de aprovação e pipelines que chamam modelos de IA e pausam para revisão humana diretamente em seu código Go, sem implementar rastreamento de progresso personalizado. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Ferramental de operação do dia a dia. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-lambda-durable-go-sdk-support/"
+    "uid": "aws-news-devops-20261017-01-b5e2645c181344e7",
+    "updateDate": "2026-10-17T14:08:17Z",
+    "titleText": "1. Centralização de logs do Amazon CloudWatch agora disponível na AWS GovCloud e em regiões",
+    "mainText": "Notícia 1 de 4, impacto alto. Centralização de logs do Amazon Cloud Watch agora disponível na AWS GovCloud e em regiões comerciais adicionais. A centralização de logs do Amazon Cloud Watch agora está disponível na AWS GovCloud (EUA) e em 13 regiões comerciais adicionais. A centralização de log do Cloud Watch copia dados de log de várias contas e regiões da AWS em uma única conta de destino, integrando-se ao AWS Organizations para agregação eficiente sem a necessidade de soluções personalizadas. Com este lançamento, as organizações na partição AWS GovCloud (EUA) e na partição comercial podem centralizar logs em suas contas e regiões para monitoramento centralizado. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-centralization-region-expansion"
   },
   {
-    "uid": "aws-news-devops-20261016-02-eaf9f3d7d5a671fb",
-    "updateDate": "2026-10-16T15:18:57Z",
-    "titleText": "2. Amazon CloudFront anuncia suporte dual-stack para origens de VPC",
-    "mainText": "Notícia 2 de 5, impacto médio. Amazon Cloud Front anuncia suporte dual-stack para origens de VPC. O Amazon Cloud Front agora oferece suporte à entrega IPv6 ponta a ponta para origens dentro da sua Amazon Virtual Private Cloud (Amazon VPC), com as novas origens VPC de pilha dupla. Com origens de VPC, os clientes mantêm seus Application Load Balancers (ALB), Network Load Balancers (NLB) e instâncias EC2 em sub-redes privadas que somente suas distribuições do Cloud Front podem alcançar. Com suporte dual-stack, os clientes agora podem enviar tráfego IPv6 até essas origens privadas para atender à arquitetura IPv6 e aos requisitos regulatórios, sem expor as origens à Internet. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-vpc-origin-dualstack/"
+    "uid": "aws-news-devops-20261017-02-10e296f6696af280",
+    "updateDate": "2026-10-17T14:07:17Z",
+    "titleText": "2. Modelo Nemotron 3.5 Super VL agora disponível no Amazon SageMaker JumpStart",
+    "mainText": "Notícia 2 de 4, impacto baixo. Modelo Nemotron 3.5 Super VL agora disponível no Amazon Sage Maker JumpStart. O Nemotron 3.5 Super VL da NVIDIA já está disponível no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para clientes da AWS. Este modelo de linguagem de visão da família Nemotron 3.5 aceita imagens, vídeo e texto como entrada e gera texto, permitindo que os clientes implantem soluções de IA multimodais na infraestrutura da AWS. O Nemotron 3.5 Super VL foi projetado para inteligência de documentos, compreensão de GUI, resposta a perguntas em vídeo e aplicações de agentes multimodais. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/nvidia-nemotron-3.5-super-vl-on-sagemaker-jumpstart/"
   },
   {
-    "uid": "aws-news-devops-20261016-03-f4d917433faa395c",
-    "updateDate": "2026-10-16T15:17:57Z",
-    "titleText": "3. Instâncias T8i do Amazon EC2 já estão disponíveis na América do Sul (São Paulo)",
-    "mainText": "Notícia 3 de 5, impacto médio. Instâncias T8i do Amazon EC2 já estão disponíveis na América do Sul (São Paulo). As instâncias T8i do Amazon Elastic Compute Cloud (Amazon EC2) já estão disponíveis na América do Sul (São Paulo). Essas instâncias são equipadas com processadores Intel Xeon 6 de sexta geração personalizados, disponíveis exclusivamente na AWS e construídas nas placas AWS Nitro de sexta geração mais recentes. As instâncias T8i oferecem desempenho de preço até 30% melhor em comparação com as instâncias T3 da geração anterior e oferecem quatro tamanhos: nano, micro, pequeno e médio. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta armazenamento, backup e retenção.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-t8i-instances-south-america/"
+    "uid": "aws-news-devops-20261017-03-fad5476505941666",
+    "updateDate": "2026-10-17T14:06:17Z",
+    "titleText": "3. As funções duráveis do AWS Lambda agora estão disponíveis nas regiões AWS GovCloud (EUA)",
+    "mainText": "Notícia 3 de 4, impacto baixo. As funções duráveis do AWS Lambda agora estão disponíveis nas regiões AWS GovCloud (EUA). As funções duráveis do AWS Lambda agora estão disponíveis nas regiões AWS GovCloud (EUA-Oeste) e AWS GovCloud (EUA-Leste). As funções duráveis do Lambda permitem que os desenvolvedores criem aplicativos confiáveis de várias etapas e fluxos de trabalho de IA dentro da experiência do desenvolvedor Lambda. As funções duráveis do Lambda estendem o modelo de programação do Lambda com novos primitivos em seu manipulador de eventos, como \"step\" e \"wait\", permitindo verificar o progresso, recuperar automaticamente de falhas e pausar execuções sem incorrer em cobranças de computação para funções sob demanda. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Afeta provisionamento e pipelines de deploy. Sinais: Segurança. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/durablefunctions-govcloud/"
   },
   {
-    "uid": "aws-news-devops-20261016-04-cce11f92c476601e",
-    "updateDate": "2026-10-16T15:16:57Z",
-    "titleText": "4. Amazon Time Sync Service adiciona suporte para tempo com precisão de microssegundos em 135 tipos",
-    "mainText": "Notícia 4 de 5, impacto médio. Amazon Time Sync Service adiciona suporte para tempo com precisão de microssegundos em 135 tipos de instâncias EC2 adicionais em todas as regiões comerciais. O Amazon Time Sync Service introduz suporte para tempo com precisão de microssegundos em 135 tipos de instâncias EC2 adicionais, abrangendo 12 famílias de instâncias, em todas as regiões comerciais. Construídos com base na infraestrutura de rede comprovada da Amazon e no sistema AWS Nitro, o tempo com precisão de microssegundos e os carimbos de data e hora de hardware com precisão de nanossegundos aproveitam os relógios de referência executados diretamente no sistema Nitro, permitindo que os clientes solicitem facilmente eventos de aplicativos, meçam a latência de rede unidirecional e aumentem a velocidade de transação de aplicativos distribuídos. Por que importa: Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-sync-additional-instances-all-regions"
-  },
-  {
-    "uid": "aws-news-devops-20261016-05-73c0a875491828ae",
-    "updateDate": "2026-10-16T15:15:57Z",
-    "titleText": "5. Amazon DynamoDB Streams agora oferece suporte ao processamento de stream baseado em carimbo de",
-    "mainText": "Notícia 5 de 5, impacto médio. Amazon Dynamo D B Streams agora oferece suporte ao processamento de stream baseado em carimbo de data/hora. O Amazon Dynamo D B Streams agora oferece suporte ao processamento de stream baseado em carimbo de data/hora, permitindo que você comece a ler registros de stream a partir de um momento específico. Anteriormente, você só podia começar a partir do registro retido mais antigo (até 24 horas) ou a partir de novos registros gravados depois de começar a consumir o stream. Agora, você pode fornecer um carimbo de data/hora e começar o processamento no primeiro registro gravado nesse horário ou depois dele usando o tipo de iterador de fragmento AT_TIMESTAMP. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta funções serverless e o barramento de eventos/filas.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-dynamodb-streams-timestamp-processing"
+    "uid": "aws-news-devops-20261017-04-b4f4ba88a2e9a608",
+    "updateDate": "2026-10-17T14:05:17Z",
+    "titleText": "4. O modelo Beam da Reflection já está disponível no Amazon SageMaker JumpStart e AWS Trainium",
+    "mainText": "Notícia 4 de 4, impacto baixo. O modelo Beam da Reflection já está disponível no Amazon Sage Maker JumpStart e AWS Trainium. Beam, o primeiro modelo aberto oferecido pela Reflection, com sede nos EUA, agora está disponível no Amazon Sage Maker JumpStart, o hub de modelos no Amazon Sage Maker AI. De acordo com Beam, eles operam na fronteira dos modelos abertos em sua classe, com forte desempenho em raciocínio, codificação e benchmarks de agência. Com ele, os clientes agora podem criar agentes de codificação avançados e fluxos de trabalho automatizados em um modelo de peso aberto de fronteira, mantendo o controle de seus dados e infraestrutura e adaptando o modelo aos seus negócios. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/reflection-beam-on-sagemaker-jumpstart-and-aws-trainium/"
   }
 ]
