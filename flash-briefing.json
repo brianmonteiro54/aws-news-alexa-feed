@@ -1,9 +1,30 @@
 [
   {
-    "uid": "aws-news-devops-20261019-01-f218fc40886c7e7d",
-    "updateDate": "2026-10-19T17:24:05Z",
+    "uid": "aws-news-devops-20261020-01-f218fc40886c7e7d",
+    "updateDate": "2026-10-20T15:36:26Z",
     "titleText": "1. Amazon GuardDuty adiciona regras opcionais de detecção de ameaças para monitoramento de tempo de",
-    "mainText": "Notícia 1 de 1, impacto alto. Amazon Guard Duty adiciona regras opcionais de detecção de ameaças para monitoramento de tempo de execução. O Amazon Guard Duty agora oferece suporte a regras de detecção opcionais para monitoramento de tempo de execução. Você pode ativar mais de 50 regras de monitoramento de tempo de execução que ajudam a detectar atividades de processos, arquivos e redes que podem ser rotineiras em um ambiente, mas um sinal de comprometimento em outro, como modificar arquivos sudoers ou desabilitar o log de auditoria. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Mexe direto com seus clusters Kubernetes/EKS.",
+    "mainText": "Notícia 1 de 4, impacto alto. Amazon Guard Duty adiciona regras opcionais de detecção de ameaças para monitoramento de tempo de execução. O Amazon Guard Duty agora oferece suporte a regras de detecção opcionais para monitoramento de tempo de execução. Você pode ativar mais de 50 regras de monitoramento de tempo de execução que ajudam a detectar atividades de processos, arquivos e redes que podem ser rotineiras em um ambiente, mas um sinal de comprometimento em outro, como modificar arquivos sudoers ou desabilitar o log de auditoria. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Mexe direto com seus clusters Kubernetes/EKS.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/guardduty-runtime-optional-detection-rules/"
+  },
+  {
+    "uid": "aws-news-devops-20261020-02-19a75aa0df7e4f33",
+    "updateDate": "2026-10-20T15:35:26Z",
+    "titleText": "2. O EC2 Image Builder agora se integra ao ASG para criar imagens mais rápidas",
+    "mainText": "Notícia 2 de 4, impacto médio. O EC2 Image Builder agora se integra ao ASG para criar imagens mais rápidas. O EC2 Image Builder agora suporta o uso de instâncias existentes de um Auto Scaling Group (ASG) para criar imagens, permitindo compilações mais rápidas, eliminando o tempo gasto no lançamento e inicialização de novas instâncias e reutilizando instâncias EC2 já em execução. Com esse recurso, você pode fornecer um ASG em sua configuração de infraestrutura do Image Builder. Em vez de iniciar uma nova instância no momento da compilação, o Image Builder seleciona uma instância já em execução neste ASG, aplica seus componentes de compilação e cria a imagem. Por que importa: Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço, Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/ec2-image-builder-asg-faster-builds/"
+  },
+  {
+    "uid": "aws-news-devops-20261020-03-eb36d722e3c66e69",
+    "updateDate": "2026-10-20T15:34:26Z",
+    "titleText": "3. O Amazon CloudWatch Omni agora está disponível em outras regiões da AWS",
+    "mainText": "Notícia 3 de 4, impacto baixo. O Amazon Cloud Watch Omni agora está disponível em outras regiões da AWS. A AWS anuncia que o Amazon Cloud Watch Omni agora está disponível em oito regiões adicionais da AWS. O Cloud Watch Omni é uma experiência de observabilidade baseada em IA, organizada em torno de suas equipes e dos aplicativos que elas executam, que ajuda você a observar e solucionar problemas de seus aplicativos e agentes em um só lugar. Ele combina a interoperabilidade do Open Telemetry com a escala e a confiabilidade do Cloud Watch e atende onde você trabalha - uma experiência web autônoma com logon único (SSO) ou uma extensão IDE local. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Ferramental de operação do dia a dia. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-cloudwatch-omni-8-regions/"
+  },
+  {
+    "uid": "aws-news-devops-20261020-04-c46bfa74071e9ae3",
+    "updateDate": "2026-10-20T15:33:26Z",
+    "titleText": "4. A Resiliência Global do Cliente do Amazon Connect agora oferece aos usuários de negócios",
+    "mainText": "Notícia 4 de 4, impacto baixo. A Resiliência Global do Cliente do Amazon Connect agora oferece aos usuários de negócios visibilidade sobre a prontidão da resiliência em todas as regiões vinculadas. O Amazon Connect Customer Global Resiliency agora fornece uma página de Resiliência Global no site do administrador, dando aos administradores um único local para revisar a prontidão do switch de Região. A página mostra um status geral de prontidão e lista os recursos que a Resiliência Global replica nativamente, incluindo quais tipos de recursos estão em sincronia, quais ainda estão pendentes de sincronização e quais precisam de ação. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-readiness-overview"
   }
 ]
