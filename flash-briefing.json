@@ -1,16 +1,30 @@
 [
   {
-    "uid": "aws-news-devops-20261021-01-dec813d41f02b1a9",
-    "updateDate": "2026-10-21T15:54:13Z",
-    "titleText": "1. Anúncio do Amazon ECS Gateway, uma solução de entrada gerenciada para seus serviços ECS",
-    "mainText": "Notícia 1 de 2, impacto alto. Anúncio do Amazon ECS Gateway, uma solução de entrada gerenciada para seus serviços ECS. A AWS anuncia o Amazon Elastic Container Service (Amazon ECS) Gateway, um novo recurso que simplifica a rede de entrada para aplicações em contêineres, provisionando e gerenciando dinamicamente Application Load Balancers (ALBs) e seus recursos de suporte diretamente na sua conta. Com o ECS Gateway, as equipes da plataforma definem padrões de rede organizacional uma vez em um gateway e o associam a um ou mais clusters, proporcionando às organizações uma maneira centralizada de controlar como o tráfego chega aos seus serviços ECS. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/announcing-amazon-ecs-gateway/"
+    "uid": "aws-news-devops-20261022-01-0df44dd0e4d25ede",
+    "updateDate": "2026-10-22T15:50:47Z",
+    "titleText": "1. AWS Direct Connect anuncia expansão 100G em Manchester, Inglaterra",
+    "mainText": "Notícia 1 de 4, impacto médio. AWS Direct Connect anuncia expansão 100G em Manchester, Inglaterra. Hoje, a AWS anunciou a expansão de conexões dedicadas de 10 Gbps e 100 Gbps com recursos de criptografia MACsec no local existente do AWS Direct Connect no data center Equinix MA3 perto de Manchester, Inglaterra. Agora você pode estabelecer acesso de rede privado e direto a todas as regiões públicas da AWS (exceto aquelas na China), regiões AWS GovCloud e zonas locais da AWS a partir deste local. Este é o terceiro local do AWS Direct Connect na Inglaterra a fornecer conexões de 100 Gbps com recursos de criptografia MACsec. Por que importa: Impacta topologia de rede e exposição de serviços. Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-direct-connect-100g-manchester/"
   },
   {
-    "uid": "aws-news-devops-20261021-02-64c66cb3331951fa",
-    "updateDate": "2026-10-21T15:53:13Z",
-    "titleText": "2. As tabelas globais do Amazon DynamoDB agora oferecem suporte à desassociação de réplicas",
-    "mainText": "Notícia 2 de 2, impacto médio. As tabelas globais do Amazon Dynamo D B agora oferecem suporte à desassociação de réplicas. As tabelas globais do Amazon Dynamo D B agora oferecem suporte à desassociação de uma réplica sem excluir sua tabela ou dados. As tabelas globais fornecem replicação totalmente gerenciada, multirregional e multiativa. Agora você pode interromper a replicação de e para uma réplica e continuar usando a mesma tabela de uma tabela de região única. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta provisionamento e pipelines de deploy.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/dynamodb-global-tables-disassociate/"
+    "uid": "aws-news-devops-20261022-02-caa54e615b946ba6",
+    "updateDate": "2026-10-22T15:49:47Z",
+    "titleText": "2. Amazon Aurora e Amazon RDS agora oferecem suporte a reservas de capacidade sob demanda",
+    "mainText": "Notícia 2 de 4, impacto médio. Amazon Aurora e Amazon RDS agora oferecem suporte a reservas de capacidade sob demanda. A partir de hoje, você pode reservar capacidade computacional para suas instâncias de banco de dados Amazon Aurora e Amazon RDS em uma ou mais zonas de disponibilidade pelo tempo que for necessário. A reserva de capacidade ajuda a garantir que as operações de criação, restauração, cálculo em escala e início de instâncias de banco de dados não falhem devido à capacidade insuficiente. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-aurora-rds-on-demand-capacity-reservations/"
+  },
+  {
+    "uid": "aws-news-devops-20261022-03-b0c32396b20f5ae4",
+    "updateDate": "2026-10-22T15:48:47Z",
+    "titleText": "3. AWS Transform adiciona avaliações de migração de armazenamento para Amazon S3, EBS, EFS e FSx",
+    "mainText": "Notícia 3 de 4, impacto baixo. AWS Transform adiciona avaliações de migração de armazenamento para Amazon S3, EBS, EFS e FSx. As avaliações de migração no AWS Transform agora avaliam o armazenamento local para migração para a AWS. Em vez de analisar manualmente milhares de volumes em protocolos, capacidade e desempenho, você carrega um inventário de armazenamento e o AWS Transform faz o mapeamento para você. Ele combina cada carga de trabalho com o serviço mais adequado, dimensiona a recomendação e projeta os custos para produzir um caso de negócios de custo total de propriedade. Por que importa: Impacta armazenamento, backup e retenção.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/transform-assess-s3-ebs-efs-fsx/"
+  },
+  {
+    "uid": "aws-news-devops-20261022-04-9a00f9d53bc589fd",
+    "updateDate": "2026-10-22T15:47:47Z",
+    "titleText": "4. Amazon Cognito estende replicação multirregional para regiões AWS GovCloud (EUA)",
+    "mainText": "Notícia 4 de 4, impacto baixo. Amazon Cognito estende replicação multirregional para regiões AWS GovCloud (EUA). A replicação multirregional (MRR) do Amazon Cognito agora oferece suporte às regiões AWS GovCloud (EUA), ampliando os benefícios de resiliência do MRR para mais cargas de trabalho. O MRR permite sincronizar dados de identidade de usuários e máquinas, incluindo credenciais, configurações de grupos de usuários e configurações de federação, para um grupo de usuários secundário em uma região de espera designada por você, quase em tempo real. Com os dados do usuário na região de espera, você pode redirecionar o tráfego e manter a autenticação disponível se houver uma interrupção na sua região primária. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/cognito-multi-region-us-govcloud/"
   }
 ]
