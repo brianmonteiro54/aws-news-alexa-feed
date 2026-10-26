@@ -6,4 +6,4 @@ Não edite à mão.
 - `flash-briefing.json` — top 5 notícias, uma entrada cada
 - `flash-briefing-single.json` — resumo completo em uma entrada
 
-Última atualização: 2026-10-25 14:55:01 UTC
+Última atualização: 2026-10-26 17:14:45 UTC

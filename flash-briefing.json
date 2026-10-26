@@ -1,23 +1,16 @@
 [
   {
-    "uid": "aws-news-devops-20261025-01-0b31b2ceb63caab7",
-    "updateDate": "2026-10-25T14:54:56Z",
-    "titleText": "1. AWS Transit Gateway e AWS Cloud WAN agora oferecem suporte a NAT 1:1",
-    "mainText": "Notícia 1 de 3, impacto médio. AWS Transit Gateway e AWS Cloud WAN agora oferecem suporte a NAT 1:1. O AWS Transit Gateway e o AWS Cloud WAN agora fornecem tradução gerenciada de endereços de rede (NAT) um para um diretamente em seus anexos, por meio da integração com o Regional Private NAT Gateway. Isso permite que os clientes conectem redes privadas que compartilham os mesmos intervalos de endereços IP sem renumerar nenhuma das redes, implantar um dispositivo NAT ou escrever regras de tráfego de retorno. Por que importa: Impacta topologia de rede e exposição de serviços. Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-transit-gateway-cloud-wan-1-1-nat/"
+    "uid": "aws-news-devops-20261026-01-9d1beb736f217300",
+    "updateDate": "2026-10-26T17:14:32Z",
+    "titleText": "1. O Amazon Connect Customer agora permite visualizar métricas por valor de vida útil do cliente e",
+    "mainText": "Notícia 1 de 2, impacto baixo. O Amazon Connect Customer agora permite visualizar métricas por valor de vida útil do cliente e status de chamadas repetidas. Agora você pode visualizar suas métricas em todos os segmentos de clientes: valor da vida útil do cliente (LTV) e ligações repetidas. Veja como qualquer métrica difere entre chamadores repetidos e o restante de seus contatos ou como os resultados se mantêm entre seus clientes com maior LTV; para que você possa identificar os grupos com tendências erradas antes que apareçam no agregado. Onde um segmento apresenta desempenho insatisfatório, você pode agir. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-segment/"
   },
   {
-    "uid": "aws-news-devops-20261025-02-86f4a6d69637c7de",
-    "updateDate": "2026-10-25T14:53:56Z",
-    "titleText": "2. A pesquisa na Web no Amazon Bedrock agora oferece suporte a filtragem de domínio e controles de",
-    "mainText": "Notícia 2 de 3, impacto baixo. A pesquisa na Web no Amazon Bédrock agora oferece suporte a filtragem de domínio e controles de localização do usuário. A pesquisa na Web no Amazon Bédrock agora oferece suporte a dois novos controles que oferecem mais precisão sobre os resultados que fundamentam a resposta de um modelo: filtragem de domínio e localização do usuário. Ambos são configurados diretamente na ferramenta web_search em sua solicitação existente da API OpenAI Responses. Com a filtragem de domínio, você pode restringir os resultados da Pesquisa na Web a um conjunto de domínios de sua escolha. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-web-search-domain-user-location/"
-  },
-  {
-    "uid": "aws-news-devops-20261025-03-5f832aa90ce42df9",
-    "updateDate": "2026-10-25T14:52:56Z",
-    "titleText": "3. A resiliência global do cliente do Amazon Connect agora oferece suporte a bate-papo persistente",
-    "mainText": "Notícia 3 de 3, impacto baixo. A resiliência global do cliente do Amazon Connect agora oferece suporte a bate-papo persistente em regiões vinculadas da AWS. A resiliência global do cliente do Amazon Connect agora oferece aos clientes um mecanismo para oferecer experiências de bate-papo longas e persistentes em regiões vinculadas da AWS. Com esse recurso, os usuários finais podem retomar conversas anteriores com contexto completo, metadados e transcrições transferidos entre regiões, eliminando a necessidade de os usuários finais repetirem informações e permitindo que os agentes forneçam serviços personalizados com acesso a todo o histórico de conversas nas regiões da AWS. Por exemplo, um usuário final pode iniciar um bate-papo no Leste dos EUA (N. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-connect-global-resiliency-persistent-chat"
+    "uid": "aws-news-devops-20261026-02-eef082f1709a6687",
+    "updateDate": "2026-10-26T17:13:32Z",
+    "titleText": "2. O cliente Amazon Connect agora mede os resultados que geram retenção e receita",
+    "mainText": "Notícia 2 de 2, impacto baixo. O cliente Amazon Connect agora mede os resultados que geram retenção e receita. O Amazon Connect Customer agora pontua o resultado das interações com o cliente. Mostra se o cliente saiu satisfeito, corre risco de desligamento, fez uma compra ou resolveu sua necessidade no autoatendimento. Agora você pode ver se uma interação funcionou, e não apenas com que eficiência ela foi executada. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/connect-customer-boma-metrics/"
   }
 ]
