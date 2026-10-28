@@ -1,23 +1,16 @@
 [
   {
-    "uid": "aws-news-devops-20261027-01-a097b2fedf3a1cc2",
-    "updateDate": "2026-10-27T16:21:38Z",
-    "titleText": "1. Amazon ECR agora oferece suporte ao preenchimento de replicação para imagens de contêiner",
-    "mainText": "Notícia 1 de 3, impacto alto. Amazon ECR agora oferece suporte ao preenchimento de replicação para imagens de contêiner existentes. O Amazon Elastic Container Registry (Amazon ECR) agora oferece suporte ao preenchimento de replicação, permitindo replicar imagens existentes em seu registro privado para os destinos de registro de replicação configurados. Anteriormente, a replicação só se aplicava a imagens enviadas depois que a configuração de replicação era habilitada, exigindo que os clientes remarcassem manualmente as imagens para acionar a replicação de imagens pré-existentes. Com o preenchimento de replicação, agora você pode replicar todo o seu catálogo de imagens para destinos novos ou existentes com uma única chamada de API. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Segurança, API / automação.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/replication-backfill-amazon-ecr"
+    "uid": "aws-news-devops-20261028-01-d227e8eeef7f0756",
+    "updateDate": "2026-10-28T17:05:07Z",
+    "titleText": "1. Amazon ECS agora oferece suporte ao compartilhamento de GPU com NVIDIA Multi-Process Service",
+    "mainText": "Notícia 1 de 2, impacto alto. Amazon ECS agora oferece suporte ao compartilhamento de GPU com NVIDIA Multi-Process Service (MPS). O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte ao compartilhamento de GPU com NVIDIA Multi-Process Service (MPS), permitindo executar várias tarefas do Amazon ECS simultaneamente em uma única GPU NVIDIA. O compartilhamento de GPU ajuda a aumentar a utilização da GPU e a reduzir os custos de infraestrutura para cargas de trabalho que usam apenas parte da capacidade de uma GPU, como inferência de modelos pequenos, simulações AV/ADAS, geração de incorporação e serviço de vários modelos. Com o compartilhamento de GPU, você pode agrupar mais cargas de trabalho em cada instância de GPU sem alterar o código do aplicativo. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta provisionamento e pipelines de deploy.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/"
   },
   {
-    "uid": "aws-news-devops-20261027-02-0c5c946db9a84a5a",
-    "updateDate": "2026-10-27T16:20:38Z",
-    "titleText": "2. OpenAI GPT-6.1 Terra agora está disponível no Amazon Bedrock",
-    "mainText": "Notícia 2 de 3, impacto baixo. OpenAI GPT-6.1 Terra agora está disponível no Amazon Bédrock. Hoje, a AWS anuncia a disponibilidade geral do OpenAI GPT-6.1 Terra no Amazon Bédrock. GPT-6.1 Terra expande a família GPT-6 com um equilíbrio entre capacidade, velocidade e eficiência de custos para cargas de trabalho diárias. Como o mais novo modelo da linha Terra, o GPT-6.1 Terra combina raciocínio visual detalhado, uso preciso do computador e factualidade aprimorada e escrita natural em relação ao GPT-5.6 Terra, para fluxos de trabalho complexos. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Disponibilidade geral (GA), Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-gpt-6-1-terra-on-amazon-bedrock/"
-  },
-  {
-    "uid": "aws-news-devops-20261027-03-d0fa251659d79f0f",
-    "updateDate": "2026-10-27T16:19:38Z",
-    "titleText": "3. As principais instâncias gerenciadas do Amazon WorkSpaces agora oferecem suporte à API",
-    "mainText": "Notícia 3 de 3, impacto baixo. As principais instâncias gerenciadas do Amazon WorkSpaces agora oferecem suporte à API ModifyVolume. As instâncias gerenciadas principais do Amazon WorkSpaces agora oferecem suporte à API ModifyVolume, que permite alterar o tamanho do volume, o tipo de volume, as IOPS ou a taxa de transferência no local, sem desanexar o volume ou reiniciar a instância. Anteriormente, alterar a capacidade de armazenamento ou o desempenho de uma instância gerenciada implantada exigia sua reconstrução. Com o ModifyVolume, você pode aumentar o tamanho do volume em até 16.384 GiB, alternar entre tipos de volume compatíveis do Amazon EBS, ajustar IOPS para volumes gp3, io1 e io2 e modificar a taxa de transferência para volumes gp3. Por que importa: Afeta a camada de compute e capacidade dos nós. Sinais: API / automação.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-workspaces-cmi-modifyvolume/"
+    "uid": "aws-news-devops-20261028-02-9227ada578da0283",
+    "updateDate": "2026-10-28T17:04:07Z",
+    "titleText": "2. Os aplicativos SageMaker MLflow agora suportam MLflow 3.16",
+    "mainText": "Notícia 2 de 2, impacto baixo. Os aplicativos Sage Maker MLflow agora suportam MLflow 3.16. Os aplicativos Amazon Sage Maker AI MLflow agora oferecem suporte ao MLflow 3.16, trazendo uma experiência de rastreamento redesenhada e rastreamento de experimentos mais rápido para seus fluxos de trabalho generativos de IA e machine learning. O MLflow 3.16 melhora a depuração e análise de aplicativos e agentes generativos de IA. O explorador de rastreamento redesenhado agora é o padrão, com altura de linha ajustável, colunas reordenáveis e colunas personalizadas de qualquer tag de rastreamento ou campo de metadados. Por que importa: Pede ação sua: fim de suporte / deprecação. Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/"
   }
 ]
