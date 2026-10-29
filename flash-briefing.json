@@ -1,16 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261028-01-d227e8eeef7f0756",
-    "updateDate": "2026-10-28T17:05:07Z",
-    "titleText": "1. Amazon ECS agora oferece suporte ao compartilhamento de GPU com NVIDIA Multi-Process Service",
-    "mainText": "Notícia 1 de 2, impacto alto. Amazon ECS agora oferece suporte ao compartilhamento de GPU com NVIDIA Multi-Process Service (MPS). O Amazon Elastic Container Service (Amazon ECS) agora oferece suporte ao compartilhamento de GPU com NVIDIA Multi-Process Service (MPS), permitindo executar várias tarefas do Amazon ECS simultaneamente em uma única GPU NVIDIA. O compartilhamento de GPU ajuda a aumentar a utilização da GPU e a reduzir os custos de infraestrutura para cargas de trabalho que usam apenas parte da capacidade de uma GPU, como inferência de modelos pequenos, simulações AV/ADAS, geração de incorporação e serviço de vários modelos. Com o compartilhamento de GPU, você pode agrupar mais cargas de trabalho em cada instância de GPU sem alterar o código do aplicativo. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta provisionamento e pipelines de deploy.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-ecs-gpu-sharing-nvidia-mps/"
+    "uid": "aws-news-devops-20261029-01-5cac41800c97cfb8",
+    "updateDate": "2026-10-29T17:22:35Z",
+    "titleText": "1. O modo automático do Amazon EKS agora oferece suporte à API de gateway do Kubernetes",
+    "mainText": "Notícia 1 de 5, impacto alto. O modo automático do Amazon EKS agora oferece suporte à API de gateway do Kubernetes. O Amazon EKS Auto Mode agora suporta a API do Kubernetes Gateway, oferecendo aos clientes uma maneira padrão e portátil de definir como o tráfego atinge seus aplicativos. Os clientes podem configurar o balanceamento de carga de aplicativos usando recursos Gateway e HTTPRoute, e o Modo Automático do EKS provisiona e gerencia a infraestrutura AWS subjacente automaticamente. Com este lançamento, os clientes do Modo Automático EKS podem adotar o padrão de gerenciamento de tráfego Kubernetes de última geração sem instalar ou configurar um controlador separado. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: API / automação.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-auto-mode-kubernetes-gateway-api/"
   },
   {
-    "uid": "aws-news-devops-20261028-02-9227ada578da0283",
-    "updateDate": "2026-10-28T17:04:07Z",
-    "titleText": "2. Os aplicativos SageMaker MLflow agora suportam MLflow 3.16",
-    "mainText": "Notícia 2 de 2, impacto baixo. Os aplicativos Sage Maker MLflow agora suportam MLflow 3.16. Os aplicativos Amazon Sage Maker AI MLflow agora oferecem suporte ao MLflow 3.16, trazendo uma experiência de rastreamento redesenhada e rastreamento de experimentos mais rápido para seus fluxos de trabalho generativos de IA e machine learning. O MLflow 3.16 melhora a depuração e análise de aplicativos e agentes generativos de IA. O explorador de rastreamento redesenhado agora é o padrão, com altura de linha ajustável, colunas reordenáveis e colunas personalizadas de qualquer tag de rastreamento ou campo de metadados. Por que importa: Pede ação sua: fim de suporte / deprecação. Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/mflow-version-3-16/"
+    "uid": "aws-news-devops-20261029-02-b0bb19bc12baf292",
+    "updateDate": "2026-10-29T17:21:35Z",
+    "titleText": "2. O Amazon EKS Dashboard agora fornece visibilidade de toda a frota sobre a rotação da autoridade",
+    "mainText": "Notícia 2 de 5, impacto alto. O Amazon EKS Dashboard agora fornece visibilidade de toda a frota sobre a rotação da autoridade de certificação (CA). Hoje, o Amazon Elastic Kubernetes Service (Amazon EKS) anuncia a visibilidade da rotação da autoridade de certificação (CA) no Amazon EKS Dashboard, oferecendo uma visão consolidada da rotação da CA em seus clusters. O Amazon EKS Dashboard já fornece visibilidade centralizada de seus clusters em todas as regiões e contas da AWS, e agora inclui rotação de CA, para que você possa ver onde a ação é necessária sem verificar cada cluster individualmente. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-eks-dashboard-fleet-wide-visibility-certificate-authority-ca-rotation/"
+  },
+  {
+    "uid": "aws-news-devops-20261029-03-a1d9dd307b56585b",
+    "updateDate": "2026-10-29T17:20:35Z",
+    "titleText": "3. Apresentamos coleções de séries temporais para a próxima geração do Amazon OpenSearch Serverless",
+    "mainText": "Notícia 3 de 5, impacto alto. Apresentamos coleções de séries temporais para a próxima geração do Amazon Open Search Serverless. Hoje, estamos anunciando o suporte para coleções de séries temporais na próxima geração do Amazon Open Search Serverless. Com as coleções de séries temporais, você pode ingerir, armazenar e analisar logs, métricas, rastreamentos e dados de eventos sem provisionar ou gerenciar clusters. Eles absorvem picos de ingestão automaticamente, mantêm dados recentes rápidos para consulta e tornam meses ou anos de histórico pesquisáveis a baixo custo, tudo na mesma coleção. Por que importa: Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/time-series-collection-next-generation-opensearch-serverless/"
+  },
+  {
+    "uid": "aws-news-devops-20261029-04-6f504586d36baf58",
+    "updateDate": "2026-10-29T17:19:35Z",
+    "titleText": "4. As instâncias gerenciadas do Amazon ECS adicionam consolidação entre instâncias e spot",
+    "mainText": "Notícia 4 de 5, impacto alto. As instâncias gerenciadas do Amazon ECS adicionam consolidação entre instâncias e spot. Hoje, as instâncias gerenciadas do Amazon Elastic Container Service (Amazon ECS) introduzem duas atualizações de otimização de infraestrutura: consolidação entre instâncias e Spot. A consolidação entre instâncias avalia as tarefas executadas em várias instâncias subutilizadas juntas, agrupando-as em menos instâncias para aumentar a utilização e reduzir os custos. A consolidação spot estende essa capacidade à capacidade spot, consolidando instâncias spot subutilizadas após a primeira verificação da disponibilidade da capacidade de substituição. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/ecs-managed-instances-consolidation/"
+  },
+  {
+    "uid": "aws-news-devops-20261029-05-b7a29c601af051b8",
+    "updateDate": "2026-10-29T17:18:35Z",
+    "titleText": "5. As funções duráveis do AWS Lambda agora exportam telemetria ao vivo para insights de execução",
+    "mainText": "Notícia 5 de 5, impacto médio. As funções duráveis do AWS Lambda agora exportam telemetria ao vivo para insights de execução. O AWS Lambda anuncia o plug-in Exportador de Telemetria de Execução Durável para funções duráveis do Lambda. Este novo plugin de observabilidade captura o histórico passo a passo de suas execuções duráveis e as envia para um ou mais destinos de sua escolha. Você pode usar os dados exportados para coletar insights operacionais e de negócios e manter o histórico além do período de retenção padrão. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Afeta seus domínios/coleções do Open Search (busca, ingestão e logs).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/lambda-durable-telemetry/"
   }
 ]
