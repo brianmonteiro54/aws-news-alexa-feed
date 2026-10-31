@@ -1,23 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261030-01-c447ee5df3f8309c",
-    "updateDate": "2026-10-30T16:58:46Z",
-    "titleText": "1. O AWS Glue Data Catalog agora oferece suporte à otimização de tabelas do Apache Iceberg na",
-    "mainText": "Notícia 1 de 3, impacto médio. O AWS Glue Data Catalog agora oferece suporte à otimização de tabelas do Apache Iceberg na região oeste dos EUA (norte da Califórnia). O AWS Glue Data Catalog agora suporta otimização automática de tabelas para tabelas Apache Iceberg no oeste dos EUA (N. O Apache Iceberg é um formato de tabela aberta que oferece desempenho de consulta rápido em tabelas grandes em data lakes. Com este lançamento, você pode ativar a otimização de tabelas para tabelas individuais ou para todas as tabelas do seu Catálogo de Dados. Por que importa: Afeta camada de dados/persistência das aplicações. Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/glue-data-catalog-optimizers-us-west-1/"
+    "uid": "aws-news-devops-20261031-01-203ca073d81dcb45",
+    "updateDate": "2026-10-31T16:00:10Z",
+    "titleText": "1. Amazon MSK agora oferece suporte a TLS 1.3 para dados em trânsito",
+    "mainText": "Notícia 1 de 5, impacto alto. Amazon MSK agora oferece suporte a TLS 1.3 para dados em trânsito. O Amazon MSK agora oferece suporte à versão 1.3 do protocolo Transport Layer Security (TLS) para clusters provisionados MSK por meio de políticas de criptografia. O TLS 1.3 oferece criptografia mais rápida e segura para streaming de dados e é cada vez mais exigido por estruturas de conformidade e padrões de segurança empresarial. É também um dos pré-requisitos da criptografia pós-quântica para proteger os dados contra ataques que coletam tráfego criptografado agora com a intenção de descriptografá-lo posteriormente. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta funções serverless e o barramento de eventos/filas. Sinais: Segurança, Nova versão suportada, Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-msk-tls/"
   },
   {
-    "uid": "aws-news-devops-20261030-02-a218ad130e39a467",
-    "updateDate": "2026-10-30T16:57:46Z",
-    "titleText": "2. O Amazon RDS para Oracle e SQL Server agora suporta escalonamento automático de armazenamento em",
-    "mainText": "Notícia 2 de 3, impacto médio. O Amazon RDS para Oracle e SQL Server agora suporta escalonamento automático de armazenamento em volumes de armazenamento adicionais. O Amazon RDS para SQL Server e o Amazon RDS para Oracle agora suportam o dimensionamento automático de armazenamento RDS em volumes de armazenamento adicionais. O escalonamento automático de armazenamento RDS dimensiona automaticamente a capacidade de armazenamento em resposta às crescentes cargas de trabalho do banco de dados, com tempo de inatividade zero. Volumes de armazenamento adicionais permitem que você adicione até três volumes adicionais para aumentar sua capacidade de armazenamento em até 256 TiB. Por que importa: Afeta camada de dados/persistência das aplicações. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-rds-oracle-sqlserver-autoscaling-additional-storage-volumes"
+    "uid": "aws-news-devops-20261031-02-895640e1e7e3c3aa",
+    "updateDate": "2026-10-31T15:59:10Z",
+    "titleText": "2. Amazon CloudFront agora fornece detalhes de ISP do visualizador e TLS pós-quântico",
+    "mainText": "Notícia 2 de 5, impacto alto. Amazon Cloud Front agora fornece detalhes de ISP do visualizador e TLS pós-quântico. O Amazon Cloud Front agora pode encaminhar dois novos cabeçalhos opcionais para sua origem. O cabeçalho Cloud Front-Viewer-ISP contém o nome do provedor de serviços de Internet (ISP) do visualizador, para que você possa ver de qual rede veio uma solicitação. O cabeçalho Cloud Front-Viewer-TLS-Details descreve a criptografia usada na conexão TLS de cada visualizador, para que você possa ver se uma conexão usou criptografia pós-quântica (PQC). Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta topologia de rede e exposição de serviços.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/cloudfront-viewer-isp-post-quantum-visbility/"
   },
   {
-    "uid": "aws-news-devops-20261030-03-434a9913339a1c32",
-    "updateDate": "2026-10-30T16:56:46Z",
-    "titleText": "3. O AWS Marketplace agora permite que os parceiros listem uma vez e vendam por meio de várias",
-    "mainText": "Notícia 3 de 3, impacto baixo. O AWS Marketplace agora permite que os parceiros listem uma vez e vendam por meio de várias contas subsidiárias. Hoje, a AWS anuncia que os parceiros da AWS que operam várias pessoas jurídicas podem publicar uma listagem de produtos uma vez em sua conta principal e permitir que suas subsidiárias locais a vendam por meio de ofertas privadas diretas - eliminando a necessidade de recriar e manter listagens duplicadas em todas as contas. A partir da conta principal, que mantém a propriedade da listagem, os parceiros autorizam quais produtos cada subsidiária pode vender e para quais países compradores ela pode estender ofertas privadas. Por que importa: Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-marketplace-subsidiary-account-authorization"
+    "uid": "aws-news-devops-20261031-03-bd097fe58f1f5c2a",
+    "updateDate": "2026-10-31T15:58:10Z",
+    "titleText": "3. O Amazon RDS for Oracle não exige mais atualizações automáticas de versões secundárias para",
+    "mainText": "Notícia 3 de 5, impacto médio. O Amazon RDS for Oracle não exige mais atualizações automáticas de versões secundárias para opções JVM, Spatial, Locator e OLAP. O Amazon Relational Database Service (Amazon RDS) for Oracle agora permite desativar atualizações automáticas de versões secundárias em instâncias de banco de dados novas e existentes que usam a opção JVM, Spatial, Locator ou OLAP. Anteriormente, essas opções exigiam a ativação de atualizações automáticas de versões secundárias. Com essa alteração, você decide quando aplicar atualizações de versões secundárias às instâncias de banco de dados usando essas opções. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/oracle-jvm-spatial-locator-olap-options-amvu-optional/"
+  },
+  {
+    "uid": "aws-news-devops-20261031-04-90d634c9e73519a1",
+    "updateDate": "2026-10-31T15:57:10Z",
+    "titleText": "4. Amazon Bedrock expande suporte de API e apresenta inferência entre regiões para modelos OpenAI",
+    "mainText": "Notícia 4 de 5, impacto médio. Amazon Bédrock expande suporte de API e apresenta inferência entre regiões para modelos OpenAI na AWS GovCloud (EUA). O Amazon Bédrock agora oferece suporte aos modelos OpenAI GPT-5.6 (Terra e Luna) no endpoint bedrock-runtime, com suporte para as APIs Responses, Converse e Chat Completions na AWS GovCloud (EUA). Ele também adiciona suporte para inferência entre regiões, permitindo que os clientes usem a inferência entre regiões nas regiões AWS GovCloud (EUA) para acessar maior produtividade e maior redundância. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Performance / limites, API / automação.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/bedrock-openai-runtime-govcloud/"
+  },
+  {
+    "uid": "aws-news-devops-20261031-05-44eb82e3e0e4e2d7",
+    "updateDate": "2026-10-31T15:56:10Z",
+    "titleText": "5. Daybreak Red da OpenAI agora disponível para clientes qualificados no Amazon Bedrock na AWS",
+    "mainText": "Notícia 5 de 5, impacto baixo. Daybreak Red da OpenAI agora disponível para clientes qualificados no Amazon Bédrock na AWS GovCloud (Leste dos EUA). As equipes de segurança precisam de ferramentas poderosas para encontrar vulnerabilidades, testar explorações e construir defesas. O Daybreak Red da OpenAI agora está disponível para clientes qualificados no Amazon Bédrock na AWS GovCloud (Leste dos EUA), trazendo IA avançada para este trabalho. Parte da iniciativa de defesa cibernética Daybreak da OpenAI, Daybreak Red: GPT-5.6 Cyber foi desenvolvido para pesquisa autorizada de vulnerabilidades, reprodução de exploração e desenvolvimento de mitigação. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/openai-daybreak-red-govcloud-east/"
   }
 ]
