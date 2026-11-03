@@ -1,30 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261102-01-397a47fb04860786",
-    "updateDate": "2026-11-02T20:42:27Z",
-    "titleText": "1. Amazon Aurora MySQL 8.4.10 já está disponível para o público geral",
-    "mainText": "Notícia 1 de 4, impacto alto. Amazon Aurora My S Q L 8.4.10 já está disponível para o público geral. A partir de hoje, o Amazon Aurora My S Q L-Compatible Edition 8.4 oferece suporte ao My S Q L 8.4.10. Recomendamos a atualização para as versões secundárias mais recentes para aceitar correções para vulnerabilidades e exposições comuns (CVEs) em versões anteriores do My S Q L e para se beneficiar de correções de bugs, melhorias de desempenho e novas funcionalidades adicionadas pela comunidade My S Q L. Para obter mais detalhes, consulte as notas de versão do Aurora My S Q L 8.4 e My S Q L 8.4.10. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança, Disponibilidade geral (GA), Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8410-available/"
+    "uid": "aws-news-devops-20261103-01-4fc32f2f322f3ee9",
+    "updateDate": "2026-11-03T18:20:14Z",
+    "titleText": "1. Os recursos do Amazon EKS agora oferecem suporte a notificações de CD Argo",
+    "mainText": "Notícia 1 de 5, impacto alto. Os recursos do Amazon EKS agora oferecem suporte a notificações de CD Argo. O recurso Amazon Elastic Kubernetes Service (Amazon EKS) para Argo CD agora oferece suporte ao Argo CD Notifications, fornecendo notificações quando seus aplicativos sincronizam, falham ou alteram a integridade. Você define gatilhos e modelos de mensagens em seu cluster e assina aplicativos individuais com uma anotação, da mesma forma que faz no CD Argo upstream. Com este lançamento, você pode entregar notificações para 16 serviços de notificação, incluindo Slack, PagerDuty, Opsgenie, Amazon SQS e Amazon Event Bridge. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-argo-cd-notifications"
   },
   {
-    "uid": "aws-news-devops-20261102-02-ce25bc1fe5273df0",
-    "updateDate": "2026-11-02T20:41:27Z",
-    "titleText": "2. Amazon Aurora MySQL 3.14 (compatível com MySQL 8.0.46) está disponível para o público geral",
-    "mainText": "Notícia 2 de 4, impacto médio. Amazon Aurora My S Q L 3.14 (compatível com My S Q L 8.0.46) está disponível para o público geral. A partir de hoje, o Amazon Aurora My S Q L-Compatible Edition 3 (compatível com My S Q L 8.0) oferece suporte ao My S Q L 8.0.46, que inclui correções comunitárias do My S Q L e melhorias específicas do Aurora. Além de melhorias operacionais, o Aurora My S Q L 3.14 introduz suporte para troca de chaves TLS pós-quântica (PQ-TLS), fornecendo opções de criptografia pós-quântica para criptografar seus dados em trânsito. Para obter informações detalhadas sobre esta versão, consulte as notas de versão do Aurora My S Q L 3 e My S Q L 8.0.46. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-314-available/"
-  },
-  {
-    "uid": "aws-news-devops-20261102-03-eee4fbcb582d52eb",
-    "updateDate": "2026-11-02T20:40:27Z",
-    "titleText": "3. Amazon RDS agora oferece suporte ao faturamento por snapshot",
-    "mainText": "Notícia 3 de 4, impacto médio. Amazon RDS agora oferece suporte ao faturamento por snapshot. A partir de hoje, o Amazon RDS oferece suporte ao faturamento por snapshot para snapshots do Amazon RDS. O faturamento por snapshot permite que você obtenha o custo de cada snapshot individual. Anteriormente, as cobranças de snapshots do RDS eram agregadas no nível da instância do banco de dados no relatório Custo e uso, bem como no Cost Explorer. Por que importa: Afeta camada de dados/persistência das aplicações. Tem efeito em custo/governança da conta.",
+    "uid": "aws-news-devops-20261103-02-eee4fbcb582d52eb",
+    "updateDate": "2026-11-03T18:19:14Z",
+    "titleText": "2. Amazon RDS agora oferece suporte ao faturamento por snapshot",
+    "mainText": "Notícia 2 de 5, impacto médio. Amazon RDS agora oferece suporte ao faturamento por snapshot. A partir de hoje, o Amazon RDS oferece suporte ao faturamento por snapshot para snapshots do Amazon RDS. O faturamento por snapshot permite que você obtenha o custo de cada snapshot individual. Anteriormente, as cobranças de snapshots do RDS eram agregadas no nível da instância do banco de dados no relatório Custo e uso, bem como no Cost Explorer. Por que importa: Afeta camada de dados/persistência das aplicações. Tem efeito em custo/governança da conta.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-per-snapshot-billing/"
   },
   {
-    "uid": "aws-news-devops-20261102-04-183cdd10ccbab444",
-    "updateDate": "2026-11-02T20:39:27Z",
-    "titleText": "4. O Amazon Quick no desktop agora usa o login existente do Amazon Quick da sua organização",
-    "mainText": "Notícia 4 de 4, impacto baixo. O Amazon Quick no desktop agora usa o login existente do Amazon Quick da sua organização. Para organizações que usam o Amazon Quick, o aplicativo de desktop agora conecta os usuários com o mesmo método de login que a organização já usa para o Quick na web. Os administradores não precisam mais registrar um aplicativo OIDC em seu provedor de identidade ou configurar login separado na área de trabalho antes que os usuários possam começar. Se um usuário puder fazer login no Quick na Web, esse usuário poderá fazer login no aplicativo de desktop. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "uid": "aws-news-devops-20261103-03-c765d93c99600010",
+    "updateDate": "2026-11-03T18:18:14Z",
+    "titleText": "3. Amazon RDS for Oracle agora oferece suporte a instâncias M8i e R8i em regiões adicionais da AWS",
+    "mainText": "Notícia 3 de 5, impacto médio. Amazon RDS for Oracle agora oferece suporte a instâncias M8i e R8i em regiões adicionais da AWS. O Amazon Relational Database Service (Amazon RDS) para Oracle agora oferece suporte a instâncias M8i e R8i em regiões adicionais da AWS. As instâncias M8i e R8i estão agora disponíveis na Ásia-Pacífico (Nova Zelândia) e no oeste do Canadá (Calgary), e as instâncias R8i estão agora disponíveis na Europa (Milão, Estocolmo e Zurique) e em Israel (Tel Aviv). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS, oferecendo o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. Por que importa: Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/rds-oracle-m8i-r8i-instances-new-regions/"
+  },
+  {
+    "uid": "aws-news-devops-20261103-04-000083a5ad322d97",
+    "updateDate": "2026-11-03T18:17:14Z",
+    "titleText": "4. Haiku 5.5 agora disponível no Kiro na AWS GovCloud (EUA)",
+    "mainText": "Notícia 4 de 5, impacto baixo. Haiku 5.5 agora disponível no Kiro na AWS GovCloud (EUA). Um novo modelo Antrópico já está disponível no Kiro IDE e CLI para as regiões AWS GovCloud (EUA). Com o Haiku 5.5, todos os três modelos Claude 5.5 agora estão disponíveis em Kiro na AWS GovCloud (EUA). Claude Haiku 5.5 é o modelo mais rápido da família Claude 5.5. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-haiku-5-5-aws-govcloud-us/"
+  },
+  {
+    "uid": "aws-news-devops-20261103-05-183cdd10ccbab444",
+    "updateDate": "2026-11-03T18:16:14Z",
+    "titleText": "5. O Amazon Quick no desktop agora usa o login existente do Amazon Quick da sua organização",
+    "mainText": "Notícia 5 de 5, impacto baixo. O Amazon Quick no desktop agora usa o login existente do Amazon Quick da sua organização. Para organizações que usam o Amazon Quick, o aplicativo de desktop agora conecta os usuários com o mesmo método de login que a organização já usa para o Quick na web. Os administradores não precisam mais registrar um aplicativo OIDC em seu provedor de identidade ou configurar login separado na área de trabalho antes que os usuários possam começar. Se um usuário puder fazer login no Quick na Web, esse usuário poderá fazer login no aplicativo de desktop. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-quick-desktop-organization-sign-in/"
   }
 ]
