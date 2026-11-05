@@ -1,16 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261104-01-b6b6780958fddc6e",
-    "updateDate": "2026-11-04T18:32:38Z",
-    "titleText": "1. AWS anuncia AWS Interconnect - visualização da última milha com Equinix",
-    "mainText": "Notícia 1 de 2, impacto baixo. AWS anuncia AWS Interconnect - visualização da última milha com Equinix. AWS Interconnect - last mile já está disponível em versão prévia na Equinix. Você pode conectar sua infraestrutura na rede global de 282 data centers da Equinix em todo o mundo à AWS com apenas alguns cliques. Interconexão - a última milha oferece conexões gerenciadas, privadas e resilientes com a AWS, para que você não precise solicitar conexões cruzadas ou configurar roteadores. Por que importa: Impacta topologia de rede e exposição de serviços. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/interconnect-last-mile-preview-equinix/"
+    "uid": "aws-news-devops-20261105-01-1c8bc75ce97c7999",
+    "updateDate": "2026-11-05T18:38:28Z",
+    "titleText": "1. Amazon SageMaker AI Studio agora oferece suporte à replicação multirregional do IAM Identity",
+    "mainText": "Notícia 1 de 5, impacto alto. Amazon Sage Maker AI Studio agora oferece suporte à replicação multirregional do IAM Identity Center. O Amazon Sage Maker AI agora oferece suporte à replicação multirregional do IAM Identity Center (IdC), permitindo implantar domínios do Sage Maker AI Studio em diferentes regiões da região primária da sua instância IdC. Anteriormente, a instância primária do IdC precisava residir na mesma região que o domínio do Sage Maker AI Studio; agora os clientes podem replicar sua instância IdC primária na região onde desejam usar os domínios do Sage Maker AI Studio. Esse recurso ajuda os clientes a manter a conformidade enquanto utilizam o gerenciamento centralizado de identidade da força de trabalho. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/"
   },
   {
-    "uid": "aws-news-devops-20261104-02-03eaf64b7d3e93d3",
-    "updateDate": "2026-11-04T18:31:38Z",
-    "titleText": "2. O cliente do Amazon Connect permite que os agentes pausem e retomem e-mails",
-    "mainText": "Notícia 2 de 2, impacto baixo. O cliente do Amazon Connect permite que os agentes pausem e retomem e-mails. O Amazon Connect Customer permite que os agentes pausem e-mails enquanto aguardam informações ou aprovações, liberando-os para lidar com contatos de maior prioridade e retomar o trabalho mais tarde. Por exemplo, um agente que espera que um supervisor aprove um reembolso pode pausar o e-mail e atender uma chamada. O tempo de pausa é monitorado separadamente do tempo de atendimento ativo, dando aos supervisores uma visão mais precisa do tempo que os agentes gastam trabalhando em e-mails. Por que importa: Anúncio geral da AWS, sem efeito direto no seu stack.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/connect-pause-resume-email/"
+    "uid": "aws-news-devops-20261105-02-fe7e9f57ad24e5d7",
+    "updateDate": "2026-11-05T18:37:28Z",
+    "titleText": "2. Daemons gerenciados do Amazon ECS agora podem coletar logs de arquivos json de contêineres de",
+    "mainText": "Notícia 2 de 5, impacto alto. Daemons gerenciados do Amazon ECS agora podem coletar logs de arquivos json de contêineres de aplicativos em instâncias gerenciadas do Amazon ECS. O Amazon Elastic Container Service (Amazon ECS) apresenta suporte ao driver de log de arquivo json para instâncias gerenciadas do Amazon ECS e volumes de driver de log para daemons gerenciados do Amazon ECS. Juntos, esses recursos permitem coletar logs de aplicativos com o agente de observabilidade de sua escolha e encaminhá-los para qualquer destino de sua escolha. Com este lançamento, os contêineres de aplicativos nas instâncias gerenciadas do ECS podem gravar seus logs como arquivos locais no formato de arquivo json padrão do Docker, que a maioria dos agentes de observabilidade lê nativamente. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/"
+  },
+  {
+    "uid": "aws-news-devops-20261105-03-316530cd15d40fbe",
+    "updateDate": "2026-11-05T18:36:28Z",
+    "titleText": "3. IAM Roles Anywhere agora oferece suporte à verificação automática de revogação de certificados",
+    "mainText": "Notícia 3 de 5, impacto alto. IAM Roles Anywhere agora oferece suporte à verificação automática de revogação de certificados. O AWS Identity and Access Management (IAM) Roles Anywhere agora oferece suporte à verificação automática de revogação usando pontos de distribuição (CDPs) da lista de revogação de certificados (CRL). Isso ajuda a manter as verificações de revogação sincronizadas com sua autoridade de certificação (CA) e pode ajudar a melhorar sua postura de segurança. Quando você habilita esse recurso em uma âncora confiável, o IAM Roles Anywhere lê os URLs do CDP incorporados nos certificados de autenticação, faz download das CRLs correspondentes e nega solicitações de credenciais que usam certificados revogados. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Ferramental de operação do dia a dia. Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/"
+  },
+  {
+    "uid": "aws-news-devops-20261105-04-7f499fa9f2d0ae8c",
+    "updateDate": "2026-11-05T18:35:28Z",
+    "titleText": "4. O Amazon RDS for Oracle agora oferece suporte à cópia de grupos de opções durante a cópia de",
+    "mainText": "Notícia 4 de 5, impacto médio. O Amazon RDS for Oracle agora oferece suporte à cópia de grupos de opções durante a cópia de snapshots entre regiões. O Amazon RDS for Oracle agora permite copiar o grupo de opções associado a um snapshot de banco de dados ao copiar esse snapshot para outra região da AWS. O Amazon RDS for Oracle usa grupos de opções para habilitar e configurar recursos que simplificam o gerenciamento de seus bancos de dados. Os grupos de opções são específicos da região da AWS onde você os cria. Por que importa: Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-oracle-cross-region-snapshot-copy-option-group/"
+  },
+  {
+    "uid": "aws-news-devops-20261105-05-c709ece569c34ea5",
+    "updateDate": "2026-11-05T18:34:28Z",
+    "titleText": "5. O Amazon DocumentDB (com compatibilidade com MongoDB) já está disponível nas regiões",
+    "mainText": "Notícia 5 de 5, impacto baixo. O Amazon Document D B (com compatibilidade com MongoDB) já está disponível nas regiões Ásia-Pacífico (Taipei) e Ásia-Pacífico (Nova Zelândia). O Amazon Document D B (com compatibilidade com MongoDB) agora está disponível nas regiões Ásia-Pacífico (Taipei) e Ásia-Pacífico (Nova Zelândia), aumentando a lista de regiões disponíveis onde você pode usar o Amazon Document D B. O Amazon Document D B é um banco de dados JSON nativo e totalmente gerenciado que torna simples e econômico operar cargas de trabalho de documentos críticos em praticamente qualquer escala, sem gerenciar a infraestrutura. O Amazon Document D B foi projetado para oferecer a escalabilidade e a durabilidade necessárias ao operar cargas de trabalho essenciais do MongoDB. Por que importa: Afeta camada de dados/persistência das aplicações. Toca na sua stack de observabilidade (métricas, logs e traces). Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-mongodb-compatibility-asia-pacific-taipei-new-zealand-regions/"
   }
 ]
