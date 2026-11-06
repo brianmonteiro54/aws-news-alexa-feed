@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261105-01-1c8bc75ce97c7999",
-    "updateDate": "2026-11-05T18:38:28Z",
-    "titleText": "1. Amazon SageMaker AI Studio agora oferece suporte à replicação multirregional do IAM Identity",
-    "mainText": "Notícia 1 de 5, impacto alto. Amazon Sage Maker AI Studio agora oferece suporte à replicação multirregional do IAM Identity Center. O Amazon Sage Maker AI agora oferece suporte à replicação multirregional do IAM Identity Center (IdC), permitindo implantar domínios do Sage Maker AI Studio em diferentes regiões da região primária da sua instância IdC. Anteriormente, a instância primária do IdC precisava residir na mesma região que o domínio do Sage Maker AI Studio; agora os clientes podem replicar sua instância IdC primária na região onde desejam usar os domínios do Sage Maker AI Studio. Esse recurso ajuda os clientes a manter a conformidade enquanto utilizam o gerenciamento centralizado de identidade da força de trabalho. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-sagemaker-ai-studio-iam/"
+    "uid": "aws-news-devops-20261106-01-2b361798ed11118d",
+    "updateDate": "2026-11-06T17:52:18Z",
+    "titleText": "1. AWS Security Hub agora fornece um inventário SBOM para seus recursos de computação",
+    "mainText": "Notícia 1 de 5, impacto alto. AWS Security Hub agora fornece um inventário SBOM para seus recursos de computação. Hoje, a AWS anuncia que o AWS Security Hub agora fornece um inventário de lista de materiais de software (SBOM), proporcionando às equipes centrais de segurança uma visão continuamente atualizada de toda a organização dos pacotes de software e aplicativos instalados em seus recursos de computação. O Security Hub cria o inventário a partir dos SBOMs que o Amazon Inspector gera para instâncias do Amazon EC2, imagens de contêiner do Amazon ECR e funções do AWS Lambda, sem configuração adicional. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/"
   },
   {
-    "uid": "aws-news-devops-20261105-02-fe7e9f57ad24e5d7",
-    "updateDate": "2026-11-05T18:37:28Z",
-    "titleText": "2. Daemons gerenciados do Amazon ECS agora podem coletar logs de arquivos json de contêineres de",
-    "mainText": "Notícia 2 de 5, impacto alto. Daemons gerenciados do Amazon ECS agora podem coletar logs de arquivos json de contêineres de aplicativos em instâncias gerenciadas do Amazon ECS. O Amazon Elastic Container Service (Amazon ECS) apresenta suporte ao driver de log de arquivo json para instâncias gerenciadas do Amazon ECS e volumes de driver de log para daemons gerenciados do Amazon ECS. Juntos, esses recursos permitem coletar logs de aplicativos com o agente de observabilidade de sua escolha e encaminhá-los para qualquer destino de sua escolha. Com este lançamento, os contêineres de aplicativos nas instâncias gerenciadas do ECS podem gravar seus logs como arquivos locais no formato de arquivo json padrão do Docker, que a maioria dos agentes de observabilidade lê nativamente. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ecs-managed-instances-json-file-log-driver/"
+    "uid": "aws-news-devops-20261106-02-13a72a1318791eae",
+    "updateDate": "2026-11-06T17:51:18Z",
+    "titleText": "2. Os grupos de recursos de reserva de capacidade agora oferecem suporte a blocos de capacidade do",
+    "mainText": "Notícia 2 de 5, impacto médio. Os grupos de recursos de reserva de capacidade agora oferecem suporte a blocos de capacidade do Amazon EC2 e reservas de capacidade interrompíveis nas regiões AWS GovCloud (EUA). A partir de hoje, você pode adicionar blocos de capacidade do Amazon EC2 para ML e reservas de capacidade interrompíveis a grupos de recursos de reserva de capacidade nas regiões AWS GovCloud (EUA). O Amazon EC2 oferece diferentes ofertas de reserva, como reservas de capacidade sob demanda (ODCRs), reservas de capacidade interrompíveis e blocos de capacidade para ML. Anteriormente, um Grupo de Recursos de Reserva de Capacidade só podia incluir ODCRs. Por que importa: Afeta a camada de compute e capacidade dos nós. Tem efeito em custo/governança da conta.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions"
   },
   {
-    "uid": "aws-news-devops-20261105-03-316530cd15d40fbe",
-    "updateDate": "2026-11-05T18:36:28Z",
-    "titleText": "3. IAM Roles Anywhere agora oferece suporte à verificação automática de revogação de certificados",
-    "mainText": "Notícia 3 de 5, impacto alto. IAM Roles Anywhere agora oferece suporte à verificação automática de revogação de certificados. O AWS Identity and Access Management (IAM) Roles Anywhere agora oferece suporte à verificação automática de revogação usando pontos de distribuição (CDPs) da lista de revogação de certificados (CRL). Isso ajuda a manter as verificações de revogação sincronizadas com sua autoridade de certificação (CA) e pode ajudar a melhorar sua postura de segurança. Quando você habilita esse recurso em uma âncora confiável, o IAM Roles Anywhere lê os URLs do CDP incorporados nos certificados de autenticação, faz download das CRLs correspondentes e nega solicitações de credenciais que usam certificados revogados. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Ferramental de operação do dia a dia. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-roles-anywhere-cdp/"
+    "uid": "aws-news-devops-20261106-03-891bfd65a220f48d",
+    "updateDate": "2026-11-06T17:50:18Z",
+    "titleText": "3. AWS Network Load Balancer já está disponível na zona local AWS Phoenix",
+    "mainText": "Notícia 3 de 5, impacto médio. AWS Network Load Balancer já está disponível na zona local AWS Phoenix. O AWS Network Load Balancer agora está disponível na zona local de Phoenix (us-west-2-phx-2a). As zonas locais da AWS são um tipo de implantação de infraestrutura da AWS que coloca a computação, o armazenamento, o banco de dados e outros serviços selecionados da AWS mais próximos de grandes centros populacionais, industriais e de TI onde não existe nenhuma região da AWS atualmente. Com este lançamento, você pode criar um AWS Network Load Balancer diretamente na zona local do Phoenix. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-nlb-available-phx-local-zone/"
   },
   {
-    "uid": "aws-news-devops-20261105-04-7f499fa9f2d0ae8c",
-    "updateDate": "2026-11-05T18:35:28Z",
-    "titleText": "4. O Amazon RDS for Oracle agora oferece suporte à cópia de grupos de opções durante a cópia de",
-    "mainText": "Notícia 4 de 5, impacto médio. O Amazon RDS for Oracle agora oferece suporte à cópia de grupos de opções durante a cópia de snapshots entre regiões. O Amazon RDS for Oracle agora permite copiar o grupo de opções associado a um snapshot de banco de dados ao copiar esse snapshot para outra região da AWS. O Amazon RDS for Oracle usa grupos de opções para habilitar e configurar recursos que simplificam o gerenciamento de seus bancos de dados. Os grupos de opções são específicos da região da AWS onde você os cria. Por que importa: Afeta camada de dados/persistência das aplicações.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-oracle-cross-region-snapshot-copy-option-group/"
+    "uid": "aws-news-devops-20261106-04-90e2c8ce44a7dfbe",
+    "updateDate": "2026-11-06T17:49:18Z",
+    "titleText": "4. Amazon DynamoDB agora oferece suporte a itens de colocação em massa",
+    "mainText": "Notícia 4 de 5, impacto médio. Amazon Dynamo D B agora oferece suporte a itens de colocação em massa. Hoje, a AWS anuncia a disponibilidade geral de itens de colocação em massa para o Amazon Dynamo D B, um recurso totalmente gerenciado que grava dados do Amazon S3 em tabelas existentes do Dynamo D B. Muitas aplicações do Dynamo D B usam dados que outros sistemas produzem e armazenam no Amazon S3. Escrever esses dados em tabelas existentes do Dynamo D B normalmente significa criar pipelines personalizados e gerenciar a capacidade da tabela. Por que importa: Afeta camada de dados/persistência das aplicações. Impacta armazenamento, backup e retenção. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/"
   },
   {
-    "uid": "aws-news-devops-20261105-05-c709ece569c34ea5",
-    "updateDate": "2026-11-05T18:34:28Z",
-    "titleText": "5. O Amazon DocumentDB (com compatibilidade com MongoDB) já está disponível nas regiões",
-    "mainText": "Notícia 5 de 5, impacto baixo. O Amazon Document D B (com compatibilidade com MongoDB) já está disponível nas regiões Ásia-Pacífico (Taipei) e Ásia-Pacífico (Nova Zelândia). O Amazon Document D B (com compatibilidade com MongoDB) agora está disponível nas regiões Ásia-Pacífico (Taipei) e Ásia-Pacífico (Nova Zelândia), aumentando a lista de regiões disponíveis onde você pode usar o Amazon Document D B. O Amazon Document D B é um banco de dados JSON nativo e totalmente gerenciado que torna simples e econômico operar cargas de trabalho de documentos críticos em praticamente qualquer escala, sem gerenciar a infraestrutura. O Amazon Document D B foi projetado para oferecer a escalabilidade e a durabilidade necessárias ao operar cargas de trabalho essenciais do MongoDB. Por que importa: Afeta camada de dados/persistência das aplicações. Toca na sua stack de observabilidade (métricas, logs e traces). Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-documentdb-mongodb-compatibility-asia-pacific-taipei-new-zealand-regions/"
+    "uid": "aws-news-devops-20261106-05-3881849da0aa39ba",
+    "updateDate": "2026-11-06T17:48:18Z",
+    "titleText": "5. Anunciando o Web Answer no Amazon Bedrock AgentCore",
+    "mainText": "Notícia 5 de 5, impacto baixo. Anunciando o Web Answer no Amazon Bédrock AgentCore. Hoje, estamos anunciando a disponibilidade geral do Web Answer no Amazon Bédrock AgentCore. Web Answer é uma ferramenta gerenciada que retorna uma resposta sintetizada, fundamentada e citada para uma pergunta em linguagem natural em uma única chamada, para que os construtores de agentes possam anexá-la a um agente e obter de volta uma resposta finalizada baseada em fontes atuais da web, sem criar e manter seu próprio pipeline de pesquisa, recuperação, síntese e citação. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/"
   }
 ]
