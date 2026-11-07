@@ -1,37 +1,16 @@
 [
   {
-    "uid": "aws-news-devops-20261106-01-2b361798ed11118d",
-    "updateDate": "2026-11-06T17:52:18Z",
-    "titleText": "1. AWS Security Hub agora fornece um inventário SBOM para seus recursos de computação",
-    "mainText": "Notícia 1 de 5, impacto alto. AWS Security Hub agora fornece um inventário SBOM para seus recursos de computação. Hoje, a AWS anuncia que o AWS Security Hub agora fornece um inventário de lista de materiais de software (SBOM), proporcionando às equipes centrais de segurança uma visão continuamente atualizada de toda a organização dos pacotes de software e aplicativos instalados em seus recursos de computação. O Security Hub cria o inventário a partir dos SBOMs que o Amazon Inspector gera para instâncias do Amazon EC2, imagens de contêiner do Amazon ECR e funções do AWS Lambda, sem configuração adicional. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-sbom-inventory/"
+    "uid": "aws-news-devops-20261107-01-9f9cecc9c112a29a",
+    "updateDate": "2026-11-07T16:47:21Z",
+    "titleText": "1. O Registro de agentes agora está geralmente disponível na região AWS GovCloud (EUA-Oeste)",
+    "mainText": "Notícia 1 de 2, impacto baixo. O Registro de agentes agora está geralmente disponível na região AWS GovCloud (EUA-Oeste). O AWS Agent Registry, disponível através do Amazon Bédrock AgentCore, agora está disponível na região AWS GovCloud (EUA-Oeste). O AWS Agent Registry é um serviço de descoberta totalmente gerenciado que oferece à sua organização um catálogo central para organizar, organizar e descobrir recursos. Você pode publicar servidores MCP, ferramentas, agentes, habilidades de agente e recursos personalizados em um registro pesquisável e controlar o que se torna detectável por meio de um fluxo de trabalho de aprovação. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança, Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/"
   },
   {
-    "uid": "aws-news-devops-20261106-02-13a72a1318791eae",
-    "updateDate": "2026-11-06T17:51:18Z",
-    "titleText": "2. Os grupos de recursos de reserva de capacidade agora oferecem suporte a blocos de capacidade do",
-    "mainText": "Notícia 2 de 5, impacto médio. Os grupos de recursos de reserva de capacidade agora oferecem suporte a blocos de capacidade do Amazon EC2 e reservas de capacidade interrompíveis nas regiões AWS GovCloud (EUA). A partir de hoje, você pode adicionar blocos de capacidade do Amazon EC2 para ML e reservas de capacidade interrompíveis a grupos de recursos de reserva de capacidade nas regiões AWS GovCloud (EUA). O Amazon EC2 oferece diferentes ofertas de reserva, como reservas de capacidade sob demanda (ODCRs), reservas de capacidade interrompíveis e blocos de capacidade para ML. Anteriormente, um Grupo de Recursos de Reserva de Capacidade só podia incluir ODCRs. Por que importa: Afeta a camada de compute e capacidade dos nós. Tem efeito em custo/governança da conta.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/capacity-reservation-resource-groups-support-in-aws-govcloud-regions"
-  },
-  {
-    "uid": "aws-news-devops-20261106-03-891bfd65a220f48d",
-    "updateDate": "2026-11-06T17:50:18Z",
-    "titleText": "3. AWS Network Load Balancer já está disponível na zona local AWS Phoenix",
-    "mainText": "Notícia 3 de 5, impacto médio. AWS Network Load Balancer já está disponível na zona local AWS Phoenix. O AWS Network Load Balancer agora está disponível na zona local de Phoenix (us-west-2-phx-2a). As zonas locais da AWS são um tipo de implantação de infraestrutura da AWS que coloca a computação, o armazenamento, o banco de dados e outros serviços selecionados da AWS mais próximos de grandes centros populacionais, industriais e de TI onde não existe nenhuma região da AWS atualmente. Com este lançamento, você pode criar um AWS Network Load Balancer diretamente na zona local do Phoenix. Por que importa: Impacta topologia de rede e exposição de serviços. Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/10/aws-nlb-available-phx-local-zone/"
-  },
-  {
-    "uid": "aws-news-devops-20261106-04-90e2c8ce44a7dfbe",
-    "updateDate": "2026-11-06T17:49:18Z",
-    "titleText": "4. Amazon DynamoDB agora oferece suporte a itens de colocação em massa",
-    "mainText": "Notícia 4 de 5, impacto médio. Amazon Dynamo D B agora oferece suporte a itens de colocação em massa. Hoje, a AWS anuncia a disponibilidade geral de itens de colocação em massa para o Amazon Dynamo D B, um recurso totalmente gerenciado que grava dados do Amazon S3 em tabelas existentes do Dynamo D B. Muitas aplicações do Dynamo D B usam dados que outros sistemas produzem e armazenam no Amazon S3. Escrever esses dados em tabelas existentes do Dynamo D B normalmente significa criar pipelines personalizados e gerenciar a capacidade da tabela. Por que importa: Afeta camada de dados/persistência das aplicações. Impacta armazenamento, backup e retenção. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-dynamodb-now-supports-bulk-put-items/"
-  },
-  {
-    "uid": "aws-news-devops-20261106-05-3881849da0aa39ba",
-    "updateDate": "2026-11-06T17:48:18Z",
-    "titleText": "5. Anunciando o Web Answer no Amazon Bedrock AgentCore",
-    "mainText": "Notícia 5 de 5, impacto baixo. Anunciando o Web Answer no Amazon Bédrock AgentCore. Hoje, estamos anunciando a disponibilidade geral do Web Answer no Amazon Bédrock AgentCore. Web Answer é uma ferramenta gerenciada que retorna uma resposta sintetizada, fundamentada e citada para uma pergunta em linguagem natural em uma única chamada, para que os construtores de agentes possam anexá-la a um agente e obter de volta uma resposta finalizada baseada em fontes atuais da web, sem criar e manter seu próprio pipeline de pesquisa, recuperação, síntese e citação. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/web-answer-amazon-bedrock/"
+    "uid": "aws-news-devops-20261107-02-86b5725a099e9e14",
+    "updateDate": "2026-11-07T16:46:21Z",
+    "titleText": "2. Kimi K3.1 Pro (Highspeed) agora disponível no Amazon Bedrock",
+    "mainText": "Notícia 2 de 2, impacto baixo. Kimi K3.1 Pro (Highspeed) agora disponível no Amazon Bédrock. Hoje, o Kimi K3.1 Pro da Moonshot AI está disponível no Amazon Bédrock, expandindo nosso portfólio de modelos de peso aberto com a segurança e a governança nas quais os clientes confiam. Os clientes que usam o Amazon Bédrock agora podem executar casos de uso agênticos, como codificação e processamento de documentos no Kimi K3.1 Pro (Highspeed), que fornece tokens de alta saída por segundo (OTPS) para resultados mais rápidos e responsivos. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock"
   }
 ]
