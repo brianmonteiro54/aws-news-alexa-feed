@@ -1,16 +1,16 @@
 [
   {
-    "uid": "aws-news-devops-20261107-01-9f9cecc9c112a29a",
-    "updateDate": "2026-11-07T16:47:21Z",
-    "titleText": "1. O Registro de agentes agora está geralmente disponível na região AWS GovCloud (EUA-Oeste)",
-    "mainText": "Notícia 1 de 2, impacto baixo. O Registro de agentes agora está geralmente disponível na região AWS GovCloud (EUA-Oeste). O AWS Agent Registry, disponível através do Amazon Bédrock AgentCore, agora está disponível na região AWS GovCloud (EUA-Oeste). O AWS Agent Registry é um serviço de descoberta totalmente gerenciado que oferece à sua organização um catálogo central para organizar, organizar e descobrir recursos. Você pode publicar servidores MCP, ferramentas, agentes, habilidades de agente e recursos personalizados em um registro pesquisável e controlar o que se torna detectável por meio de um fluxo de trabalho de aprovação. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança, Disponibilidade geral (GA).",
+    "uid": "aws-news-devops-20261108-01-9f9cecc9c112a29a",
+    "updateDate": "2026-11-08T16:58:43Z",
+    "titleText": "1. O Agent Registry agora está disponível para todos na região AWS GovCloud (EUA-Oeste)",
+    "mainText": "Notícia 1 de 2, impacto baixo. O Agent Registry agora está disponível para todos na região AWS GovCloud (EUA-Oeste). O AWS Agent Registry, disponível por meio do Amazon Bédrock AgentCore, agora está disponível na região AWS GovCloud (EUA-Oeste). O AWS Agent Registry é um serviço de descoberta totalmente gerenciado que oferece à sua organização um catálogo central para organizar, selecionar e descobrir recursos. Você pode publicar servidores MCP, ferramentas, agentes, habilidades de agente e recursos personalizados em um registro pesquisável e controlar o que pode ser descoberto por meio de um fluxo de trabalho de aprovação. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança, Disponibilidade geral (GA).",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/"
   },
   {
-    "uid": "aws-news-devops-20261107-02-86b5725a099e9e14",
-    "updateDate": "2026-11-07T16:46:21Z",
-    "titleText": "2. Kimi K3.1 Pro (Highspeed) agora disponível no Amazon Bedrock",
-    "mainText": "Notícia 2 de 2, impacto baixo. Kimi K3.1 Pro (Highspeed) agora disponível no Amazon Bédrock. Hoje, o Kimi K3.1 Pro da Moonshot AI está disponível no Amazon Bédrock, expandindo nosso portfólio de modelos de peso aberto com a segurança e a governança nas quais os clientes confiam. Os clientes que usam o Amazon Bédrock agora podem executar casos de uso agênticos, como codificação e processamento de documentos no Kimi K3.1 Pro (Highspeed), que fornece tokens de alta saída por segundo (OTPS) para resultados mais rápidos e responsivos. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
+    "uid": "aws-news-devops-20261108-02-86b5725a099e9e14",
+    "updateDate": "2026-11-08T16:57:43Z",
+    "titleText": "2. Kimi K3.1 Pro (alta velocidade) agora disponível no Amazon Bedrock",
+    "mainText": "Notícia 2 de 2, impacto baixo. Kimi K3.1 Pro (alta velocidade) agora disponível no Amazon Bédrock. Hoje, o Kimi K3.1 Pro da Moonshot AI está disponível no Amazon Bédrock, expandindo nosso portfólio de modelos de peso aberto com a segurança e a governança nas quais os clientes confiam. Os clientes que usam o Amazon Bédrock agora podem executar casos de uso de agente, como codificação e processamento de documentos no Kimi K3.1 Pro (Highspeed), que fornece tokens de alto rendimento por segundo (OTPS) para resultados mais rápidos e responsivos. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
     "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock"
   }
 ]
