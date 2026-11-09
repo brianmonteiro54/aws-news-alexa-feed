@@ -1,16 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261108-01-9f9cecc9c112a29a",
-    "updateDate": "2026-11-08T16:58:43Z",
-    "titleText": "1. O Agent Registry agora está disponível para todos na região AWS GovCloud (EUA-Oeste)",
-    "mainText": "Notícia 1 de 2, impacto baixo. O Agent Registry agora está disponível para todos na região AWS GovCloud (EUA-Oeste). O AWS Agent Registry, disponível por meio do Amazon Bédrock AgentCore, agora está disponível na região AWS GovCloud (EUA-Oeste). O AWS Agent Registry é um serviço de descoberta totalmente gerenciado que oferece à sua organização um catálogo central para organizar, selecionar e descobrir recursos. Você pode publicar servidores MCP, ferramentas, agentes, habilidades de agente e recursos personalizados em um registro pesquisável e controlar o que pode ser descoberto por meio de um fluxo de trabalho de aprovação. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança, Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-agent-registry-govcloud-us-west/"
+    "uid": "aws-news-devops-20261109-01-3f1c640a37341b7c",
+    "updateDate": "2026-11-09T21:22:42Z",
+    "titleText": "1. Apresentando AWS Nitro Sandboxes no Amazon EKS, ECS e EC2 para pods, tarefas e VMs isolados por",
+    "mainText": "Notícia 1 de 5, impacto crítico. Apresentando AWS Nitro Sandboxes no Amazon EKS, ECS e EC2 para pods, tarefas e VMs isolados por hardware. AWS Nitro Sandboxes agora estão disponíveis como VMs leves gerenciadas pelo Nitro Hypervisor. Você pode usar Nitro Sandboxes para um pod do Amazon EKS, uma tarefa do Amazon ECS ou máquinas virtuais (VMs) leves, incluindo agentes de IA executados dentro delas, em sua própria máquina virtual isolada por hardware, alimentada pelo AWS Nitro System. Cada carga de trabalho obtém o limite de isolamento de uma máquina virtual isolada Nitro. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Impacta o plano de execução de containers (ECS/ECR/Fárgate).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/"
   },
   {
-    "uid": "aws-news-devops-20261108-02-86b5725a099e9e14",
-    "updateDate": "2026-11-08T16:57:43Z",
-    "titleText": "2. Kimi K3.1 Pro (alta velocidade) agora disponível no Amazon Bedrock",
-    "mainText": "Notícia 2 de 2, impacto baixo. Kimi K3.1 Pro (alta velocidade) agora disponível no Amazon Bédrock. Hoje, o Kimi K3.1 Pro da Moonshot AI está disponível no Amazon Bédrock, expandindo nosso portfólio de modelos de peso aberto com a segurança e a governança nas quais os clientes confiam. Os clientes que usam o Amazon Bédrock agora podem executar casos de uso de agente, como codificação e processamento de documentos no Kimi K3.1 Pro (Highspeed), que fornece tokens de alto rendimento por segundo (OTPS) para resultados mais rápidos e responsivos. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock"
+    "uid": "aws-news-devops-20261109-02-dff857440b2ae2a1",
+    "updateDate": "2026-11-09T21:21:42Z",
+    "titleText": "2. Amazon EKS Auto Mode e Karpenter agora oferecem suporte à alocação dinâmica de recursos",
+    "mainText": "Notícia 2 de 5, impacto alto. Amazon EKS Auto Mode e Carpenter agora oferecem suporte à alocação dinâmica de recursos. O Amazon Elastic Kubernetes Service (Amazon EKS) agora oferece suporte à alocação dinâmica de recursos (DRA) para GPUs NVIDIA e dispositivos de rede Elastic Fabric Adapter (EFA) ao usar o modo automático do Amazon EKS e o Carpenter. Agora você pode definir os atributos de dispositivo que suas cargas de trabalho do Kubernetes precisam com o DRA, compartilhar dispositivos GPU entre pods e alocar dispositivos GPU e EFA alinhados à topologia, enquanto o Amazon EKS Auto Mode e o Carpenter dimensionam dinamicamente instâncias do Amazon EC2 com base na demanda da carga de trabalho. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-karpenter-dra/"
+  },
+  {
+    "uid": "aws-news-devops-20261109-03-ca814a0556063b47",
+    "updateDate": "2026-11-09T21:20:42Z",
+    "titleText": "3. Amazon Athena apresenta tabelas de sistema para observabilidade, auditoria e análise de uso",
+    "mainText": "Notícia 3 de 5, impacto alto. Amazon Athena apresenta tabelas de sistema para observabilidade, auditoria e análise de uso. O Amazon Athena agora oferece tabelas de sistema que capturam automaticamente seus dados de uso e os disponibilizam para observabilidade, análise de uso e casos de uso de auditoria. Quando você habilita tabelas do sistema, os dados de uso ficam disponíveis minutos após a conclusão da consulta em seus grupos de trabalho e são armazenados como tabelas Iceberg somente leitura gerenciadas pelo serviço em tabelas do Amazon S3 com retenção configurável. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/athena-system-tables/"
+  },
+  {
+    "uid": "aws-news-devops-20261109-04-f4fd9952e4273533",
+    "updateDate": "2026-11-09T21:19:42Z",
+    "titleText": "4. Apresentando uma UI de código aberto para análise gráfica em data lakes com o Amazon Neptune",
+    "mainText": "Notícia 4 de 5, impacto médio. Apresentando uma UI de código aberto para análise gráfica em data lakes com o Amazon Neptune Analytics. Hoje, a AWS está lançando uma solução de código aberto com uma interface web local que ajuda os clientes a transformar registros de data lake em gráficos para análise com o Amazon Neptune Analytics. Ao projetar registros e relacionamentos selecionados, os clientes podem investigar conexões entre tabelas e executar algoritmos gráficos sem criar seus próprios pipelines de ETL. Por exemplo, um cliente poderia projetar contas e transações em um gráfico para explorar como as contas estão conectadas ou identificar comunidades que possam justificar uma investigação. Por que importa: Afeta camada de dados/persistência das aplicações. Impacta armazenamento, backup e retenção.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-graphover-datalakes-generally-available"
+  },
+  {
+    "uid": "aws-news-devops-20261109-05-36ebf879f8aa0114",
+    "updateDate": "2026-11-09T21:18:42Z",
+    "titleText": "5. Amazon Bedrock agora oferece Claude Mythos 5.2 para clientes qualificados na AWS GovCloud (EUA)",
+    "mainText": "Notícia 5 de 5, impacto baixo. Amazon Bédrock agora oferece Claude Mythos 5.2 para clientes qualificados na AWS GovCloud (EUA). Amazon Bédrock, a plataforma para criação de aplicativos e agentes generativos de IA em escala de produção, agora oferece Claude Mythos 5.2 para clientes qualificados na AWS GovCloud (EUA). Claude Mythos 5.2 é o modelo de IA mais avançado da Anthropic até o momento para casos de uso em segurança cibernética, codificação de software e tarefas de raciocínio complexas. O modelo pode identificar vulnerabilidades de segurança sofisticadas em software e demonstrar capacidade de exploração. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud/"
   }
 ]
