@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261109-01-3f1c640a37341b7c",
-    "updateDate": "2026-11-09T21:22:42Z",
-    "titleText": "1. Apresentando AWS Nitro Sandboxes no Amazon EKS, ECS e EC2 para pods, tarefas e VMs isolados por",
-    "mainText": "Notícia 1 de 5, impacto crítico. Apresentando AWS Nitro Sandboxes no Amazon EKS, ECS e EC2 para pods, tarefas e VMs isolados por hardware. AWS Nitro Sandboxes agora estão disponíveis como VMs leves gerenciadas pelo Nitro Hypervisor. Você pode usar Nitro Sandboxes para um pod do Amazon EKS, uma tarefa do Amazon ECS ou máquinas virtuais (VMs) leves, incluindo agentes de IA executados dentro delas, em sua própria máquina virtual isolada por hardware, alimentada pelo AWS Nitro System. Cada carga de trabalho obtém o limite de isolamento de uma máquina virtual isolada Nitro. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Impacta o plano de execução de containers (ECS/ECR/Fárgate).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/nitro-sandboxes-eks-ecs-ec2/"
+    "uid": "aws-news-devops-20261110-01-efc3f90bb3d08afe",
+    "updateDate": "2026-11-10T18:33:52Z",
+    "titleText": "1. Amazon OpenSearch Service agora permite validar e reverter atualizações de versão",
+    "mainText": "Notícia 1 de 5, impacto alto. Amazon Open Search Service agora permite validar e reverter atualizações de versão. O Amazon Open Search Service agora oferece suporte a atualizações baseadas em clones, que permitem validar uma nova versão do Open Search junto com a atual e passar para ela somente quando estiver satisfeito. Se encontrar um problema, você pode cancelar antes de cortar ou reverter depois. Com atualizações baseadas em clones, você pode migrar para novas versões com mais confiança. Por que importa: Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-service/upgrades/"
   },
   {
-    "uid": "aws-news-devops-20261109-02-dff857440b2ae2a1",
-    "updateDate": "2026-11-09T21:21:42Z",
-    "titleText": "2. Amazon EKS Auto Mode e Karpenter agora oferecem suporte à alocação dinâmica de recursos",
-    "mainText": "Notícia 2 de 5, impacto alto. Amazon EKS Auto Mode e Carpenter agora oferecem suporte à alocação dinâmica de recursos. O Amazon Elastic Kubernetes Service (Amazon EKS) agora oferece suporte à alocação dinâmica de recursos (DRA) para GPUs NVIDIA e dispositivos de rede Elastic Fabric Adapter (EFA) ao usar o modo automático do Amazon EKS e o Carpenter. Agora você pode definir os atributos de dispositivo que suas cargas de trabalho do Kubernetes precisam com o DRA, compartilhar dispositivos GPU entre pods e alocar dispositivos GPU e EFA alinhados à topologia, enquanto o Amazon EKS Auto Mode e o Carpenter dimensionam dinamicamente instâncias do Amazon EC2 com base na demanda da carga de trabalho. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-auto-mode-karpenter-dra/"
+    "uid": "aws-news-devops-20261110-02-35a351f7bafefa28",
+    "updateDate": "2026-11-10T18:32:52Z",
+    "titleText": "2. Os alarmes do CloudWatch PromQL agora oferecem suporte a EC2 e Application Auto Scaling",
+    "mainText": "Notícia 2 de 5, impacto alto. Os alarmes do Cloud Watch PromQL agora oferecem suporte a EC2 e Application Auto Scaling. Os alarmes do Amazon Cloud Watch que usam o Prometeus Query Language (PromQL) agora podem acionar etapas do Amazon EC2 e do Application Auto Scaling e políticas de escalabilidade simples. Você pode escalar seus grupos do EC2 Auto Scaling nas métricas do Cloud Watch Open Telemetry usando o mesmo tipo de consultas PromQL usadas para painéis e alertas. Nesta versão, os alarmes PromQL também suportam políticas de escalabilidade simples e escalonada em etapas do EC2 Auto Scaling. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-alarms-autoscaling-group-actions"
   },
   {
-    "uid": "aws-news-devops-20261109-03-ca814a0556063b47",
-    "updateDate": "2026-11-09T21:20:42Z",
-    "titleText": "3. Amazon Athena apresenta tabelas de sistema para observabilidade, auditoria e análise de uso",
-    "mainText": "Notícia 3 de 5, impacto alto. Amazon Athena apresenta tabelas de sistema para observabilidade, auditoria e análise de uso. O Amazon Athena agora oferece tabelas de sistema que capturam automaticamente seus dados de uso e os disponibilizam para observabilidade, análise de uso e casos de uso de auditoria. Quando você habilita tabelas do sistema, os dados de uso ficam disponíveis minutos após a conclusão da consulta em seus grupos de trabalho e são armazenados como tabelas Iceberg somente leitura gerenciadas pelo serviço em tabelas do Amazon S3 com retenção configurável. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta camada de dados/persistência das aplicações.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/athena-system-tables/"
+    "uid": "aws-news-devops-20261110-03-17b5364b57d95b7a",
+    "updateDate": "2026-11-10T18:31:52Z",
+    "titleText": "3. Amazon CloudWatch Logs anuncia políticas de retenção em nível de conta",
+    "mainText": "Notícia 3 de 5, impacto alto. Amazon Cloud Watch Logs anuncia políticas de retenção em nível de conta. O Amazon Cloud Watch Logs agora oferece suporte a políticas de retenção em nível de conta, para que você possa usar uma única política para definir por quanto tempo os dados de log são mantidos em todos ou em subconjuntos de grupos de logs em uma conta da AWS. As políticas em nível de conta permitem que as equipes de plataforma e segurança alinhem cada grupo de logs com seus padrões de retenção. Com o lançamento de hoje, você pode criar políticas que abrangem todos os grupos de logs da conta ou aplicá-las a um conjunto específico de grupos de logs com nomes que começam com um prefixo, como /aws/lambda. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta funções serverless e o barramento de eventos/filas. Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-log-retention/"
   },
   {
-    "uid": "aws-news-devops-20261109-04-f4fd9952e4273533",
-    "updateDate": "2026-11-09T21:19:42Z",
-    "titleText": "4. Apresentando uma UI de código aberto para análise gráfica em data lakes com o Amazon Neptune",
-    "mainText": "Notícia 4 de 5, impacto médio. Apresentando uma UI de código aberto para análise gráfica em data lakes com o Amazon Neptune Analytics. Hoje, a AWS está lançando uma solução de código aberto com uma interface web local que ajuda os clientes a transformar registros de data lake em gráficos para análise com o Amazon Neptune Analytics. Ao projetar registros e relacionamentos selecionados, os clientes podem investigar conexões entre tabelas e executar algoritmos gráficos sem criar seus próprios pipelines de ETL. Por exemplo, um cliente poderia projetar contas e transações em um gráfico para explorar como as contas estão conectadas ou identificar comunidades que possam justificar uma investigação. Por que importa: Afeta camada de dados/persistência das aplicações. Impacta armazenamento, backup e retenção.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-graphover-datalakes-generally-available"
+    "uid": "aws-news-devops-20261110-04-fcee45539ac565b1",
+    "updateDate": "2026-11-10T18:30:52Z",
+    "titleText": "4. AWS Glue adiciona 100 novos conectores nativos para aplicações SaaS populares",
+    "mainText": "Notícia 4 de 5, impacto médio. AWS Glue adiciona 100 novos conectores nativos para aplicações SaaS populares. O AWS Glue agora oferece suporte a 100 novos conectores nativos que simplificam o acesso aos dados em aplicativos populares baseados em SaaS e API REST. Anteriormente, trazer dados de aplicativos SaaS para a AWS exigia a escrita de código personalizado. Agora, as equipes podem criar uma conexão uma vez no Catálogo de dados do AWS Glue e reutilizá-la em trabalhos de ETL com o mesmo modelo de permissões que já usam para o AWS Glue. Por que importa: Afeta camada de dados/persistência das aplicações. Impacta armazenamento, backup e retenção. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-glue-adds-100-new-native-connectors/"
   },
   {
-    "uid": "aws-news-devops-20261109-05-36ebf879f8aa0114",
-    "updateDate": "2026-11-09T21:18:42Z",
-    "titleText": "5. Amazon Bedrock agora oferece Claude Mythos 5.2 para clientes qualificados na AWS GovCloud (EUA)",
-    "mainText": "Notícia 5 de 5, impacto baixo. Amazon Bédrock agora oferece Claude Mythos 5.2 para clientes qualificados na AWS GovCloud (EUA). Amazon Bédrock, a plataforma para criação de aplicativos e agentes generativos de IA em escala de produção, agora oferece Claude Mythos 5.2 para clientes qualificados na AWS GovCloud (EUA). Claude Mythos 5.2 é o modelo de IA mais avançado da Anthropic até o momento para casos de uso em segurança cibernética, codificação de software e tarefas de raciocínio complexas. O modelo pode identificar vulnerabilidades de segurança sofisticadas em software e demonstrar capacidade de exploração. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/bedrock-claude-mythos-5-2-govcloud/"
+    "uid": "aws-news-devops-20261110-05-84f8cd09245bc4d1",
+    "updateDate": "2026-11-10T18:29:52Z",
+    "titleText": "5. Amazon Bedrock AgentCore agora oferece uma API de pesquisa na web",
+    "mainText": "Notícia 5 de 5, impacto baixo. Amazon Bédrock AgentCore agora oferece uma API de pesquisa na web. Hoje, a AWS anuncia a disponibilidade geral da API de pesquisa na Web no Amazon Bédrock AgentCore, que permite pesquisar na Web com uma única chamada de API. A pesquisa na Web no AgentCore está disponível como uma ferramenta MCP por meio do AgentCore Gateway. A nova API InvokeWebSearch fornece resultados de pesquisa de aplicativos, loops de agentes personalizados e pipelines de dados sem recursos para criação. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-web-search-api/"
   }
 ]
