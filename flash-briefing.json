@@ -1,37 +1,23 @@
 [
   {
-    "uid": "aws-news-devops-20261112-01-7983ef26c5654f20",
-    "updateDate": "2026-11-12T18:46:25Z",
-    "titleText": "1. O Amazon EKS Provisioned Control Plane agora oferece um banco de dados etcd de 24 GB nas camadas",
-    "mainText": "Notícia 1 de 5, impacto crítico. O Amazon EKS Provisioned Control Plane agora oferece um banco de dados etcd de 24 GB nas camadas 4XL e 8XL. O Amazon Elastic Kubernetes Service (Amazon EKS) agora oferece um banco de dados etcd maior de 24 GB, em vez de 16 GB, para clusters de plano de controle provisionado 4XL e 8XL. etcd é o armazenamento de valor-chave no plano de controle do Kubernetes que mantém o estado do cluster, portanto, seu tamanho limita quantos objetos do Kubernetes seu cluster pode armazenar. Com 50% mais capacidade, você pode executar clusters maiores com mais pods, jobs, eventos e recursos personalizados. Por que importa: Pede ação sua: fim de suporte / deprecação. Mexe direto com seus clusters Kubernetes/EKS.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-eks-provisioned-control-plane-larger-etcd-database/"
+    "uid": "aws-news-devops-20261113-01-2a8a195de5263ec0",
+    "updateDate": "2026-11-13T18:27:57Z",
+    "titleText": "1. Amazon Aurora e RDS agora oferecem suporte a instâncias de banco de dados R9g baseadas em",
+    "mainText": "Notícia 1 de 3, impacto médio. Amazon Aurora e RDS agora oferecem suporte a instâncias de banco de dados R9g baseadas em Graviton5. As instâncias de banco de dados R9g baseadas no AWS Graviton5 agora estão disponíveis para o Amazon Aurora com compatibilidade com Postgre S Q L e My S Q L, e para Amazon RDS para Postgre S Q L, My S Q L e MariaDB. As instâncias R9g baseadas em Graviton5 oferecem uma melhoria de desempenho de até 30% e uma melhoria de desempenho de preço de até 22% para preços sob demanda em relação a instâncias baseadas em Graviton4 de tamanhos equivalentes no Amazon Aurora, dependendo do mecanismo de banco de dados, da versão e da carga de trabalho. Construídas no AWS Nitro System, as instâncias R9g estão disponíveis em nove tamanhos, de grande a 48xgrande. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta a camada de compute e capacidade dos nós. Sinais: Disponibilidade geral (GA), Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/"
   },
   {
-    "uid": "aws-news-devops-20261112-02-6e4df7c694c131de",
-    "updateDate": "2026-11-12T18:45:25Z",
-    "titleText": "2. AWS Cloud WAN agora oferece suporte a logs de fluxo",
-    "mainText": "Notícia 2 de 5, impacto alto. AWS Cloud WAN agora oferece suporte a logs de fluxo. AWS Cloud WAN agora oferece suporte a logs de fluxo de VPC, proporcionando visibilidade central do tráfego IP em sua rede global. Os logs de fluxo capturam informações detalhadas para cada fluxo, para que você possa entender como o tráfego se move pela sua rede principal sem sair da sua conta WAN da Nuvem AWS. Até agora, os administradores de rede tinham que reunir logs de fluxo de VPC de muitas VPCs, contas e regiões para ver o tráfego em sua rede global. Por que importa: Impacta topologia de rede e exposição de serviços. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-cloud-wan-flow-logs/"
+    "uid": "aws-news-devops-20261113-02-f7d85f6d3f999ab8",
+    "updateDate": "2026-11-13T18:26:57Z",
+    "titleText": "2. Grok 4.7 agora disponível no Kiro na AWS GovCloud (EUA)",
+    "mainText": "Notícia 2 de 3, impacto baixo. Grok 4.7 agora disponível no Kiro na AWS GovCloud (EUA). Um novo modelo já está disponível no Kiro IDE e CLI para as regiões AWS GovCloud (EUA). Grok 4.7 é o modelo mais capaz do SpaceXSI para codificação e trabalho de conhecimento. Ele foi desenvolvido para manter o foco em tarefas difíceis que duram horas e verifica seu trabalho antes de prosseguir. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/"
   },
   {
-    "uid": "aws-news-devops-20261112-03-03fba84e76b2bb2c",
-    "updateDate": "2026-11-12T18:44:25Z",
-    "titleText": "3. Modelos Ornith-1.0-9B e Ornith-1.0-35B agora disponíveis no Amazon SageMaker JumpStart",
-    "mainText": "Notícia 3 de 5, impacto baixo. Modelos Ornith-1.0-9B e Ornith-1.0-35B agora disponíveis no Amazon Sage Maker JumpStart. Os modelos Ornith-1.0-9B e Ornith-1.0-35B do DeepReinforce AI agora estão disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para clientes da AWS. Esses dois modelos fazem parte da família Ornith 1.0 de modelos de codificação agentic de código aberto e autoestruturados lançados sob a licença do MIT, alcançando desempenho de última geração entre modelos de código aberto de tamanho comparável em benchmarks de codificação, como Terminal-Bench 2.1, SWE-Bench, NL2Repo e OpenClaw. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/ornith-1-0-9b-ornith-1-0-35b-on-sagemaker-jumpstart/"
-  },
-  {
-    "uid": "aws-news-devops-20261112-04-207a39dbc5b502ab",
-    "updateDate": "2026-11-12T18:43:25Z",
-    "titleText": "4. Modelos DeepSeek-V4-Pro, DeepSeek-V4-Flash e DeepSeek-V4.1-Flash agora disponíveis no Amazon",
-    "mainText": "Notícia 4 de 5, impacto baixo. Modelos DeepSeek-V4-Pro, DeepSeek-V4-Flash e DeepSeek-V4.1-Flash agora disponíveis no Amazon Sage Maker JumpStart. Os modelos DeepSeek-V4-Pro, DeepSeek-V4-Flash e DeepSeek-V4.1-Flash da DeepSeek agora estão disponíveis no Amazon Sage Maker JumpStart, expandindo o portfólio de modelos básicos disponíveis para clientes da AWS. Esses três modelos de linguagem de mistura de especialistas (MoE) de peso aberto, lançados sob a licença do MIT, oferecem desempenho de classe de ponta em cargas de trabalho de raciocínio, codificação e agentes, ao mesmo tempo em que ativam apenas uma fração de seus parâmetros totais por token, permitindo alta eficiência em escala. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/deepseek-v4-pro-v4-flash-v4.1-flash-on-sagemaker-jumpstart/"
-  },
-  {
-    "uid": "aws-news-devops-20261112-05-d7e60a14df6857ab",
-    "updateDate": "2026-11-12T18:42:25Z",
-    "titleText": "5. AWS Network Security Manager agora disponível na AWS European Sovereign Cloud e em novas regiões",
-    "mainText": "Notícia 5 de 5, impacto baixo. AWS Network Security Manager agora disponível na AWS European Sovereign Cloud e em novas regiões adicionais. O AWS Network Security Manager já está disponível na região de nuvem soberana europeia da AWS e em trinta e uma novas regiões Hoje, a AWS anuncia a disponibilidade geral do AWS Network Security Manager na região de nuvem soberana europeia da AWS e em regiões adicionais. O Network Security Manager é uma solução abrangente de gerenciamento de segurança de rede projetada para simplificar a implantação e aplicação de políticas de segurança em escala. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta topologia de rede e exposição de serviços. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/network-security-mgr-eu-sovereign-cloud/"
+    "uid": "aws-news-devops-20261113-03-5043405349489034",
+    "updateDate": "2026-11-13T18:25:57Z",
+    "titleText": "3. Amazon Cognito agora oferece suporte à troca de tokens OAuth 2.0",
+    "mainText": "Notícia 3 de 3, impacto baixo. Amazon Cognito agora oferece suporte à troca de tokens OAuth 2.0. O Amazon Cognito agora oferece suporte à troca de tokens OAuth 2.0 (RFC 8693). O Amazon Cognito ajuda você a adicionar inscrição, login e controle de acesso às suas aplicações web, aplicações móveis e agentes de IA. Com a troca de tokens, um serviço ou agente de IA agindo em nome de um usuário pode trocar o token do usuário por um novo token com escopo para um serviço downstream específico. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/"
   }
 ]
