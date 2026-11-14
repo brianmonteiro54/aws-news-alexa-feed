@@ -1,23 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261113-01-2a8a195de5263ec0",
-    "updateDate": "2026-11-13T18:27:57Z",
-    "titleText": "1. Amazon Aurora e RDS agora oferecem suporte a instâncias de banco de dados R9g baseadas em",
-    "mainText": "Notícia 1 de 3, impacto médio. Amazon Aurora e RDS agora oferecem suporte a instâncias de banco de dados R9g baseadas em Graviton5. As instâncias de banco de dados R9g baseadas no AWS Graviton5 agora estão disponíveis para o Amazon Aurora com compatibilidade com Postgre S Q L e My S Q L, e para Amazon RDS para Postgre S Q L, My S Q L e MariaDB. As instâncias R9g baseadas em Graviton5 oferecem uma melhoria de desempenho de até 30% e uma melhoria de desempenho de preço de até 22% para preços sob demanda em relação a instâncias baseadas em Graviton4 de tamanhos equivalentes no Amazon Aurora, dependendo do mecanismo de banco de dados, da versão e da carga de trabalho. Construídas no AWS Nitro System, as instâncias R9g estão disponíveis em nove tamanhos, de grande a 48xgrande. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta a camada de compute e capacidade dos nós. Sinais: Disponibilidade geral (GA), Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-rds-postgresql-mysql-mariadb-r9g-instances/"
+    "uid": "aws-news-devops-20261114-01-4fab11841325d933",
+    "updateDate": "2026-11-14T16:56:11Z",
+    "titleText": "1. AWS Batch no Amazon EKS adiciona recursos do Linux, seccomp e configurações em nível de pod",
+    "mainText": "Notícia 1 de 5, impacto crítico. AWS Batch no Amazon EKS adiciona recursos do Linux, seccomp e configurações em nível de pod. O AWS Batch agora oferece suporte a configurações adicionais de contexto de segurança do Kubernetes nas definições de trabalho do Amazon EKS, incluindo recursos do Linux, perfis seccomp e configurações em nível de pod. Para clusters EKS que aplicam o perfil restrito dos padrões de segurança de pod do Kubernetes, agora você pode executar trabalhos do AWS Batch apenas com os privilégios e chamadas de sistema exigidos. As configurações no nível do contêiner substituem os padrões no nível do pod. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-batch-eks-security-context/"
   },
   {
-    "uid": "aws-news-devops-20261113-02-f7d85f6d3f999ab8",
-    "updateDate": "2026-11-13T18:26:57Z",
-    "titleText": "2. Grok 4.7 agora disponível no Kiro na AWS GovCloud (EUA)",
-    "mainText": "Notícia 2 de 3, impacto baixo. Grok 4.7 agora disponível no Kiro na AWS GovCloud (EUA). Um novo modelo já está disponível no Kiro IDE e CLI para as regiões AWS GovCloud (EUA). Grok 4.7 é o modelo mais capaz do SpaceXSI para codificação e trabalho de conhecimento. Ele foi desenvolvido para manter o foco em tarefas difíceis que duram horas e verifica seu trabalho antes de prosseguir. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Mexe com postura de segurança/permissões - revise antes de propagar.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/kiro-grok-4-7-aws-govcloud-us/"
+    "uid": "aws-news-devops-20261114-02-45fcba7ce3a97728",
+    "updateDate": "2026-11-14T16:55:11Z",
+    "titleText": "2. Aurora PostgreSQL com configuração expressa agora compatível com CloudFormation",
+    "mainText": "Notícia 2 de 5, impacto alto. Aurora Postgre S Q L com configuração expressa agora compatível com Cloud Formation. O Aurora Postgre S Q L agora oferece suporte à configuração expressa no AWS Cloud Formation para infraestrutura como implantação de código. Este lançamento permite automatizar a implantação de infraestrutura de seus clusters Aurora por meio de modelos do Cloud Formation, ao mesmo tempo que se beneficia da velocidade da configuração expressa. Os clusters Aurora Postgre S Q L criados com configuração expressa permitem criar e consultar um banco de dados Aurora sem servidor em segundos. Por que importa: Afeta provisionamento e pipelines de deploy. Afeta camada de dados/persistência das aplicações. Sinais: API / automação.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-postgresql-cloudformation/"
   },
   {
-    "uid": "aws-news-devops-20261113-03-5043405349489034",
-    "updateDate": "2026-11-13T18:25:57Z",
-    "titleText": "3. Amazon Cognito agora oferece suporte à troca de tokens OAuth 2.0",
-    "mainText": "Notícia 3 de 3, impacto baixo. Amazon Cognito agora oferece suporte à troca de tokens OAuth 2.0. O Amazon Cognito agora oferece suporte à troca de tokens OAuth 2.0 (RFC 8693). O Amazon Cognito ajuda você a adicionar inscrição, login e controle de acesso às suas aplicações web, aplicações móveis e agentes de IA. Com a troca de tokens, um serviço ou agente de IA agindo em nome de um usuário pode trocar o token do usuário por um novo token com escopo para um serviço downstream específico. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/cognito-token-exchange/"
+    "uid": "aws-news-devops-20261114-03-ad7be316bf4cc336",
+    "updateDate": "2026-11-14T16:54:11Z",
+    "titleText": "3. O AWS Systems Manager simplifica a integração de VMs do Google Cloud para gerenciamento",
+    "mainText": "Notícia 3 de 5, impacto médio. O AWS Systems Manager simplifica a integração de VMs do Google Cloud para gerenciamento centralizado. O AWS Systems Manager Cloud Connector agora estende o suporte simplificado de integração multicloud ao Google Cloud, facilitando a conexão de suas VMs existentes do Google Cloud ao Systems Manager para gerenciamento centralizado junto com recursos da AWS, locais e do Azure sem instalação manual do agente. Anteriormente, o gerenciamento de máquinas virtuais em vários provedores de nuvem geralmente exigia coordenação e definição de configurações separadamente em cada ambiente. Por que importa: Afeta provisionamento e pipelines de deploy. Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-google-cloud-support/"
+  },
+  {
+    "uid": "aws-news-devops-20261114-04-d215143aceaf1d7e",
+    "updateDate": "2026-11-14T16:53:11Z",
+    "titleText": "4. AWS Security Hub CSPM agora oferece suporte à configuração centralizada com políticas",
+    "mainText": "Notícia 4 de 5, impacto médio. AWS Security Hub CSPM agora oferece suporte à configuração centralizada com políticas declarativas do AWS Organizations. O AWS Security Hub CSPM agora oferece suporte a políticas declarativas do AWS Organizations. Você pode usá-los para habilitar o Security Hub CSPM em todas as contas e regiões da sua organização e para definir quais padrões e controles de segurança estão habilitados. As políticas podem ser aplicadas amplamente a todas as contas e regiões, ou direcionar combinações específicas de contas e regiões. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta funções serverless e o barramento de eventos/filas.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-cspm-org-policies/"
+  },
+  {
+    "uid": "aws-news-devops-20261114-05-0befeaa93cd6c65f",
+    "updateDate": "2026-11-14T16:52:11Z",
+    "titleText": "5. AWS Secrets Manager agora oferece suporte à replicação entre contas",
+    "mainText": "Notícia 5 de 5, impacto médio. AWS Secrets Manager agora oferece suporte à replicação entre contas. O AWS Secrets Manager agora oferece suporte à replicação entre contas, permitindo manter uma cópia sincronizada de um segredo primário em uma conta secundária da AWS para acesso entre contas, backup e recuperação de desastres. A replicação entre contas amplia o recurso de replicação multirregional existente além dos limites das contas. Com a replicação entre contas, as equipes de plataforma ou de segurança podem possuir e alternar um segredo centralmente, e cada conta consumidora obtém uma cópia local e sempre atual, sem chaves KMS compartilhadas ou políticas secretas entre contas. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/secrets-manager-cross-account/"
   }
 ]
