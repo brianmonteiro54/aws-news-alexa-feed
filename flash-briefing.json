@@ -1,23 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261116-01-21b1355d87e15f92",
-    "updateDate": "2026-11-16T20:53:39Z",
-    "titleText": "1. AWS Backup adiciona suporte a cofre logicamente isolado para Amazon RDS",
-    "mainText": "Notícia 1 de 3, impacto médio. AWS Backup adiciona suporte a cofre logicamente isolado para Amazon RDS. O cofre logicamente isolado do AWS Backup agora oferece suporte a instâncias de banco de dados do Amazon Relational Database Service (Amazon RDS). Os cofres logicamente isolados são um tipo de cofre do AWS Backup que armazena backups imutáveis e isolados, que são bloqueados por padrão com o AWS Backup Vault Lock no modo de conformidade. O compartilhamento seguro entre contas e organizações da AWS permite restauração direta, reduzindo o tempo de recuperação de um evento de perda de dados. Por que importa: Afeta camada de dados/persistência das aplicações. Impacta armazenamento, backup e retenção. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-backup-air-gapped-vault-rds/"
+    "uid": "aws-news-devops-20261117-01-de92b282d1be6fd4",
+    "updateDate": "2026-11-17T19:43:15Z",
+    "titleText": "1. O Amazon ECR agora replica exclusões de imagens entre regiões e contas",
+    "mainText": "Notícia 1 de 5, impacto alto. O Amazon ECR agora replica exclusões de imagens entre regiões e contas. O Amazon Elastic Container Registry (Amazon ECR) agora oferece suporte à replicação de exclusões de imagens e remoções de tags para seus destinos de replicação. Anteriormente, a replicação ECR copiava imagens para regiões e contas de destino, mas não replicava exclusões, exigindo que você gerenciasse exclusões separadamente em cada local. Com a replicação de exclusões, seus repositórios de destino permanecem consistentes com a origem automaticamente. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr"
   },
   {
-    "uid": "aws-news-devops-20261116-02-c7c5495c28562407",
-    "updateDate": "2026-11-16T20:52:39Z",
-    "titleText": "2. As regras avançadas baseadas em taxas do AWS WAF agora estão disponíveis na região AWS GovCloud",
-    "mainText": "Notícia 2 de 3, impacto baixo. As regras avançadas baseadas em taxas do AWS WAF agora estão disponíveis na região AWS GovCloud (EUA), Tailândia e México. As regras avançadas baseadas em taxas do AWS WAF agora estão disponíveis nas regiões Ásia-Pacífico (Tailândia), México (Central), AWS GovCloud (Leste dos EUA) e AWS GovCloud (Oeste dos EUA). Os clientes nessas regiões agora podem agregar solicitações usando chaves personalizadas e escolher uma janela de avaliação de 1 ou 2 minutos, além das opções existentes de 5 e 10 minutos, os mesmos recursos já disponíveis em outras regiões da AWS. Uma regra baseada em taxa conta solicitações e aplica uma ação, como Bloquear ou CAPTCHA, quando a taxa de solicitação excede um limite definido por você. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta provisionamento e pipelines de deploy. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/waf-advanced-rate-rules-available/"
+    "uid": "aws-news-devops-20261117-02-4c93fd60a5a20564",
+    "updateDate": "2026-11-17T19:42:15Z",
+    "titleText": "2. O modo automático do Amazon EKS agora redimensiona pods para reduzir custos de computação",
+    "mainText": "Notícia 2 de 5, impacto alto. O modo automático do Amazon EKS agora redimensiona pods para reduzir custos de computação (visualização). O Amazon Elastic Kubernetes Service (Amazon EKS) introduz a otimização de recursos para o EKS Auto Mode, um novo recurso que redimensiona as solicitações de CPU e memória de pods em execução com base no uso real. As solicitações de CPU e memória são frequentemente definidas no momento da implantação e raramente revisitadas, e o Modo Automático provisiona instâncias do EC2 para adequá-las. O Rightsizing permite que o Modo Automático execute as mesmas Deployments e StatefulSets em menos ou menores instâncias, sem ajuste manual e sem custo adicional. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Afeta a camada de compute e capacidade dos nós.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/eks-auto-mode-pod-rightsizing-preview/"
   },
   {
-    "uid": "aws-news-devops-20261116-03-0165a6b58e27995a",
-    "updateDate": "2026-11-16T20:51:39Z",
-    "titleText": "3. As instâncias de tempo de execução do AgentCore agora estão disponíveis em mais seis regiões da",
-    "mainText": "Notícia 3 de 3, impacto baixo. As instâncias de tempo de execução do AgentCore agora estão disponíveis em mais seis regiões da AWS. As instâncias de tempo de execução do Amazon Bédrock AgentCore agora estão disponíveis em seis regiões adicionais da AWS: Oeste dos EUA (Norte da Califórnia), Canadá (Central), Europa (Londres), Europa (Paris), Europa (Estocolmo) e Ásia-Pacífico (Seul). As instâncias de tempo de execução executam seus agentes em instâncias do Amazon EC2, enquanto o AgentCore cuida do provisionamento, aplicação de patches, escalabilidade e gerenciamento do ciclo de vida. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Afeta a camada de compute e capacidade dos nós. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/agentcore-aws-regions/"
+    "uid": "aws-news-devops-20261117-03-8bc36fad49393a81",
+    "updateDate": "2026-11-17T19:41:15Z",
+    "titleText": "3. AWS Security Hub estende gerenciamento de segurança unificado ao Google Cloud Platform",
+    "mainText": "Notícia 3 de 5, impacto alto. AWS Security Hub estende gerenciamento de segurança unificado ao Google Cloud Platform. Hoje, a AWS anuncia que o AWS Security Hub agora monitora os recursos do Google Cloud Platform (GCP), ampliando a análise de risco, o gerenciamento de postura de segurança na nuvem, o gerenciamento de vulnerabilidades e o gerenciamento de respostas de segurança em ambas as nuvens. Muitos clientes da AWS que executam cargas de trabalho na AWS e no GCP tiveram que operar ferramentas de segurança separadas para cada ambiente, dificultando a priorização dos riscos de forma holística ou a resposta consistente. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-gcp/"
+  },
+  {
+    "uid": "aws-news-devops-20261117-04-189b93e4a9fef21a",
+    "updateDate": "2026-11-17T19:40:15Z",
+    "titleText": "4. Amazon EBS agora oferece suporte à associação de chaves KMS adicionais com snapshots",
+    "mainText": "Notícia 4 de 5, impacto alto. Amazon EBS agora oferece suporte à associação de chaves KMS adicionais com snapshots. O Amazon Elastic Block Store (EBS) agora oferece suporte à associação de chaves adicionais do AWS Key Management Service (KMS) com snapshots do EBS. Esse novo recurso permite que você compartilhe e copie instantâneos criptografados entre contas sem primeiro criptografá-los novamente, simplificando seus fluxos de trabalho de recuperação de desastres e backup. Os clientes usam snapshots do EBS como backups duráveis e pontuais de volumes do EBS. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta armazenamento, backup e retenção.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/"
+  },
+  {
+    "uid": "aws-news-devops-20261117-05-e6d6e31f572a0772",
+    "updateDate": "2026-11-17T19:39:15Z",
+    "titleText": "5. AWS IAM anuncia solucionador de problemas de acesso para depurar erros de acesso negado",
+    "mainText": "Notícia 5 de 5, impacto médio. AWS IAM anuncia solucionador de problemas de acesso para depurar erros de acesso negado. O AWS Identity and Access Management (IAM) apresenta o Access Troubleshooter, um novo recurso que oferece visibilidade de todo o contexto de autorização por trás dos erros de acesso negado, para que você possa resolvê-los sem tentativa e erro. Anteriormente, os desenvolvedores dependiam do nome de recurso da Amazon (ARN) da política de negação para depurar uma negação, sem visibilidade do contexto de autorização ou de outras políticas avaliadas na solicitação que poderiam contribuir para a negação. Isso tornou a solução de problemas de acesso demorada e ineficiente. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-access-troubleshooter/"
   }
 ]
