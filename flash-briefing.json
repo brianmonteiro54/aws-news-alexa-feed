@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261117-01-de92b282d1be6fd4",
-    "updateDate": "2026-11-17T19:43:15Z",
-    "titleText": "1. O Amazon ECR agora replica exclusões de imagens entre regiões e contas",
-    "mainText": "Notícia 1 de 5, impacto alto. O Amazon ECR agora replica exclusões de imagens entre regiões e contas. O Amazon Elastic Container Registry (Amazon ECR) agora oferece suporte à replicação de exclusões de imagens e remoções de tags para seus destinos de replicação. Anteriormente, a replicação ECR copiava imagens para regiões e contas de destino, mas não replicava exclusões, exigindo que você gerenciasse exclusões separadamente em cada local. Com a replicação de exclusões, seus repositórios de destino permanecem consistentes com a origem automaticamente. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/replication-deletes-amazon-ecr"
+    "uid": "aws-news-devops-20261118-01-89ce060b87899ad7",
+    "updateDate": "2026-11-18T19:19:42Z",
+    "titleText": "1. O AWS Security Hub agora infere a criticidade dos recursos a partir do software instalado e do",
+    "mainText": "Notícia 1 de 5, impacto alto. O AWS Security Hub agora infere a criticidade dos recursos a partir do software instalado e do uso. Hoje, o AWS Security Hub adiciona softwares instalados e o uso de recursos como sinais de criticidade dos recursos, o que indica a importância de um recurso para sua empresa. O Security Hub usa a criticidade para classificar as descobertas de exposição, para que as equipes centrais de segurança possam priorizar as exposições que afetam seus recursos mais importantes. O Security Hub já infere a criticidade a partir das tags e dos nomes dos recursos, mas os recursos com tags inconsistentes geralmente têm uma criticidade desconhecida, o que dificulta a priorização de suas exposições. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-resource-criticality/"
   },
   {
-    "uid": "aws-news-devops-20261117-02-4c93fd60a5a20564",
-    "updateDate": "2026-11-17T19:42:15Z",
-    "titleText": "2. O modo automático do Amazon EKS agora redimensiona pods para reduzir custos de computação",
-    "mainText": "Notícia 2 de 5, impacto alto. O modo automático do Amazon EKS agora redimensiona pods para reduzir custos de computação (visualização). O Amazon Elastic Kubernetes Service (Amazon EKS) introduz a otimização de recursos para o EKS Auto Mode, um novo recurso que redimensiona as solicitações de CPU e memória de pods em execução com base no uso real. As solicitações de CPU e memória são frequentemente definidas no momento da implantação e raramente revisitadas, e o Modo Automático provisiona instâncias do EC2 para adequá-las. O Rightsizing permite que o Modo Automático execute as mesmas Deployments e StatefulSets em menos ou menores instâncias, sem ajuste manual e sem custo adicional. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/eks-auto-mode-pod-rightsizing-preview/"
+    "uid": "aws-news-devops-20261118-02-e06ee3bfd27af410",
+    "updateDate": "2026-11-18T19:18:42Z",
+    "titleText": "2. O Amazon ECR agora oferece suporte a tokens de autenticação globais para registros privados",
+    "mainText": "Notícia 2 de 5, impacto médio. O Amazon ECR agora oferece suporte a tokens de autenticação globais para registros privados. O Amazon Elastic Container Registry (Amazon ECR) agora oferece suporte a tokens de autenticação globais para registros privados. Anteriormente, você precisava solicitar um token de autenticação separado em cada região da AWS onde enviava ou recebia imagens de contêiner. Agora, você pode solicitar um único token da API AWS Sign-In CreateBearerToken e usá-lo em todos os registros privados do ECR na mesma partição da AWS. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-authentication-amazon-ecr"
   },
   {
-    "uid": "aws-news-devops-20261117-03-8bc36fad49393a81",
-    "updateDate": "2026-11-17T19:41:15Z",
-    "titleText": "3. AWS Security Hub estende gerenciamento de segurança unificado ao Google Cloud Platform",
-    "mainText": "Notícia 3 de 5, impacto alto. AWS Security Hub estende gerenciamento de segurança unificado ao Google Cloud Platform. Hoje, a AWS anuncia que o AWS Security Hub agora monitora os recursos do Google Cloud Platform (GCP), ampliando a análise de risco, o gerenciamento de postura de segurança na nuvem, o gerenciamento de vulnerabilidades e o gerenciamento de respostas de segurança em ambas as nuvens. Muitos clientes da AWS que executam cargas de trabalho na AWS e no GCP tiveram que operar ferramentas de segurança separadas para cada ambiente, dificultando a priorização dos riscos de forma holística ou a resposta consistente. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-gcp/"
+    "uid": "aws-news-devops-20261118-03-b9c1771361764a2d",
+    "updateDate": "2026-11-18T19:17:42Z",
+    "titleText": "3. O Amazon RDS para MySQL é compatível com a versão secundária 8.4.13 do MySQL",
+    "mainText": "Notícia 3 de 5, impacto médio. O Amazon RDS para My S Q L é compatível com a versão secundária 8.4.13 do My S Q L. A partir de hoje, o Amazon Relational Database Service (Amazon RDS) para My S Q L oferece suporte à versão secundária 8.4.13 do My S Q L, a mais recente versão secundária lançada pela comunidade do My S Q L. Recomendamos fazer o upgrade para as versões secundárias mais recentes para aceitar correções de vulnerabilidades e exposições comuns (CVEs) em versões anteriores do My S Q L e para se beneficiar de correções de bugs, melhorias de desempenho e novos recursos adicionados pela comunidade do My S Q L. Saiba mais sobre as melhorias no RDS para My S Q L 8.4.13 no Guia do usuário do Amazon RDS e nas notas de versão do My S Q L 8.4.13. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança, Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-8413-available/"
   },
   {
-    "uid": "aws-news-devops-20261117-04-189b93e4a9fef21a",
-    "updateDate": "2026-11-17T19:40:15Z",
-    "titleText": "4. Amazon EBS agora oferece suporte à associação de chaves KMS adicionais com snapshots",
-    "mainText": "Notícia 4 de 5, impacto alto. Amazon EBS agora oferece suporte à associação de chaves KMS adicionais com snapshots. O Amazon Elastic Block Store (EBS) agora oferece suporte à associação de chaves adicionais do AWS Key Management Service (KMS) com snapshots do EBS. Esse novo recurso permite que você compartilhe e copie instantâneos criptografados entre contas sem primeiro criptografá-los novamente, simplificando seus fluxos de trabalho de recuperação de desastres e backup. Os clientes usam snapshots do EBS como backups duráveis e pontuais de volumes do EBS. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta armazenamento, backup e retenção.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/"
+    "uid": "aws-news-devops-20261118-04-9768fdd60b7cfc6d",
+    "updateDate": "2026-11-18T19:16:42Z",
+    "titleText": "4. O AWS Control Tower agora oferece suporte ao bucket do Amazon S3 existente para entrega de logs",
+    "mainText": "Notícia 4 de 5, impacto médio. O AWS Control Tower agora oferece suporte ao bucket do Amazon S3 existente para entrega de logs. O AWS Control Tower agora permite que você use um bucket do Amazon S3 existente em sua landing zone para armazenar logs do AWS Config e do AWS Cloud Trail. Anteriormente, o AWS Control Tower exigia que você usasse o bucket do Amazon S3 que ele cria e gerencia para armazenamento de logs. Agora, os clientes que desejam ter controle total sobre as políticas de buckets, as regras de ciclo de vida e a infraestrutura de registro em log podem consolidar os logs centralizados em um bucket do Amazon S3 que já gerenciam. Por que importa: Impacta armazenamento, backup e retenção. Tem efeito em custo/governança da conta.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/control-tower-existing-s3-log-bucket/"
   },
   {
-    "uid": "aws-news-devops-20261117-05-e6d6e31f572a0772",
-    "updateDate": "2026-11-17T19:39:15Z",
-    "titleText": "5. AWS IAM anuncia solucionador de problemas de acesso para depurar erros de acesso negado",
-    "mainText": "Notícia 5 de 5, impacto médio. AWS IAM anuncia solucionador de problemas de acesso para depurar erros de acesso negado. O AWS Identity and Access Management (IAM) apresenta o Access Troubleshooter, um novo recurso que oferece visibilidade de todo o contexto de autorização por trás dos erros de acesso negado, para que você possa resolvê-los sem tentativa e erro. Anteriormente, os desenvolvedores dependiam do nome de recurso da Amazon (ARN) da política de negação para depurar uma negação, sem visibilidade do contexto de autorização ou de outras políticas avaliadas na solicitação que poderiam contribuir para a negação. Isso tornou a solução de problemas de acesso demorada e ineficiente. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/iam-access-troubleshooter/"
+    "uid": "aws-news-devops-20261118-05-db88f419854d4843",
+    "updateDate": "2026-11-18T19:15:42Z",
+    "titleText": "5. O Amazon EMR 8.2 já está disponível",
+    "mainText": "Notícia 5 de 5, impacto médio. O Amazon EMR 8.2 já está disponível. O Amazon EMR 8.2 já está disponível com novos recursos no Amazon EMR on EC2, no Amazon EMR on EKS e no Amazon EMR Serverless. Esta versão atualiza o Apache Spark para a versão 4.1.3, o Apache Iceberg para a versão 1.11.0 e o Delta Lake para a versão 4.2.0, e é considerada uma versão com suporte de longo prazo (LTS). Por que importa: Afeta camada de dados/persistência das aplicações. Mexe direto com seus clusters Kubernetes/EKS.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-emr-8.2/"
   }
 ]
