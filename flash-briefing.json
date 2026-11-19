@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261118-01-89ce060b87899ad7",
-    "updateDate": "2026-11-18T19:19:42Z",
-    "titleText": "1. O AWS Security Hub agora infere a criticidade dos recursos a partir do software instalado e do",
-    "mainText": "Notícia 1 de 5, impacto alto. O AWS Security Hub agora infere a criticidade dos recursos a partir do software instalado e do uso. Hoje, o AWS Security Hub adiciona softwares instalados e o uso de recursos como sinais de criticidade dos recursos, o que indica a importância de um recurso para sua empresa. O Security Hub usa a criticidade para classificar as descobertas de exposição, para que as equipes centrais de segurança possam priorizar as exposições que afetam seus recursos mais importantes. O Security Hub já infere a criticidade a partir das tags e dos nomes dos recursos, mas os recursos com tags inconsistentes geralmente têm uma criticidade desconhecida, o que dificulta a priorização de suas exposições. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/security-hub-resource-criticality/"
+    "uid": "aws-news-devops-20261119-01-d06a0a33762520b1",
+    "updateDate": "2026-11-19T19:26:36Z",
+    "titleText": "1. O Amazon OpenSearch Memory já está disponível para o público geral",
+    "mainText": "Notícia 1 de 5, impacto crítico. O Amazon Open Search Memory já está disponível para o público geral. Hoje, a AWS anunciou a disponibilidade geral do Amazon Open Search Memory, um novo recurso sem servidor no Amazon Open Search Service para adicionar memória persistente a agentes de IA. O Open Search Memory armazena interações de agentes como eventos pesquisáveis, deriva memórias úteis e recupera contexto relevante entre sessões, para que os agentes possam recuperar decisões anteriores, interações anteriores e preferências do usuário sem reproduzir todo o histórico de conversas no modelo. Por que importa: Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/"
   },
   {
-    "uid": "aws-news-devops-20261118-02-e06ee3bfd27af410",
-    "updateDate": "2026-11-18T19:18:42Z",
-    "titleText": "2. O Amazon ECR agora oferece suporte a tokens de autenticação globais para registros privados",
-    "mainText": "Notícia 2 de 5, impacto médio. O Amazon ECR agora oferece suporte a tokens de autenticação globais para registros privados. O Amazon Elastic Container Registry (Amazon ECR) agora oferece suporte a tokens de autenticação globais para registros privados. Anteriormente, você precisava solicitar um token de autenticação separado em cada região da AWS onde enviava ou recebia imagens de contêiner. Agora, você pode solicitar um único token da API AWS Sign-In CreateBearerToken e usá-lo em todos os registros privados do ECR na mesma partição da AWS. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-authentication-amazon-ecr"
+    "uid": "aws-news-devops-20261119-02-193374600beba713",
+    "updateDate": "2026-11-19T19:25:36Z",
+    "titleText": "2. O AWS Systems Manager Parameter Store aumenta os limites de taxa de transferência da API",
+    "mainText": "Notícia 2 de 5, impacto alto. O AWS Systems Manager Parameter Store aumenta os limites de taxa de transferência da API. O AWS Systems Manager Parameter Store aumentou os limites de taxa de transferência padrão para cinco operações de API. Para contas que ativaram a configuração de taxa de transferência mais alta, as cotas foram alteradas da seguinte forma, em transações por segundo (TPS): GetParametersByPath (de 100 a 500 TPS). Por que importa: Afeta provisionamento e pipelines de deploy. Afeta funções serverless e o barramento de eventos/filas. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/parameter-store-raises-api-throughput-limits/"
   },
   {
-    "uid": "aws-news-devops-20261118-03-b9c1771361764a2d",
-    "updateDate": "2026-11-18T19:17:42Z",
-    "titleText": "3. O Amazon RDS para MySQL é compatível com a versão secundária 8.4.13 do MySQL",
-    "mainText": "Notícia 3 de 5, impacto médio. O Amazon RDS para My S Q L é compatível com a versão secundária 8.4.13 do My S Q L. A partir de hoje, o Amazon Relational Database Service (Amazon RDS) para My S Q L oferece suporte à versão secundária 8.4.13 do My S Q L, a mais recente versão secundária lançada pela comunidade do My S Q L. Recomendamos fazer o upgrade para as versões secundárias mais recentes para aceitar correções de vulnerabilidades e exposições comuns (CVEs) em versões anteriores do My S Q L e para se beneficiar de correções de bugs, melhorias de desempenho e novos recursos adicionados pela comunidade do My S Q L. Saiba mais sobre as melhorias no RDS para My S Q L 8.4.13 no Guia do usuário do Amazon RDS e nas notas de versão do My S Q L 8.4.13. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança, Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-mysql-8413-available/"
+    "uid": "aws-news-devops-20261119-03-eae15b3fe26d7e46",
+    "updateDate": "2026-11-19T19:24:36Z",
+    "titleText": "3. O registro padrão do Amazon CloudFront agora oferece suporte a CMCD e campos de log adicionais",
+    "mainText": "Notícia 3 de 5, impacto médio. O registro padrão do Amazon Cloud Front agora oferece suporte a CMCD e campos de log adicionais. O registro padrão do Amazon Cloud Front agora oferece suporte a campos de log de acesso adicionais que antes estavam disponíveis apenas em logs em tempo real do Cloud Front. Agora você pode incluir esses campos em seus logs padrão e entregá-los ao Amazon S3, ao Amazon Cloud Watch Logs ou ao Amazon Data Firehose, sem configurar um fluxo de dados adicional para logs em tempo real. Por que importa: Impacta topologia de rede e exposição de serviços. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-standard-logging-cmcd-fields"
   },
   {
-    "uid": "aws-news-devops-20261118-04-9768fdd60b7cfc6d",
-    "updateDate": "2026-11-18T19:16:42Z",
-    "titleText": "4. O AWS Control Tower agora oferece suporte ao bucket do Amazon S3 existente para entrega de logs",
-    "mainText": "Notícia 4 de 5, impacto médio. O AWS Control Tower agora oferece suporte ao bucket do Amazon S3 existente para entrega de logs. O AWS Control Tower agora permite que você use um bucket do Amazon S3 existente em sua landing zone para armazenar logs do AWS Config e do AWS Cloud Trail. Anteriormente, o AWS Control Tower exigia que você usasse o bucket do Amazon S3 que ele cria e gerencia para armazenamento de logs. Agora, os clientes que desejam ter controle total sobre as políticas de buckets, as regras de ciclo de vida e a infraestrutura de registro em log podem consolidar os logs centralizados em um bucket do Amazon S3 que já gerenciam. Por que importa: Impacta armazenamento, backup e retenção. Tem efeito em custo/governança da conta.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/control-tower-existing-s3-log-bucket/"
+    "uid": "aws-news-devops-20261119-04-10d541c4ecaa51ec",
+    "updateDate": "2026-11-19T19:23:36Z",
+    "titleText": "4. Apresentando o agente de otimização Apache Spark para AWS Glue ETL",
+    "mainText": "Notícia 4 de 5, impacto médio. Apresentando o agente de otimização Apache Spark para AWS Glue ETL. O AWS Glue ETL agora oferece o Apache Spark Optimization Agent, que analisa execuções de tarefas concluídas do Spark e fornece recomendações de otimização de custo e desempenho em minutos. Você pode selecionar uma meta de custo ou desempenho, e o agente retornará alterações de configuração específicas com as evidências de telemetria e o raciocínio por trás de cada sugestão. Você pode usar o agente em qualquer execução de trabalho concluída no console do AWS Glue ou em suas próprias ferramentas por meio do servidor Amazon Sage Maker Unified Studio MCP. Por que importa: Afeta camada de dados/persistência das aplicações. Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-aws-glue-etl/"
   },
   {
-    "uid": "aws-news-devops-20261118-05-db88f419854d4843",
-    "updateDate": "2026-11-18T19:15:42Z",
-    "titleText": "5. O Amazon EMR 8.2 já está disponível",
-    "mainText": "Notícia 5 de 5, impacto médio. O Amazon EMR 8.2 já está disponível. O Amazon EMR 8.2 já está disponível com novos recursos no Amazon EMR on EC2, no Amazon EMR on EKS e no Amazon EMR Serverless. Esta versão atualiza o Apache Spark para a versão 4.1.3, o Apache Iceberg para a versão 1.11.0 e o Delta Lake para a versão 4.2.0, e é considerada uma versão com suporte de longo prazo (LTS). Por que importa: Afeta camada de dados/persistência das aplicações. Mexe direto com seus clusters Kubernetes/EKS.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-emr-8.2/"
+    "uid": "aws-news-devops-20261119-05-195a65fb0db436d8",
+    "updateDate": "2026-11-19T19:22:36Z",
+    "titleText": "5. Amazon Aurora DSQL agora oferece suporte ao peering multirregional entre continentes",
+    "mainText": "Notícia 5 de 5, impacto médio. Amazon Aurora DSQL agora oferece suporte ao peering multirregional entre continentes. O Amazon Aurora DSQL agora permite criar clusters multirregionais cujas regiões estão em continentes diferentes, como Leste dos EUA (Norte da Virgínia) e Europa (Irlanda). Até agora, as regiões em um cluster multirregional tinham que estar no mesmo conjunto de regiões geográficas. Por que importa: Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-intercontinental-multi-region-clusters/"
   }
 ]
