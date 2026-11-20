@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261119-01-d06a0a33762520b1",
-    "updateDate": "2026-11-19T19:26:36Z",
-    "titleText": "1. O Amazon OpenSearch Memory já está disponível para o público geral",
-    "mainText": "Notícia 1 de 5, impacto crítico. O Amazon Open Search Memory já está disponível para o público geral. Hoje, a AWS anunciou a disponibilidade geral do Amazon Open Search Memory, um novo recurso sem servidor no Amazon Open Search Service para adicionar memória persistente a agentes de IA. O Open Search Memory armazena interações de agentes como eventos pesquisáveis, deriva memórias úteis e recupera contexto relevante entre sessões, para que os agentes possam recuperar decisões anteriores, interações anteriores e preferências do usuário sem reproduzir todo o histórico de conversas no modelo. Por que importa: Afeta seus domínios/coleções do Open Search (busca, ingestão e logs). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/"
+    "uid": "aws-news-devops-20261120-01-ed283d59f8064ee4",
+    "updateDate": "2026-11-20T19:01:41Z",
+    "titleText": "1. Funções duráveis do AWS Lambda agora oferecem suporte ao rastreamento OpenTelemetry",
+    "mainText": "Notícia 1 de 5, impacto alto. Funções duráveis do AWS Lambda agora oferecem suporte ao rastreamento Open Telemetry. AWS Lambda anuncia suporte Open Telemetry (OTel) para funções duráveis do Lambda. Agora você pode rastrear suas execuções duráveis e emitir rastreamentos para o Amazon Cloud Watch e outras ferramentas de observabilidade padrão do setor. Isso ajuda você a encontrar gargalos em seu sistema, causar falhas com mais rapidez e entender como seus fluxos de trabalho se comportam na produção. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta funções serverless e o barramento de eventos/filas. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-otel/"
   },
   {
-    "uid": "aws-news-devops-20261119-02-193374600beba713",
-    "updateDate": "2026-11-19T19:25:36Z",
-    "titleText": "2. O AWS Systems Manager Parameter Store aumenta os limites de taxa de transferência da API",
-    "mainText": "Notícia 2 de 5, impacto alto. O AWS Systems Manager Parameter Store aumenta os limites de taxa de transferência da API. O AWS Systems Manager Parameter Store aumentou os limites de taxa de transferência padrão para cinco operações de API. Para contas que ativaram a configuração de taxa de transferência mais alta, as cotas foram alteradas da seguinte forma, em transações por segundo (TPS): GetParametersByPath (de 100 a 500 TPS). Por que importa: Afeta provisionamento e pipelines de deploy. Afeta funções serverless e o barramento de eventos/filas. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/parameter-store-raises-api-throughput-limits/"
+    "uid": "aws-news-devops-20261120-02-2ce88365065aaaf4",
+    "updateDate": "2026-11-20T19:00:41Z",
+    "titleText": "2. Amazon Aurora MySQL 8.4.12 já está disponível para o público geral",
+    "mainText": "Notícia 2 de 5, impacto alto. Amazon Aurora My S Q L 8.4.12 já está disponível para o público geral. A partir de hoje, o Amazon Aurora My S Q L-Compatible Edition 8.4 oferece suporte ao My S Q L 8.4.12. Esta versão inclui vários aprimoramentos de segurança e correções de bugs. Recomendamos a atualização para as versões secundárias mais recentes para aceitar correções para vulnerabilidades e exposições comuns (CVEs) em versões anteriores do My S Q L e para se beneficiar de correções de bugs, melhorias de desempenho e novas funcionalidades adicionadas pela comunidade My S Q L. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança, Disponibilidade geral (GA), Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8412-available/"
   },
   {
-    "uid": "aws-news-devops-20261119-03-eae15b3fe26d7e46",
-    "updateDate": "2026-11-19T19:24:36Z",
-    "titleText": "3. O registro padrão do Amazon CloudFront agora oferece suporte a CMCD e campos de log adicionais",
-    "mainText": "Notícia 3 de 5, impacto médio. O registro padrão do Amazon Cloud Front agora oferece suporte a CMCD e campos de log adicionais. O registro padrão do Amazon Cloud Front agora oferece suporte a campos de log de acesso adicionais que antes estavam disponíveis apenas em logs em tempo real do Cloud Front. Agora você pode incluir esses campos em seus logs padrão e entregá-los ao Amazon S3, ao Amazon Cloud Watch Logs ou ao Amazon Data Firehose, sem configurar um fluxo de dados adicional para logs em tempo real. Por que importa: Impacta topologia de rede e exposição de serviços. Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-standard-logging-cmcd-fields"
+    "uid": "aws-news-devops-20261120-03-344b860c79e8a39f",
+    "updateDate": "2026-11-20T18:59:41Z",
+    "titleText": "3. AWS CloudFormation Service-Managed StackSets adiciona funções de execução personalizadas com",
+    "mainText": "Notícia 3 de 5, impacto alto. AWS Cloud Formation Service-Managed StackSets adiciona funções de execução personalizadas com suporte a pilhas aninhadas. O AWS Cloud Formation StackSets agora oferece suporte a funções de execução personalizadas para conjuntos de pilhas gerenciadas por serviço, o que permite definir o escopo das permissões que o StackSets usa em cada conta da AWS de destino. StackSets implanta a mesma infraestrutura, como configurações de rede e segurança, em milhares de contas e regiões em uma única operação. Com uma função de execução personalizada, você também pode usar pilhas aninhadas, macros e transformações em conjuntos de pilhas gerenciadas por serviço, o que permite implantar os modelos reutilizáveis usados para pilhas individuais em toda a sua organização. Por que importa: Afeta provisionamento e pipelines de deploy. Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/stacksets-custom-execution-roles/"
   },
   {
-    "uid": "aws-news-devops-20261119-04-10d541c4ecaa51ec",
-    "updateDate": "2026-11-19T19:23:36Z",
-    "titleText": "4. Apresentando o agente de otimização Apache Spark para AWS Glue ETL",
-    "mainText": "Notícia 4 de 5, impacto médio. Apresentando o agente de otimização Apache Spark para AWS Glue ETL. O AWS Glue ETL agora oferece o Apache Spark Optimization Agent, que analisa execuções de tarefas concluídas do Spark e fornece recomendações de otimização de custo e desempenho em minutos. Você pode selecionar uma meta de custo ou desempenho, e o agente retornará alterações de configuração específicas com as evidências de telemetria e o raciocínio por trás de cada sugestão. Você pode usar o agente em qualquer execução de trabalho concluída no console do AWS Glue ou em suas próprias ferramentas por meio do servidor Amazon Sage Maker Unified Studio MCP. Por que importa: Afeta camada de dados/persistência das aplicações. Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-aws-glue-etl/"
+    "uid": "aws-news-devops-20261120-04-d64b7591d2687766",
+    "updateDate": "2026-11-20T18:58:41Z",
+    "titleText": "4. Amazon Route 53 agora oferece suporte a verificações de integridade para endpoints privados",
+    "mainText": "Notícia 4 de 5, impacto médio. Amazon Route 53 agora oferece suporte a verificações de integridade para endpoints privados. O Amazon Route 53 agora oferece verificações de integridade de endpoints privados, permitindo que cargas de trabalho essenciais aos negócios que nunca tocam a Internet pública, como APIs internas, bancos de dados e nós auto-hospedados atrás de balanceadores de carga internos ou em sub-redes privadas, usem monitoramento de integridade nativo e failover automático de DNS. Os clientes podem verificar a integridade de qualquer alvo privado alcançável por endereço IP, domínio ou porta por HTTP, HTTPS ou TCP. Por que importa: Impacta topologia de rede e exposição de serviços. Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/"
   },
   {
-    "uid": "aws-news-devops-20261119-05-195a65fb0db436d8",
-    "updateDate": "2026-11-19T19:22:36Z",
-    "titleText": "5. Amazon Aurora DSQL agora oferece suporte ao peering multirregional entre continentes",
-    "mainText": "Notícia 5 de 5, impacto médio. Amazon Aurora DSQL agora oferece suporte ao peering multirregional entre continentes. O Amazon Aurora DSQL agora permite criar clusters multirregionais cujas regiões estão em continentes diferentes, como Leste dos EUA (Norte da Virgínia) e Europa (Irlanda). Até agora, as regiões em um cluster multirregional tinham que estar no mesmo conjunto de regiões geográficas. Por que importa: Afeta camada de dados/persistência das aplicações.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-intercontinental-multi-region-clusters/"
+    "uid": "aws-news-devops-20261120-05-0265b42490e15e06",
+    "updateDate": "2026-11-20T18:57:41Z",
+    "titleText": "5. Amazon CloudFront simplifica movimentos de domínio e integração para SaaS Manager",
+    "mainText": "Notícia 5 de 5, impacto médio. Amazon Cloud Front simplifica movimentos de domínio e integração para SaaS Manager. O Amazon Cloud Front agora permite que plataformas de desenvolvimento web e provedores de SaaS movam o domínio de um cliente para sua plataforma em uma única solicitação, sem tempo de inatividade, e atendam solicitações ao domínio enquanto o certificado TLS está sendo configurado. As distribuições multilocatários do Cloud Front permitem que essas plataformas atendam a vários domínios de clientes a partir de uma configuração compartilhada. Juntos, esses recursos ajudam a migrar os clientes existentes da AWS para distribuições multilocatários sem afetar seu tráfego. Por que importa: Impacta topologia de rede e exposição de serviços. Mexe com postura de segurança/permissões - revise antes de propagar.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-domain-moves-distribution-tenants"
   }
 ]
