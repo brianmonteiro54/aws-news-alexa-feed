@@ -1,37 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261120-01-ed283d59f8064ee4",
-    "updateDate": "2026-11-20T19:01:41Z",
-    "titleText": "1. Funções duráveis do AWS Lambda agora oferecem suporte ao rastreamento OpenTelemetry",
-    "mainText": "Notícia 1 de 5, impacto alto. Funções duráveis do AWS Lambda agora oferecem suporte ao rastreamento Open Telemetry. AWS Lambda anuncia suporte Open Telemetry (OTel) para funções duráveis do Lambda. Agora você pode rastrear suas execuções duráveis e emitir rastreamentos para o Amazon Cloud Watch e outras ferramentas de observabilidade padrão do setor. Isso ajuda você a encontrar gargalos em seu sistema, causar falhas com mais rapidez e entender como seus fluxos de trabalho se comportam na produção. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta funções serverless e o barramento de eventos/filas. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-otel/"
+    "uid": "aws-news-devops-20261121-01-38f3a462608c5989",
+    "updateDate": "2026-11-21T17:55:28Z",
+    "titleText": "1. Amazon CloudWatch EKS Container Insights agora oferece monitoramento integrado para ferramentas",
+    "mainText": "Notícia 1 de 5, impacto crítico. Amazon Cloud Watch EKS Container Insights agora oferece monitoramento integrado para ferramentas Kubernetes de código aberto. Hoje, o Amazon Cloud Watch anuncia monitoramento integrado para ferramentas de código aberto executadas em clusters do Amazon EKS, incluindo Carpenter, KEDA, vLLM, KServe, SGLang, Ray e Knative Serving. Você obtém painéis para as ferramentas que já usa sem executar o Prometeus ou o Grafana. O monitoramento começa automaticamente quando você ativa o OTel Container Insights. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Impacta o plano de execução de containers (ECS/ECR/Fárgate).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-kubernetes-tools/"
   },
   {
-    "uid": "aws-news-devops-20261120-02-2ce88365065aaaf4",
-    "updateDate": "2026-11-20T19:00:41Z",
-    "titleText": "2. Amazon Aurora MySQL 8.4.12 já está disponível para o público geral",
-    "mainText": "Notícia 2 de 5, impacto alto. Amazon Aurora My S Q L 8.4.12 já está disponível para o público geral. A partir de hoje, o Amazon Aurora My S Q L-Compatible Edition 8.4 oferece suporte ao My S Q L 8.4.12. Esta versão inclui vários aprimoramentos de segurança e correções de bugs. Recomendamos a atualização para as versões secundárias mais recentes para aceitar correções para vulnerabilidades e exposições comuns (CVEs) em versões anteriores do My S Q L e para se beneficiar de correções de bugs, melhorias de desempenho e novas funcionalidades adicionadas pela comunidade My S Q L. Por que importa: Afeta camada de dados/persistência das aplicações. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança, Disponibilidade geral (GA), Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-aurora-mysql-8412-available/"
+    "uid": "aws-news-devops-20261121-02-73a0ac376f9ac540",
+    "updateDate": "2026-11-21T17:54:28Z",
+    "titleText": "2. O complemento Amazon CloudWatch Observability EKS agora oferece suporte à telemetria",
+    "mainText": "Notícia 2 de 5, impacto crítico. O complemento Amazon Cloud Watch Observability EKS agora oferece suporte à telemetria personalizada Open Telemetry e Prometeus. Hoje, o Amazon Cloud Watch anuncia suporte para a telemetria de sua própria aplicação no complemento Cloud Watch Observability EKS. O agente do Cloud Watch que você já executa agora aceita métricas, rastreamentos e logs de seus aplicativos, portanto você não implanta e opera um coletor separado para colocá-los no Cloud Watch. Os aplicativos instrumentados com um Open Telemetry SDK são enviados para um endpoint OTLP que o agente atende em cada nó, por padrão. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/"
   },
   {
-    "uid": "aws-news-devops-20261120-03-344b860c79e8a39f",
-    "updateDate": "2026-11-20T18:59:41Z",
-    "titleText": "3. AWS CloudFormation Service-Managed StackSets adiciona funções de execução personalizadas com",
-    "mainText": "Notícia 3 de 5, impacto alto. AWS Cloud Formation Service-Managed StackSets adiciona funções de execução personalizadas com suporte a pilhas aninhadas. O AWS Cloud Formation StackSets agora oferece suporte a funções de execução personalizadas para conjuntos de pilhas gerenciadas por serviço, o que permite definir o escopo das permissões que o StackSets usa em cada conta da AWS de destino. StackSets implanta a mesma infraestrutura, como configurações de rede e segurança, em milhares de contas e regiões em uma única operação. Com uma função de execução personalizada, você também pode usar pilhas aninhadas, macros e transformações em conjuntos de pilhas gerenciadas por serviço, o que permite implantar os modelos reutilizáveis usados para pilhas individuais em toda a sua organização. Por que importa: Afeta provisionamento e pipelines de deploy. Mexe com postura de segurança/permissões - revise antes de propagar.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/stacksets-custom-execution-roles/"
+    "uid": "aws-news-devops-20261121-03-4ef0a2563f316986",
+    "updateDate": "2026-11-21T17:53:28Z",
+    "titleText": "3. O complemento Amazon CloudWatch Observability EKS agora oferece suporte à filtragem de telemetria",
+    "mainText": "Notícia 3 de 5, impacto alto. O complemento Amazon Cloud Watch Observability EKS agora oferece suporte à filtragem de telemetria. Hoje, o Amazon Cloud Watch anuncia a filtragem de telemetria para o complemento Cloud Watch Observability EKS, para que você possa parar de pagar para ingerir telemetria que não usa. Agora você pode definir listas de inclusão e exclusão em todo o cluster para namespaces, nomes de métricas e rótulos de pod e nó. Exclua os namespaces de não produção que você não monitora, descarte métricas de alta cardinalidade por nome e mantenha apenas os rótulos pelos quais você agrupa, em vez de todos os rótulos em todos os recursos. Por que importa: Mexe direto com seus clusters Kubernetes/EKS. Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-otel-addon-filtering/"
   },
   {
-    "uid": "aws-news-devops-20261120-04-d64b7591d2687766",
-    "updateDate": "2026-11-20T18:58:41Z",
-    "titleText": "4. Amazon Route 53 agora oferece suporte a verificações de integridade para endpoints privados",
-    "mainText": "Notícia 4 de 5, impacto médio. Amazon Route 53 agora oferece suporte a verificações de integridade para endpoints privados. O Amazon Route 53 agora oferece verificações de integridade de endpoints privados, permitindo que cargas de trabalho essenciais aos negócios que nunca tocam a Internet pública, como APIs internas, bancos de dados e nós auto-hospedados atrás de balanceadores de carga internos ou em sub-redes privadas, usem monitoramento de integridade nativo e failover automático de DNS. Os clientes podem verificar a integridade de qualquer alvo privado alcançável por endereço IP, domínio ou porta por HTTP, HTTPS ou TCP. Por que importa: Impacta topologia de rede e exposição de serviços. Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/"
+    "uid": "aws-news-devops-20261121-04-3a44c1a96340154f",
+    "updateDate": "2026-11-21T17:52:28Z",
+    "titleText": "4. Amazon CloudWatch estende a janela de consulta do PromQL para 30 dias",
+    "mainText": "Notícia 4 de 5, impacto alto. Amazon Cloud Watch estende a janela de consulta do PromQL para 30 dias. O Amazon Cloud Watch agora oferece suporte a uma janela de consulta de 30 dias para consultas PromQL em métricas Open Telemetry, em vez de 7 dias. Você pode consultar dados de um mês em uma única solicitação, traçar tendências mês a mês e semana a semana em um painel e emitir alarmes em uma linha de base de 30 dias. As equipes normalmente definem objetivos de nível de serviço (SLOs) em uma janela contínua de 30 dias, mais longa do que uma consulta de 7 dias pode medir. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-promql-query-30days/"
   },
   {
-    "uid": "aws-news-devops-20261120-05-0265b42490e15e06",
-    "updateDate": "2026-11-20T18:57:41Z",
-    "titleText": "5. Amazon CloudFront simplifica movimentos de domínio e integração para SaaS Manager",
-    "mainText": "Notícia 5 de 5, impacto médio. Amazon Cloud Front simplifica movimentos de domínio e integração para SaaS Manager. O Amazon Cloud Front agora permite que plataformas de desenvolvimento web e provedores de SaaS movam o domínio de um cliente para sua plataforma em uma única solicitação, sem tempo de inatividade, e atendam solicitações ao domínio enquanto o certificado TLS está sendo configurado. As distribuições multilocatários do Cloud Front permitem que essas plataformas atendam a vários domínios de clientes a partir de uma configuração compartilhada. Juntos, esses recursos ajudam a migrar os clientes existentes da AWS para distribuições multilocatários sem afetar seu tráfego. Por que importa: Impacta topologia de rede e exposição de serviços. Mexe com postura de segurança/permissões - revise antes de propagar.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-domain-moves-distribution-tenants"
+    "uid": "aws-news-devops-20261121-05-5773cc6c5894dd48",
+    "updateDate": "2026-11-21T17:51:28Z",
+    "titleText": "5. Amazon CloudWatch Omni agora oferece suporte a logs, métricas e rastreamentos da plataforma",
+    "mainText": "Notícia 5 de 5, impacto médio. Amazon Cloud Watch Omni agora oferece suporte a logs, métricas e rastreamentos da plataforma Microsoft Azure. O Amazon Cloud Watch Omni agora oferece suporte à coleta de logs de recursos do Azure, métricas da plataforma Azure Monitor, logs de fluxo de rede virtual (VNet) e rastreamentos do Application Insights. As equipes que executam cargas de trabalho na AWS e no Azure não precisam mais de ferramentas de monitoramento separadas ou pipelines personalizados para ver todo o ambiente. As equipes centrais de operações, DevOps e engenharia de confiabilidade de site (SRE) agora podem visualizar a telemetria do Azure junto com a telemetria da AWS em um só lugar. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-microsoft-azure"
   }
 ]
