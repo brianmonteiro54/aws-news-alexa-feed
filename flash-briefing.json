@@ -1,37 +1,16 @@
 [
   {
-    "uid": "aws-news-devops-20261123-01-8f00cf446f01df87",
-    "updateDate": "2026-11-23T22:30:28Z",
-    "titleText": "1. Amazon Inspector expande análise de acessibilidade em tempo de execução para descobertas de ECR",
-    "mainText": "Notícia 1 de 5, impacto crítico. Amazon Inspector expande análise de acessibilidade em tempo de execução para descobertas de ECR e EC2. O Amazon Inspector expandiu seus recursos de gerenciamento de vulnerabilidades com análise de acessibilidade em tempo de execução para descobertas originadas de instâncias do Amazon Elastic Container Registry (Amazon ECR) e do Amazon Elastic Compute Cloud (Amazon EC2). Anteriormente, o Inspector relatava todas as vulnerabilidades encontradas em um recurso, incluindo pacotes que nunca foram usados pelos aplicativos. As equipes de segurança tiveram que avaliar manualmente quais vulnerabilidades realmente representavam riscos em seus ambientes implantados. Por que importa: Impacta o plano de execução de containers (ECS/ECR/Fárgate). Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/inspector-runtime-reachability/"
+    "uid": "aws-news-devops-20261124-01-1c703815596e2155",
+    "updateDate": "2026-11-24T21:03:34Z",
+    "titleText": "1. As instâncias X8i do Amazon EC2 já estão disponíveis na região Ásia-Pacífico (Nova Zelândia)",
+    "mainText": "Notícia 1 de 2, impacto baixo. As instâncias X8i do Amazon EC2 já estão disponíveis na região Ásia-Pacífico (Nova Zelândia). A partir de hoje, as instâncias X8i do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região Ásia-Pacífico (Nova Zelândia). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS. As instâncias X8i são certificadas pela SAP e oferecem o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/"
   },
   {
-    "uid": "aws-news-devops-20261123-02-c85c7e95f87cdf18",
-    "updateDate": "2026-11-23T22:29:28Z",
-    "titleText": "2. AWS Global Accelerator agora preserva IPs de clientes para NLBs com listeners TLS",
-    "mainText": "Notícia 2 de 5, impacto alto. AWS Global Accelerator agora preserva IPs de clientes para NLBs com listeners TLS. O AWS Global Accelerator agora preserva o endereço IP do cliente para o tráfego enviado para endpoints do Network Load Balancer (NLB) com listeners TLS. Você pode encerrar o TLS em seu NLB e ainda ver o endereço IP do cliente original em seu aplicativo. Isso significa que você pode aplicar grupos de segurança, bloqueio geográfico, limitação de taxa, detecção de fraude, registro de auditoria, listas de permissões e controles de conformidade com base no IP real do cliente. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Impacta topologia de rede e exposição de serviços. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/global-accelerator-client-ip-nlb-tls/"
-  },
-  {
-    "uid": "aws-news-devops-20261123-03-bd7c63b7c0f9f100",
-    "updateDate": "2026-11-23T22:28:28Z",
-    "titleText": "3. AWS CodeDeploy agora oferece suporte à suspensão de processos do Amazon EC2 Auto Scaling",
-    "mainText": "Notícia 3 de 5, impacto alto. AWS CodeDeploy agora oferece suporte à suspensão de processos do Amazon EC2 Auto Scaling. O AWS CodeDeploy agora pode suspender processos do Amazon EC2 Auto Scaling durante implantações locais do EC2 em grupos de Auto Scaling. CodeDeploy é um serviço totalmente gerenciado que automatiza implantações de aplicativos em instâncias do Amazon EC2, servidores locais, funções do AWS Lambda e serviços do Amazon ECS. Essa inicialização ajuda a evitar que atividades de escalabilidade encerre ou substituam instâncias enquanto o CodeDeploy as atualiza, o que pode causar falha na implantação. Por que importa: Afeta provisionamento e pipelines de deploy. Afeta a camada de compute e capacidade dos nós.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-codedeploy-suspend-asg-processes/"
-  },
-  {
-    "uid": "aws-news-devops-20261123-04-6c492755e5a7606d",
-    "updateDate": "2026-11-23T22:27:28Z",
-    "titleText": "4. Amazon CloudFront anuncia suporte HTTP/2 para conexões com origens",
-    "mainText": "Notícia 4 de 5, impacto alto. Amazon Cloud Front anuncia suporte HTTP/2 para conexões com origens. O Amazon Cloud Front agora oferece suporte a conexões HTTP/2 para origens personalizadas e origens VPC. HTTP/2 permite que o Cloud Front envie muitas solicitações por meio de menos conexões para sua origem. Isso significa menos conexões e handshakes TLS para sua origem, o que melhora o desempenho de APIs e cargas de trabalho de agente, como agentes de IA que chamam servidores MCP ou aplicativos móveis e da web que chamam APIs de back-end. Por que importa: Impacta topologia de rede e exposição de serviços. Mexe com postura de segurança/permissões - revise antes de propagar. Sinais: Custo / preço, Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/01/amazon-cloudfront-http2-origins/"
-  },
-  {
-    "uid": "aws-news-devops-20261123-05-1f36485e5ed927a9",
-    "updateDate": "2026-11-23T22:26:28Z",
-    "titleText": "5. AWS Systems Manager Automation agora automatiza tarefas operacionais no Azure e no Google Cloud",
-    "mainText": "Notícia 5 de 5, impacto médio. AWS Systems Manager Automation agora automatiza tarefas operacionais no Azure e no Google Cloud. O AWS Systems Manager Automation agora permite criar fluxos de trabalho personalizados (runbooks) que podem automatizar tarefas operacionais em recursos do Microsoft Azure, Google Cloud e AWS. A automação ajuda você a fazer alterações com segurança em grande escala, como corrigir configurações incorretas ou limpar recursos ociosos. Os runbooks podem ser implementados em lotes controlados, pausados para aprovação e interrompidos se os erros ultrapassarem um limite. Por que importa: Afeta provisionamento e pipelines de deploy. Mexe com postura de segurança/permissões - revise antes de propagar.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/systems-manager-multicloud-automation/"
+    "uid": "aws-news-devops-20261124-02-4677e5a4242cc2a6",
+    "updateDate": "2026-11-24T21:02:34Z",
+    "titleText": "2. AWS Sign-In apresenta duração de login configurável de até 90 dias",
+    "mainText": "Notícia 2 de 2, impacto baixo. AWS Sign-In apresenta duração de login configurável de até 90 dias. O AWS Sign-In agora permite que desenvolvedores e agentes de IA permaneçam autenticados por até 90 dias sem logins frequentes ou solicitações de consentimento. Com este lançamento, os administradores podem configurar a duração do login, que controla por quanto tempo uma sessão de login do OAuth permanece ativa para usuários e funções individuais do IAM. Esse recurso reduz as interrupções de autenticação para fluxos de trabalho de longa duração e fornece uma alternativa mais segura às chaves de acesso estáticas usando credenciais renováveis e de curta duração. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Ferramental de operação do dia a dia.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/"
   }
 ]
