@@ -1,16 +1,37 @@
 [
   {
-    "uid": "aws-news-devops-20261124-01-1c703815596e2155",
-    "updateDate": "2026-11-24T21:03:34Z",
-    "titleText": "1. As instâncias X8i do Amazon EC2 já estão disponíveis na região Ásia-Pacífico (Nova Zelândia)",
-    "mainText": "Notícia 1 de 2, impacto baixo. As instâncias X8i do Amazon EC2 já estão disponíveis na região Ásia-Pacífico (Nova Zelândia). A partir de hoje, as instâncias X8i do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região Ásia-Pacífico (Nova Zelândia). Essas instâncias são equipadas com processadores Intel Xeon 6 personalizados, disponíveis apenas na AWS. As instâncias X8i são certificadas pela SAP e oferecem o mais alto desempenho e a largura de banda de memória mais rápida entre processadores Intel comparáveis na nuvem. Por que importa: Afeta a camada de compute e capacidade dos nós. Afeta camada de dados/persistência das aplicações. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/"
+    "uid": "aws-news-devops-20261125-01-b858784192128dbc",
+    "updateDate": "2026-11-25T20:25:42Z",
+    "titleText": "1. O AWS IAM estende a propagação de identidades confiáveis para a federação do IAM e o IAM Roles",
+    "mainText": "Notícia 1 de 5, impacto médio. O AWS IAM estende a propagação de identidades confiáveis para a federação do IAM e o IAM Roles Anywhere, além de simplificá-la no IAM Identity Center. A propagação de identidade confiável (TIP) transmite a identidade de um usuário humano ou de uma carga de trabalho junto com solicitações para os serviços da AWS compatíveis. Os clientes podem usar essa identidade nas condições da política do IAM para controlar o acesso e identificar o usuário humano ou a carga de trabalho de origem no AWS Cloud Trail. A AWS está expandindo o TIP para a federação do AWS Identity and Access Management (IAM) e para o IAM Roles Anywhere, ao mesmo tempo em que simplifica a experiência atual do TIP no AWS IAM Identity Center. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Toca na sua stack de observabilidade (métricas, logs e traces).",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-iam/"
   },
   {
-    "uid": "aws-news-devops-20261124-02-4677e5a4242cc2a6",
-    "updateDate": "2026-11-24T21:02:34Z",
-    "titleText": "2. AWS Sign-In apresenta duração de login configurável de até 90 dias",
-    "mainText": "Notícia 2 de 2, impacto baixo. AWS Sign-In apresenta duração de login configurável de até 90 dias. O AWS Sign-In agora permite que desenvolvedores e agentes de IA permaneçam autenticados por até 90 dias sem logins frequentes ou solicitações de consentimento. Com este lançamento, os administradores podem configurar a duração do login, que controla por quanto tempo uma sessão de login do OAuth permanece ativa para usuários e funções individuais do IAM. Esse recurso reduz as interrupções de autenticação para fluxos de trabalho de longa duração e fornece uma alternativa mais segura às chaves de acesso estáticas usando credenciais renováveis e de curta duração. Por que importa: Mexe com postura de segurança/permissões - revise antes de propagar. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/"
+    "uid": "aws-news-devops-20261125-02-f84b0e0148b7bebe",
+    "updateDate": "2026-11-25T20:24:42Z",
+    "titleText": "2. As instâncias M9gd do Amazon EC2 já estão disponíveis na região Ásia-Pacífico (Seul)",
+    "mainText": "Notícia 2 de 5, impacto médio. As instâncias M9gd do Amazon EC2 já estão disponíveis na região Ásia-Pacífico (Seul). A partir de hoje, as instâncias M9gd do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região Ásia-Pacífico (Seul). Essas instâncias são alimentadas por processadores AWS Graviton5, a quinta geração de CPUs projetadas sob medida, que oferecem a melhor relação custo-benefício para uma ampla gama de cargas de trabalho executadas no Amazon EC2. As instâncias M9gd oferecem um desempenho de computação até 25% melhor do que as instâncias M8gd baseadas no AWS Graviton4. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9gd-asiapacific-seoul/"
+  },
+  {
+    "uid": "aws-news-devops-20261125-03-13a9f65ee8b496af",
+    "updateDate": "2026-11-25T20:23:42Z",
+    "titleText": "3. As instâncias M8g do Amazon EC2 já estão disponíveis em Israel (Tel Aviv)",
+    "mainText": "Notícia 3 de 5, impacto médio. As instâncias M8g do Amazon EC2 já estão disponíveis em Israel (Tel Aviv). A partir de hoje, as instâncias M8g do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região de Israel (Tel Aviv). Essas instâncias são alimentadas por processadores AWS Graviton4 e oferecem um desempenho até 30% melhor em comparação com as instâncias baseadas no AWS Graviton3. As instâncias M8g do Amazon EC2 são projetadas para cargas de trabalho de uso geral, como servidores de aplicativos, microsserviços, servidores de jogos, armazenamentos de dados de médio porte e frotas de cache. Por que importa: Afeta a camada de compute e capacidade dos nós. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region/"
+  },
+  {
+    "uid": "aws-news-devops-20261125-04-7ccf6b03523294b5",
+    "updateDate": "2026-11-25T20:22:42Z",
+    "titleText": "4. O Amazon Bedrock adiciona suporte ao endpoint do Bedrock Runtime para o OpenAI Daybreak Red na",
+    "mainText": "Notícia 4 de 5, impacto baixo. O Amazon Bédrock adiciona suporte ao endpoint do Bédrock Runtime para o OpenAI Daybreak Red na AWS GovCloud (EUA). Os clientes elegíveis agora podem acessar os modelos especializados de cibersegurança da OpenAI, Daybreak Red: GPT-5.6 Cyber, por meio do endpoint bedrock-runtime no Amazon Bédrock na AWS GovCloud (EUA). O Daybreak Red foi projetado para tarefas avançadas e autorizadas, como pesquisa de vulnerabilidades, reprodução de exploits e desenvolvimento de medidas de mitigação. Para essas tarefas, um limite de recusa mais baixo, combinado com uma verificação de identidade, monitoramento e controles de acesso mais rigorosos, aumenta a velocidade e a profundidade de uma investigação. Por que importa: Relevância indireta: produtividade/IA, não infraestrutura. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/"
+  },
+  {
+    "uid": "aws-news-devops-20261125-05-1261fa7782468a0a",
+    "updateDate": "2026-11-25T20:21:42Z",
+    "titleText": "5. As instâncias C9gd do Amazon EC2 agora estão disponíveis em outras regiões",
+    "mainText": "Notícia 5 de 5, impacto baixo. As instâncias C9gd do Amazon EC2 agora estão disponíveis em outras regiões. A partir de hoje, as instâncias C9gd do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis nas regiões da Europa (Irlanda, Espanha). Essas instâncias são alimentadas por processadores AWS Graviton5, a quinta geração de CPUs projetadas sob medida, que oferecem a melhor relação custo-benefício para uma ampla gama de cargas de trabalho executadas no Amazon EC2. As instâncias C9gd oferecem um desempenho de computação até 25% melhor do que as instâncias C8gd baseadas no AWS Graviton4. Por que importa: Afeta a camada de compute e capacidade dos nós. Sinais: Performance / limites. Basicamente expansão de disponibilidade regional.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-c9gd-instances-additional-regions/"
   }
 ]
