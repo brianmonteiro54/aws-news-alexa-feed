@@ -1,37 +1,9 @@
 [
   {
-    "uid": "aws-news-devops-20261126-01-4d72ce4f6e7fcaff",
-    "updateDate": "2026-11-26T20:03:22Z",
-    "titleText": "1. Elastic Load Balancing for Envoy já está disponível para todos",
-    "mainText": "Notícia 1 de 5, impacto alto. Elastic Load Balancing for Envoy já está disponível para todos. Hoje, a AWS anuncia a disponibilidade geral do ELB para Envoy, um novo tipo de balanceador de carga no Elastic Load Balancing (ELB) que executa proxies Envoy de código aberto. As equipes de plataforma que executam o Envoy possuem atualizações, patches de segurança e capacidade em zonas de disponibilidade (AZs). ELB for Envoy assume esse trabalho. Por que importa: Impacta topologia de rede e exposição de serviços. Mexe direto com seus clusters Kubernetes/EKS. Sinais: Segurança, Disponibilidade geral (GA).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/elastic-load-balancing-for-envoy-generally-available"
-  },
-  {
-    "uid": "aws-news-devops-20261126-02-24a9d93500bc2ee5",
-    "updateDate": "2026-11-26T20:02:22Z",
-    "titleText": "2. Amazon CloudWatch Omni agora se integra ao PagerDuty",
-    "mainText": "Notícia 2 de 5, impacto médio. Amazon Cloud Watch Omni agora se integra ao PagerDuty. Os alertas do Amazon Cloud Watch Omni agora podem criar automaticamente incidentes do PagerDuty, para que as notificações fluam diretamente para os fluxos de trabalho de gerenciamento de incidentes existentes. Isso reduz o tempo médio de resolução (MTTR), eliminando etapas manuais de notificação e garantindo fluxos de trabalho consistentes de incidentes. O Cloud Watch Omni é uma experiência de observabilidade totalmente gerenciada e baseada em IA, baseada em padrões abertos, que unifica o monitoramento de agentes, aplicações e infraestrutura de IA. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces).",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-omni-pagerduty/"
-  },
-  {
-    "uid": "aws-news-devops-20261126-03-f84b0e0148b7bebe",
-    "updateDate": "2026-11-26T20:01:22Z",
-    "titleText": "3. As instâncias M9gd do Amazon EC2 já estão disponíveis na Ásia-Pacífico (Seul)",
-    "mainText": "Notícia 3 de 5, impacto médio. As instâncias M9gd do Amazon EC2 já estão disponíveis na Ásia-Pacífico (Seul). A partir de hoje, as instâncias M9gd do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região Ásia-Pacífico (Seul). Essas instâncias são alimentadas por processadores AWS Graviton5, a quinta geração de CPUs personalizadas, que oferecem o melhor desempenho de preço para uma ampla variedade de cargas de trabalho em execução no Amazon EC2. As instâncias M9gd oferecem desempenho de computação até 25% melhor do que as instâncias M8gd baseadas no AWS Graviton4. Por que importa: Afeta a camada de compute e capacidade dos nós. Impacta o plano de execução de containers (ECS/ECR/Fárgate). Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m9gd-asiapacific-seoul/"
-  },
-  {
-    "uid": "aws-news-devops-20261126-04-13a9f65ee8b496af",
-    "updateDate": "2026-11-26T20:00:22Z",
-    "titleText": "4. As instâncias M8g do Amazon EC2 já estão disponíveis em Israel (Tel Aviv)",
-    "mainText": "Notícia 4 de 5, impacto médio. As instâncias M8g do Amazon EC2 já estão disponíveis em Israel (Tel Aviv). A partir de hoje, as instâncias M8g do Amazon Elastic Compute Cloud (Amazon EC2) estão disponíveis na região de Israel (Tel Aviv). Essas instâncias são alimentadas por processadores AWS Graviton4 e oferecem desempenho até 30% melhor em comparação com instâncias baseadas em AWS Graviton3. As instâncias M8g do Amazon EC2 são criadas para cargas de trabalho de uso geral, como servidores de aplicativos, microsserviços, servidores de jogos, armazenamentos de dados de médio porte e frotas de cache. Por que importa: Afeta a camada de compute e capacidade dos nós. Sinais: Performance / limites.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-m8g-instances-telaviv-region/"
-  },
-  {
-    "uid": "aws-news-devops-20261126-05-04beebe56b418ea5",
-    "updateDate": "2026-11-26T19:59:22Z",
-    "titleText": "5. AWS Lambda agora oferece suporte à orquestração de MicroVMs com funções duráveis do Lambda",
-    "mainText": "Notícia 5 de 5, impacto médio. AWS Lambda agora oferece suporte à orquestração de MicroVMs com funções duráveis do Lambda. Hoje, a AWS anuncia uma prévia para desenvolvedores de uma nova extensão para orquestrar MicroVMs Lambda com funções duráveis Lambda. A extensão adiciona operações duráveis para executar trabalhos em MicroVMs e gerenciar seu ciclo de vida. Você pode usar as novas operações para criar fábricas de software, scanners de segurança ou orquestrar trabalhos de CI/CD que executam códigos não confiáveis ou gerados por agentes em sandboxes isolados. Por que importa: Afeta funções serverless e o barramento de eventos/filas. Ferramental de operação do dia a dia.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/lambda-durable-microvm/"
+    "uid": "aws-news-devops-20261127-01-20962687458db91b",
+    "updateDate": "2026-11-27T19:51:57Z",
+    "titleText": "1. O Amazon RDS for PostgreSQL oferece suporte às versões secundárias 18.7, 17.12, 16.16, 15.20 e",
+    "mainText": "Notícia 1 de 1, impacto médio. O Amazon RDS for Postgre S Q L oferece suporte às versões secundárias 18.7, 17.12, 16.16, 15.20 e 14.25. O Amazon Relational Database Service (RDS) para Postgre S Q L agora oferece suporte às versões secundárias mais recentes 18.7, 17.12, 16.16, 15.20 e 14.25. Recomendamos que você atualize para as versões secundárias mais recentes para resolver vulnerabilidades e exposições comuns (CVEs) em versões anteriores do Postgre S Q L e para se beneficiar das correções de bugs e melhorias adicionadas pela comunidade Postgre S Q L. Você pode atualizar seus bancos de dados durante as janelas de manutenção agendada usando atualizações automáticas de versões secundárias. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta provisionamento e pipelines de deploy. Sinais: Segurança.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/"
   }
 ]
