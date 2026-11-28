@@ -1,9 +1,23 @@
 [
   {
-    "uid": "aws-news-devops-20261127-01-20962687458db91b",
-    "updateDate": "2026-11-27T19:51:57Z",
-    "titleText": "1. O Amazon RDS for PostgreSQL oferece suporte às versões secundárias 18.7, 17.12, 16.16, 15.20 e",
-    "mainText": "Notícia 1 de 1, impacto médio. O Amazon RDS for Postgre S Q L oferece suporte às versões secundárias 18.7, 17.12, 16.16, 15.20 e 14.25. O Amazon Relational Database Service (RDS) para Postgre S Q L agora oferece suporte às versões secundárias mais recentes 18.7, 17.12, 16.16, 15.20 e 14.25. Recomendamos que você atualize para as versões secundárias mais recentes para resolver vulnerabilidades e exposições comuns (CVEs) em versões anteriores do Postgre S Q L e para se beneficiar das correções de bugs e melhorias adicionadas pela comunidade Postgre S Q L. Você pode atualizar seus bancos de dados durante as janelas de manutenção agendada usando atualizações automáticas de versões secundárias. Por que importa: Afeta camada de dados/persistência das aplicações. Afeta provisionamento e pipelines de deploy. Sinais: Segurança.",
-    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-rds-postgresql-18-7-17-12-16-16-15-20-14-25/"
+    "uid": "aws-news-devops-20261128-01-3ddf3191777c0543",
+    "updateDate": "2026-11-28T18:46:35Z",
+    "titleText": "1. O Amazon CloudWatch anuncia o enriquecimento básico do OpenTelemetry sem custo adicional",
+    "mainText": "Notícia 1 de 3, impacto alto. O Amazon Cloud Watch anuncia o enriquecimento básico do Open Telemetry sem custo adicional. O Amazon Cloud Watch agora oferece enriquecimento básico do Open Telemetry para métricas de serviços da AWS sem custo adicional. O enriquecimento básico transforma as métricas que os serviços da AWS publicam no Cloud Watch em pontos de dados do Open Telemetry que você pode consultar com o PromQL. Ele abrange métricas que identificam um recurso, como CPUUtilization do Amazon EC2 com uma dimensão InstanceId. Por que importa: Toca na sua stack de observabilidade (métricas, logs e traces). Afeta a camada de compute e capacidade dos nós. Sinais: Custo / preço.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/"
+  },
+  {
+    "uid": "aws-news-devops-20261128-02-5e572f9a5e41dd28",
+    "updateDate": "2026-11-28T18:45:35Z",
+    "titleText": "2. O Amazon Neptune apresenta as Neptune Graph Sessions, gráficos menores projetados para agentes",
+    "mainText": "Notícia 2 de 3, impacto médio. O Amazon Neptune apresenta as Neptune Graph Sessions, gráficos menores projetados para agentes que escalam para zero e são retomados automaticamente. O Amazon Neptune agora oferece suporte às Neptune Graph Sessions, um modo de computação projetado para agentes que dimensiona a memória e a CPU automaticamente e se reduz a zero quando está ocioso. Você pode atribuir a cada agente, usuário ou tarefa seu próprio grafo sem pagar pelo mínimo de 16 m-NCU de um grafo provisionado. Você escolhe um tamanho inicial de 4 s-NCU (unidades de capacidade do Neptune para sessões) ou 8 s-NCU de memória de trabalho ao criar um grafo. Por que importa: Afeta camada de dados/persistência das aplicações. Ferramental de operação do dia a dia. Sinais: Performance / limites.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available"
+  },
+  {
+    "uid": "aws-news-devops-20261128-03-ad888ce29bb4e1de",
+    "updateDate": "2026-11-28T18:44:35Z",
+    "titleText": "3. O Amazon Timestream para InfluxDB 3 agora oferece suporte a clusters heterogêneos",
+    "mainText": "Notícia 3 de 3, impacto médio. O Amazon Timestream para InfluxDB 3 agora oferece suporte a clusters heterogêneos. O Amazon Timestream for InfluxDB 3 agora oferece suporte a clusters heterogêneos, o que permite atribuir um tamanho de instância diferente a cada função de nó em um cluster do InfluxDB 3 Enterprise. Você pode dimensionar as funções de gravador, leitor e compactador independentemente. Você define o tamanho de cada função ao criar um cluster ou adicionar nós a um cluster existente usando o console do Amazon Timestream, a Interface de Linha de Comando (CLI) da AWS ou os SDKs da AWS. Por que importa: Afeta camada de dados/persistência das aplicações.",
+    "redirectionUrl": "https://aws.amazon.com/about-aws/whats-new/2026/11/influxdb-heterogeneous-cluster/"
   }
 ]
